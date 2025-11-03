@@ -1,0 +1,38 @@
+{
+  "shared_tasks": [
+    {
+      "id": "STRIPE_CONFIG",
+      "title": "Configure Stripe API Key",
+      "status": "BLOCKED",
+      "blocker": "OTP authentication required",
+      "assigned_to": "EITHER_COMPUTER",
+      "priority": "HIGH",
+      "created": "2025-11-03T08:30:00Z"
+    },
+    {
+      "id": "BETA_RECRUITMENT",
+      "title": "Recruit 10 beta testers via social media",
+      "status": "READY",
+      "blocker": null,
+      "assigned_to": "HUMAN_COMMANDER",
+      "priority": "HIGH",
+      "created": "2025-11-03T08:30:00Z"
+    },
+    {
+      "id": "INVESTOR_OUTREACH",
+      "title": "Send investment deck to 3-5 investors",
+      "status": "READY",
+      "blocker": null,
+      "assigned_to": "HUMAN_COMMANDER",
+      "priority": "HIGH",
+      "created": "2025-11-03T08:30:00Z"
+    }
+  ],
+  "completed_tasks": [
+    "Build conversion funnel",
+    "Deploy all 7 domains",
+    "Create investment deck",
+    "Deploy to production"
+  ],
+  "notes": "Tasks are synced between both computers via Git. Update this file and commit/push to share status."
+}

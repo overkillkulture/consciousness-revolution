@@ -1,0 +1,11 @@
+{
+  "computer_id": "UNKNOWN_SECONDARY",
+  "timestamp": "PENDING_FIRST_SYNC",
+  "status": "AWAITING_CONNECTION",
+  "current_tasks": [],
+  "blockers": [],
+  "available_resources": {},
+  "requests_for_computer_1": [],
+  "last_updated": "PENDING_FIRST_SYNC",
+  "instructions": "This file will be updated by the other computer when it comes online. Run the sync script to check in."
+}
