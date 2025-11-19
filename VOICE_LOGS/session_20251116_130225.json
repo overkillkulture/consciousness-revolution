@@ -31900,16 +31900,137 @@
         "duration": null,
         "success": true
       }
+    },
+    {
+      "timestamp": "2025-11-19T06:27:20.695338",
+      "type": "stt",
+      "data": {
+        "text": "and i've been battling that and i'm just an in",
+        "chars": 46,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T06:27:27.999255",
+      "type": "stt",
+      "data": {
+        "text": "for the first time",
+        "chars": 18,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T06:27:33.597334",
+      "type": "stt",
+      "data": {
+        "text": "6 trinity is reporting to it",
+        "chars": 28,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T06:28:11.800634",
+      "type": "stt",
+      "data": {
+        "text": "did cmu around every",
+        "chars": 20,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T06:28:18.977890",
+      "type": "stt",
+      "data": {
+        "text": "we're all in",
+        "chars": 12,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T06:29:07.105045",
+      "type": "stt",
+      "data": {
+        "text": "i'm going to",
+        "chars": 12,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T06:29:29.177737",
+      "type": "stt",
+      "data": {
+        "text": "i need to look at it and you decide how real it is not if it is",
+        "chars": 63,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T06:29:38.555016",
+      "type": "stt",
+      "data": {
+        "text": "but i think that's how alchemy is done is",
+        "chars": 41,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T06:29:43.114409",
+      "type": "stt",
+      "data": {
+        "text": "following the laws of manifest",
+        "chars": 30,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T06:30:34.770518",
+      "type": "stt",
+      "data": {
+        "text": "i put those overkill videos on youtube instantly got shadow",
+        "chars": 59,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T06:30:52.530801",
+      "type": "stt",
+      "data": {
+        "text": "we're going to figure out how all these",
+        "chars": 39,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
     }
   ],
   "statistics": {
     "tts_events": 105,
-    "stt_events": 2448,
+    "stt_events": 2459,
     "commands_processed": 37,
     "errors": 397,
     "total_chars_spoken": 7004,
-    "total_chars_heard": 82301,
+    "total_chars_heard": 82669,
     "avg_response_time": 0
   },
-  "last_updated": "2025-11-19T06:27:13.102960"
+  "last_updated": "2025-11-19T06:30:52.530816"
 }
