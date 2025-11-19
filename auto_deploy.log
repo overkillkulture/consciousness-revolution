@@ -355,3 +355,11 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 --- Cycle #28 ---
 [2025-11-18 22:19:28] 🔄 Changes detected!
 [2025-11-18 22:19:28] 📝 Changes detected. Committing...
+[2025-11-18 22:19:35] ❌ Git push failed: fatal: unable to access 'https://github.com/overkillkulture/consciousness-revolution.git/': Could not resolve host: github.com
+
+[2025-11-18 22:19:35] ❌ FAILED: Could not commit/push changes
+[2025-11-18 22:19:35] ⏰ Sleeping for 5 minutes...
+[2025-11-18 22:24:35] 
+--- Cycle #29 ---
+[2025-11-18 22:24:36] 🔄 Changes detected!
+[2025-11-18 22:24:36] 📝 Changes detected. Committing...
