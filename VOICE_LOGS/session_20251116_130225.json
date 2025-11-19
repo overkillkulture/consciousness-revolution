@@ -32351,16 +32351,100 @@
         "duration": null,
         "success": true
       }
+    },
+    {
+      "timestamp": "2025-11-19T08:50:14.751666",
+      "type": "stt",
+      "data": {
+        "text": "derek and jason's bowl",
+        "chars": 22,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T08:52:16.537629",
+      "type": "stt",
+      "data": {
+        "text": "rock in the world on a sunday",
+        "chars": 29,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T08:52:42.387479",
+      "type": "stt",
+      "data": {
+        "text": "spokane horizons",
+        "chars": 16,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T08:52:48.996349",
+      "type": "stt",
+      "data": {
+        "text": "rise commander track of overkill culture painter of wall",
+        "chars": 56,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T08:52:49.018017",
+      "type": "tts",
+      "data": {
+        "text": "Yes Commander?",
+        "chars": 14,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T08:52:54.444881",
+      "type": "error",
+      "data": {
+        "error_type": "stt",
+        "message": "Could not understand speech",
+        "details": null
+      }
+    },
+    {
+      "timestamp": "2025-11-19T08:52:54.490025",
+      "type": "tts",
+      "data": {
+        "text": "I didn't hear a command. Try again.",
+        "chars": 35,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T08:53:12.486301",
+      "type": "stt",
+      "data": {
+        "text": "the legendary overkill",
+        "chars": 22,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
     }
   ],
   "statistics": {
-    "tts_events": 105,
-    "stt_events": 2489,
+    "tts_events": 107,
+    "stt_events": 2494,
     "commands_processed": 37,
-    "errors": 397,
-    "total_chars_spoken": 7004,
-    "total_chars_heard": 83223,
+    "errors": 398,
+    "total_chars_spoken": 7053,
+    "total_chars_heard": 83368,
     "avg_response_time": 0
   },
-  "last_updated": "2025-11-19T08:34:18.878129"
+  "last_updated": "2025-11-19T08:53:12.486324"
 }
