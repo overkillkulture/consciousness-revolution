@@ -32717,16 +32717,111 @@
         "duration": null,
         "success": true
       }
+    },
+    {
+      "timestamp": "2025-11-19T09:32:19.974377",
+      "type": "stt",
+      "data": {
+        "text": "hey can you get in your email and see if you can accept the github",
+        "chars": 66,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T09:32:41.588984",
+      "type": "stt",
+      "data": {
+        "text": "okay see if you can get claude in",
+        "chars": 33,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T09:32:41.614096",
+      "type": "tts",
+      "data": {
+        "text": "Yes Commander?",
+        "chars": 14,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T09:32:49.297532",
+      "type": "stt",
+      "data": {
+        "text": "try to edit something",
+        "chars": 21,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T09:32:49.326026",
+      "type": "command",
+      "data": {
+        "command": "try to edit something",
+        "response": "processing",
+        "processing_time": null
+      }
+    },
+    {
+      "timestamp": "2025-11-19T09:32:49.351806",
+      "type": "tts",
+      "data": {
+        "text": "Command received: try to edit something. I'm still learning new commands. Try asking about status, deploy, payment, cloud, or cockpit.",
+        "chars": 134,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T09:33:09.156289",
+      "type": "stt",
+      "data": {
+        "text": "i was going to say",
+        "chars": 18,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T09:33:20.322845",
+      "type": "stt",
+      "data": {
+        "text": "were you trying as hard as you can to take the worst photo",
+        "chars": 58,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T09:33:32.082974",
+      "type": "stt",
+      "data": {
+        "text": "i don't know anything change something pink",
+        "chars": 43,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
     }
   ],
   "statistics": {
-    "tts_events": 109,
-    "stt_events": 2517,
-    "commands_processed": 37,
+    "tts_events": 111,
+    "stt_events": 2523,
+    "commands_processed": 38,
     "errors": 399,
-    "total_chars_spoken": 7102,
-    "total_chars_heard": 83993,
+    "total_chars_spoken": 7250,
+    "total_chars_heard": 84232,
     "avg_response_time": 0
   },
-  "last_updated": "2025-11-19T09:27:02.181857"
+  "last_updated": "2025-11-19T09:33:32.082986"
 }
