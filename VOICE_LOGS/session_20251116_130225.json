@@ -33845,16 +33845,38 @@
         "duration": null,
         "success": true
       }
+    },
+    {
+      "timestamp": "2025-11-19T10:28:19.481632",
+      "type": "stt",
+      "data": {
+        "text": "all four of us",
+        "chars": 14,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T10:28:53.297378",
+      "type": "stt",
+      "data": {
+        "text": "there is no reason for them to send us",
+        "chars": 38,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
     }
   ],
   "statistics": {
     "tts_events": 117,
-    "stt_events": 2609,
+    "stt_events": 2611,
     "commands_processed": 39,
     "errors": 401,
     "total_chars_spoken": 7528,
-    "total_chars_heard": 86924,
+    "total_chars_heard": 86976,
     "avg_response_time": 0
   },
-  "last_updated": "2025-11-19T10:22:06.471034"
+  "last_updated": "2025-11-19T10:28:53.297389"
 }
