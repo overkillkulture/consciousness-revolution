@@ -32021,16 +32021,27 @@
         "duration": null,
         "success": true
       }
+    },
+    {
+      "timestamp": "2025-11-19T07:11:16.452531",
+      "type": "stt",
+      "data": {
+        "text": "you only have yourself",
+        "chars": 22,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
     }
   ],
   "statistics": {
     "tts_events": 105,
-    "stt_events": 2459,
+    "stt_events": 2460,
     "commands_processed": 37,
     "errors": 397,
     "total_chars_spoken": 7004,
-    "total_chars_heard": 82669,
+    "total_chars_heard": 82691,
     "avg_response_time": 0
   },
-  "last_updated": "2025-11-19T06:30:52.530816"
+  "last_updated": "2025-11-19T07:11:16.452553"
 }
