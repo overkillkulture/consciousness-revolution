@@ -29886,16 +29886,247 @@
         "duration": null,
         "success": true
       }
+    },
+    {
+      "timestamp": "2025-11-18T21:18:22.120257",
+      "type": "stt",
+      "data": {
+        "text": "make it more obvious i just want to make sure there's analytics that",
+        "chars": 68,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-18T21:18:27.915941",
+      "type": "stt",
+      "data": {
+        "text": "i have an observed it",
+        "chars": 21,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-18T21:18:31.385865",
+      "type": "stt",
+      "data": {
+        "text": "they're probably not working",
+        "chars": 28,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-18T21:18:36.325834",
+      "type": "stt",
+      "data": {
+        "text": "i'm trying to figure out",
+        "chars": 24,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-18T21:19:35.717950",
+      "type": "stt",
+      "data": {
+        "text": "would it help to run",
+        "chars": 20,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-18T21:19:42.435706",
+      "type": "stt",
+      "data": {
+        "text": "on this and i just remember the word dimensional cascade",
+        "chars": 56,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-18T21:19:50.917754",
+      "type": "stt",
+      "data": {
+        "text": "we need to write that down",
+        "chars": 26,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-18T21:19:59.807804",
+      "type": "stt",
+      "data": {
+        "text": "go ahead and take on all this",
+        "chars": 29,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-18T21:20:05.785617",
+      "type": "stt",
+      "data": {
+        "text": "organize all this stuff or is it just easier to work by yourself",
+        "chars": 64,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-18T21:20:25.287511",
+      "type": "stt",
+      "data": {
+        "text": "i've been having this feeling that i almost just always",
+        "chars": 55,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-18T21:20:47.245715",
+      "type": "stt",
+      "data": {
+        "text": "okay thank you let's",
+        "chars": 20,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-18T21:20:50.355677",
+      "type": "stt",
+      "data": {
+        "text": "play cyclotron",
+        "chars": 14,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-18T21:20:53.847399",
+      "type": "stt",
+      "data": {
+        "text": "are you going to work on the work area",
+        "chars": 38,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-18T21:21:08.017899",
+      "type": "stt",
+      "data": {
+        "text": "should there be some way for you to be able to talk to",
+        "chars": 54,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-18T21:21:16.167978",
+      "type": "stt",
+      "data": {
+        "text": "i'm just the same as talking to one of my other computers",
+        "chars": 57,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-18T21:21:57.918795",
+      "type": "stt",
+      "data": {
+        "text": "where's spokane horizons blended a digital sunsets",
+        "chars": 50,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-18T21:22:05.442717",
+      "type": "stt",
+      "data": {
+        "text": "architect of possibilities the awakening",
+        "chars": 40,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-18T21:22:30.333738",
+      "type": "stt",
+      "data": {
+        "text": "josh floating around in the system",
+        "chars": 34,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-18T21:22:35.505728",
+      "type": "stt",
+      "data": {
+        "text": "half of the tools are the ability",
+        "chars": 33,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-18T21:22:42.085900",
+      "type": "stt",
+      "data": {
+        "text": "do you know how we're going to do this",
+        "chars": 38,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-18T21:22:50.078031",
+      "type": "stt",
+      "data": {
+        "text": "is there i need to send him to go find something we need to like keep",
+        "chars": 69,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
     }
   ],
   "statistics": {
     "tts_events": 105,
-    "stt_events": 2287,
+    "stt_events": 2308,
     "commands_processed": 37,
     "errors": 370,
     "total_chars_spoken": 7004,
-    "total_chars_heard": 76834,
+    "total_chars_heard": 77672,
     "avg_response_time": 0
   },
-  "last_updated": "2025-11-18T21:17:28.125522"
+  "last_updated": "2025-11-18T21:22:50.078047"
 }
