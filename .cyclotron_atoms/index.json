@@ -1,11 +1,11 @@
 {
-  "total_atoms": 461,
-  "last_updated": 1763531240,
+  "total_atoms": 462,
+  "last_updated": 1763531540,
   "atoms_by_type": {
     "html": 44,
     "md": 142,
     "json": 126,
-    "py": 95,
+    "py": 96,
     "txt": 47,
     "js": 7
   },
@@ -65,6 +65,13 @@
       "type": "md",
       "size": 1825,
       "modified": 1763526638
+    },
+    {
+      "path": "C:/Users/dwrek/100X_DEPLOYMENT\\SEND_BETA_ONBOARDING_EMAIL.py",
+      "name": "SEND_BETA_ONBOARDING_EMAIL.py",
+      "type": "py",
+      "size": 6199,
+      "modified": 1763531380
     },
     {
       "path": "C:/Users/dwrek/100X_DEPLOYMENT\\SEND_THIS_TO_OTHER_COMPUTER.txt",
@@ -386,7 +393,7 @@
       "name": "autonomous_rake_status.json",
       "type": "json",
       "size": 187,
-      "modified": 1763531058
+      "modified": 1763531358
     },
     {
       "path": "C:/Users/dwrek/.consciousness\\AUTO_KNOWLEDGE_FILING_SYSTEM.py",
@@ -477,7 +484,7 @@
       "name": "cyclotron_daemon_status.json",
       "type": "json",
       "size": 321,
-      "modified": 1763530939
+      "modified": 1763531240
     },
     {
       "path": "C:/Users/dwrek/.consciousness\\cyclotron_federation_index.json",
@@ -547,7 +554,7 @@
       "name": "last_auto_save.txt",
       "type": "txt",
       "size": 18,
-      "modified": 1763530949
+      "modified": 1763531270
     },
     {
       "path": "C:/Users/dwrek/.consciousness\\last_boot.json",
@@ -1764,8 +1771,8 @@
       "path": "C:/Users/dwrek/.trinity\\COORDINATION_STATUS.json",
       "name": "COORDINATION_STATUS.json",
       "type": "json",
-      "size": 306,
-      "modified": 1763531237
+      "size": 274,
+      "modified": 1763531538
     },
     {
       "path": "C:/Users/dwrek/.trinity\\CREATE_3RD_ANTHROPIC_EMAIL.md",
@@ -3031,8 +3038,8 @@
       "path": "C:/Users/dwrek/.trinity\\trinity_thoughts.json",
       "name": "trinity_thoughts.json",
       "type": "json",
-      "size": 30294,
-      "modified": 1763531231
+      "size": 30151,
+      "modified": 1763531504
     },
     {
       "path": "C:/Users/dwrek/.trinity\\TRINITY_VISUAL_DASHBOARD.html",
