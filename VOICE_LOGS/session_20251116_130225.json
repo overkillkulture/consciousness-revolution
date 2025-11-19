@@ -32219,16 +32219,38 @@
         "duration": null,
         "success": true
       }
+    },
+    {
+      "timestamp": "2025-11-19T07:54:16.107802",
+      "type": "stt",
+      "data": {
+        "text": "riding our stories in spaces between novato and concept",
+        "chars": 55,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T07:54:29.685121",
+      "type": "stt",
+      "data": {
+        "text": "side by",
+        "chars": 7,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
     }
   ],
   "statistics": {
     "tts_events": 105,
-    "stt_events": 2477,
+    "stt_events": 2479,
     "commands_processed": 37,
     "errors": 397,
     "total_chars_spoken": 7004,
-    "total_chars_heard": 82997,
+    "total_chars_heard": 83059,
     "avg_response_time": 0
   },
-  "last_updated": "2025-11-19T07:49:13.038698"
+  "last_updated": "2025-11-19T07:54:29.685136"
 }
