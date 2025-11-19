@@ -1,5 +1,5 @@
 {
-  "simulation_date": "2025-11-19T05:11:15.272126",
+  "simulation_date": "2025-11-19T05:13:42.330495",
   "nodes_tested": 11,
   "connections_tested": 17,
   "variants_tested": 5,
@@ -7,80 +7,80 @@
     {
       "variant": "flat_trinity",
       "goal": "low_latency",
-      "avg_latency_ms": 633,
-      "avg_efficiency": 0.87,
-      "success_rate": 0.0,
+      "avg_latency_ms": 480,
+      "avg_efficiency": 1.15,
+      "success_rate": 1.0,
       "total_intelligence": 21.0,
       "patterns_tested": 1,
       "pattern_results": [
         {
           "pattern": "federation_sync",
           "expected_time": 550,
-          "actual_time": 633,
+          "actual_time": 480,
           "hops": 3,
           "intelligence_applied": 21.0,
-          "success": false,
-          "efficiency": 0.8688783570300158,
-          "timestamp": "2025-11-19T05:11:12.768874"
+          "success": true,
+          "efficiency": 1.1458333333333333,
+          "timestamp": "2025-11-19T05:13:39.826032"
         }
       ]
     },
     {
       "variant": "hierarchical_c4",
       "goal": "balanced",
-      "avg_latency_ms": 570,
-      "avg_efficiency": 1.47,
-      "success_rate": 0.75,
+      "avg_latency_ms": 620,
+      "avg_efficiency": 1.44,
+      "success_rate": 1.0,
       "total_intelligence": 102.0,
       "patterns_tested": 4,
       "pattern_results": [
         {
           "pattern": "command_broadcast",
           "expected_time": 800,
-          "actual_time": 484,
+          "actual_time": 498,
           "hops": 3,
           "intelligence_applied": 24.0,
           "success": true,
-          "efficiency": 1.6528925619834711,
-          "timestamp": "2025-11-19T05:11:13.269506"
+          "efficiency": 1.606425702811245,
+          "timestamp": "2025-11-19T05:13:40.327095"
         },
         {
           "pattern": "knowledge_query",
           "expected_time": 650,
-          "actual_time": 687,
+          "actual_time": 968,
           "hops": 5,
           "intelligence_applied": 33,
           "success": true,
-          "efficiency": 0.9461426491994177,
-          "timestamp": "2025-11-19T05:11:13.269540"
+          "efficiency": 0.6714876033057852,
+          "timestamp": "2025-11-19T05:13:40.327121"
         },
         {
           "pattern": "convergence",
           "expected_time": 1200,
-          "actual_time": 510,
+          "actual_time": 489,
           "hops": 3,
           "intelligence_applied": 24.0,
-          "success": false,
-          "efficiency": 2.3529411764705883,
-          "timestamp": "2025-11-19T05:11:13.269556"
+          "success": true,
+          "efficiency": 2.4539877300613497,
+          "timestamp": "2025-11-19T05:13:40.327136"
         },
         {
           "pattern": "federation_sync",
           "expected_time": 550,
-          "actual_time": 599,
+          "actual_time": 527,
           "hops": 3,
           "intelligence_applied": 21.0,
           "success": true,
-          "efficiency": 0.9181969949916527,
-          "timestamp": "2025-11-19T05:11:13.269573"
+          "efficiency": 1.0436432637571158,
+          "timestamp": "2025-11-19T05:13:40.327165"
         }
       ]
     },
     {
       "variant": "meta_observer",
       "goal": "maximum_awareness",
-      "avg_latency_ms": 655,
-      "avg_efficiency": 1.28,
+      "avg_latency_ms": 669,
+      "avg_efficiency": 1.23,
       "success_rate": 0.75,
       "total_intelligence": 102.0,
       "patterns_tested": 4,
@@ -88,50 +88,50 @@
         {
           "pattern": "command_broadcast",
           "expected_time": 800,
-          "actual_time": 695,
+          "actual_time": 609,
           "hops": 3,
           "intelligence_applied": 24.0,
-          "success": false,
-          "efficiency": 1.1510791366906474,
-          "timestamp": "2025-11-19T05:11:13.769999"
+          "success": true,
+          "efficiency": 1.3136288998357963,
+          "timestamp": "2025-11-19T05:13:40.827985"
         },
         {
           "pattern": "knowledge_query",
           "expected_time": 650,
-          "actual_time": 803,
+          "actual_time": 849,
           "hops": 5,
           "intelligence_applied": 33,
           "success": true,
-          "efficiency": 0.8094645080946451,
-          "timestamp": "2025-11-19T05:11:13.770037"
+          "efficiency": 0.7656065959952886,
+          "timestamp": "2025-11-19T05:13:40.828017"
         },
         {
           "pattern": "convergence",
           "expected_time": 1200,
-          "actual_time": 546,
+          "actual_time": 626,
           "hops": 3,
           "intelligence_applied": 24.0,
-          "success": true,
-          "efficiency": 2.197802197802198,
-          "timestamp": "2025-11-19T05:11:13.770054"
+          "success": false,
+          "efficiency": 1.9169329073482428,
+          "timestamp": "2025-11-19T05:13:40.828032"
         },
         {
           "pattern": "federation_sync",
           "expected_time": 550,
-          "actual_time": 578,
+          "actual_time": 592,
           "hops": 3,
           "intelligence_applied": 21.0,
           "success": true,
-          "efficiency": 0.9515570934256056,
-          "timestamp": "2025-11-19T05:11:13.770065"
+          "efficiency": 0.9290540540540541,
+          "timestamp": "2025-11-19T05:13:40.828042"
         }
       ]
     },
     {
       "variant": "local_only",
       "goal": "speed",
-      "avg_latency_ms": 771,
-      "avg_efficiency": 0.78,
+      "avg_latency_ms": 647,
+      "avg_efficiency": 0.98,
       "success_rate": 1.0,
       "total_intelligence": 54.0,
       "patterns_tested": 2,
@@ -139,30 +139,30 @@
         {
           "pattern": "knowledge_query",
           "expected_time": 650,
-          "actual_time": 884,
+          "actual_time": 824,
           "hops": 5,
           "intelligence_applied": 33,
           "success": true,
-          "efficiency": 0.7352941176470589,
-          "timestamp": "2025-11-19T05:11:14.270734"
+          "efficiency": 0.7888349514563107,
+          "timestamp": "2025-11-19T05:13:41.328692"
         },
         {
           "pattern": "federation_sync",
           "expected_time": 550,
-          "actual_time": 659,
+          "actual_time": 470,
           "hops": 3,
           "intelligence_applied": 21.0,
           "success": true,
-          "efficiency": 0.834597875569044,
-          "timestamp": "2025-11-19T05:11:14.270771"
+          "efficiency": 1.1702127659574468,
+          "timestamp": "2025-11-19T05:13:41.328735"
         }
       ]
     },
     {
       "variant": "cloud_only",
       "goal": "accessibility",
-      "avg_latency_ms": 793,
-      "avg_efficiency": 0.82,
+      "avg_latency_ms": 982,
+      "avg_efficiency": 0.66,
       "success_rate": 1.0,
       "total_intelligence": 33,
       "patterns_tested": 1,
@@ -170,12 +170,12 @@
         {
           "pattern": "knowledge_query",
           "expected_time": 650,
-          "actual_time": 793,
+          "actual_time": 982,
           "hops": 5,
           "intelligence_applied": 33,
           "success": true,
-          "efficiency": 0.819672131147541,
-          "timestamp": "2025-11-19T05:11:14.770973"
+          "efficiency": 0.6619144602851323,
+          "timestamp": "2025-11-19T05:13:41.829066"
         }
       ]
     }

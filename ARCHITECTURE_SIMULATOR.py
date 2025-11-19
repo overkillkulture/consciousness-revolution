@@ -22,7 +22,9 @@ class ArchitectureSimulator:
     """Spreadsheet-driven architecture simulator with dedicated AI"""
 
     def __init__(self, csv_file='ARCHITECTURE_SIMULATOR.csv'):
-        self.csv_file = Path(csv_file)
+        # Resolve path relative to script location
+        script_dir = Path(__file__).parent
+        self.csv_file = script_dir / csv_file if not Path(csv_file).is_absolute() else Path(csv_file)
         self.nodes = {}
         self.connections = []
         self.data_flow_patterns = []
@@ -336,8 +338,11 @@ IMPLEMENTATION NOTES:
     def save_results(self):
         """Save simulation results and AI recommendations"""
 
+        # Get script directory for output files
+        script_dir = Path(__file__).parent
+
         # Save JSON results
-        results_file = Path('ARCHITECTURE_SIMULATION_RESULTS.json')
+        results_file = script_dir / 'ARCHITECTURE_SIMULATION_RESULTS.json'
         with open(results_file, 'w') as f:
             json.dump({
                 'simulation_date': datetime.now().isoformat(),
@@ -348,7 +353,7 @@ IMPLEMENTATION NOTES:
             }, f, indent=2)
 
         # Save markdown recommendations
-        recommendations_file = Path('AI_ARCHITECTURE_RECOMMENDATIONS.md')
+        recommendations_file = script_dir / 'AI_ARCHITECTURE_RECOMMENDATIONS.md'
         with open(recommendations_file, 'w') as f:
             f.write("# 🧠 AI ARCHITECTURE RECOMMENDATIONS\n\n")
             f.write(f"**Generated:** {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n")
