@@ -32545,16 +32545,27 @@
         "duration": null,
         "success": true
       }
+    },
+    {
+      "timestamp": "2025-11-19T09:01:38.129532",
+      "type": "stt",
+      "data": {
+        "text": "got it cool in your hands to make it",
+        "chars": 36,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
     }
   ],
   "statistics": {
     "tts_events": 107,
-    "stt_events": 2504,
+    "stt_events": 2505,
     "commands_processed": 37,
     "errors": 398,
     "total_chars_spoken": 7053,
-    "total_chars_heard": 83631,
+    "total_chars_heard": 83667,
     "avg_response_time": 0
   },
-  "last_updated": "2025-11-19T08:57:59.317543"
+  "last_updated": "2025-11-19T09:01:38.129544"
 }
