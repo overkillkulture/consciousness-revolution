@@ -30626,16 +30626,25 @@
         "message": "[WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond",
         "details": null
       }
+    },
+    {
+      "timestamp": "2025-11-19T05:09:15.910233",
+      "type": "error",
+      "data": {
+        "error_type": "listener",
+        "message": "[WinError 10053] An established connection was aborted by the software in your host machine",
+        "details": null
+      }
     }
   ],
   "statistics": {
     "tts_events": 105,
     "stt_events": 2333,
     "commands_processed": 37,
-    "errors": 396,
+    "errors": 397,
     "total_chars_spoken": 7004,
     "total_chars_heard": 78481,
     "avg_response_time": 0
   },
-  "last_updated": "2025-11-19T05:05:25.410060"
+  "last_updated": "2025-11-19T05:09:15.910258"
 }
