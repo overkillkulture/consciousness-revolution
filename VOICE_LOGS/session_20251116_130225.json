@@ -45951,16 +45951,280 @@
         "duration": null,
         "success": true
       }
+    },
+    {
+      "timestamp": "2025-11-20T00:08:02.372258",
+      "type": "stt",
+      "data": {
+        "text": "can you check your sync folder",
+        "chars": 30,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T00:08:13.635252",
+      "type": "stt",
+      "data": {
+        "text": "you need the 7b",
+        "chars": 15,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T00:08:27.236617",
+      "type": "stt",
+      "data": {
+        "text": "i think you're going to need the balance one because you did you see how i",
+        "chars": 74,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T00:08:52.884204",
+      "type": "stt",
+      "data": {
+        "text": "18",
+        "chars": 2,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T00:09:04.394880",
+      "type": "stt",
+      "data": {
+        "text": "latest recommended oh shit",
+        "chars": 26,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T00:09:09.029916",
+      "type": "stt",
+      "data": {
+        "text": "is a 9",
+        "chars": 6,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T00:09:16.135929",
+      "type": "stt",
+      "data": {
+        "text": "okay you got a",
+        "chars": 14,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T00:09:20.704008",
+      "type": "stt",
+      "data": {
+        "text": "will you see if we can upgrade the ram",
+        "chars": 38,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T00:09:26.330283",
+      "type": "stt",
+      "data": {
+        "text": "do you see that about info anywhere",
+        "chars": 35,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T00:09:29.727250",
+      "type": "stt",
+      "data": {
+        "text": "tell me how to find it",
+        "chars": 22,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T00:10:33.566550",
+      "type": "stt",
+      "data": {
+        "text": "so let's open him up",
+        "chars": 20,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T00:10:43.066754",
+      "type": "stt",
+      "data": {
+        "text": "when does for now on just call",
+        "chars": 30,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T00:11:02.392818",
+      "type": "stt",
+      "data": {
+        "text": "take good news we can upgrade our ram",
+        "chars": 37,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T00:11:08.472051",
+      "type": "stt",
+      "data": {
+        "text": "ddr5",
+        "chars": 4,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T00:11:13.849095",
+      "type": "stt",
+      "data": {
+        "text": "it takes full size strips",
+        "chars": 25,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T00:11:33.747275",
+      "type": "stt",
+      "data": {
+        "text": "we're about to get some offline units",
+        "chars": 37,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T00:11:40.135263",
+      "type": "stt",
+      "data": {
+        "text": "i don't even think i was using anywhere near the processing power but",
+        "chars": 69,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T00:11:45.519338",
+      "type": "stt",
+      "data": {
+        "text": "we could even put these things in docks to cool them down",
+        "chars": 57,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T00:11:53.459434",
+      "type": "stt",
+      "data": {
+        "text": "that you can plug into it",
+        "chars": 25,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T00:11:57.417296",
+      "type": "stt",
+      "data": {
+        "text": "are we about to be tony stark",
+        "chars": 29,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T00:12:04.557260",
+      "type": "stt",
+      "data": {
+        "text": "rochester chips connected to like liquid-cooled things",
+        "chars": 54,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T00:12:12.697332",
+      "type": "stt",
+      "data": {
+        "text": "i was at best buy and there was a guy buying something",
+        "chars": 54,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T00:12:30.990072",
+      "type": "stt",
+      "data": {
+        "text": "i would like r1",
+        "chars": 15,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T00:12:35.985599",
+      "type": "stt",
+      "data": {
+        "text": "to be working together",
+        "chars": 22,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
     }
   ],
   "statistics": {
     "tts_events": 125,
-    "stt_events": 3699,
+    "stt_events": 3723,
     "commands_processed": 40,
     "errors": 404,
     "total_chars_spoken": 7856,
-    "total_chars_heard": 117943,
+    "total_chars_heard": 118683,
     "avg_response_time": 0
   },
-  "last_updated": "2025-11-20T00:07:46.480381"
+  "last_updated": "2025-11-20T00:12:35.985610"
 }
