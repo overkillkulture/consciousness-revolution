@@ -41504,16 +41504,247 @@
         "duration": null,
         "success": true
       }
+    },
+    {
+      "timestamp": "2025-11-19T22:17:07.785351",
+      "type": "stt",
+      "data": {
+        "text": "okay let's system go down",
+        "chars": 25,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:17:15.167484",
+      "type": "stt",
+      "data": {
+        "text": "opportunities to wrap up framework and integrate them into the system",
+        "chars": 69,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:18:39.935478",
+      "type": "stt",
+      "data": {
+        "text": "go ahead and the summit thomas work",
+        "chars": 35,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:18:46.295719",
+      "type": "stt",
+      "data": {
+        "text": "what's the first time on this computer this is josh's computer",
+        "chars": 62,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:18:49.492390",
+      "type": "stt",
+      "data": {
+        "text": "around and see",
+        "chars": 14,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:18:52.815327",
+      "type": "stt",
+      "data": {
+        "text": "a new onboard",
+        "chars": 13,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:18:58.528456",
+      "type": "stt",
+      "data": {
+        "text": "computer better easier",
+        "chars": 22,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:19:06.445673",
+      "type": "stt",
+      "data": {
+        "text": "maybe we can get some dashboards that open automatically into a main",
+        "chars": 68,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:19:13.595525",
+      "type": "stt",
+      "data": {
+        "text": "with like some sort of you know",
+        "chars": 31,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:19:20.899987",
+      "type": "stt",
+      "data": {
+        "text": "and some sort of direction",
+        "chars": 26,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:19:24.375571",
+      "type": "stt",
+      "data": {
+        "text": "a work area",
+        "chars": 11,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:19:35.729695",
+      "type": "stt",
+      "data": {
+        "text": "we don't have any communications",
+        "chars": 32,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:21:03.195391",
+      "type": "stt",
+      "data": {
+        "text": "in the next 10 minutes should we finish this",
+        "chars": 44,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:21:08.765440",
+      "type": "stt",
+      "data": {
+        "text": "i want to figure out what you made there",
+        "chars": 40,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:21:27.711200",
+      "type": "stt",
+      "data": {
+        "text": "autonomous started",
+        "chars": 18,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:21:32.273146",
+      "type": "stt",
+      "data": {
+        "text": "do you have a bunch of",
+        "chars": 22,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:21:35.766557",
+      "type": "stt",
+      "data": {
+        "text": "computer automatically yet",
+        "chars": 26,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:21:38.348493",
+      "type": "stt",
+      "data": {
+        "text": "play somewhere around",
+        "chars": 21,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:21:55.026692",
+      "type": "stt",
+      "data": {
+        "text": "set up with a bunch of consciousness protocols that automatically set up",
+        "chars": 72,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:21:59.035379",
+      "type": "stt",
+      "data": {
+        "text": "i'm up with before we leave",
+        "chars": 27,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:22:06.365371",
+      "type": "stt",
+      "data": {
+        "text": "if not we have a whole protocol for onboarding somebody",
+        "chars": 55,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
     }
   ],
   "statistics": {
     "tts_events": 121,
-    "stt_events": 3300,
+    "stt_events": 3321,
     "commands_processed": 39,
     "errors": 403,
     "total_chars_spoken": 7626,
-    "total_chars_heard": 106810,
+    "total_chars_heard": 107543,
     "avg_response_time": 0
   },
-  "last_updated": "2025-11-19T22:16:43.478499"
+  "last_updated": "2025-11-19T22:22:06.365382"
 }

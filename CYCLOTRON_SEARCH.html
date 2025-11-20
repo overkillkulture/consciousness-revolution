@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyclotron Search - Knowledge Base Query</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 100%);
+            color: #e0e0e0;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container { max-width: 1200px; margin: 0 auto; }
+        h1 {
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            background: linear-gradient(90deg, #00ff88, #00ccff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .subtitle {
+            text-align: center;
+            color: #888;
+            margin-bottom: 30px;
+        }
+        .search-box {
+            background: rgba(255,255,255,0.05);
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .search-input {
+            width: 100%;
+            padding: 15px 20px;
+            font-size: 1.2em;
+            border: 2px solid #333;
+            border-radius: 8px;
+            background: #0a0a0a;
+            color: #fff;
+            outline: none;
+            transition: border-color 0.3s;
+        }
+        .search-input:focus { border-color: #00ff88; }
+        .filters {
+            display: flex;
+            gap: 10px;
+            margin-top: 15px;
+            flex-wrap: wrap;
+        }
+        .filter-btn {
+            padding: 8px 16px;
+            border: 1px solid #333;
+            border-radius: 20px;
+            background: transparent;
+            color: #888;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        .filter-btn:hover, .filter-btn.active {
+            border-color: #00ff88;
+            color: #00ff88;
+            background: rgba(0,255,136,0.1);
+        }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        .stat-card {
+            background: rgba(255,255,255,0.05);
+            border-radius: 8px;
+            padding: 15px;
+            text-align: center;
+        }
+        .stat-value {
+            font-size: 2em;
+            font-weight: bold;
+            color: #00ff88;
+        }
+        .stat-label { color: #888; font-size: 0.9em; }
+        .results {
+            background: rgba(255,255,255,0.05);
+            border-radius: 10px;
+            padding: 20px;
+        }
+        .results-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #333;
+        }
+        .result-item {
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            background: rgba(0,0,0,0.3);
+            border-left: 3px solid #00ff88;
+            transition: transform 0.2s;
+        }
+        .result-item:hover { transform: translateX(5px); }
+        .result-name {
+            font-weight: bold;
+            color: #fff;
+            margin-bottom: 5px;
+        }
+        .result-path {
+            font-size: 0.85em;
+            color: #888;
+            word-break: break-all;
+        }
+        .result-meta {
+            display: flex;
+            gap: 15px;
+            margin-top: 8px;
+            font-size: 0.8em;
+        }
+        .meta-tag {
+            padding: 3px 8px;
+            border-radius: 4px;
+            background: rgba(0,255,136,0.2);
+            color: #00ff88;
+        }
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #888;
+        }
+        .empty {
+            text-align: center;
+            padding: 40px;
+            color: #666;
+        }
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+        .loading { animation: pulse 1.5s infinite; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>⚛️ CYCLOTRON SEARCH</h1>
+        <p class="subtitle">Query the Knowledge Base - 463+ Atoms Indexed</p>
+
+        <div class="stats" id="stats">
+            <div class="stat-card">
+                <div class="stat-value" id="total-atoms">-</div>
+                <div class="stat-label">Total Atoms</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="total-types">-</div>
+                <div class="stat-label">File Types</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="last-updated">-</div>
+                <div class="stat-label">Last Updated</div>
+            </div>
+        </div>
+
+        <div class="search-box">
+            <input type="text" class="search-input" id="search-input"
+                   placeholder="Search knowledge base... (e.g., 'trinity', 'boot', 'daemon')"
+                   autofocus>
+            <div class="filters" id="filters">
+                <button class="filter-btn active" data-type="">All</button>
+                <button class="filter-btn" data-type="md">Markdown</button>
+                <button class="filter-btn" data-type="py">Python</button>
+                <button class="filter-btn" data-type="json">JSON</button>
+                <button class="filter-btn" data-type="html">HTML</button>
+                <button class="filter-btn" data-type="txt">Text</button>
+            </div>
+        </div>
+
+        <div class="results">
+            <div class="results-header">
+                <span id="results-count">Search for something...</span>
+            </div>
+            <div id="results-list">
+                <div class="empty">Enter a search query to find knowledge atoms</div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Load index directly (for local use without API)
+        let indexData = null;
+        let currentType = '';
+
+        async function loadIndex() {
+            try {
+                const response = await fetch('.cyclotron_atoms/index.json');
+                indexData = await response.json();
+                updateStats();
+            } catch (e) {
+                console.error('Failed to load index:', e);
+                // Try API
+                try {
+                    const apiResponse = await fetch('http://localhost:6668/api/stats');
+                    const stats = await apiResponse.json();
+                    document.getElementById('total-atoms').textContent = stats.total_atoms;
+                    document.getElementById('total-types').textContent = Object.keys(stats.atoms_by_type).length;
+                } catch (apiErr) {
+                    console.error('API also failed:', apiErr);
+                }
+            }
+        }
+
+        function updateStats() {
+            if (!indexData) return;
+            document.getElementById('total-atoms').textContent = indexData.total_atoms;
+            document.getElementById('total-types').textContent = Object.keys(indexData.atoms_by_type || {}).length;
+
+            if (indexData.last_updated) {
+                const date = new Date(indexData.last_updated * 1000);
+                const mins = Math.round((Date.now() - date) / 60000);
+                document.getElementById('last-updated').textContent = mins < 60 ? `${mins}m ago` : `${Math.round(mins/60)}h ago`;
+            }
+        }
+
+        function search(query) {
+            if (!indexData || !query) {
+                document.getElementById('results-list').innerHTML = '<div class="empty">Enter a search query</div>';
+                document.getElementById('results-count').textContent = 'Search for something...';
+                return;
+            }
+
+            const queryLower = query.toLowerCase();
+            let results = indexData.atoms.filter(atom => {
+                const nameMatch = atom.name.toLowerCase().includes(queryLower);
+                const pathMatch = atom.path.toLowerCase().includes(queryLower);
+                const typeMatch = !currentType || atom.type === currentType;
+                return (nameMatch || pathMatch) && typeMatch;
+            });
+
+            // Sort by relevance (name match first)
+            results.sort((a, b) => {
+                const aName = a.name.toLowerCase().includes(queryLower);
+                const bName = b.name.toLowerCase().includes(queryLower);
+                return bName - aName;
+            });
+
+            // Limit results
+            results = results.slice(0, 50);
+
+            displayResults(results, query);
+        }
+
+        function displayResults(results, query) {
+            const container = document.getElementById('results-list');
+            const count = document.getElementById('results-count');
+
+            if (results.length === 0) {
+                container.innerHTML = '<div class="empty">No results found</div>';
+                count.textContent = '0 results';
+                return;
+            }
+
+            count.textContent = `${results.length} result${results.length === 1 ? '' : 's'}`;
+
+            container.innerHTML = results.map(atom => `
+                <div class="result-item">
+                    <div class="result-name">${highlightMatch(atom.name, query)}</div>
+                    <div class="result-path">${atom.path}</div>
+                    <div class="result-meta">
+                        <span class="meta-tag">.${atom.type}</span>
+                        <span>${formatSize(atom.size)}</span>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function highlightMatch(text, query) {
+            const regex = new RegExp(`(${query})`, 'gi');
+            return text.replace(regex, '<span style="color:#00ff88;font-weight:bold">$1</span>');
+        }
+
+        function formatSize(bytes) {
+            if (bytes < 1024) return bytes + ' B';
+            if (bytes < 1024 * 1024) return (bytes / 1024).toFixed(1) + ' KB';
+            return (bytes / (1024 * 1024)).toFixed(2) + ' MB';
+        }
+
+        // Event listeners
+        document.getElementById('search-input').addEventListener('input', (e) => {
+            search(e.target.value);
+        });
+
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                currentType = btn.dataset.type;
+                search(document.getElementById('search-input').value);
+            });
+        });
+
+        // Initialize
+        loadIndex();
+    </script>
+</body>
+</html>
