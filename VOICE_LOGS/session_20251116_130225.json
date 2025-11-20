@@ -39132,16 +39132,390 @@
         "duration": null,
         "success": true
       }
+    },
+    {
+      "timestamp": "2025-11-19T21:31:45.563050",
+      "type": "stt",
+      "data": {
+        "text": "is everything's blocked us every single time we couldn't get dropbox in",
+        "chars": 71,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:31:51.193492",
+      "type": "stt",
+      "data": {
+        "text": "this is code for perfect",
+        "chars": 24,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:31:56.383042",
+      "type": "stt",
+      "data": {
+        "text": "message received",
+        "chars": 16,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:32:01.289399",
+      "type": "stt",
+      "data": {
+        "text": "okay this is great we have communications",
+        "chars": 41,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:32:10.370706",
+      "type": "stt",
+      "data": {
+        "text": "hey wrap up everything we just did",
+        "chars": 34,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:32:24.140689",
+      "type": "stt",
+      "data": {
+        "text": "like we need a basic system to make sure what basic data people have because now we can",
+        "chars": 87,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:32:27.883590",
+      "type": "stt",
+      "data": {
+        "text": "what is on computers and see",
+        "chars": 28,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:32:32.302642",
+      "type": "stt",
+      "data": {
+        "text": "like how do we know what data",
+        "chars": 29,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:32:37.777442",
+      "type": "stt",
+      "data": {
+        "text": "and then we need to make sure his computer has a name",
+        "chars": 53,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:32:40.401809",
+      "type": "stt",
+      "data": {
+        "text": "about all the other",
+        "chars": 19,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:32:47.593782",
+      "type": "stt",
+      "data": {
+        "text": "and both eyes can talk to each other are all",
+        "chars": 44,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:33:23.340807",
+      "type": "stt",
+      "data": {
+        "text": "does technically now you can do crazy things like",
+        "chars": 49,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:33:30.742055",
+      "type": "stt",
+      "data": {
+        "text": "do you want we're about to all have offline ais on these computers",
+        "chars": 66,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:33:34.950248",
+      "type": "stt",
+      "data": {
+        "text": "you can technically fire up his",
+        "chars": 31,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:33:42.340038",
+      "type": "stt",
+      "data": {
+        "text": "sharing share the numbers with this computer fire it up",
+        "chars": 55,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:33:45.612776",
+      "type": "stt",
+      "data": {
+        "text": "fire that",
+        "chars": 9,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:33:51.994488",
+      "type": "stt",
+      "data": {
+        "text": "cuz we're about to go run three computers back at my shop",
+        "chars": 57,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:34:02.609977",
+      "type": "stt",
+      "data": {
+        "text": "we have to copy that code",
+        "chars": 25,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:34:14.863105",
+      "type": "stt",
+      "data": {
+        "text": "i love",
+        "chars": 6,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:34:30.916521",
+      "type": "stt",
+      "data": {
+        "text": "i need to go",
+        "chars": 12,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:34:45.284981",
+      "type": "stt",
+      "data": {
+        "text": "we need the biggest to-do list",
+        "chars": 30,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:34:52.015142",
+      "type": "stt",
+      "data": {
+        "text": "tell him to send that over to",
+        "chars": 29,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:35:08.594875",
+      "type": "stt",
+      "data": {
+        "text": "each computer needs sync thing add dimash any desks to get id",
+        "chars": 61,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:35:22.631323",
+      "type": "stt",
+      "data": {
+        "text": "okay let's get a bunch of work done go into autonomous mode send messages",
+        "chars": 73,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:35:28.411037",
+      "type": "stt",
+      "data": {
+        "text": "i think we need to get a bunch of data over to his computer before",
+        "chars": 66,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:35:50.103293",
+      "type": "stt",
+      "data": {
+        "text": "the team still has no way to communicate",
+        "chars": 40,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:35:54.782119",
+      "type": "stt",
+      "data": {
+        "text": "should we use",
+        "chars": 13,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:36:04.891951",
+      "type": "stt",
+      "data": {
+        "text": "something within the system they don't have any way to have any direction",
+        "chars": 73,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:36:11.357463",
+      "type": "stt",
+      "data": {
+        "text": "play everybody's going to start",
+        "chars": 31,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:36:17.179929",
+      "type": "stt",
+      "data": {
+        "text": "mission direction",
+        "chars": 17,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:36:22.637539",
+      "type": "stt",
+      "data": {
+        "text": "team orientation",
+        "chars": 16,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:36:29.603856",
+      "type": "stt",
+      "data": {
+        "text": "will you activate the trinity for this",
+        "chars": 38,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:36:35.289795",
+      "type": "stt",
+      "data": {
+        "text": "i'm feeling with these programs and with what's going on right now",
+        "chars": 66,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:36:42.227813",
+      "type": "stt",
+      "data": {
+        "text": "create a whole startup system and email all the beta testers",
+        "chars": 60,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
     }
   ],
   "statistics": {
     "tts_events": 119,
-    "stt_events": 3087,
+    "stt_events": 3121,
     "commands_processed": 39,
     "errors": 402,
     "total_chars_spoken": 7577,
-    "total_chars_heard": 100170,
+    "total_chars_heard": 101539,
     "avg_response_time": 0
   },
-  "last_updated": "2025-11-19T21:31:37.789196"
+  "last_updated": "2025-11-19T21:36:42.227840"
 }
