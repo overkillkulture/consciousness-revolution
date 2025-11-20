@@ -46563,16 +46563,36 @@
         "duration": null,
         "success": true
       }
+    },
+    {
+      "timestamp": "2025-11-20T00:26:34.468701",
+      "type": "stt",
+      "data": {
+        "text": "create more",
+        "chars": 11,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T03:24:42.138866",
+      "type": "error",
+      "data": {
+        "error_type": "stt",
+        "message": "recognition connection failed: [Errno 11001] getaddrinfo failed",
+        "details": null
+      }
     }
   ],
   "statistics": {
     "tts_events": 127,
-    "stt_events": 3752,
+    "stt_events": 3753,
     "commands_processed": 41,
-    "errors": 404,
+    "errors": 405,
     "total_chars_spoken": 8006,
-    "total_chars_heard": 119475,
+    "total_chars_heard": 119486,
     "avg_response_time": 0
   },
-  "last_updated": "2025-11-20T00:21:04.957452"
+  "last_updated": "2025-11-20T03:24:42.138890"
 }
