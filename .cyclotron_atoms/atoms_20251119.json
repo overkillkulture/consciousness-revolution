@@ -192,8 +192,8 @@
     "path": "C:/Users/dwrek/100X_DEPLOYMENT\\onboard.html",
     "name": "onboard.html",
     "type": "html",
-    "size": 9026,
-    "modified": 1763529904
+    "size": 10553,
+    "modified": 1763623199
   },
   {
     "path": "C:/Users/dwrek/100X_DEPLOYMENT\\OTHER_COMPUTER_SETUP.md",
@@ -465,15 +465,15 @@
     "path": "C:/Users/dwrek/100X_DEPLOYMENT\\VOICE_LOGS\\session_20251116_130225.json",
     "name": "session_20251116_130225.json",
     "type": "json",
-    "size": 1106358,
-    "modified": 1763623014
+    "size": 1110693,
+    "modified": 1763623263
   },
   {
     "path": "C:/Users/dwrek/100X_DEPLOYMENT\\VOICE_LOGS\\transcript_20251116_130225.txt",
     "name": "transcript_20251116_130225.txt",
     "type": "txt",
-    "size": 89889,
-    "modified": 1763623014
+    "size": 91040,
+    "modified": 1763623263
   },
   {
     "path": "C:/Users/dwrek/100X_DEPLOYMENT\\voice_system_deploy\\app.py",
@@ -543,7 +543,7 @@
     "name": "autonomous_rake_status.json",
     "type": "json",
     "size": 187,
-    "modified": 1763623018
+    "modified": 1763623318
   },
   {
     "path": "C:/Users/dwrek/.consciousness\\AUTO_KNOWLEDGE_FILING_SYSTEM.py",
@@ -634,7 +634,7 @@
     "name": "cyclotron_daemon_status.json",
     "type": "json",
     "size": 321,
-    "modified": 1763622718
+    "modified": 1763623318
   },
   {
     "path": "C:/Users/dwrek/.consciousness\\cyclotron_federation_index.json",
@@ -704,7 +704,7 @@
     "name": "last_auto_save.txt",
     "type": "txt",
     "size": 18,
-    "modified": 1763622937
+    "modified": 1763623257
   },
   {
     "path": "C:/Users/dwrek/.consciousness\\last_boot.json",
@@ -754,6 +754,20 @@
     "type": "py",
     "size": 18245,
     "modified": 1761837826
+  },
+  {
+    "path": "C:/Users/dwrek/.consciousness\\R1_INBOX.txt",
+    "name": "R1_INBOX.txt",
+    "type": "txt",
+    "size": 55,
+    "modified": 1763623222
+  },
+  {
+    "path": "C:/Users/dwrek/.consciousness\\R1_OUTBOX.txt",
+    "name": "R1_OUTBOX.txt",
+    "type": "txt",
+    "size": 2477,
+    "modified": 1763623227
   },
   {
     "path": "C:/Users/dwrek/.consciousness\\SESSION_AUTO_SUMMARIZER.py",
@@ -1936,7 +1950,7 @@
     "name": "COORDINATION_STATUS.json",
     "type": "json",
     "size": 225,
-    "modified": 1763623017
+    "modified": 1763623318
   },
   {
     "path": "C:/Users/dwrek/.trinity\\CREATE_3RD_ANTHROPIC_EMAIL.md",
@@ -3203,7 +3217,7 @@
     "name": "trinity_thoughts.json",
     "type": "json",
     "size": 29803,
-    "modified": 1763622996
+    "modified": 1763623268
   },
   {
     "path": "C:/Users/dwrek/.trinity\\TRINITY_VISUAL_DASHBOARD.html",

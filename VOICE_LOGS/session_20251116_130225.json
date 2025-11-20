@@ -44162,16 +44162,192 @@
         "duration": null,
         "success": true
       }
+    },
+    {
+      "timestamp": "2025-11-19T23:17:48.176945",
+      "type": "stt",
+      "data": {
+        "text": "oh my god dude this is the possibility",
+        "chars": 38,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:17:52.861082",
+      "type": "stt",
+      "data": {
+        "text": "yeah we just woke up",
+        "chars": 20,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:18:14.931579",
+      "type": "stt",
+      "data": {
+        "text": "yeah go ahead and do that should we test",
+        "chars": 40,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:18:21.046350",
+      "type": "stt",
+      "data": {
+        "text": "cuz if that works we need to tell them to go to",
+        "chars": 47,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:18:56.405637",
+      "type": "stt",
+      "data": {
+        "text": "play we never tested any of the",
+        "chars": 31,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:19:05.607342",
+      "type": "stt",
+      "data": {
+        "text": "can we see if we can teach him to send communications",
+        "chars": 53,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:19:08.638578",
+      "type": "stt",
+      "data": {
+        "text": "what is the most simple",
+        "chars": 23,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:19:15.636528",
+      "type": "stt",
+      "data": {
+        "text": "in type a letter in a terminal",
+        "chars": 30,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:19:36.905705",
+      "type": "stt",
+      "data": {
+        "text": "play side track man what are we what are we track",
+        "chars": 49,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:20:41.094704",
+      "type": "stt",
+      "data": {
+        "text": "so i want you to look at the screenshot",
+        "chars": 39,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:20:52.061002",
+      "type": "stt",
+      "data": {
+        "text": "see users josh appdata local",
+        "chars": 28,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:20:55.290309",
+      "type": "stt",
+      "data": {
+        "text": "figure out how",
+        "chars": 14,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:20:58.578390",
+      "type": "stt",
+      "data": {
+        "text": "i'm going to run the same results",
+        "chars": 33,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:21:03.055143",
+      "type": "stt",
+      "data": {
+        "text": "from derek's computer back to mine",
+        "chars": 34,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:22:07.433751",
+      "type": "stt",
+      "data": {
+        "text": "yes",
+        "chars": 3,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:22:35.157476",
+      "type": "stt",
+      "data": {
+        "text": "go through hell with a stupid samsung phone",
+        "chars": 43,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
     }
   ],
   "statistics": {
     "tts_events": 123,
-    "stt_events": 3539,
+    "stt_events": 3555,
     "commands_processed": 39,
     "errors": 404,
     "total_chars_spoken": 7675,
-    "total_chars_heard": 113859,
+    "total_chars_heard": 114384,
     "avg_response_time": 0
   },
-  "last_updated": "2025-11-19T23:17:27.377286"
+  "last_updated": "2025-11-19T23:22:35.157492"
 }
