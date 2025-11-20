@@ -46486,16 +46486,93 @@
         "duration": null,
         "success": true
       }
+    },
+    {
+      "timestamp": "2025-11-20T00:18:08.072408",
+      "type": "stt",
+      "data": {
+        "text": "yeah cuz i don't want your ass cold over there",
+        "chars": 46,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T00:18:12.050439",
+      "type": "stt",
+      "data": {
+        "text": "intellectual property",
+        "chars": 21,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T00:18:18.186567",
+      "type": "stt",
+      "data": {
+        "text": "i'm from texas i agreement personal",
+        "chars": 35,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T00:18:24.878594",
+      "type": "stt",
+      "data": {
+        "text": "i said no intellect",
+        "chars": 19,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T00:18:36.938976",
+      "type": "stt",
+      "data": {
+        "text": "i'm getting into this quantum computing",
+        "chars": 39,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T00:19:00.286843",
+      "type": "stt",
+      "data": {
+        "text": "crazy",
+        "chars": 5,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T00:21:04.957433",
+      "type": "stt",
+      "data": {
+        "text": "okay i'm in you can check out my page",
+        "chars": 37,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
     }
   ],
   "statistics": {
     "tts_events": 127,
-    "stt_events": 3745,
+    "stt_events": 3752,
     "commands_processed": 41,
     "errors": 404,
     "total_chars_spoken": 8006,
-    "total_chars_heard": 119273,
+    "total_chars_heard": 119475,
     "avg_response_time": 0
   },
-  "last_updated": "2025-11-20T00:17:56.583343"
+  "last_updated": "2025-11-20T00:21:04.957452"
 }
