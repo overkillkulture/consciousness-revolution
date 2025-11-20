@@ -43744,16 +43744,269 @@
         "duration": null,
         "success": true
       }
+    },
+    {
+      "timestamp": "2025-11-19T23:07:31.892073",
+      "type": "stt",
+      "data": {
+        "text": "odb",
+        "chars": 3,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:07:38.764069",
+      "type": "stt",
+      "data": {
+        "text": "okay it was eavesdropping on",
+        "chars": 28,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:07:41.748128",
+      "type": "stt",
+      "data": {
+        "text": "putting an r1",
+        "chars": 13,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:07:46.714272",
+      "type": "stt",
+      "data": {
+        "text": "well tell him to respond",
+        "chars": 24,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:08:12.616181",
+      "type": "stt",
+      "data": {
+        "text": "my computer just sent that",
+        "chars": 26,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:08:33.596256",
+      "type": "stt",
+      "data": {
+        "text": "tell derek hi",
+        "chars": 13,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:08:39.556166",
+      "type": "stt",
+      "data": {
+        "text": "call damon",
+        "chars": 10,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:08:46.937412",
+      "type": "stt",
+      "data": {
+        "text": "okay let's think of things that can go wrong with this he's downloaded an r1",
+        "chars": 76,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:08:51.496147",
+      "type": "stt",
+      "data": {
+        "text": "we don't want to run down any memory",
+        "chars": 36,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:09:31.323942",
+      "type": "stt",
+      "data": {
+        "text": "what is this now",
+        "chars": 16,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:09:52.841239",
+      "type": "stt",
+      "data": {
+        "text": "per hour",
+        "chars": 8,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:10:13.535372",
+      "type": "stt",
+      "data": {
+        "text": "switch to smart telephone",
+        "chars": 25,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:10:23.246253",
+      "type": "stt",
+      "data": {
+        "text": "you can run that i feel like we should search the internet for ways people are using these models",
+        "chars": 97,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:10:26.339401",
+      "type": "stt",
+      "data": {
+        "text": "rapper",
+        "chars": 6,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:10:29.636180",
+      "type": "stt",
+      "data": {
+        "text": "out right out of the",
+        "chars": 20,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:10:42.096301",
+      "type": "stt",
+      "data": {
+        "text": "hey i haven't seen the music",
+        "chars": 28,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:10:48.598866",
+      "type": "stt",
+      "data": {
+        "text": "do you need to put that on the big giant to-do list",
+        "chars": 51,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:11:08.796208",
+      "type": "stt",
+      "data": {
+        "text": "take a screenshot of this",
+        "chars": 25,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:11:14.686203",
+      "type": "stt",
+      "data": {
+        "text": "play odb screenshot next to me",
+        "chars": 30,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:11:20.836203",
+      "type": "stt",
+      "data": {
+        "text": "it's going both ways",
+        "chars": 20,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:11:51.238484",
+      "type": "stt",
+      "data": {
+        "text": "sorry you were eavesdropping",
+        "chars": 28,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:12:15.416254",
+      "type": "stt",
+      "data": {
+        "text": "what was the score you can get out of there it's for your hole",
+        "chars": 62,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:12:29.608436",
+      "type": "stt",
+      "data": {
+        "text": "you can change lights",
+        "chars": 21,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
     }
   ],
   "statistics": {
     "tts_events": 123,
-    "stt_events": 3501,
+    "stt_events": 3524,
     "commands_processed": 39,
     "errors": 404,
     "total_chars_spoken": 7675,
-    "total_chars_heard": 112721,
+    "total_chars_heard": 113387,
     "avg_response_time": 0
   },
-  "last_updated": "2025-11-19T23:07:21.143940"
+  "last_updated": "2025-11-19T23:12:29.608449"
 }
