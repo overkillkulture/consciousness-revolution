@@ -46583,16 +46583,225 @@
         "message": "recognition connection failed: [Errno 11001] getaddrinfo failed",
         "details": null
       }
+    },
+    {
+      "timestamp": "2025-11-20T12:37:52.044035",
+      "type": "stt",
+      "data": {
+        "text": "can we send an update",
+        "chars": 21,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T12:37:55.777010",
+      "type": "stt",
+      "data": {
+        "text": "who is the beta test users",
+        "chars": 26,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T12:38:06.277753",
+      "type": "stt",
+      "data": {
+        "text": "we have both josh's and maggie",
+        "chars": 30,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T12:38:25.222031",
+      "type": "stt",
+      "data": {
+        "text": "mag",
+        "chars": 3,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T12:38:32.449200",
+      "type": "stt",
+      "data": {
+        "text": "they need to know the new onboarding deal along with r1",
+        "chars": 55,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T12:38:37.510650",
+      "type": "stt",
+      "data": {
+        "text": "so there's two programs to download",
+        "chars": 35,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T12:38:41.949456",
+      "type": "stt",
+      "data": {
+        "text": "i think we already",
+        "chars": 18,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T12:38:56.147736",
+      "type": "stt",
+      "data": {
+        "text": "can you email it via gmail please you have access",
+        "chars": 49,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T12:39:43.353843",
+      "type": "stt",
+      "data": {
+        "text": "josh and maggie are both getting emails",
+        "chars": 39,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T12:39:51.103604",
+      "type": "stt",
+      "data": {
+        "text": "sink thing",
+        "chars": 10,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T12:39:53.756258",
+      "type": "stt",
+      "data": {
+        "text": "cher",
+        "chars": 4,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T12:40:06.852804",
+      "type": "stt",
+      "data": {
+        "text": "communications folder will have to be shared",
+        "chars": 44,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T12:40:16.057271",
+      "type": "stt",
+      "data": {
+        "text": "after r1 is download",
+        "chars": 20,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T12:40:37.319213",
+      "type": "stt",
+      "data": {
+        "text": "huge upgrades to your system",
+        "chars": 28,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T12:40:41.469579",
+      "type": "stt",
+      "data": {
+        "text": "with alternative calls",
+        "chars": 22,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T12:41:24.628294",
+      "type": "stt",
+      "data": {
+        "text": "you've been making me find maggie's address everyday for 3 days now",
+        "chars": 67,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T12:41:30.464829",
+      "type": "stt",
+      "data": {
+        "text": "the beta testers credentials just please find it",
+        "chars": 48,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T12:41:37.940866",
+      "type": "stt",
+      "data": {
+        "text": "111 something at gmail.com i almost have it memorized this is getting silly",
+        "chars": 75,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T12:41:42.650680",
+      "type": "stt",
+      "data": {
+        "text": "did testors credentials when you find it",
+        "chars": 40,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
     }
   ],
   "statistics": {
     "tts_events": 127,
-    "stt_events": 3753,
+    "stt_events": 3772,
     "commands_processed": 41,
     "errors": 405,
     "total_chars_spoken": 8006,
-    "total_chars_heard": 119486,
+    "total_chars_heard": 120120,
     "avg_response_time": 0
   },
-  "last_updated": "2025-11-20T03:24:42.138890"
+  "last_updated": "2025-11-20T12:41:42.650696"
 }
