@@ -40470,16 +40470,203 @@
         "duration": null,
         "success": true
       }
+    },
+    {
+      "timestamp": "2025-11-19T21:57:24.834786",
+      "type": "stt",
+      "data": {
+        "text": "put on the exeggcute underscore this",
+        "chars": 36,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:57:27.384272",
+      "type": "stt",
+      "data": {
+        "text": "nb",
+        "chars": 2,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:57:34.994350",
+      "type": "stt",
+      "data": {
+        "text": "the s y n",
+        "chars": 9,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:57:39.932368",
+      "type": "stt",
+      "data": {
+        "text": "this will output there any desk",
+        "chars": 31,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:57:52.328495",
+      "type": "stt",
+      "data": {
+        "text": "we need to run",
+        "chars": 14,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:57:56.972901",
+      "type": "stt",
+      "data": {
+        "text": "execute underscore this",
+        "chars": 23,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:57:59.646973",
+      "type": "stt",
+      "data": {
+        "text": "stop bat",
+        "chars": 8,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:58:51.288946",
+      "type": "stt",
+      "data": {
+        "text": "activate backslash",
+        "chars": 18,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:59:42.353370",
+      "type": "stt",
+      "data": {
+        "text": "fantastic okay this is the first time we've been",
+        "chars": 48,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:59:52.961242",
+      "type": "stt",
+      "data": {
+        "text": "this is the first time i've been on this computer take a look",
+        "chars": 61,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:00:17.591749",
+      "type": "stt",
+      "data": {
+        "text": "that's that's the third time i did the same thing so",
+        "chars": 52,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:00:30.679672",
+      "type": "stt",
+      "data": {
+        "text": "19 power shells oppo",
+        "chars": 20,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:00:39.713989",
+      "type": "stt",
+      "data": {
+        "text": "play juicing power shot",
+        "chars": 23,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:01:38.043272",
+      "type": "stt",
+      "data": {
+        "text": "okay let's talk to",
+        "chars": 18,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:01:42.694999",
+      "type": "stt",
+      "data": {
+        "text": "josh's ai",
+        "chars": 9,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:01:47.025055",
+      "type": "stt",
+      "data": {
+        "text": "odbc",
+        "chars": 4,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:01:51.476144",
+      "type": "stt",
+      "data": {
+        "text": "odb",
+        "chars": 3,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
     }
   ],
   "statistics": {
     "tts_events": 121,
-    "stt_events": 3206,
+    "stt_events": 3223,
     "commands_processed": 39,
     "errors": 403,
     "total_chars_spoken": 7626,
-    "total_chars_heard": 104021,
+    "total_chars_heard": 104400,
     "avg_response_time": 0
   },
-  "last_updated": "2025-11-19T21:55:48.702239"
+  "last_updated": "2025-11-19T22:01:51.476157"
 }
