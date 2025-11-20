@@ -38472,16 +38472,170 @@
         "duration": null,
         "success": true
       }
+    },
+    {
+      "timestamp": "2025-11-19T21:18:41.385988",
+      "type": "stt",
+      "data": {
+        "text": "i don't know how to",
+        "chars": 19,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:18:57.695879",
+      "type": "stt",
+      "data": {
+        "text": "so get in your",
+        "chars": 14,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:19:03.964125",
+      "type": "stt",
+      "data": {
+        "text": "go to short like type in your search bar shortcuts",
+        "chars": 50,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:19:18.404518",
+      "type": "stt",
+      "data": {
+        "text": "shortcuts on desk",
+        "chars": 17,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:19:50.001599",
+      "type": "stt",
+      "data": {
+        "text": "okay i did it let's send some communications",
+        "chars": 44,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:19:57.260617",
+      "type": "stt",
+      "data": {
+        "text": "okay i sent him a file",
+        "chars": 22,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:20:01.162491",
+      "type": "stt",
+      "data": {
+        "text": "where does he retrieve it",
+        "chars": 25,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:20:29.167002",
+      "type": "stt",
+      "data": {
+        "text": "that's great",
+        "chars": 12,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:20:36.468915",
+      "type": "stt",
+      "data": {
+        "text": "okay what do we do next how do we get the you",
+        "chars": 45,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:20:45.571914",
+      "type": "stt",
+      "data": {
+        "text": "bpi what about the other program is there any cl",
+        "chars": 48,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:20:51.015086",
+      "type": "stt",
+      "data": {
+        "text": "dick",
+        "chars": 4,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:21:08.723400",
+      "type": "stt",
+      "data": {
+        "text": "google dick pic",
+        "chars": 15,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:21:23.281612",
+      "type": "stt",
+      "data": {
+        "text": "set a dick pickle",
+        "chars": 17,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:21:28.331619",
+      "type": "stt",
+      "data": {
+        "text": "let me get this",
+        "chars": 15,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
     }
   ],
   "statistics": {
     "tts_events": 119,
-    "stt_events": 3027,
+    "stt_events": 3041,
     "commands_processed": 39,
     "errors": 402,
     "total_chars_spoken": 7577,
-    "total_chars_heard": 98720,
+    "total_chars_heard": 99067,
     "avg_response_time": 0
   },
-  "last_updated": "2025-11-19T21:13:06.396818"
+  "last_updated": "2025-11-19T21:21:28.331639"
 }
