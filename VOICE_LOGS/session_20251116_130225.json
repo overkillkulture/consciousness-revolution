@@ -36551,16 +36551,214 @@
         "duration": null,
         "success": true
       }
+    },
+    {
+      "timestamp": "2025-11-19T20:41:24.955202",
+      "type": "stt",
+      "data": {
+        "text": "i can go back to downloads",
+        "chars": 26,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T20:41:56.450605",
+      "type": "stt",
+      "data": {
+        "text": "i already got it right",
+        "chars": 22,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T20:42:16.263992",
+      "type": "stt",
+      "data": {
+        "text": "but for some reason yeah and then it popped up",
+        "chars": 46,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T20:42:19.263776",
+      "type": "stt",
+      "data": {
+        "text": "name api",
+        "chars": 8,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T20:42:52.080263",
+      "type": "stt",
+      "data": {
+        "text": "come on dropbox you can do it",
+        "chars": 29,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T20:42:55.381911",
+      "type": "stt",
+      "data": {
+        "text": "take a screenshot",
+        "chars": 17,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T20:43:05.539270",
+      "type": "stt",
+      "data": {
+        "text": "play thinking open source continues 5 synchronization that i got off",
+        "chars": 68,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T20:43:10.512320",
+      "type": "stt",
+      "data": {
+        "text": "for some reason it's not booting up",
+        "chars": 35,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T20:43:17.925235",
+      "type": "stt",
+      "data": {
+        "text": "and my username",
+        "chars": 15,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T20:43:37.483059",
+      "type": "stt",
+      "data": {
+        "text": "seems like it might be",
+        "chars": 22,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T20:44:09.523383",
+      "type": "stt",
+      "data": {
+        "text": "what are you what are you searching for",
+        "chars": 39,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T20:44:14.792599",
+      "type": "stt",
+      "data": {
+        "text": "is it learning how to do a screenshot",
+        "chars": 37,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T20:44:43.927116",
+      "type": "stt",
+      "data": {
+        "text": "it expired",
+        "chars": 10,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T20:45:00.549785",
+      "type": "stt",
+      "data": {
+        "text": "okay i'll try",
+        "chars": 13,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T20:45:12.429162",
+      "type": "stt",
+      "data": {
+        "text": "dude it opens",
+        "chars": 13,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T20:45:22.531457",
+      "type": "stt",
+      "data": {
+        "text": "jesus looks",
+        "chars": 11,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T20:45:59.084994",
+      "type": "stt",
+      "data": {
+        "text": "remote devices",
+        "chars": 14,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T20:46:15.646390",
+      "type": "stt",
+      "data": {
+        "text": "obd original same thing look it's actually detecting",
+        "chars": 52,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
     }
   ],
   "statistics": {
     "tts_events": 117,
-    "stt_events": 2855,
+    "stt_events": 2873,
     "commands_processed": 39,
     "errors": 401,
     "total_chars_spoken": 7528,
-    "total_chars_heard": 94513,
+    "total_chars_heard": 94990,
     "avg_response_time": 0
   },
-  "last_updated": "2025-11-19T20:41:10.189958"
+  "last_updated": "2025-11-19T20:46:15.646403"
 }
