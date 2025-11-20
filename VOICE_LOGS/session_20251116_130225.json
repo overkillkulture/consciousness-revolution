@@ -34648,16 +34648,247 @@
         "duration": null,
         "success": true
       }
+    },
+    {
+      "timestamp": "2025-11-19T19:46:21.901213",
+      "type": "stt",
+      "data": {
+        "text": "if the cyclotron starts working",
+        "chars": 31,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T19:46:31.409225",
+      "type": "stt",
+      "data": {
+        "text": "can i talk to your ai when",
+        "chars": 26,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T19:46:54.955881",
+      "type": "stt",
+      "data": {
+        "text": "if you want to like",
+        "chars": 19,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T19:47:01.109487",
+      "type": "stt",
+      "data": {
+        "text": "we we need everybody liked editing inside the",
+        "chars": 45,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T19:47:08.037817",
+      "type": "stt",
+      "data": {
+        "text": "see will you look inside a github",
+        "chars": 33,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T19:47:12.266550",
+      "type": "stt",
+      "data": {
+        "text": "there's a new repository that",
+        "chars": 29,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T19:47:19.855889",
+      "type": "stt",
+      "data": {
+        "text": "josh has like cloned and fork",
+        "chars": 29,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T19:47:23.165847",
+      "type": "stt",
+      "data": {
+        "text": "just put live",
+        "chars": 13,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T19:47:29.951699",
+      "type": "stt",
+      "data": {
+        "text": "what's going on we need to we need to establish communications with his",
+        "chars": 71,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T19:47:33.686029",
+      "type": "stt",
+      "data": {
+        "text": "in different directions",
+        "chars": 23,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T19:47:56.798099",
+      "type": "stt",
+      "data": {
+        "text": "what's the grocery store",
+        "chars": 24,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T19:48:05.358695",
+      "type": "stt",
+      "data": {
+        "text": "do you understand how",
+        "chars": 21,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T19:48:28.204456",
+      "type": "stt",
+      "data": {
+        "text": "where's where's the commands we have",
+        "chars": 36,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T19:48:43.656553",
+      "type": "stt",
+      "data": {
+        "text": "another person's fucking",
+        "chars": 24,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T19:49:05.298906",
+      "type": "stt",
+      "data": {
+        "text": "okay so you should tell it to put it",
+        "chars": 36,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T19:49:16.522474",
+      "type": "stt",
+      "data": {
+        "text": "is the cyclone working",
+        "chars": 22,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T19:49:29.272360",
+      "type": "stt",
+      "data": {
+        "text": "and that's a completely different 7 domain that i was looking at",
+        "chars": 64,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T19:50:32.100793",
+      "type": "stt",
+      "data": {
+        "text": "computers logged into the same dropbox",
+        "chars": 38,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T19:50:37.745956",
+      "type": "stt",
+      "data": {
+        "text": "i think you're just saving",
+        "chars": 26,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T19:50:44.436116",
+      "type": "stt",
+      "data": {
+        "text": "actually going to download the dropbox app on both",
+        "chars": 50,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T19:50:53.961998",
+      "type": "stt",
+      "data": {
+        "text": "you know what we should do both of those",
+        "chars": 40,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
     }
   ],
   "statistics": {
     "tts_events": 117,
-    "stt_events": 2682,
+    "stt_events": 2703,
     "commands_processed": 39,
     "errors": 401,
     "total_chars_spoken": 7528,
-    "total_chars_heard": 89195,
+    "total_chars_heard": 89895,
     "avg_response_time": 0
   },
-  "last_updated": "2025-11-19T19:45:48.914865"
+  "last_updated": "2025-11-19T19:50:53.962015"
 }
