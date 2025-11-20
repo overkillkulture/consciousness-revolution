@@ -44547,16 +44547,247 @@
         "duration": null,
         "success": true
       }
+    },
+    {
+      "timestamp": "2025-11-19T23:27:43.514232",
+      "type": "stt",
+      "data": {
+        "text": "go down a little bit",
+        "chars": 20,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:27:58.433433",
+      "type": "stt",
+      "data": {
+        "text": "allama v12",
+        "chars": 10,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:28:14.429648",
+      "type": "stt",
+      "data": {
+        "text": "play",
+        "chars": 4,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:28:17.821631",
+      "type": "stt",
+      "data": {
+        "text": "i got the window open",
+        "chars": 21,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:28:26.161719",
+      "type": "stt",
+      "data": {
+        "text": "how do you know it's so big",
+        "chars": 27,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:28:47.161891",
+      "type": "stt",
+      "data": {
+        "text": "i started download",
+        "chars": 18,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:29:00.306015",
+      "type": "stt",
+      "data": {
+        "text": "i need to get one of these big ones on",
+        "chars": 38,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:29:08.712100",
+      "type": "stt",
+      "data": {
+        "text": "next call",
+        "chars": 9,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:29:13.602286",
+      "type": "stt",
+      "data": {
+        "text": "will you walk us through",
+        "chars": 24,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:29:16.413170",
+      "type": "stt",
+      "data": {
+        "text": "voting r",
+        "chars": 8,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:29:32.640169",
+      "type": "stt",
+      "data": {
+        "text": "voice hello my check",
+        "chars": 20,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:30:08.062474",
+      "type": "stt",
+      "data": {
+        "text": "yes",
+        "chars": 3,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:30:29.602741",
+      "type": "stt",
+      "data": {
+        "text": "yep it was eavesdrop",
+        "chars": 20,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:30:36.926655",
+      "type": "stt",
+      "data": {
+        "text": "all we got green lantern in the corner",
+        "chars": 38,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:31:09.966471",
+      "type": "stt",
+      "data": {
+        "text": "can you hear me my check",
+        "chars": 24,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:31:20.136674",
+      "type": "stt",
+      "data": {
+        "text": "yep go ahead and",
+        "chars": 16,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:31:25.996626",
+      "type": "stt",
+      "data": {
+        "text": "let's start trying to figure out how to tie this thing",
+        "chars": 54,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:31:29.866614",
+      "type": "stt",
+      "data": {
+        "text": "can you hear me now",
+        "chars": 19,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:32:23.241671",
+      "type": "stt",
+      "data": {
+        "text": "can you hear me now",
+        "chars": 19,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:32:28.329726",
+      "type": "stt",
+      "data": {
+        "text": "we're back in action",
+        "chars": 20,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:32:35.549655",
+      "type": "stt",
+      "data": {
+        "text": "you're the best i love you let's rock shit",
+        "chars": 42,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
     }
   ],
   "statistics": {
     "tts_events": 123,
-    "stt_events": 3574,
+    "stt_events": 3595,
     "commands_processed": 39,
     "errors": 404,
     "total_chars_spoken": 7675,
-    "total_chars_heard": 114851,
+    "total_chars_heard": 115305,
     "avg_response_time": 0
   },
-  "last_updated": "2025-11-19T23:27:38.309351"
+  "last_updated": "2025-11-19T23:32:35.549665"
 }
