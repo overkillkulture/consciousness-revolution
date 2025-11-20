@@ -38626,16 +38626,247 @@
         "duration": null,
         "success": true
       }
+    },
+    {
+      "timestamp": "2025-11-19T21:21:39.845711",
+      "type": "stt",
+      "data": {
+        "text": "message",
+        "chars": 7,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:21:43.953599",
+      "type": "stt",
+      "data": {
+        "text": "yes",
+        "chars": 3,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:21:46.972929",
+      "type": "stt",
+      "data": {
+        "text": "show me",
+        "chars": 7,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:21:54.674486",
+      "type": "stt",
+      "data": {
+        "text": "or tell me where he can",
+        "chars": 23,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:22:14.905910",
+      "type": "stt",
+      "data": {
+        "text": "6 + 6",
+        "chars": 5,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:22:20.246003",
+      "type": "stt",
+      "data": {
+        "text": "i see there's a big",
+        "chars": 19,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:22:24.715979",
+      "type": "stt",
+      "data": {
+        "text": "she got corrupted",
+        "chars": 17,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:22:39.162116",
+      "type": "stt",
+      "data": {
+        "text": "can you put in your old api",
+        "chars": 27,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:22:47.784149",
+      "type": "stt",
+      "data": {
+        "text": "can you grab your",
+        "chars": 17,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:22:57.744618",
+      "type": "stt",
+      "data": {
+        "text": "sink",
+        "chars": 4,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:23:21.846773",
+      "type": "stt",
+      "data": {
+        "text": "see if you can see",
+        "chars": 18,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:23:29.632562",
+      "type": "stt",
+      "data": {
+        "text": "but i guess if you're already",
+        "chars": 29,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:23:58.639780",
+      "type": "stt",
+      "data": {
+        "text": "powering the processors",
+        "chars": 23,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:24:04.000889",
+      "type": "stt",
+      "data": {
+        "text": "like autonomously eventually we got",
+        "chars": 35,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:24:20.071079",
+      "type": "stt",
+      "data": {
+        "text": "she needs to either have his ai run the code to respond",
+        "chars": 55,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:24:29.069028",
+      "type": "stt",
+      "data": {
+        "text": "pick folder click edit",
+        "chars": 22,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:24:47.073395",
+      "type": "stt",
+      "data": {
+        "text": "he opens the folder",
+        "chars": 19,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:24:53.143670",
+      "type": "stt",
+      "data": {
+        "text": "can you put the files here",
+        "chars": 26,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:25:14.771525",
+      "type": "stt",
+      "data": {
+        "text": "go ahead and erase that and then put in that",
+        "chars": 44,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:26:08.197539",
+      "type": "stt",
+      "data": {
+        "text": "he accidentally deleted it",
+        "chars": 26,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:26:39.608304",
+      "type": "stt",
+      "data": {
+        "text": "can you respond",
+        "chars": 15,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
     }
   ],
   "statistics": {
     "tts_events": 119,
-    "stt_events": 3041,
+    "stt_events": 3062,
     "commands_processed": 39,
     "errors": 402,
     "total_chars_spoken": 7577,
-    "total_chars_heard": 99067,
+    "total_chars_heard": 99508,
     "avg_response_time": 0
   },
-  "last_updated": "2025-11-19T21:21:28.331639"
+  "last_updated": "2025-11-19T21:26:39.608319"
 }
