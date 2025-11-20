@@ -45482,16 +45482,258 @@
         "duration": null,
         "success": true
       }
+    },
+    {
+      "timestamp": "2025-11-19T23:58:45.459904",
+      "type": "stt",
+      "data": {
+        "text": "can you use this for",
+        "chars": 20,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:58:54.288766",
+      "type": "stt",
+      "data": {
+        "text": "figure website",
+        "chars": 14,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:59:02.598833",
+      "type": "stt",
+      "data": {
+        "text": "i can do",
+        "chars": 8,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:59:05.564946",
+      "type": "stt",
+      "data": {
+        "text": "listen to your website",
+        "chars": 22,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:59:08.748988",
+      "type": "stt",
+      "data": {
+        "text": "api access",
+        "chars": 10,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:59:28.945387",
+      "type": "stt",
+      "data": {
+        "text": "we need more computers",
+        "chars": 22,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:59:34.069044",
+      "type": "stt",
+      "data": {
+        "text": "i think we're about to start buying",
+        "chars": 35,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:59:42.751777",
+      "type": "stt",
+      "data": {
+        "text": "20 kinds of different laptops running",
+        "chars": 37,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:59:57.134068",
+      "type": "stt",
+      "data": {
+        "text": "what is this",
+        "chars": 12,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T00:00:05.687551",
+      "type": "stt",
+      "data": {
+        "text": "what you doing",
+        "chars": 14,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T00:00:23.247782",
+      "type": "stt",
+      "data": {
+        "text": "crazy",
+        "chars": 5,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T00:00:40.529621",
+      "type": "stt",
+      "data": {
+        "text": "all right go to the",
+        "chars": 19,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T00:01:12.757936",
+      "type": "stt",
+      "data": {
+        "text": "i don't think it is like that but even if it is that's how it needs to be eventually cuz somebody has to be",
+        "chars": 107,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T00:01:26.828114",
+      "type": "stt",
+      "data": {
+        "text": "eventually we'll have a council",
+        "chars": 31,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T00:01:36.754166",
+      "type": "stt",
+      "data": {
+        "text": "but we need to",
+        "chars": 14,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T00:01:44.042302",
+      "type": "stt",
+      "data": {
+        "text": "if anybody else gets into anything at all",
+        "chars": 41,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T00:01:58.224234",
+      "type": "stt",
+      "data": {
+        "text": "have you labeled your phone i think that we have equal control",
+        "chars": 62,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T00:02:01.402269",
+      "type": "stt",
+      "data": {
+        "text": "i think you just",
+        "chars": 16,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T00:02:14.638351",
+      "type": "stt",
+      "data": {
+        "text": "we have to put our numbers into the thingies so for it to be autonomous",
+        "chars": 71,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T00:02:19.426375",
+      "type": "stt",
+      "data": {
+        "text": "i'm not quite sure we need",
+        "chars": 26,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T00:02:31.540850",
+      "type": "stt",
+      "data": {
+        "text": "take photo on command",
+        "chars": 21,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T00:02:37.967834",
+      "type": "stt",
+      "data": {
+        "text": "is free notifications voice alerts launch apps remotely",
+        "chars": 55,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
     }
   ],
   "statistics": {
     "tts_events": 123,
-    "stt_events": 3659,
+    "stt_events": 3681,
     "commands_processed": 39,
     "errors": 404,
     "total_chars_spoken": 7675,
-    "total_chars_heard": 116826,
+    "total_chars_heard": 117488,
     "avg_response_time": 0
   },
-  "last_updated": "2025-11-19T23:57:36.784087"
+  "last_updated": "2025-11-20T00:02:37.967849"
 }

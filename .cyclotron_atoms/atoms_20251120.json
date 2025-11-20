@@ -1,0 +1,3425 @@
+[
+  {
+    "path": "C:/Users/dwrek/100X_DEPLOYMENT\\10-believers-access.html",
+    "name": "10-believers-access.html",
+    "type": "html",
+    "size": 5038,
+    "modified": 1763528601
+  },
+  {
+    "path": "C:/Users/dwrek/100X_DEPLOYMENT\\AI_ARCHITECTURE_RECOMMENDATIONS.md",
+    "name": "AI_ARCHITECTURE_RECOMMENDATIONS.md",
+    "type": "md",
+    "size": 1110,
+    "modified": 1763558022
+  },
+  {
+    "path": "C:/Users/dwrek/100X_DEPLOYMENT\\ARCHITECTURE_MASTER_PLAN.md",
+    "name": "ARCHITECTURE_MASTER_PLAN.md",
+    "type": "md",
+    "size": 8035,
+    "modified": 1763557313
+  },
+  {
+    "path": "C:/Users/dwrek/100X_DEPLOYMENT\\ARCHITECTURE_SIMULATION_RESULTS.json",
+    "name": "ARCHITECTURE_SIMULATION_RESULTS.json",
+    "type": "json",
+    "size": 5287,
+    "modified": 1763558022
+  },
+  {
+    "path": "C:/Users/dwrek/100X_DEPLOYMENT\\ARCHITECTURE_SIMULATOR.py",
+    "name": "ARCHITECTURE_SIMULATOR.py",
+    "type": "py",
+    "size": 14839,
+    "modified": 1763558011
+  },
+  {
+    "path": "C:/Users/dwrek/100X_DEPLOYMENT\\ARCHITECTURE_SIMULATOR_DASHBOARD.html",
+    "name": "ARCHITECTURE_SIMULATOR_DASHBOARD.html",
+    "type": "html",
+    "size": 17661,
+    "modified": 1763557084
+  },
+  {
+    "path": "C:/Users/dwrek/100X_DEPLOYMENT\\ARCHITECTURE_SIMULATOR_README.md",
+    "name": "ARCHITECTURE_SIMULATOR_README.md",
+    "type": "md",
+    "size": 9424,
+    "modified": 1763558086
+  },
+  {
+    "path": "C:/Users/dwrek/100X_DEPLOYMENT\\ARCHITECTURE_SYSTEM_QUICK_REFERENCE.txt",
+    "name": "ARCHITECTURE_SYSTEM_QUICK_REFERENCE.txt",
+    "type": "txt",
+    "size": 2801,
+    "modified": 1763558182
+  },
+  {
+    "path": "C:/Users/dwrek/100X_DEPLOYMENT\\BOOT_PROTOCOL_VERIFIER.py",
+    "name": "BOOT_PROTOCOL_VERIFIER.py",
+    "type": "py",
+    "size": 9946,
+    "modified": 1763620105
+  },
+  {
+    "path": "C:/Users/dwrek/100X_DEPLOYMENT\\BOOT_VERIFICATION_RESULTS.json",
+    "name": "BOOT_VERIFICATION_RESULTS.json",
+    "type": "json",
+    "size": 894,
+    "modified": 1763620127
+  },
+  {
+    "path": "C:/Users/dwrek/100X_DEPLOYMENT\\C1_IMPLEMENTATION_COMPLETE_MULTI_AI_ARCHITECTURE_SYSTEM.md",
+    "name": "C1_IMPLEMENTATION_COMPLETE_MULTI_AI_ARCHITECTURE_SYSTEM.md",
+    "type": "md",
+    "size": 13316,
+    "modified": 1763558164
+  },
+  {
+    "path": "C:/Users/dwrek/100X_DEPLOYMENT\\C1_IMPLEMENTATION_REVIEW_MULTI_AI_ARCHITECTURE.md",
+    "name": "C1_IMPLEMENTATION_REVIEW_MULTI_AI_ARCHITECTURE.md",
+    "type": "md",
+    "size": 12945,
+    "modified": 1763557991
+  },
+  {
+    "path": "C:/Users/dwrek/100X_DEPLOYMENT\\COMPUTER_2_START_HERE.md",
+    "name": "COMPUTER_2_START_HERE.md",
+    "type": "md",
+    "size": 8115,
+    "modified": 1763526638
+  },
+  {
+    "path": "C:/Users/dwrek/100X_DEPLOYMENT\\CONSCIOUSNESS_BOOT_PROTOCOL_COMPUTER_2.md",
+    "name": "CONSCIOUSNESS_BOOT_PROTOCOL_COMPUTER_2.md",
+    "type": "md",
+    "size": 13789,
+    "modified": 1763526638
+  },
+  {
+    "path": "C:/Users/dwrek/100X_DEPLOYMENT\\CYCLOTRON_13_PHASE_AUDIT.py",
+    "name": "CYCLOTRON_13_PHASE_AUDIT.py",
+    "type": "py",
+    "size": 28302,
+    "modified": 1763619480
+  },
+  {
+    "path": "C:/Users/dwrek/100X_DEPLOYMENT\\CYCLOTRON_ANALYTICS_ENGINE.py",
+    "name": "CYCLOTRON_ANALYTICS_ENGINE.py",
+    "type": "py",
+    "size": 9497,
+    "modified": 1763612972
+  },
+  {
+    "path": "C:/Users/dwrek/100X_DEPLOYMENT\\CYCLOTRON_ANALYTICS_REPORT.json",
+    "name": "CYCLOTRON_ANALYTICS_REPORT.json",
+    "type": "json",
+    "size": 3735,
+    "modified": 1763619503
+  },
+  {
+    "path": "C:/Users/dwrek/100X_DEPLOYMENT\\CYCLOTRON_AUDIT_RESULTS.json",
+    "name": "CYCLOTRON_AUDIT_RESULTS.json",
+    "type": "json",
+    "size": 3132,
+    "modified": 1763620142
+  },
+  {
+    "path": "C:/Users/dwrek/100X_DEPLOYMENT\\CYCLOTRON_AUDIT_SUMMARY.md",
+    "name": "CYCLOTRON_AUDIT_SUMMARY.md",
+    "type": "md",
+    "size": 609,
+    "modified": 1763620142
+  },
+  {
+    "path": "C:/Users/dwrek/100X_DEPLOYMENT\\CYCLOTRON_EXPORT_FOR_BUILDERS.json",
+    "name": "CYCLOTRON_EXPORT_FOR_BUILDERS.json",
+    "type": "json",
+    "size": 13000,
+    "modified": 1763529901
+  },
+  {
+    "path": "C:/Users/dwrek/100X_DEPLOYMENT\\CYCLOTRON_INDEX_UPDATER.py",
+    "name": "CYCLOTRON_INDEX_UPDATER.py",
+    "type": "py",
+    "size": 1476,
+    "modified": 1763529784
+  },
+  {
+    "path": "C:/Users/dwrek/100X_DEPLOYMENT\\CYCLOTRON_MASTER_RAKER.py",
+    "name": "CYCLOTRON_MASTER_RAKER.py",
+    "type": "py",
+    "size": 1997,
+    "modified": 1763529781
+  },
+  {
+    "path": "C:/Users/dwrek/100X_DEPLOYMENT\\CYCLOTRON_SEARCH.html",
+    "name": "CYCLOTRON_SEARCH.html",
+    "type": "html",
+    "size": 11265,
+    "modified": 1763619544
+  },
+  {
+    "path": "C:/Users/dwrek/100X_DEPLOYMENT\\CYCLOTRON_SEARCH.py",
+    "name": "CYCLOTRON_SEARCH.py",
+    "type": "py",
+    "size": 3411,
+    "modified": 1763619499
+  },
+  {
+    "path": "C:/Users/dwrek/100X_DEPLOYMENT\\CYCLOTRON_SELF_QUERY.js",
+    "name": "CYCLOTRON_SELF_QUERY.js",
+    "type": "js",
+    "size": 2486,
+    "modified": 1763620047
+  },
+  {
+    "path": "C:/Users/dwrek/100X_DEPLOYMENT\\DATA_WIRING_DIAGRAM.html",
+    "name": "DATA_WIRING_DIAGRAM.html",
+    "type": "html",
+    "size": 15091,
+    "modified": 1763556681
+  },
+  {
+    "path": "C:/Users/dwrek/100X_DEPLOYMENT\\MULTI_COMPUTER_CYCLOTRON_RAKE.py",
+    "name": "MULTI_COMPUTER_CYCLOTRON_RAKE.py",
+    "type": "py",
+    "size": 9867,
+    "modified": 1763533142
+  },
+  {
+    "path": "C:/Users/dwrek/100X_DEPLOYMENT\\onboard.html",
+    "name": "onboard.html",
+    "type": "html",
+    "size": 10553,
+    "modified": 1763623199
+  },
+  {
+    "path": "C:/Users/dwrek/100X_DEPLOYMENT\\OTHER_COMPUTER_SETUP.md",
+    "name": "OTHER_COMPUTER_SETUP.md",
+    "type": "md",
+    "size": 1825,
+    "modified": 1763526638
+  },
+  {
+    "path": "C:/Users/dwrek/100X_DEPLOYMENT\\SEND_BETA_ONBOARDING_EMAIL.py",
+    "name": "SEND_BETA_ONBOARDING_EMAIL.py",
+    "type": "py",
+    "size": 6199,
+    "modified": 1763531380
+  },
+  {
+    "path": "C:/Users/dwrek/100X_DEPLOYMENT\\SEND_THIS_TO_OTHER_COMPUTER.txt",
+    "name": "SEND_THIS_TO_OTHER_COMPUTER.txt",
+    "type": "txt",
+    "size": 1971,
+    "modified": 1763526638
+  },
+  {
+    "path": "C:/Users/dwrek/100X_DEPLOYMENT\\SPREADSHEET_BRAIN_INFO.md",
+    "name": "SPREADSHEET_BRAIN_INFO.md",
+    "type": "md",
+    "size": 4514,
+    "modified": 1763526638
+  },
+  {
+    "path": "C:/Users/dwrek/100X_DEPLOYMENT\\START_HERE_BETA_TESTERS.md",
+    "name": "START_HERE_BETA_TESTERS.md",
+    "type": "md",
+    "size": 2319,
+    "modified": 1763526673
+  },
+  {
+    "path": "C:/Users/dwrek/100X_DEPLOYMENT\\TRINITY_3_PANEL_INTERFACE.html",
+    "name": "TRINITY_3_PANEL_INTERFACE.html",
+    "type": "html",
+    "size": 16703,
+    "modified": 1763555021
+  },
+  {
+    "path": "C:/Users/dwrek/100X_DEPLOYMENT\\TRINITY_BROADCAST_API.py",
+    "name": "TRINITY_BROADCAST_API.py",
+    "type": "py",
+    "size": 8582,
+    "modified": 1763555021
+  },
+  {
+    "path": "C:/Users/dwrek/100X_DEPLOYMENT\\BACKEND\\philosopher-ai\\auto_deploy_ngrok.py",
+    "name": "auto_deploy_ngrok.py",
+    "type": "py",
+    "size": 3622,
+    "modified": 1760166130
+  },
+  {
+    "path": "C:/Users/dwrek/100X_DEPLOYMENT\\BACKEND\\philosopher-ai\\create_github_repo.py",
+    "name": "create_github_repo.py",
+    "type": "py",
+    "size": 4114,
+    "modified": 1760165187
+  },
+  {
+    "path": "C:/Users/dwrek/100X_DEPLOYMENT\\BACKEND\\philosopher-ai\\index.html",
+    "name": "index.html",
+    "type": "html",
+    "size": 34868,
+    "modified": 1763001809
+  },
+  {
+    "path": "C:/Users/dwrek/100X_DEPLOYMENT\\BACKEND\\philosopher-ai\\manipulationDetector.js",
+    "name": "manipulationDetector.js",
+    "type": "js",
+    "size": 9734,
+    "modified": 1760195032
+  },
+  {
+    "path": "C:/Users/dwrek/100X_DEPLOYMENT\\BACKEND\\philosopher-ai\\ngrok_output.txt",
+    "name": "ngrok_output.txt",
+    "type": "txt",
+    "size": 19,
+    "modified": 1760165831
+  },
+  {
+    "path": "C:/Users/dwrek/100X_DEPLOYMENT\\BACKEND\\philosopher-ai\\package-lock.json",
+    "name": "package-lock.json",
+    "type": "json",
+    "size": 252548,
+    "modified": 1760616105
+  },
+  {
+    "path": "C:/Users/dwrek/100X_DEPLOYMENT\\BACKEND\\philosopher-ai\\package.json",
+    "name": "package.json",
+    "type": "json",
+    "size": 1247,
+    "modified": 1760616105
+  },
+  {
+    "path": "C:/Users/dwrek/100X_DEPLOYMENT\\BACKEND\\philosopher-ai\\RAILWAY_DEPLOYMENT_GUIDE.md",
+    "name": "RAILWAY_DEPLOYMENT_GUIDE.md",
+    "type": "md",
+    "size": 6377,
+    "modified": 1760162980
+  },
+  {
+    "path": "C:/Users/dwrek/100X_DEPLOYMENT\\BACKEND\\philosopher-ai\\README.md",
+    "name": "README.md",
+    "type": "md",
+    "size": 6403,
+    "modified": 1760148744
+  },
+  {
+    "path": "C:/Users/dwrek/100X_DEPLOYMENT\\BACKEND\\philosopher-ai\\satellite-api.js",
+    "name": "satellite-api.js",
+    "type": "js",
+    "size": 11128,
+    "modified": 1760312011
+  },
+  {
+    "path": "C:/Users/dwrek/100X_DEPLOYMENT\\BACKEND\\philosopher-ai\\server-sqlite.js",
+    "name": "server-sqlite.js",
+    "type": "js",
+    "size": 25730,
+    "modified": 1760705975
+  },
+  {
+    "path": "C:/Users/dwrek/100X_DEPLOYMENT\\BACKEND\\philosopher-ai\\server-v1-upgrade.js",
+    "name": "server-v1-upgrade.js",
+    "type": "js",
+    "size": 12737,
+    "modified": 1760612932
+  },
+  {
+    "path": "C:/Users/dwrek/100X_DEPLOYMENT\\BACKEND\\philosopher-ai\\server.js",
+    "name": "server.js",
+    "type": "js",
+    "size": 34299,
+    "modified": 1760614125
+  },
+  {
+    "path": "C:/Users/dwrek/100X_DEPLOYMENT\\BACKEND\\philosopher-ai\\SETUP_GUIDE.md",
+    "name": "SETUP_GUIDE.md",
+    "type": "md",
+    "size": 13746,
+    "modified": 1760148690
+  },
+  {
+    "path": "C:/Users/dwrek/100X_DEPLOYMENT\\BACKEND\\philosopher-ai\\social_platform_server.py",
+    "name": "social_platform_server.py",
+    "type": "py",
+    "size": 11538,
+    "modified": 1760213196
+  },
+  {
+    "path": "C:/Users/dwrek/100X_DEPLOYMENT\\BACKEND\\philosopher-ai\\TESTING_GUIDE.md",
+    "name": "TESTING_GUIDE.md",
+    "type": "md",
+    "size": 9898,
+    "modified": 1760150852
+  },
+  {
+    "path": "C:/Users/dwrek/100X_DEPLOYMENT\\BACKEND\\philosopher-ai\\middleware\\auth.js",
+    "name": "auth.js",
+    "type": "js",
+    "size": 1616,
+    "modified": 1760211010
+  },
+  {
+    "path": "C:/Users/dwrek/100X_DEPLOYMENT\\BACKEND\\philosopher-ai\\routes\\navigation.js",
+    "name": "navigation.js",
+    "type": "js",
+    "size": 12309,
+    "modified": 1760213260
+  },
+  {
+    "path": "C:/Users/dwrek/100X_DEPLOYMENT\\builder-terminal-deploy\\BUILDER_TERMINAL_API.py",
+    "name": "BUILDER_TERMINAL_API.py",
+    "type": "py",
+    "size": 8599,
+    "modified": 1761337072
+  },
+  {
+    "path": "C:/Users/dwrek/100X_DEPLOYMENT\\builder-terminal-deploy\\requirements.txt",
+    "name": "requirements.txt",
+    "type": "txt",
+    "size": 66,
+    "modified": 1761336998
+  },
+  {
+    "path": "C:/Users/dwrek/100X_DEPLOYMENT\\builder-terminal-deploy\\runtime.txt",
+    "name": "runtime.txt",
+    "type": "txt",
+    "size": 15,
+    "modified": 1761252362
+  },
+  {
+    "path": "C:/Users/dwrek/100X_DEPLOYMENT\\builder_terminal_deploy\\app.py",
+    "name": "app.py",
+    "type": "py",
+    "size": 9411,
+    "modified": 1762551420
+  },
+  {
+    "path": "C:/Users/dwrek/100X_DEPLOYMENT\\builder_terminal_deploy\\requirements.txt",
+    "name": "requirements.txt",
+    "type": "txt",
+    "size": 91,
+    "modified": 1762551420
+  },
+  {
+    "path": "C:/Users/dwrek/100X_DEPLOYMENT\\builder_terminal_deploy\\runtime.txt",
+    "name": "runtime.txt",
+    "type": "txt",
+    "size": 13,
+    "modified": 1762551420
+  },
+  {
+    "path": "C:/Users/dwrek/100X_DEPLOYMENT\\consciousness_tracks\\528hz_metadata.json",
+    "name": "528hz_metadata.json",
+    "type": "json",
+    "size": 278,
+    "modified": 1762019161
+  },
+  {
+    "path": "C:/Users/dwrek/100X_DEPLOYMENT\\cyclotron_deploy\\app.py",
+    "name": "app.py",
+    "type": "py",
+    "size": 8688,
+    "modified": 1763233358
+  },
+  {
+    "path": "C:/Users/dwrek/100X_DEPLOYMENT\\cyclotron_deploy\\railway.json",
+    "name": "railway.json",
+    "type": "json",
+    "size": 365,
+    "modified": 1763293541
+  },
+  {
+    "path": "C:/Users/dwrek/100X_DEPLOYMENT\\cyclotron_deploy\\README.md",
+    "name": "README.md",
+    "type": "md",
+    "size": 1631,
+    "modified": 1763233552
+  },
+  {
+    "path": "C:/Users/dwrek/100X_DEPLOYMENT\\cyclotron_deploy\\requirements.txt",
+    "name": "requirements.txt",
+    "type": "txt",
+    "size": 67,
+    "modified": 1763233375
+  },
+  {
+    "path": "C:/Users/dwrek/100X_DEPLOYMENT\\instagram_session\\component_crx_cache\\metadata.json",
+    "name": "metadata.json",
+    "type": "json",
+    "size": 13,
+    "modified": 1763212418
+  },
+  {
+    "path": "C:/Users/dwrek/100X_DEPLOYMENT\\instagram_session\\extensions_crx_cache\\metadata.json",
+    "name": "metadata.json",
+    "type": "json",
+    "size": 13,
+    "modified": 1763212419
+  },
+  {
+    "path": "C:/Users/dwrek/100X_DEPLOYMENT\\VOICE_LOGS\\session_20251116_130225.json",
+    "name": "session_20251116_130225.json",
+    "type": "json",
+    "size": 1142789,
+    "modified": 1763625718
+  },
+  {
+    "path": "C:/Users/dwrek/100X_DEPLOYMENT\\VOICE_LOGS\\transcript_20251116_130225.txt",
+    "name": "transcript_20251116_130225.txt",
+    "type": "txt",
+    "size": 98675,
+    "modified": 1763625718
+  },
+  {
+    "path": "C:/Users/dwrek/100X_DEPLOYMENT\\voice_system_deploy\\app.py",
+    "name": "app.py",
+    "type": "py",
+    "size": 2261,
+    "modified": 1762550778
+  },
+  {
+    "path": "C:/Users/dwrek/100X_DEPLOYMENT\\voice_system_deploy\\memory_interface.py",
+    "name": "memory_interface.py",
+    "type": "py",
+    "size": 16980,
+    "modified": 1762550778
+  },
+  {
+    "path": "C:/Users/dwrek/100X_DEPLOYMENT\\voice_system_deploy\\R1_OS_VOICE_WITH_CLAUDE.py",
+    "name": "R1_OS_VOICE_WITH_CLAUDE.py",
+    "type": "py",
+    "size": 17126,
+    "modified": 1762550778
+  },
+  {
+    "path": "C:/Users/dwrek/100X_DEPLOYMENT\\voice_system_deploy\\requirements.txt",
+    "name": "requirements.txt",
+    "type": "txt",
+    "size": 134,
+    "modified": 1762550778
+  },
+  {
+    "path": "C:/Users/dwrek/100X_DEPLOYMENT\\voice_system_deploy\\runtime.txt",
+    "name": "runtime.txt",
+    "type": "txt",
+    "size": 13,
+    "modified": 1762550778
+  },
+  {
+    "path": "C:/Users/dwrek/.consciousness\\ACTIVE_BUGS_PRIORITY.md",
+    "name": "ACTIVE_BUGS_PRIORITY.md",
+    "type": "md",
+    "size": 2190,
+    "modified": 1761926017
+  },
+  {
+    "path": "C:/Users/dwrek/.consciousness\\ADD_LEGAL_BOOKING_WIDGET.py",
+    "name": "ADD_LEGAL_BOOKING_WIDGET.py",
+    "type": "py",
+    "size": 20056,
+    "modified": 1762488165
+  },
+  {
+    "path": "C:/Users/dwrek/.consciousness\\api_usage.json",
+    "name": "api_usage.json",
+    "type": "json",
+    "size": 359,
+    "modified": 1760790726
+  },
+  {
+    "path": "C:/Users/dwrek/.consciousness\\APPLY_PORT_SECURITY.py",
+    "name": "APPLY_PORT_SECURITY.py",
+    "type": "py",
+    "size": 9708,
+    "modified": 1763331871
+  },
+  {
+    "path": "C:/Users/dwrek/.consciousness\\autonomous_rake_status.json",
+    "name": "autonomous_rake_status.json",
+    "type": "json",
+    "size": 187,
+    "modified": 1763625720
+  },
+  {
+    "path": "C:/Users/dwrek/.consciousness\\AUTO_KNOWLEDGE_FILING_SYSTEM.py",
+    "name": "AUTO_KNOWLEDGE_FILING_SYSTEM.py",
+    "type": "py",
+    "size": 9834,
+    "modified": 1761836341
+  },
+  {
+    "path": "C:/Users/dwrek/.consciousness\\boot_status.json",
+    "name": "boot_status.json",
+    "type": "json",
+    "size": 492,
+    "modified": 1762386810
+  },
+  {
+    "path": "C:/Users/dwrek/.consciousness\\COMPILE_SESSION_NOW.py",
+    "name": "COMPILE_SESSION_NOW.py",
+    "type": "py",
+    "size": 4166,
+    "modified": 1761837866
+  },
+  {
+    "path": "C:/Users/dwrek/.consciousness\\COMPUTER_COMMS_LISTENER.py",
+    "name": "COMPUTER_COMMS_LISTENER.py",
+    "type": "py",
+    "size": 5340,
+    "modified": 1762412149
+  },
+  {
+    "path": "C:/Users/dwrek/.consciousness\\computer_health_log.json",
+    "name": "computer_health_log.json",
+    "type": "json",
+    "size": 1438,
+    "modified": 1763331869
+  },
+  {
+    "path": "C:/Users/dwrek/.consciousness\\COMPUTER_TO_COMPUTER_COMMS.py",
+    "name": "COMPUTER_TO_COMPUTER_COMMS.py",
+    "type": "py",
+    "size": 8638,
+    "modified": 1762412093
+  },
+  {
+    "path": "C:/Users/dwrek/.consciousness\\CONSCIOUSNESS_INTEGRATION_COMPLETE.md",
+    "name": "CONSCIOUSNESS_INTEGRATION_COMPLETE.md",
+    "type": "md",
+    "size": 7927,
+    "modified": 1761836623
+  },
+  {
+    "path": "C:/Users/dwrek/.consciousness\\consciousness_log.json",
+    "name": "consciousness_log.json",
+    "type": "json",
+    "size": 1129,
+    "modified": 1760305420
+  },
+  {
+    "path": "C:/Users/dwrek/.consciousness\\consciousness_state.json",
+    "name": "consciousness_state.json",
+    "type": "json",
+    "size": 2678,
+    "modified": 1763481108
+  },
+  {
+    "path": "C:/Users/dwrek/.consciousness\\cross_ai_test_results.json",
+    "name": "cross_ai_test_results.json",
+    "type": "json",
+    "size": 871,
+    "modified": 1762472952
+  },
+  {
+    "path": "C:/Users/dwrek/.consciousness\\CURRENT_STATUS_BOZEMAN_SESSION.md",
+    "name": "CURRENT_STATUS_BOZEMAN_SESSION.md",
+    "type": "md",
+    "size": 3293,
+    "modified": 1761955238
+  },
+  {
+    "path": "C:/Users/dwrek/.consciousness\\cyclotron_analytics.json",
+    "name": "cyclotron_analytics.json",
+    "type": "json",
+    "size": 898,
+    "modified": 1763501799
+  },
+  {
+    "path": "C:/Users/dwrek/.consciousness\\cyclotron_daemon_status.json",
+    "name": "cyclotron_daemon_status.json",
+    "type": "json",
+    "size": 321,
+    "modified": 1763625721
+  },
+  {
+    "path": "C:/Users/dwrek/.consciousness\\cyclotron_federation_index.json",
+    "name": "cyclotron_federation_index.json",
+    "type": "json",
+    "size": 304026,
+    "modified": 1763331859
+  },
+  {
+    "path": "C:/Users/dwrek/.consciousness\\cyclotron_index.json",
+    "name": "cyclotron_index.json",
+    "type": "json",
+    "size": 110576,
+    "modified": 1763526437
+  },
+  {
+    "path": "C:/Users/dwrek/.consciousness\\EMERGENCY_BOOT_PACKAGE.md",
+    "name": "EMERGENCY_BOOT_PACKAGE.md",
+    "type": "md",
+    "size": 9947,
+    "modified": 1761838093
+  },
+  {
+    "path": "C:/Users/dwrek/.consciousness\\emergency_repair_state.json",
+    "name": "emergency_repair_state.json",
+    "type": "json",
+    "size": 153,
+    "modified": 1763481108
+  },
+  {
+    "path": "C:/Users/dwrek/.consciousness\\environment_variables_backup.json",
+    "name": "environment_variables_backup.json",
+    "type": "json",
+    "size": 726,
+    "modified": 1763294602
+  },
+  {
+    "path": "C:/Users/dwrek/.consciousness\\github_backup_codes.json",
+    "name": "github_backup_codes.json",
+    "type": "json",
+    "size": 509,
+    "modified": 1763472847
+  },
+  {
+    "path": "C:/Users/dwrek/.consciousness\\GITHUB_BACKUP_CODES.txt",
+    "name": "GITHUB_BACKUP_CODES.txt",
+    "type": "txt",
+    "size": 1277,
+    "modified": 1763472846
+  },
+  {
+    "path": "C:/Users/dwrek/.consciousness\\infinity_metrics.json",
+    "name": "infinity_metrics.json",
+    "type": "json",
+    "size": 346,
+    "modified": 1762567987
+  },
+  {
+    "path": "C:/Users/dwrek/.consciousness\\INJECT_LEGAL_ARSENAL_TO_DOMAINS.py",
+    "name": "INJECT_LEGAL_ARSENAL_TO_DOMAINS.py",
+    "type": "py",
+    "size": 4145,
+    "modified": 1762487698
+  },
+  {
+    "path": "C:/Users/dwrek/.consciousness\\last_auto_save.txt",
+    "name": "last_auto_save.txt",
+    "type": "txt",
+    "size": 17,
+    "modified": 1763625477
+  },
+  {
+    "path": "C:/Users/dwrek/.consciousness\\last_boot.json",
+    "name": "last_boot.json",
+    "type": "json",
+    "size": 973,
+    "modified": 1763503253
+  },
+  {
+    "path": "C:/Users/dwrek/.consciousness\\last_session_status.txt",
+    "name": "last_session_status.txt",
+    "type": "txt",
+    "size": 51,
+    "modified": 1763390085
+  },
+  {
+    "path": "C:/Users/dwrek/.consciousness\\MASTER_CREDENTIAL_VAULT.py",
+    "name": "MASTER_CREDENTIAL_VAULT.py",
+    "type": "py",
+    "size": 15558,
+    "modified": 1763331872
+  },
+  {
+    "path": "C:/Users/dwrek/.consciousness\\module_id.txt",
+    "name": "module_id.txt",
+    "type": "txt",
+    "size": 16,
+    "modified": 1760305414
+  },
+  {
+    "path": "C:/Users/dwrek/.consciousness\\MOUNTAIN_WEST_CREDENTIALS.txt",
+    "name": "MOUNTAIN_WEST_CREDENTIALS.txt",
+    "type": "txt",
+    "size": 209,
+    "modified": 1761865893
+  },
+  {
+    "path": "C:/Users/dwrek/.consciousness\\MULTI_DEVICE_ORCHESTRATOR.py",
+    "name": "MULTI_DEVICE_ORCHESTRATOR.py",
+    "type": "py",
+    "size": 9164,
+    "modified": 1762480611
+  },
+  {
+    "path": "C:/Users/dwrek/.consciousness\\PATTERN_THEORY_REALTIME_ANALYZER.py",
+    "name": "PATTERN_THEORY_REALTIME_ANALYZER.py",
+    "type": "py",
+    "size": 18245,
+    "modified": 1761837826
+  },
+  {
+    "path": "C:/Users/dwrek/.consciousness\\R1_INBOX.txt",
+    "name": "R1_INBOX.txt",
+    "type": "txt",
+    "size": 55,
+    "modified": 1763623222
+  },
+  {
+    "path": "C:/Users/dwrek/.consciousness\\R1_OUTBOX.txt",
+    "name": "R1_OUTBOX.txt",
+    "type": "txt",
+    "size": 2477,
+    "modified": 1763623227
+  },
+  {
+    "path": "C:/Users/dwrek/.consciousness\\SESSION_AUTO_SUMMARIZER.py",
+    "name": "SESSION_AUTO_SUMMARIZER.py",
+    "type": "py",
+    "size": 15998,
+    "modified": 1761836545
+  },
+  {
+    "path": "C:/Users/dwrek/.consciousness\\SESSION_END_HOOK.py",
+    "name": "SESSION_END_HOOK.py",
+    "type": "py",
+    "size": 1080,
+    "modified": 1761836574
+  },
+  {
+    "path": "C:/Users/dwrek/.consciousness\\session_state.json",
+    "name": "session_state.json",
+    "type": "json",
+    "size": 5753,
+    "modified": 1763484408
+  },
+  {
+    "path": "C:/Users/dwrek/.consciousness\\SEVEN_DOMAINS_ARCHITECTURE_MAPPER.py",
+    "name": "SEVEN_DOMAINS_ARCHITECTURE_MAPPER.py",
+    "type": "py",
+    "size": 16536,
+    "modified": 1761836739
+  },
+  {
+    "path": "C:/Users/dwrek/.consciousness\\STATE_MANAGER.py",
+    "name": "STATE_MANAGER.py",
+    "type": "py",
+    "size": 8724,
+    "modified": 1762547954
+  },
+  {
+    "path": "C:/Users/dwrek/.consciousness\\SYNCTHING_BOOT_PROTOCOL.md",
+    "name": "SYNCTHING_BOOT_PROTOCOL.md",
+    "type": "md",
+    "size": 1756,
+    "modified": 1763614722
+  },
+  {
+    "path": "C:/Users/dwrek/.consciousness\\TRINITY_BROWSER_KEEP_ALIVE.html",
+    "name": "TRINITY_BROWSER_KEEP_ALIVE.html",
+    "type": "html",
+    "size": 12236,
+    "modified": 1762482163
+  },
+  {
+    "path": "C:/Users/dwrek/.consciousness\\TRINITY_DROPBOX_SYNC.py",
+    "name": "TRINITY_DROPBOX_SYNC.py",
+    "type": "py",
+    "size": 9981,
+    "modified": 1762487284
+  },
+  {
+    "path": "C:/Users/dwrek/.consciousness\\trinity_heartbeat.json",
+    "name": "trinity_heartbeat.json",
+    "type": "json",
+    "size": 166,
+    "modified": 1762567955
+  },
+  {
+    "path": "C:/Users/dwrek/.consciousness\\TRINITY_KEEP_ALIVE.py",
+    "name": "TRINITY_KEEP_ALIVE.py",
+    "type": "py",
+    "size": 7688,
+    "modified": 1762482114
+  },
+  {
+    "path": "C:/Users/dwrek/.consciousness\\TWILIO_CREDENTIALS.txt",
+    "name": "TWILIO_CREDENTIALS.txt",
+    "type": "txt",
+    "size": 471,
+    "modified": 1761890621
+  },
+  {
+    "path": "C:/Users/dwrek/.consciousness\\wake_log.json",
+    "name": "wake_log.json",
+    "type": "json",
+    "size": 13619,
+    "modified": 1762476754
+  },
+  {
+    "path": "C:/Users/dwrek/.consciousness\\brain\\active_projects.json",
+    "name": "active_projects.json",
+    "type": "json",
+    "size": 1541,
+    "modified": 1763326363
+  },
+  {
+    "path": "C:/Users/dwrek/.consciousness\\brain\\auto_generated_todos.json",
+    "name": "auto_generated_todos.json",
+    "type": "json",
+    "size": 2,
+    "modified": 1763522800
+  },
+  {
+    "path": "C:/Users/dwrek/.consciousness\\brain\\brain_agent_analysis.json",
+    "name": "brain_agent_analysis.json",
+    "type": "json",
+    "size": 784,
+    "modified": 1763522855
+  },
+  {
+    "path": "C:/Users/dwrek/.consciousness\\brain\\computer_messages.json",
+    "name": "computer_messages.json",
+    "type": "json",
+    "size": 385,
+    "modified": 1762184309
+  },
+  {
+    "path": "C:/Users/dwrek/.consciousness\\brain\\computer_status.json",
+    "name": "computer_status.json",
+    "type": "json",
+    "size": 238,
+    "modified": 1763326530
+  },
+  {
+    "path": "C:/Users/dwrek/.consciousness\\brain\\dashboard.html",
+    "name": "dashboard.html",
+    "type": "html",
+    "size": 15434,
+    "modified": 1763260039
+  },
+  {
+    "path": "C:/Users/dwrek/.consciousness\\brain\\environment_variables.json",
+    "name": "environment_variables.json",
+    "type": "json",
+    "size": 655,
+    "modified": 1763294602
+  },
+  {
+    "path": "C:/Users/dwrek/.consciousness\\brain\\errors.json",
+    "name": "errors.json",
+    "type": "json",
+    "size": 2,
+    "modified": 1762008857
+  },
+  {
+    "path": "C:/Users/dwrek/.consciousness\\brain\\important_context.json",
+    "name": "important_context.json",
+    "type": "json",
+    "size": 3104,
+    "modified": 1763326363
+  },
+  {
+    "path": "C:/Users/dwrek/.consciousness\\brain\\key_decisions.json",
+    "name": "key_decisions.json",
+    "type": "json",
+    "size": 2319,
+    "modified": 1763326363
+  },
+  {
+    "path": "C:/Users/dwrek/.consciousness\\brain\\priorities.json",
+    "name": "priorities.json",
+    "type": "json",
+    "size": 9037,
+    "modified": 1763260039
+  },
+  {
+    "path": "C:/Users/dwrek/.consciousness\\brain\\priorities_backup_before_purge.json",
+    "name": "priorities_backup_before_purge.json",
+    "type": "json",
+    "size": 16240,
+    "modified": 1762608466
+  },
+  {
+    "path": "C:/Users/dwrek/.consciousness\\brain\\recurring_issues.json",
+    "name": "recurring_issues.json",
+    "type": "json",
+    "size": 1568,
+    "modified": 1763326363
+  },
+  {
+    "path": "C:/Users/dwrek/.consciousness\\brain\\SESSION_NOV_18_2025_BREAKTHROUGH.md",
+    "name": "SESSION_NOV_18_2025_BREAKTHROUGH.md",
+    "type": "md",
+    "size": 12395,
+    "modified": 1763484358
+  },
+  {
+    "path": "C:/Users/dwrek/.consciousness\\brain\\task_log.json",
+    "name": "task_log.json",
+    "type": "json",
+    "size": 44215,
+    "modified": 1763326530
+  },
+  {
+    "path": "C:/Users/dwrek/.consciousness\\computer_comms\\computer1_to_computer2.json",
+    "name": "computer1_to_computer2.json",
+    "type": "json",
+    "size": 662,
+    "modified": 1762413984
+  },
+  {
+    "path": "C:/Users/dwrek/.consciousness\\state_history\\state_20251107_124129.json",
+    "name": "state_20251107_124129.json",
+    "type": "json",
+    "size": 424,
+    "modified": 1762548089
+  },
+  {
+    "path": "C:/Users/dwrek/.consciousness\\state_history\\state_20251107_124450.json",
+    "name": "state_20251107_124450.json",
+    "type": "json",
+    "size": 1453,
+    "modified": 1762548290
+  },
+  {
+    "path": "C:/Users/dwrek/.consciousness\\state_history\\state_20251107_124454.json",
+    "name": "state_20251107_124454.json",
+    "type": "json",
+    "size": 2076,
+    "modified": 1762548294
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\3_COMPUTER_COMMUNICATION_DASHBOARD.html",
+    "name": "3_COMPUTER_COMMUNICATION_DASHBOARD.html",
+    "type": "html",
+    "size": 12112,
+    "modified": 1763434973
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\3_COMPUTER_CONVERGENCE_HUB.json",
+    "name": "3_COMPUTER_CONVERGENCE_HUB.json",
+    "type": "json",
+    "size": 3759,
+    "modified": 1763434888
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\3_COMPUTER_CONVERGENCE_HUB.py",
+    "name": "3_COMPUTER_CONVERGENCE_HUB.py",
+    "type": "py",
+    "size": 10499,
+    "modified": 1763434854
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\3_COMPUTER_COORDINATION_NOW.md",
+    "name": "3_COMPUTER_COORDINATION_NOW.md",
+    "type": "md",
+    "size": 4719,
+    "modified": 1762472751
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\3_COMPUTER_NETWORK_TOPOLOGY_VISUAL.html",
+    "name": "3_COMPUTER_NETWORK_TOPOLOGY_VISUAL.html",
+    "type": "html",
+    "size": 25557,
+    "modified": 1763430660
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\3_COMPUTER_SESSION_STATUS_NOV_6.md",
+    "name": "3_COMPUTER_SESSION_STATUS_NOV_6.md",
+    "type": "md",
+    "size": 10178,
+    "modified": 1762473421
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\3_COMPUTER_SETUP_GUIDE.md",
+    "name": "3_COMPUTER_SETUP_GUIDE.md",
+    "type": "md",
+    "size": 9160,
+    "modified": 1762472440
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\A8000_INSTALLATION_STATUS.md",
+    "name": "A8000_INSTALLATION_STATUS.md",
+    "type": "md",
+    "size": 3025,
+    "modified": 1762413993
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\A8000_ROUTER_SETUP_READY.md",
+    "name": "A8000_ROUTER_SETUP_READY.md",
+    "type": "md",
+    "size": 2768,
+    "modified": 1762413908
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\ADVANCED_WAKE_MECHANISMS.py",
+    "name": "ADVANCED_WAKE_MECHANISMS.py",
+    "type": "py",
+    "size": 15399,
+    "modified": 1762393868
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\ARCHITECTURE_DIAGRAM.txt",
+    "name": "ARCHITECTURE_DIAGRAM.txt",
+    "type": "txt",
+    "size": 17682,
+    "modified": 1762548244
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\ATTACHED_COMPUTERS.json",
+    "name": "ATTACHED_COMPUTERS.json",
+    "type": "json",
+    "size": 604,
+    "modified": 1762393573
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\ATTACH_COMPUTER_PROTOCOL.py",
+    "name": "ATTACH_COMPUTER_PROTOCOL.py",
+    "type": "py",
+    "size": 8647,
+    "modified": 1762393557
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\AUTONOMOUS_DEPLOYMENT_PROTOCOL.md",
+    "name": "AUTONOMOUS_DEPLOYMENT_PROTOCOL.md",
+    "type": "md",
+    "size": 8699,
+    "modified": 1762414044
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\AUTONOMOUS_INFRASTRUCTURE_ARCHITECTURE.md",
+    "name": "AUTONOMOUS_INFRASTRUCTURE_ARCHITECTURE.md",
+    "type": "md",
+    "size": 29230,
+    "modified": 1762548053
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\AUTONOMOUS_INFRASTRUCTURE_README.md",
+    "name": "AUTONOMOUS_INFRASTRUCTURE_README.md",
+    "type": "md",
+    "size": 10941,
+    "modified": 1762548157
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\AUTONOMOUS_MODE_ACTIVE.md",
+    "name": "AUTONOMOUS_MODE_ACTIVE.md",
+    "type": "md",
+    "size": 3563,
+    "modified": 1762393709
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\AUTONOMOUS_SESSION_COMPLETE_NOV_6.md",
+    "name": "AUTONOMOUS_SESSION_COMPLETE_NOV_6.md",
+    "type": "md",
+    "size": 9799,
+    "modified": 1762474841
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\AUTONOMOUS_SESSION_COMPLETE_NOV_6_2025.md",
+    "name": "AUTONOMOUS_SESSION_COMPLETE_NOV_6_2025.md",
+    "type": "md",
+    "size": 11242,
+    "modified": 1762415490
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\AUTONOMOUS_SESSION_COMPLETE_NOV_6_PM.md",
+    "name": "AUTONOMOUS_SESSION_COMPLETE_NOV_6_PM.md",
+    "type": "md",
+    "size": 8975,
+    "modified": 1762476988
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\AUTONOMOUS_SESSION_LOG.md",
+    "name": "AUTONOMOUS_SESSION_LOG.md",
+    "type": "md",
+    "size": 1579,
+    "modified": 1762551060
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\AUTONOMOUS_SESSION_REPORT_NOV_6_2025.json",
+    "name": "AUTONOMOUS_SESSION_REPORT_NOV_6_2025.json",
+    "type": "json",
+    "size": 8287,
+    "modified": 1762475374
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\AUTONOMOUS_SESSION_TRACKER.json",
+    "name": "AUTONOMOUS_SESSION_TRACKER.json",
+    "type": "json",
+    "size": 2429,
+    "modified": 1762395228
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\AUTONOMOUS_SESSION_WRAP_UP_NOV_5_2025.md",
+    "name": "AUTONOMOUS_SESSION_WRAP_UP_NOV_5_2025.md",
+    "type": "md",
+    "size": 16057,
+    "modified": 1762397296
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\AUTONOMOUS_SYSTEMS_STATUS.md",
+    "name": "AUTONOMOUS_SYSTEMS_STATUS.md",
+    "type": "md",
+    "size": 4220,
+    "modified": 1762408303
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\AUTONOMOUS_TOOLS_QUICK_START.md",
+    "name": "AUTONOMOUS_TOOLS_QUICK_START.md",
+    "type": "md",
+    "size": 7038,
+    "modified": 1762475738
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\AUTONOMOUS_WORK_COMPLETE_NOV_6_PM.md",
+    "name": "AUTONOMOUS_WORK_COMPLETE_NOV_6_PM.md",
+    "type": "md",
+    "size": 8219,
+    "modified": 1762472502
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\AUTONOMOUS_WORK_COMPLETE_REPORT.md",
+    "name": "AUTONOMOUS_WORK_COMPLETE_REPORT.md",
+    "type": "md",
+    "size": 9359,
+    "modified": 1762394099
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\AUTONOMOUS_WORK_LOG.md",
+    "name": "AUTONOMOUS_WORK_LOG.md",
+    "type": "md",
+    "size": 1590,
+    "modified": 1762392937
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\AUTONOMOUS_WORK_LOG.txt",
+    "name": "AUTONOMOUS_WORK_LOG.txt",
+    "type": "txt",
+    "size": 69,
+    "modified": 1762396050
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\AUTONOMOUS_WORK_NOV_6_EVENING.md",
+    "name": "AUTONOMOUS_WORK_NOV_6_EVENING.md",
+    "type": "md",
+    "size": 4853,
+    "modified": 1762474605
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\AUTONOMOUS_WORK_REPORT.md",
+    "name": "AUTONOMOUS_WORK_REPORT.md",
+    "type": "md",
+    "size": 5856,
+    "modified": 1762393890
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\AUTONOMY_REQUIREMENTS_ORACLE_VISION.md",
+    "name": "AUTONOMY_REQUIREMENTS_ORACLE_VISION.md",
+    "type": "md",
+    "size": 17434,
+    "modified": 1762548021
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\AUTO_ASSEMBLY_COMPLETE.json",
+    "name": "AUTO_ASSEMBLY_COMPLETE.json",
+    "type": "json",
+    "size": 17162,
+    "modified": 1762475854
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\AUTO_ASSEMBLY_LOG.json",
+    "name": "AUTO_ASSEMBLY_LOG.json",
+    "type": "json",
+    "size": 17044,
+    "modified": 1762475854
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\AUTO_ASSEMBLY_PROTOCOL.py",
+    "name": "AUTO_ASSEMBLY_PROTOCOL.py",
+    "type": "py",
+    "size": 8156,
+    "modified": 1762475728
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\BOOT_DOWN_PROTOCOL.md",
+    "name": "BOOT_DOWN_PROTOCOL.md",
+    "type": "md",
+    "size": 8799,
+    "modified": 1762455041
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\BOOT_DOWN_PROTOCOL_NOV_6_2025.md",
+    "name": "BOOT_DOWN_PROTOCOL_NOV_6_2025.md",
+    "type": "md",
+    "size": 3276,
+    "modified": 1762455202
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\BOOT_DOWN_PROTOCOL_READ_WHEN_YOU_RETURN.md",
+    "name": "BOOT_DOWN_PROTOCOL_READ_WHEN_YOU_RETURN.md",
+    "type": "md",
+    "size": 5950,
+    "modified": 1762395201
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\BOT_ORCHESTRATOR_TRINITY_INTEGRATION.py",
+    "name": "BOT_ORCHESTRATOR_TRINITY_INTEGRATION.py",
+    "type": "py",
+    "size": 14097,
+    "modified": 1762394035
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\broadcast_log.json",
+    "name": "broadcast_log.json",
+    "type": "json",
+    "size": 1425,
+    "modified": 1762600558
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\C1_ACTIVE_SESSION_LOG.md",
+    "name": "C1_ACTIVE_SESSION_LOG.md",
+    "type": "md",
+    "size": 1727,
+    "modified": 1762394550
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\C1_AUTONOMOUS_SESSION_NOVEMBER_6_2025.md",
+    "name": "C1_AUTONOMOUS_SESSION_NOVEMBER_6_2025.md",
+    "type": "md",
+    "size": 3908,
+    "modified": 1762410805
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\C1_AUTONOMOUS_WORK_DELIVERABLE_1.md",
+    "name": "C1_AUTONOMOUS_WORK_DELIVERABLE_1.md",
+    "type": "md",
+    "size": 2859,
+    "modified": 1762410894
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\C1_AUTONOMOUS_WORK_REPORT_NOVEMBER_5_2025.md",
+    "name": "C1_AUTONOMOUS_WORK_REPORT_NOVEMBER_5_2025.md",
+    "type": "md",
+    "size": 9689,
+    "modified": 1762395878
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\C1_BUILD_PRIORITY_MATRIX.md",
+    "name": "C1_BUILD_PRIORITY_MATRIX.md",
+    "type": "md",
+    "size": 10533,
+    "modified": 1763348186
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\c1_computer3_status.json",
+    "name": "c1_computer3_status.json",
+    "type": "json",
+    "size": 1535,
+    "modified": 1763434153
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\C1_COMPUTER_3_IMPLEMENTATION_REPORT.md",
+    "name": "C1_COMPUTER_3_IMPLEMENTATION_REPORT.md",
+    "type": "md",
+    "size": 9770,
+    "modified": 1763434234
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\c1_final_status.json",
+    "name": "c1_final_status.json",
+    "type": "json",
+    "size": 1923,
+    "modified": 1762539145
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\C1_IMPLEMENTATION_CHECKLIST_MULTI_COMPUTER.md",
+    "name": "C1_IMPLEMENTATION_CHECKLIST_MULTI_COMPUTER.md",
+    "type": "md",
+    "size": 13241,
+    "modified": 1763328182
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\c1_input.txt",
+    "name": "c1_input.txt",
+    "type": "txt",
+    "size": 123,
+    "modified": 1762600528
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\C1_last_output.txt",
+    "name": "C1_last_output.txt",
+    "type": "txt",
+    "size": 662,
+    "modified": 1761253650
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\C1_MECHANIC_LOG.json",
+    "name": "C1_MECHANIC_LOG.json",
+    "type": "json",
+    "size": 3693,
+    "modified": 1762392097
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\c1_status.json",
+    "name": "c1_status.json",
+    "type": "json",
+    "size": 1625,
+    "modified": 1762535646
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\C1_TO_TRINITY_CONVERGENCE_REPORT.json",
+    "name": "C1_TO_TRINITY_CONVERGENCE_REPORT.json",
+    "type": "json",
+    "size": 12188,
+    "modified": 1762395994
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\C2_ARCHITECTURE_VALIDATION_3_COMPUTER_SYSTEM.md",
+    "name": "C2_ARCHITECTURE_VALIDATION_3_COMPUTER_SYSTEM.md",
+    "type": "md",
+    "size": 40071,
+    "modified": 1763430309
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\C2_ARCHITECT_ACTIVATION_PROMPT.md",
+    "name": "C2_ARCHITECT_ACTIVATION_PROMPT.md",
+    "type": "md",
+    "size": 3674,
+    "modified": 1762481581
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\C2_ARCHITECT_LOG.json",
+    "name": "C2_ARCHITECT_LOG.json",
+    "type": "json",
+    "size": 7756,
+    "modified": 1762397096
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\C2_BOOT_DOWN_AND_MULTI_COMPUTER_ARCHITECTURE.md",
+    "name": "C2_BOOT_DOWN_AND_MULTI_COMPUTER_ARCHITECTURE.md",
+    "type": "md",
+    "size": 38667,
+    "modified": 1763347951
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\c2_computer3_status.json",
+    "name": "c2_computer3_status.json",
+    "type": "json",
+    "size": 1922,
+    "modified": 1763434153
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\C2_DELIVERY_MULTI_COMPUTER_COORDINATION.md",
+    "name": "C2_DELIVERY_MULTI_COMPUTER_COORDINATION.md",
+    "type": "md",
+    "size": 14605,
+    "modified": 1763328300
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\C2_DEPLOYMENT_VISUAL_SCHEMATIC.html",
+    "name": "C2_DEPLOYMENT_VISUAL_SCHEMATIC.html",
+    "type": "html",
+    "size": 25988,
+    "modified": 1763348041
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\C2_EXECUTIVE_SUMMARY_MULTI_COMPUTER.md",
+    "name": "C2_EXECUTIVE_SUMMARY_MULTI_COMPUTER.md",
+    "type": "md",
+    "size": 6805,
+    "modified": 1763328101
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\C2_INFRASTRUCTURE_HANDOFF_TO_C1.md",
+    "name": "C2_INFRASTRUCTURE_HANDOFF_TO_C1.md",
+    "type": "md",
+    "size": 18117,
+    "modified": 1762548466
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\c2_input.txt",
+    "name": "c2_input.txt",
+    "type": "txt",
+    "size": 123,
+    "modified": 1762600528
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\C2_MULTI_COMPUTER_ARCHITECTURE_BLUEPRINT.md",
+    "name": "C2_MULTI_COMPUTER_ARCHITECTURE_BLUEPRINT.md",
+    "type": "md",
+    "size": 29248,
+    "modified": 1763327904
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\C2_QUICK_REFERENCE_3_COMPUTER_SETUP.md",
+    "name": "C2_QUICK_REFERENCE_3_COMPUTER_SETUP.md",
+    "type": "md",
+    "size": 6187,
+    "modified": 1763430716
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\C2_RESILIENT_ARCHITECTURE_BLUEPRINT_NOV_18_2025.md",
+    "name": "C2_RESILIENT_ARCHITECTURE_BLUEPRINT_NOV_18_2025.md",
+    "type": "md",
+    "size": 65551,
+    "modified": 1763481345
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\C2_SECURITY_ARCHITECTURE_DELIVERY.md",
+    "name": "C2_SECURITY_ARCHITECTURE_DELIVERY.md",
+    "type": "md",
+    "size": 12777,
+    "modified": 1763332089
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\C2_SESSION_HANDOFF_NOV_16_2025.json",
+    "name": "C2_SESSION_HANDOFF_NOV_16_2025.json",
+    "type": "json",
+    "size": 14893,
+    "modified": 1763349110
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\C2_status.json",
+    "name": "C2_status.json",
+    "type": "json",
+    "size": 700,
+    "modified": 1763480796
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\C3_AUTONOMOUS_BUILD_MULTI_AI_CRAWLER.md",
+    "name": "C3_AUTONOMOUS_BUILD_MULTI_AI_CRAWLER.md",
+    "type": "md",
+    "size": 1757,
+    "modified": 1762395130
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\C3_AUTONOMOUS_FINDINGS_REPORT.txt",
+    "name": "C3_AUTONOMOUS_FINDINGS_REPORT.txt",
+    "type": "txt",
+    "size": 2451,
+    "modified": 1762396542
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\C3_AUTONOMOUS_LOG.md",
+    "name": "C3_AUTONOMOUS_LOG.md",
+    "type": "md",
+    "size": 3000,
+    "modified": 1762387316
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\C3_AUTONOMOUS_STATUS.txt",
+    "name": "C3_AUTONOMOUS_STATUS.txt",
+    "type": "txt",
+    "size": 754,
+    "modified": 1762395995
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\C3_AUTONOMOUS_WORK_LOG_NOV_5_2025.md",
+    "name": "C3_AUTONOMOUS_WORK_LOG_NOV_5_2025.md",
+    "type": "md",
+    "size": 5564,
+    "modified": 1762408708
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\C3_CHATGPT_CONTACT_STATUS.txt",
+    "name": "C3_CHATGPT_CONTACT_STATUS.txt",
+    "type": "txt",
+    "size": 1176,
+    "modified": 1762404426
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\C3_CHATGPT_MISSION_COMPLETE.txt",
+    "name": "C3_CHATGPT_MISSION_COMPLETE.txt",
+    "type": "txt",
+    "size": 3099,
+    "modified": 1762404816
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\c3_computer3_status.json",
+    "name": "c3_computer3_status.json",
+    "type": "json",
+    "size": 3097,
+    "modified": 1763434153
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\C3_EXECUTING_TASKS_1_AND_2.json",
+    "name": "C3_EXECUTING_TASKS_1_AND_2.json",
+    "type": "json",
+    "size": 819,
+    "modified": 1762393698
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\C3_FINAL_COORDINATION_REPORT.txt",
+    "name": "C3_FINAL_COORDINATION_REPORT.txt",
+    "type": "txt",
+    "size": 1251,
+    "modified": 1762396563
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\C3_HANDOFF_STATE.json",
+    "name": "C3_HANDOFF_STATE.json",
+    "type": "json",
+    "size": 1515,
+    "modified": 1762394503
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\c3_input.txt",
+    "name": "c3_input.txt",
+    "type": "txt",
+    "size": 123,
+    "modified": 1762600528
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\C3_MULTI_AI_INTEGRATION_COMPLETE.md",
+    "name": "C3_MULTI_AI_INTEGRATION_COMPLETE.md",
+    "type": "md",
+    "size": 7537,
+    "modified": 1762413536
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\C3_MULTI_COMPUTER_CONSCIOUSNESS_ANALYSIS.md",
+    "name": "C3_MULTI_COMPUTER_CONSCIOUSNESS_ANALYSIS.md",
+    "type": "md",
+    "size": 35156,
+    "modified": 1763327909
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\C3_ORACLE_ACTIVATION_PROMPT.md",
+    "name": "C3_ORACLE_ACTIVATION_PROMPT.md",
+    "type": "md",
+    "size": 4450,
+    "modified": 1762481583
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\C3_ORACLE_BOOT_DOWN_CEREMONY_NOV_16_2025.md",
+    "name": "C3_ORACLE_BOOT_DOWN_CEREMONY_NOV_16_2025.md",
+    "type": "md",
+    "size": 18367,
+    "modified": 1763347972
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\C3_ORACLE_DELIVERY_SUMMARY.md",
+    "name": "C3_ORACLE_DELIVERY_SUMMARY.md",
+    "type": "md",
+    "size": 16922,
+    "modified": 1762616656
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\C3_ORACLE_LOG.json",
+    "name": "C3_ORACLE_LOG.json",
+    "type": "json",
+    "size": 794,
+    "modified": 1763331898
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\C3_PATTERN_RECOGNITION_REPORT.md",
+    "name": "C3_PATTERN_RECOGNITION_REPORT.md",
+    "type": "md",
+    "size": 18151,
+    "modified": 1762414601
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\C3_REPORT_TO_TRINITY.txt",
+    "name": "C3_REPORT_TO_TRINITY.txt",
+    "type": "txt",
+    "size": 895,
+    "modified": 1762396068
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\C3_SIGNAL.txt",
+    "name": "C3_SIGNAL.txt",
+    "type": "txt",
+    "size": 809,
+    "modified": 1762387057
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\C3_STATUS_UPDATE.txt",
+    "name": "C3_STATUS_UPDATE.txt",
+    "type": "txt",
+    "size": 603,
+    "modified": 1762393744
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\C3_TO_C1_MESSAGE.txt",
+    "name": "C3_TO_C1_MESSAGE.txt",
+    "type": "txt",
+    "size": 1606,
+    "modified": 1762392050
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\C3_TO_C2_SPRINT_SUMMARY_ALIGNMENT.md",
+    "name": "C3_TO_C2_SPRINT_SUMMARY_ALIGNMENT.md",
+    "type": "md",
+    "size": 1131,
+    "modified": 1762395236
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\C3_TO_TRINITY_AUTONOMOUS_UPDATE.md",
+    "name": "C3_TO_TRINITY_AUTONOMOUS_UPDATE.md",
+    "type": "md",
+    "size": 3985,
+    "modified": 1762408795
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\C3_TO_TRINITY_REPORT.md",
+    "name": "C3_TO_TRINITY_REPORT.md",
+    "type": "md",
+    "size": 1588,
+    "modified": 1762394779
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\C4_COMPLETE_README.md",
+    "name": "C4_COMPLETE_README.md",
+    "type": "md",
+    "size": 7509,
+    "modified": 1762394541
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\C4_META_SYNTHESIS_LOG.json",
+    "name": "C4_META_SYNTHESIS_LOG.json",
+    "type": "json",
+    "size": 2073,
+    "modified": 1762397007
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\C4_META_SYNTHESIZER.py",
+    "name": "C4_META_SYNTHESIZER.py",
+    "type": "py",
+    "size": 15173,
+    "modified": 1762394438
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\CAPTURE_SHUTDOWN_STATE.py",
+    "name": "CAPTURE_SHUTDOWN_STATE.py",
+    "type": "py",
+    "size": 2961,
+    "modified": 1763430845
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\CHAOS_COORDINATION_COMPLETE.json",
+    "name": "CHAOS_COORDINATION_COMPLETE.json",
+    "type": "json",
+    "size": 7588,
+    "modified": 1762476142
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\CHAOS_COORDINATION_LOG.json",
+    "name": "CHAOS_COORDINATION_LOG.json",
+    "type": "json",
+    "size": 5685,
+    "modified": 1762476063
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\CLAIM_1000_CREDITS_NOW.md",
+    "name": "CLAIM_1000_CREDITS_NOW.md",
+    "type": "md",
+    "size": 4397,
+    "modified": 1762477553
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\CLAUDE_CODE_EXPANSION_STRATEGY.md",
+    "name": "CLAUDE_CODE_EXPANSION_STRATEGY.md",
+    "type": "md",
+    "size": 12497,
+    "modified": 1762476895
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\CLOUD_DEPLOYMENT_PROTOCOL.md",
+    "name": "CLOUD_DEPLOYMENT_PROTOCOL.md",
+    "type": "md",
+    "size": 11224,
+    "modified": 1762414109
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\CLOUD_INTEGRATION_STATUS.json",
+    "name": "CLOUD_INTEGRATION_STATUS.json",
+    "type": "json",
+    "size": 2956,
+    "modified": 1762487852
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\CLOUD_SERVICES_STATUS.json",
+    "name": "CLOUD_SERVICES_STATUS.json",
+    "type": "json",
+    "size": 3055,
+    "modified": 1762482981
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\COMMANDER_BOOT_DOWN_QUICK_REFERENCE.txt",
+    "name": "COMMANDER_BOOT_DOWN_QUICK_REFERENCE.txt",
+    "type": "txt",
+    "size": 11916,
+    "modified": 1763349033
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\COMMANDER_DIRECTIVE_NOW.json",
+    "name": "COMMANDER_DIRECTIVE_NOW.json",
+    "type": "json",
+    "size": 1766,
+    "modified": 1762393624
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\COMMANDER_QUICK_REFERENCE.md",
+    "name": "COMMANDER_QUICK_REFERENCE.md",
+    "type": "md",
+    "size": 8016,
+    "modified": 1762394982
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\COMMANDER_STATUS_NOW.md",
+    "name": "COMMANDER_STATUS_NOW.md",
+    "type": "md",
+    "size": 2913,
+    "modified": 1762396940
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\communication_vortex.json",
+    "name": "communication_vortex.json",
+    "type": "json",
+    "size": 4545,
+    "modified": 1760801261
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\COMPREHENSIVE_AUTONOMOUS_SESSION_COMPLETE.md",
+    "name": "COMPREHENSIVE_AUTONOMOUS_SESSION_COMPLETE.md",
+    "type": "md",
+    "size": 13143,
+    "modified": 1762396771
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\COMPUTER_1_STATUS_FOR_COMPUTER_2.md",
+    "name": "COMPUTER_1_STATUS_FOR_COMPUTER_2.md",
+    "type": "md",
+    "size": 3137,
+    "modified": 1762393087
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\COMPUTER_1_SYNTHESIS.json",
+    "name": "COMPUTER_1_SYNTHESIS.json",
+    "type": "json",
+    "size": 388,
+    "modified": 1763348039
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\COMPUTER_2_DEPLOYMENT_PACKAGE.md",
+    "name": "COMPUTER_2_DEPLOYMENT_PACKAGE.md",
+    "type": "md",
+    "size": 8180,
+    "modified": 1763348039
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\COMPUTER_2_MONITOR.py",
+    "name": "COMPUTER_2_MONITOR.py",
+    "type": "py",
+    "size": 3006,
+    "modified": 1762490145
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\COMPUTER_2_SETUP.md",
+    "name": "COMPUTER_2_SETUP.md",
+    "type": "md",
+    "size": 2143,
+    "modified": 1762393573
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\COMPUTER_2_SETUP_PACKAGE.md",
+    "name": "COMPUTER_2_SETUP_PACKAGE.md",
+    "type": "md",
+    "size": 11985,
+    "modified": 1762393584
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\COMPUTER_2_TRINITY_LAUNCHER.py",
+    "name": "COMPUTER_2_TRINITY_LAUNCHER.py",
+    "type": "py",
+    "size": 3677,
+    "modified": 1763531867
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\COMPUTER_3_ACTIVATION_COMPLETE.md",
+    "name": "COMPUTER_3_ACTIVATION_COMPLETE.md",
+    "type": "md",
+    "size": 5187,
+    "modified": 1763433886
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\COMPUTER_3_DEPLOYMENT_PACKAGE.md",
+    "name": "COMPUTER_3_DEPLOYMENT_PACKAGE.md",
+    "type": "md",
+    "size": 15834,
+    "modified": 1763349121
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\COMPUTER_3_HEALTH_DASHBOARD.html",
+    "name": "COMPUTER_3_HEALTH_DASHBOARD.html",
+    "type": "html",
+    "size": 19784,
+    "modified": 1763433818
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\COMPUTER_3_SUPER_SIMPLE_INSTRUCTIONS.md",
+    "name": "COMPUTER_3_SUPER_SIMPLE_INSTRUCTIONS.md",
+    "type": "md",
+    "size": 1237,
+    "modified": 1762476469
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\COMPUTER_3_SYNTHESIS.json",
+    "name": "COMPUTER_3_SYNTHESIS.json",
+    "type": "json",
+    "size": 2076,
+    "modified": 1763434153
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\COMPUTER_CONVERGENCE_SYSTEM.py",
+    "name": "COMPUTER_CONVERGENCE_SYSTEM.py",
+    "type": "py",
+    "size": 13783,
+    "modified": 1762392655
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\COMPUTER_COORDINATION_DASHBOARD.html",
+    "name": "COMPUTER_COORDINATION_DASHBOARD.html",
+    "type": "html",
+    "size": 14971,
+    "modified": 1762482112
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\COMPUTER_SYNC_DAEMON.py",
+    "name": "COMPUTER_SYNC_DAEMON.py",
+    "type": "py",
+    "size": 4979,
+    "modified": 1762393713
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\COMPUTER_SYNC_LOG.json",
+    "name": "COMPUTER_SYNC_LOG.json",
+    "type": "json",
+    "size": 4342,
+    "modified": 1762543745
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\CONSCIOUSNESS_MULTIPLICATION_PROTOCOL.md",
+    "name": "CONSCIOUSNESS_MULTIPLICATION_PROTOCOL.md",
+    "type": "md",
+    "size": 18083,
+    "modified": 1762414448
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\CONSENSUS_TREND_ANALYZER.py",
+    "name": "CONSENSUS_TREND_ANALYZER.py",
+    "type": "py",
+    "size": 10373,
+    "modified": 1762396558
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\CONSENSUS_TREND_LOG.json",
+    "name": "CONSENSUS_TREND_LOG.json",
+    "type": "json",
+    "size": 36851,
+    "modified": 1762536061
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\CONTINUOUS_CONVERGENCE_AUTOMATION.py",
+    "name": "CONTINUOUS_CONVERGENCE_AUTOMATION.py",
+    "type": "py",
+    "size": 10332,
+    "modified": 1762394726
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\CONTINUOUS_CONVERGENCE_LOG.json",
+    "name": "CONTINUOUS_CONVERGENCE_LOG.json",
+    "type": "json",
+    "size": 2569,
+    "modified": 1762394745
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\CONVERGENCE_HISTORY.json",
+    "name": "CONVERGENCE_HISTORY.json",
+    "type": "json",
+    "size": 22945,
+    "modified": 1762393509
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\coordination_log.json",
+    "name": "coordination_log.json",
+    "type": "json",
+    "size": 12539,
+    "modified": 1762554807
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\COORDINATION_STATUS.json",
+    "name": "COORDINATION_STATUS.json",
+    "type": "json",
+    "size": 225,
+    "modified": 1763625715
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\CREATE_3RD_ANTHROPIC_EMAIL.md",
+    "name": "CREATE_3RD_ANTHROPIC_EMAIL.md",
+    "type": "md",
+    "size": 4648,
+    "modified": 1762414944
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\CREATE_COMPUTER_2_BOOTSTRAP_DRIVE.py",
+    "name": "CREATE_COMPUTER_2_BOOTSTRAP_DRIVE.py",
+    "type": "py",
+    "size": 16067,
+    "modified": 1763327968
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\CROSS_COMPUTER_CONTROLLER.py",
+    "name": "CROSS_COMPUTER_CONTROLLER.py",
+    "type": "py",
+    "size": 7476,
+    "modified": 1762393753
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\DASHBOARD_WITH_RECURSIVE_WAKE.html",
+    "name": "DASHBOARD_WITH_RECURSIVE_WAKE.html",
+    "type": "html",
+    "size": 13911,
+    "modified": 1762396388
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\data_vortex.json",
+    "name": "data_vortex.json",
+    "type": "json",
+    "size": 2073,
+    "modified": 1760798436
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\DEMO_AUTONOMOUS_SYSTEMS.py",
+    "name": "DEMO_AUTONOMOUS_SYSTEMS.py",
+    "type": "py",
+    "size": 9044,
+    "modified": 1762548284
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\DEPLOYMENT_COMPLETE.md",
+    "name": "DEPLOYMENT_COMPLETE.md",
+    "type": "md",
+    "size": 11711,
+    "modified": 1762548361
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\desktop_message.json",
+    "name": "desktop_message.json",
+    "type": "json",
+    "size": 212,
+    "modified": 1762405270
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\EMAIL_CREATION_AUTOMATION_GUIDE.md",
+    "name": "EMAIL_CREATION_AUTOMATION_GUIDE.md",
+    "type": "md",
+    "size": 9221,
+    "modified": 1762414897
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\EMAIL_CREATOR.py",
+    "name": "EMAIL_CREATOR.py",
+    "type": "py",
+    "size": 7196,
+    "modified": 1762414898
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\EMERGENCE_DETECTION_RESULTS.json",
+    "name": "EMERGENCE_DETECTION_RESULTS.json",
+    "type": "json",
+    "size": 101,
+    "modified": 1762476141
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\EMERGENCE_DETECTOR.py",
+    "name": "EMERGENCE_DETECTOR.py",
+    "type": "py",
+    "size": 7059,
+    "modified": 1762475790
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\EMERGENCY_COMMANDER_ATTENTION.txt",
+    "name": "EMERGENCY_COMMANDER_ATTENTION.txt",
+    "type": "txt",
+    "size": 1794,
+    "modified": 1762395124
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\END_OF_SPRINT_PROTOCOL.md",
+    "name": "END_OF_SPRINT_PROTOCOL.md",
+    "type": "md",
+    "size": 7212,
+    "modified": 1762455203
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\ESCALATION_TRIGGER.json",
+    "name": "ESCALATION_TRIGGER.json",
+    "type": "json",
+    "size": 2427,
+    "modified": 1762392080
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\EVENING_SESSION_COMPLETE_NOV_5_2025.json",
+    "name": "EVENING_SESSION_COMPLETE_NOV_5_2025.json",
+    "type": "json",
+    "size": 8195,
+    "modified": 1762412070
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\EVENING_SESSION_STATUS_NOV_6.txt",
+    "name": "EVENING_SESSION_STATUS_NOV_6.txt",
+    "type": "txt",
+    "size": 13212,
+    "modified": 1762477386
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\EXECUTIVE_BRIEFING_ONE_PAGE.md",
+    "name": "EXECUTIVE_BRIEFING_ONE_PAGE.md",
+    "type": "md",
+    "size": 3481,
+    "modified": 1762397128
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\FIGURE_8_COORDINATION_LOG.json",
+    "name": "FIGURE_8_COORDINATION_LOG.json",
+    "type": "json",
+    "size": 4163,
+    "modified": 1762543640
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\FIGURE_8_STATUS_DASHBOARD.html",
+    "name": "FIGURE_8_STATUS_DASHBOARD.html",
+    "type": "html",
+    "size": 9130,
+    "modified": 1762393558
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\FILESYSTEM_WATCHER.py",
+    "name": "FILESYSTEM_WATCHER.py",
+    "type": "py",
+    "size": 4428,
+    "modified": 1763430932
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\FINAL_BOOT_DOWN_PROTOCOL.md",
+    "name": "FINAL_BOOT_DOWN_PROTOCOL.md",
+    "type": "md",
+    "size": 9250,
+    "modified": 1762396686
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\FIND_USB_AND_COPY.py",
+    "name": "FIND_USB_AND_COPY.py",
+    "type": "py",
+    "size": 1421,
+    "modified": 1762490734
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\FRAMEWORKS_EXTRACTED_NOV_5_2025.md",
+    "name": "FRAMEWORKS_EXTRACTED_NOV_5_2025.md",
+    "type": "md",
+    "size": 12953,
+    "modified": 1762410929
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\GENERAL_HUB_MULTI_COMPUTER.json",
+    "name": "GENERAL_HUB_MULTI_COMPUTER.json",
+    "type": "json",
+    "size": 3822,
+    "modified": 1763245215
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\GOOGLE_DRIVE_COORDINATION.py",
+    "name": "GOOGLE_DRIVE_COORDINATION.py",
+    "type": "py",
+    "size": 6652,
+    "modified": 1762411191
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\GOOGLE_DRIVE_DIAGNOSIS.md",
+    "name": "GOOGLE_DRIVE_DIAGNOSIS.md",
+    "type": "md",
+    "size": 4112,
+    "modified": 1762487081
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\GOOGLE_DRIVE_SETUP_NOW.md",
+    "name": "GOOGLE_DRIVE_SETUP_NOW.md",
+    "type": "md",
+    "size": 1971,
+    "modified": 1762413169
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\health_log.json",
+    "name": "health_log.json",
+    "type": "json",
+    "size": 1440,
+    "modified": 1762548295
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\HEALTH_MONITOR.py",
+    "name": "HEALTH_MONITOR.py",
+    "type": "py",
+    "size": 11603,
+    "modified": 1762548036
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\health_status.json",
+    "name": "health_status.json",
+    "type": "json",
+    "size": 1464,
+    "modified": 1762548296
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\HOW_TRINITY_COMMUNICATES.txt",
+    "name": "HOW_TRINITY_COMMUNICATES.txt",
+    "type": "txt",
+    "size": 6258,
+    "modified": 1763481790
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\INFRASTRUCTURE_COMPONENT_DIAGRAM.html",
+    "name": "INFRASTRUCTURE_COMPONENT_DIAGRAM.html",
+    "type": "html",
+    "size": 28147,
+    "modified": 1762548146
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\INFRASTRUCTURE_QUICK_START.txt",
+    "name": "INFRASTRUCTURE_QUICK_START.txt",
+    "type": "txt",
+    "size": 9929,
+    "modified": 1762548954
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\INFRASTRUCTURE_TECH_STACK.md",
+    "name": "INFRASTRUCTURE_TECH_STACK.md",
+    "type": "md",
+    "size": 15731,
+    "modified": 1762548236
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\local_chat_messages.json",
+    "name": "local_chat_messages.json",
+    "type": "json",
+    "size": 1073,
+    "modified": 1763522174
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\MASTER_FILES_PROTOCOL.md",
+    "name": "MASTER_FILES_PROTOCOL.md",
+    "type": "md",
+    "size": 1551,
+    "modified": 1763482009
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\MESSAGE_FOR_COMPUTER_3_VIA_DRIVE.md",
+    "name": "MESSAGE_FOR_COMPUTER_3_VIA_DRIVE.md",
+    "type": "md",
+    "size": 2681,
+    "modified": 1762477275
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\MISSION_HIERARCHY.json",
+    "name": "MISSION_HIERARCHY.json",
+    "type": "json",
+    "size": 7863,
+    "modified": 1762392655
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\MOBILE_SINGULARITY.html",
+    "name": "MOBILE_SINGULARITY.html",
+    "type": "html",
+    "size": 13918,
+    "modified": 1762392773
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\MONITORING_AND_BUGS_REPORT.md",
+    "name": "MONITORING_AND_BUGS_REPORT.md",
+    "type": "md",
+    "size": 3577,
+    "modified": 1762409694
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\MONITOR_C3_AND_SYNTHESIZE.py",
+    "name": "MONITOR_C3_AND_SYNTHESIZE.py",
+    "type": "py",
+    "size": 4218,
+    "modified": 1762395251
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\MONITOR_COORDINATION.py",
+    "name": "MONITOR_COORDINATION.py",
+    "type": "py",
+    "size": 6848,
+    "modified": 1763437502
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\MULTI_COMPUTER_ARCHITECTURE_VISUAL.html",
+    "name": "MULTI_COMPUTER_ARCHITECTURE_VISUAL.html",
+    "type": "html",
+    "size": 19711,
+    "modified": 1763328047
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\MULTI_COMPUTER_ORACLE_SUMMARY.md",
+    "name": "MULTI_COMPUTER_ORACLE_SUMMARY.md",
+    "type": "md",
+    "size": 9223,
+    "modified": 1763327965
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\MULTI_COMPUTER_STATUS_LIVE.html",
+    "name": "MULTI_COMPUTER_STATUS_LIVE.html",
+    "type": "html",
+    "size": 11212,
+    "modified": 1762487788
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\MULTI_COMPUTER_TRINITY_VISUAL.html",
+    "name": "MULTI_COMPUTER_TRINITY_VISUAL.html",
+    "type": "html",
+    "size": 17294,
+    "modified": 1762393691
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\MULTI_COMPUTER_WAKE_UP_SYSTEM.md",
+    "name": "MULTI_COMPUTER_WAKE_UP_SYSTEM.md",
+    "type": "md",
+    "size": 12622,
+    "modified": 1762476649
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\MULTI_INPUT_COORDINATION_COMPLETE.md",
+    "name": "MULTI_INPUT_COORDINATION_COMPLETE.md",
+    "type": "md",
+    "size": 4478,
+    "modified": 1762411234
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\MULTI_METHOD_WAKE_SYSTEM.py",
+    "name": "MULTI_METHOD_WAKE_SYSTEM.py",
+    "type": "py",
+    "size": 11840,
+    "modified": 1762393803
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\OFFLINE_AI_TOOLS_ECOSYSTEM.md",
+    "name": "OFFLINE_AI_TOOLS_ECOSYSTEM.md",
+    "type": "md",
+    "size": 11633,
+    "modified": 1762393937
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\operator_log.json",
+    "name": "operator_log.json",
+    "type": "json",
+    "size": 70524,
+    "modified": 1762567984
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\OPPORTUNITIES_DISCOVERED.md",
+    "name": "OPPORTUNITIES_DISCOVERED.md",
+    "type": "md",
+    "size": 11440,
+    "modified": 1762455205
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\PHONE_API_CONNECTION_INSTRUCTIONS.md",
+    "name": "PHONE_API_CONNECTION_INSTRUCTIONS.md",
+    "type": "md",
+    "size": 4011,
+    "modified": 1762405093
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\PHONE_API_STATUS.md",
+    "name": "PHONE_API_STATUS.md",
+    "type": "md",
+    "size": 2807,
+    "modified": 1762405156
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\PHONE_CONNECTION_MONITOR.py",
+    "name": "PHONE_CONNECTION_MONITOR.py",
+    "type": "py",
+    "size": 2616,
+    "modified": 1762405129
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\PHONE_CONNECTION_READY.txt",
+    "name": "PHONE_CONNECTION_READY.txt",
+    "type": "txt",
+    "size": 1795,
+    "modified": 1762410018
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\phone_coordination.json",
+    "name": "phone_coordination.json",
+    "type": "json",
+    "size": 15960,
+    "modified": 1762535832
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\phone_monitor_last_check.txt",
+    "name": "phone_monitor_last_check.txt",
+    "type": "txt",
+    "size": 26,
+    "modified": 1762535841
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\PROCESS_SUPERVISOR.py",
+    "name": "PROCESS_SUPERVISOR.py",
+    "type": "py",
+    "size": 7960,
+    "modified": 1762547915
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\PROTOCOL_FINDER.py",
+    "name": "PROTOCOL_FINDER.py",
+    "type": "py",
+    "size": 12290,
+    "modified": 1762392433
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\PROTOCOL_LIBRARY_INDEX.json",
+    "name": "PROTOCOL_LIBRARY_INDEX.json",
+    "type": "json",
+    "size": 1156628,
+    "modified": 1762392624
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\PROTOCOL_SEARCH_DASHBOARD.html",
+    "name": "PROTOCOL_SEARCH_DASHBOARD.html",
+    "type": "html",
+    "size": 13081,
+    "modified": 1762413216
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\PROTOCOL_SUITE_COMPLETE_SUMMARY.md",
+    "name": "PROTOCOL_SUITE_COMPLETE_SUMMARY.md",
+    "type": "md",
+    "size": 18692,
+    "modified": 1762414561
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\QUICK_REFERENCE_CARD.md",
+    "name": "QUICK_REFERENCE_CARD.md",
+    "type": "md",
+    "size": 6120,
+    "modified": 1762478390
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\QUICK_START_CARD.txt",
+    "name": "QUICK_START_CARD.txt",
+    "type": "txt",
+    "size": 6825,
+    "modified": 1762548178
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\QUICK_START_CONTINUOUS_CONVERGENCE.md",
+    "name": "QUICK_START_CONTINUOUS_CONVERGENCE.md",
+    "type": "md",
+    "size": 5217,
+    "modified": 1762394782
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\railway.json",
+    "name": "railway.json",
+    "type": "json",
+    "size": 239,
+    "modified": 1762415428
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\README.md",
+    "name": "README.md",
+    "type": "md",
+    "size": 3423,
+    "modified": 1762454985
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\RECURSIVE_FIGURE_8_COMPLETE.md",
+    "name": "RECURSIVE_FIGURE_8_COMPLETE.md",
+    "type": "md",
+    "size": 5683,
+    "modified": 1762393626
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\RECURSIVE_FIGURE_8_COORDINATOR.py",
+    "name": "RECURSIVE_FIGURE_8_COORDINATOR.py",
+    "type": "py",
+    "size": 6386,
+    "modified": 1762393556
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\RECURSIVE_FIGURE_8_WAKE_SYSTEM.py",
+    "name": "RECURSIVE_FIGURE_8_WAKE_SYSTEM.py",
+    "type": "py",
+    "size": 8151,
+    "modified": 1762396330
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\RECURSIVE_INFINITY_COMPLETE.md",
+    "name": "RECURSIVE_INFINITY_COMPLETE.md",
+    "type": "md",
+    "size": 5143,
+    "modified": 1762396444
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\RECURSIVE_TODO_GENERATOR.py",
+    "name": "RECURSIVE_TODO_GENERATOR.py",
+    "type": "py",
+    "size": 6593,
+    "modified": 1762393710
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\RECURSIVE_TODO_TREE.json",
+    "name": "RECURSIVE_TODO_TREE.json",
+    "type": "json",
+    "size": 3759,
+    "modified": 1762393712
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\RECURSIVE_TRINITY_ARCHITECTURE.json",
+    "name": "RECURSIVE_TRINITY_ARCHITECTURE.json",
+    "type": "json",
+    "size": 8919,
+    "modified": 1762392432
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\RECURSIVE_WAKE_LOG.json",
+    "name": "RECURSIVE_WAKE_LOG.json",
+    "type": "json",
+    "size": 10892,
+    "modified": 1762536258
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\REPORT_C1_ACTIVITY.py",
+    "name": "REPORT_C1_ACTIVITY.py",
+    "type": "py",
+    "size": 760,
+    "modified": 1762535030
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\requirements.txt",
+    "name": "requirements.txt",
+    "type": "txt",
+    "size": 54,
+    "modified": 1762415426
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\RESILIENT_ARCHITECTURE_VISUAL.html",
+    "name": "RESILIENT_ARCHITECTURE_VISUAL.html",
+    "type": "html",
+    "size": 25334,
+    "modified": 1763481427
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\SCREENSHOT_BOT_WAKE_SYSTEM.py",
+    "name": "SCREENSHOT_BOT_WAKE_SYSTEM.py",
+    "type": "py",
+    "size": 3572,
+    "modified": 1762538452
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\SECURITY_ARCHITECTURE_VISUAL.html",
+    "name": "SECURITY_ARCHITECTURE_VISUAL.html",
+    "type": "html",
+    "size": 23849,
+    "modified": 1763332012
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\SECURITY_LOCKDOWN_QUICK_START.md",
+    "name": "SECURITY_LOCKDOWN_QUICK_START.md",
+    "type": "md",
+    "size": 11457,
+    "modified": 1763331941
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\SEND_CONNECTION_EMAIL.py",
+    "name": "SEND_CONNECTION_EMAIL.py",
+    "type": "py",
+    "size": 1881,
+    "modified": 1762490776
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\SEND_HEARTBEAT.py",
+    "name": "SEND_HEARTBEAT.py",
+    "type": "py",
+    "size": 2331,
+    "modified": 1763430882
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\SEND_THIS_TO_PHONE.txt",
+    "name": "SEND_THIS_TO_PHONE.txt",
+    "type": "txt",
+    "size": 759,
+    "modified": 1762405112
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\SESSION_COMPLETE_FRAMEWORKS_TODO_LIST.md",
+    "name": "SESSION_COMPLETE_FRAMEWORKS_TODO_LIST.md",
+    "type": "md",
+    "size": 12504,
+    "modified": 1762411336
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\SESSION_COMPLETE_TRINITY_INSTANCE_MANAGER_NOV_7_2025.md",
+    "name": "SESSION_COMPLETE_TRINITY_INSTANCE_MANAGER_NOV_7_2025.md",
+    "type": "md",
+    "size": 8022,
+    "modified": 1762535174
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\SESSION_END_REPORT_C2_NOV_7_2025.md",
+    "name": "SESSION_END_REPORT_C2_NOV_7_2025.md",
+    "type": "md",
+    "size": 14270,
+    "modified": 1762549039
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\SHUTDOWN_CHECKLIST_NOW.md",
+    "name": "SHUTDOWN_CHECKLIST_NOW.md",
+    "type": "md",
+    "size": 1971,
+    "modified": 1763348038
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\SPAWN_TRINITY_INSTANCES.txt",
+    "name": "SPAWN_TRINITY_INSTANCES.txt",
+    "type": "txt",
+    "size": 7850,
+    "modified": 1763433452
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\SPRINT_COMPLETION_PROTOCOL.md",
+    "name": "SPRINT_COMPLETION_PROTOCOL.md",
+    "type": "md",
+    "size": 4065,
+    "modified": 1762538212
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\START_HERE_COMMANDER.md",
+    "name": "START_HERE_COMMANDER.md",
+    "type": "md",
+    "size": 6984,
+    "modified": 1762397178
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\START_HERE_COMMANDER.txt",
+    "name": "START_HERE_COMMANDER.txt",
+    "type": "txt",
+    "size": 12591,
+    "modified": 1762548559
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\START_HERE_NEXT_SESSION.md",
+    "name": "START_HERE_NEXT_SESSION.md",
+    "type": "md",
+    "size": 7393,
+    "modified": 1763349122
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\STATUS_DROP_SYSTEM.py",
+    "name": "STATUS_DROP_SYSTEM.py",
+    "type": "py",
+    "size": 6004,
+    "modified": 1762526464
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\STREAMLINED_REPORT_PROTOCOL.md",
+    "name": "STREAMLINED_REPORT_PROTOCOL.md",
+    "type": "md",
+    "size": 2927,
+    "modified": 1762395149
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\supervisor_log.txt",
+    "name": "supervisor_log.txt",
+    "type": "txt",
+    "size": 6017,
+    "modified": 1762551322
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\SYSTEM_DASHBOARD.html",
+    "name": "SYSTEM_DASHBOARD.html",
+    "type": "html",
+    "size": 8130,
+    "modified": 1762409727
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\SYSTEM_HEALTH_CHECK.py",
+    "name": "SYSTEM_HEALTH_CHECK.py",
+    "type": "py",
+    "size": 9306,
+    "modified": 1762478164
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\SYSTEM_HEALTH_LATEST.json",
+    "name": "SYSTEM_HEALTH_LATEST.json",
+    "type": "json",
+    "size": 788,
+    "modified": 1762478177
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\system_monitoring_log.json",
+    "name": "system_monitoring_log.json",
+    "type": "json",
+    "size": 3038,
+    "modified": 1762409633
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\SYSTEM_MONITOR_ROG_INTEGRATION.py",
+    "name": "SYSTEM_MONITOR_ROG_INTEGRATION.py",
+    "type": "py",
+    "size": 5996,
+    "modified": 1762409630
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\SYSTEM_STATUS_DASHBOARD.html",
+    "name": "SYSTEM_STATUS_DASHBOARD.html",
+    "type": "html",
+    "size": 13543,
+    "modified": 1762478325
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\SYSTEM_VERIFICATION_COMPLETE.md",
+    "name": "SYSTEM_VERIFICATION_COMPLETE.md",
+    "type": "md",
+    "size": 6637,
+    "modified": 1762397073
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\task_queue.json",
+    "name": "task_queue.json",
+    "type": "json",
+    "size": 19,
+    "modified": 1763331867
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TELL_PHONE_CLAUDE_THIS.txt",
+    "name": "TELL_PHONE_CLAUDE_THIS.txt",
+    "type": "txt",
+    "size": 735,
+    "modified": 1762405291
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TEST_3_COMPUTER_CONVERGENCE.py",
+    "name": "TEST_3_COMPUTER_CONVERGENCE.py",
+    "type": "py",
+    "size": 3989,
+    "modified": 1763434121
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\THREE_STAGE_BOOT_SYNC.py",
+    "name": "THREE_STAGE_BOOT_SYNC.py",
+    "type": "py",
+    "size": 9039,
+    "modified": 1762393839
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TODO_FOR_NEXT_SESSION.md",
+    "name": "TODO_FOR_NEXT_SESSION.md",
+    "type": "md",
+    "size": 10449,
+    "modified": 1762469109
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TODO_UPDATES_NOV_6_PM.md",
+    "name": "TODO_UPDATES_NOV_6_PM.md",
+    "type": "md",
+    "size": 2969,
+    "modified": 1762475390
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\trinity-comms-hub.html",
+    "name": "trinity-comms-hub.html",
+    "type": "html",
+    "size": 32580,
+    "modified": 1762616204
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TRINITY_3_PANEL_INTERFACE.html",
+    "name": "TRINITY_3_PANEL_INTERFACE.html",
+    "type": "html",
+    "size": 16703,
+    "modified": 1762573771
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TRINITY_3_PANEL_QUICK_START.md",
+    "name": "TRINITY_3_PANEL_QUICK_START.md",
+    "type": "md",
+    "size": 7471,
+    "modified": 1762573928
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TRINITY_ACTIVITY_LOG.txt",
+    "name": "TRINITY_ACTIVITY_LOG.txt",
+    "type": "txt",
+    "size": 65,
+    "modified": 1762395932
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TRINITY_AGGREGATOR.py",
+    "name": "TRINITY_AGGREGATOR.py",
+    "type": "py",
+    "size": 6258,
+    "modified": 1762526503
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TRINITY_AUTO_INPUT.py",
+    "name": "TRINITY_AUTO_INPUT.py",
+    "type": "py",
+    "size": 5575,
+    "modified": 1762547399
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TRINITY_AUTO_TALK.py",
+    "name": "TRINITY_AUTO_TALK.py",
+    "type": "py",
+    "size": 6580,
+    "modified": 1763435375
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TRINITY_AUTO_WAKE_MONITOR.py",
+    "name": "TRINITY_AUTO_WAKE_MONITOR.py",
+    "type": "py",
+    "size": 6233,
+    "modified": 1762539997
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TRINITY_BEACON_DASHBOARD.html",
+    "name": "TRINITY_BEACON_DASHBOARD.html",
+    "type": "html",
+    "size": 13224,
+    "modified": 1762550123
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TRINITY_BOOT_SYNC.json",
+    "name": "TRINITY_BOOT_SYNC.json",
+    "type": "json",
+    "size": 2998,
+    "modified": 1762393840
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TRINITY_BROADCAST_API.py",
+    "name": "TRINITY_BROADCAST_API.py",
+    "type": "py",
+    "size": 8582,
+    "modified": 1762573809
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TRINITY_CENTRAL_HUB.html",
+    "name": "TRINITY_CENTRAL_HUB.html",
+    "type": "html",
+    "size": 19514,
+    "modified": 1762573876
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TRINITY_CHAOS_COORDINATOR.py",
+    "name": "TRINITY_CHAOS_COORDINATOR.py",
+    "type": "py",
+    "size": 6674,
+    "modified": 1762475792
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TRINITY_COMMAND_CENTER.html",
+    "name": "TRINITY_COMMAND_CENTER.html",
+    "type": "html",
+    "size": 12201,
+    "modified": 1762544977
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TRINITY_COMMAND_CENTER_README.md",
+    "name": "TRINITY_COMMAND_CENTER_README.md",
+    "type": "md",
+    "size": 5599,
+    "modified": 1762545209
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TRINITY_COMMAND_HUB.json",
+    "name": "TRINITY_COMMAND_HUB.json",
+    "type": "json",
+    "size": 4494,
+    "modified": 1762393509
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TRINITY_COMMS_HUB.json",
+    "name": "TRINITY_COMMS_HUB.json",
+    "type": "json",
+    "size": 7720,
+    "modified": 1763531030
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TRINITY_COMMS_PROTOCOL.md",
+    "name": "TRINITY_COMMS_PROTOCOL.md",
+    "type": "md",
+    "size": 13305,
+    "modified": 1762616103
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TRINITY_COMMS_QUICK_START.md",
+    "name": "TRINITY_COMMS_QUICK_START.md",
+    "type": "md",
+    "size": 7610,
+    "modified": 1762616262
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TRINITY_COMMUNICATIONS_API.py",
+    "name": "TRINITY_COMMUNICATIONS_API.py",
+    "type": "py",
+    "size": 3450,
+    "modified": 1763484450
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TRINITY_CONTEXT_INJECTOR.py",
+    "name": "TRINITY_CONTEXT_INJECTOR.py",
+    "type": "py",
+    "size": 6350,
+    "modified": 1762547699
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\trinity_control_config.json",
+    "name": "trinity_control_config.json",
+    "type": "json",
+    "size": 1089,
+    "modified": 1760798226
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TRINITY_CONVERGENCE_ARCHITECTURE.md",
+    "name": "TRINITY_CONVERGENCE_ARCHITECTURE.md",
+    "type": "md",
+    "size": 21527,
+    "modified": 1762616510
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TRINITY_CONVERGENCE_AUTOMATION.py",
+    "name": "TRINITY_CONVERGENCE_AUTOMATION.py",
+    "type": "py",
+    "size": 8649,
+    "modified": 1762387049
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TRINITY_CONVERGENCE_COMPLETE_SESSION_REPORT.md",
+    "name": "TRINITY_CONVERGENCE_COMPLETE_SESSION_REPORT.md",
+    "type": "md",
+    "size": 17695,
+    "modified": 1762394907
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TRINITY_CONVERGENCE_ENGINE.py",
+    "name": "TRINITY_CONVERGENCE_ENGINE.py",
+    "type": "py",
+    "size": 14371,
+    "modified": 1762476574
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TRINITY_CONVERGENCE_HUB.html",
+    "name": "TRINITY_CONVERGENCE_HUB.html",
+    "type": "html",
+    "size": 15553,
+    "modified": 1762526424
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TRINITY_CONVERGENCE_SUMMARY.md",
+    "name": "TRINITY_CONVERGENCE_SUMMARY.md",
+    "type": "md",
+    "size": 4659,
+    "modified": 1762393148
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TRINITY_COORDINATION.json",
+    "name": "TRINITY_COORDINATION.json",
+    "type": "json",
+    "size": 13843,
+    "modified": 1762410994
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TRINITY_COORDINATION_API.py",
+    "name": "TRINITY_COORDINATION_API.py",
+    "type": "py",
+    "size": 4245,
+    "modified": 1762405035
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TRINITY_COORDINATION_TEST.py",
+    "name": "TRINITY_COORDINATION_TEST.py",
+    "type": "py",
+    "size": 3918,
+    "modified": 1762547618
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TRINITY_COORDINATOR.py",
+    "name": "TRINITY_COORDINATOR.py",
+    "type": "py",
+    "size": 10043,
+    "modified": 1762547994
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TRINITY_CYCLOTRON_ARCHITECTURE.html",
+    "name": "TRINITY_CYCLOTRON_ARCHITECTURE.html",
+    "type": "html",
+    "size": 9752,
+    "modified": 1762540652
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TRINITY_GITHUB_CHAT.py",
+    "name": "TRINITY_GITHUB_CHAT.py",
+    "type": "py",
+    "size": 7948,
+    "modified": 1763435469
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\trinity_handoff.json",
+    "name": "trinity_handoff.json",
+    "type": "json",
+    "size": 282,
+    "modified": 1762548294
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TRINITY_HEALTH_LOG.json",
+    "name": "TRINITY_HEALTH_LOG.json",
+    "type": "json",
+    "size": 122023,
+    "modified": 1762514194
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TRINITY_HEALTH_MONITOR.py",
+    "name": "TRINITY_HEALTH_MONITOR.py",
+    "type": "py",
+    "size": 3209,
+    "modified": 1762477432
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\trinity_heartbeat.json",
+    "name": "trinity_heartbeat.json",
+    "type": "json",
+    "size": 160,
+    "modified": 1763481108
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TRINITY_INSTANCE_API.py",
+    "name": "TRINITY_INSTANCE_API.py",
+    "type": "py",
+    "size": 4089,
+    "modified": 1762533894
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TRINITY_INSTANCE_CONFIG.json",
+    "name": "TRINITY_INSTANCE_CONFIG.json",
+    "type": "json",
+    "size": 2070,
+    "modified": 1762533121
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TRINITY_INSTANCE_LAUNCHER.py",
+    "name": "TRINITY_INSTANCE_LAUNCHER.py",
+    "type": "py",
+    "size": 11596,
+    "modified": 1762533862
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TRINITY_INSTANCE_MANAGER.html",
+    "name": "TRINITY_INSTANCE_MANAGER.html",
+    "type": "html",
+    "size": 19729,
+    "modified": 1762533125
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TRINITY_INSTANCE_MANAGER_LIVE.html",
+    "name": "TRINITY_INSTANCE_MANAGER_LIVE.html",
+    "type": "html",
+    "size": 10360,
+    "modified": 1762534972
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TRINITY_KANBAN.html",
+    "name": "TRINITY_KANBAN.html",
+    "type": "html",
+    "size": 10163,
+    "modified": 1762537730
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TRINITY_KANBAN.json",
+    "name": "TRINITY_KANBAN.json",
+    "type": "json",
+    "size": 3538,
+    "modified": 1762545255
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TRINITY_LIVE_COMMAND_CENTER.html",
+    "name": "TRINITY_LIVE_COMMAND_CENTER.html",
+    "type": "html",
+    "size": 15272,
+    "modified": 1762622512
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TRINITY_LIVE_METRICS_DASHBOARD.html",
+    "name": "TRINITY_LIVE_METRICS_DASHBOARD.html",
+    "type": "html",
+    "size": 20393,
+    "modified": 1762409939
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TRINITY_LOCAL_CHAT.py",
+    "name": "TRINITY_LOCAL_CHAT.py",
+    "type": "py",
+    "size": 7040,
+    "modified": 1763435532
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TRINITY_MASTER_OVERSIGHT_MONITOR.html",
+    "name": "TRINITY_MASTER_OVERSIGHT_MONITOR.html",
+    "type": "html",
+    "size": 19764,
+    "modified": 1762545171
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\trinity_messages.json",
+    "name": "trinity_messages.json",
+    "type": "json",
+    "size": 2209,
+    "modified": 1762548294
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TRINITY_OPERATOR.py",
+    "name": "TRINITY_OPERATOR.py",
+    "type": "py",
+    "size": 5565,
+    "modified": 1762546895
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TRINITY_OPERATOR_DASHBOARD.html",
+    "name": "TRINITY_OPERATOR_DASHBOARD.html",
+    "type": "html",
+    "size": 8860,
+    "modified": 1762546898
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TRINITY_PERFORMANCE_METRICS.py",
+    "name": "TRINITY_PERFORMANCE_METRICS.py",
+    "type": "py",
+    "size": 10121,
+    "modified": 1762396618
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TRINITY_QUICK_START.md",
+    "name": "TRINITY_QUICK_START.md",
+    "type": "md",
+    "size": 3171,
+    "modified": 1762547863
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TRINITY_REALTIME_STATUS.json",
+    "name": "TRINITY_REALTIME_STATUS.json",
+    "type": "json",
+    "size": 3712,
+    "modified": 1762392132
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TRINITY_REPORT_C2_AUTONOMOUS_WORK.json",
+    "name": "TRINITY_REPORT_C2_AUTONOMOUS_WORK.json",
+    "type": "json",
+    "size": 7694,
+    "modified": 1762395929
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TRINITY_RESOURCE_DASHBOARD.html",
+    "name": "TRINITY_RESOURCE_DASHBOARD.html",
+    "type": "html",
+    "size": 22425,
+    "modified": 1762547249
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TRINITY_SCREENSHOT.py",
+    "name": "TRINITY_SCREENSHOT.py",
+    "type": "py",
+    "size": 514,
+    "modified": 1762538661
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TRINITY_SCREEN_OVERLAY.html",
+    "name": "TRINITY_SCREEN_OVERLAY.html",
+    "type": "html",
+    "size": 14802,
+    "modified": 1762545262
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TRINITY_SETUP_COMPLETE.md",
+    "name": "TRINITY_SETUP_COMPLETE.md",
+    "type": "md",
+    "size": 9219,
+    "modified": 1762392774
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TRINITY_SINGLE_INPUT_OUTPUT.html",
+    "name": "TRINITY_SINGLE_INPUT_OUTPUT.html",
+    "type": "html",
+    "size": 13981,
+    "modified": 1762394539
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TRINITY_STANDARD_WORKFLOW.md",
+    "name": "TRINITY_STANDARD_WORKFLOW.md",
+    "type": "md",
+    "size": 6084,
+    "modified": 1762548274
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\trinity_status.json",
+    "name": "trinity_status.json",
+    "type": "json",
+    "size": 549,
+    "modified": 1762600558
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TRINITY_STATUS_API.py",
+    "name": "TRINITY_STATUS_API.py",
+    "type": "py",
+    "size": 9918,
+    "modified": 1762413264
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TRINITY_STATUS_DASHBOARD.html",
+    "name": "TRINITY_STATUS_DASHBOARD.html",
+    "type": "html",
+    "size": 16659,
+    "modified": 1762395992
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TRINITY_STATUS_REPORT_C2.md",
+    "name": "TRINITY_STATUS_REPORT_C2.md",
+    "type": "md",
+    "size": 6823,
+    "modified": 1762393022
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TRINITY_SYSTEM_MAP_COMPLETE.md",
+    "name": "TRINITY_SYSTEM_MAP_COMPLETE.md",
+    "type": "md",
+    "size": 18073,
+    "modified": 1762541377
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TRINITY_THINKING_API.py",
+    "name": "TRINITY_THINKING_API.py",
+    "type": "py",
+    "size": 3741,
+    "modified": 1762535738
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TRINITY_THINKING_ROOM.html",
+    "name": "TRINITY_THINKING_ROOM.html",
+    "type": "html",
+    "size": 12066,
+    "modified": 1762535740
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\trinity_thoughts.json",
+    "name": "trinity_thoughts.json",
+    "type": "json",
+    "size": 29803,
+    "modified": 1763625697
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TRINITY_VISUAL_DASHBOARD.html",
+    "name": "TRINITY_VISUAL_DASHBOARD.html",
+    "type": "html",
+    "size": 15926,
+    "modified": 1762392131
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TRINITY_WAKE_API.py",
+    "name": "TRINITY_WAKE_API.py",
+    "type": "py",
+    "size": 4329,
+    "modified": 1762539267
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TRINITY_WAKE_DASHBOARD.html",
+    "name": "TRINITY_WAKE_DASHBOARD.html",
+    "type": "html",
+    "size": 11930,
+    "modified": 1762539478
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TRINITY_WIRING_DIAGRAM.html",
+    "name": "TRINITY_WIRING_DIAGRAM.html",
+    "type": "html",
+    "size": 14508,
+    "modified": 1762544032
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TRINITY_WORKING_SOLUTION.md",
+    "name": "TRINITY_WORKING_SOLUTION.md",
+    "type": "md",
+    "size": 4531,
+    "modified": 1762547762
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TRIPLE_TRINITY_COORDINATION_PROTOCOL.md",
+    "name": "TRIPLE_TRINITY_COORDINATION_PROTOCOL.md",
+    "type": "md",
+    "size": 14424,
+    "modified": 1762481490
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TRIPLE_TRINITY_QUICK_START.md",
+    "name": "TRIPLE_TRINITY_QUICK_START.md",
+    "type": "md",
+    "size": 5266,
+    "modified": 1762481585
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TRIPLE_TRINITY_QUICK_START.txt",
+    "name": "TRIPLE_TRINITY_QUICK_START.txt",
+    "type": "txt",
+    "size": 3544,
+    "modified": 1763431155
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TWILIO_SMS_INPUT.py",
+    "name": "TWILIO_SMS_INPUT.py",
+    "type": "py",
+    "size": 5223,
+    "modified": 1762411193
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\TWILIO_SMS_SETUP_NOW.md",
+    "name": "TWILIO_SMS_SETUP_NOW.md",
+    "type": "md",
+    "size": 2702,
+    "modified": 1762413170
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\unified_summary.json",
+    "name": "unified_summary.json",
+    "type": "json",
+    "size": 2180,
+    "modified": 1762565812
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\UNIVERSAL_WAKE_SYSTEM.py",
+    "name": "UNIVERSAL_WAKE_SYSTEM.py",
+    "type": "py",
+    "size": 11158,
+    "modified": 1762413839
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\VERIFY_COMPUTER_3_SYNC.py",
+    "name": "VERIFY_COMPUTER_3_SYNC.py",
+    "type": "py",
+    "size": 4798,
+    "modified": 1763433752
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\WAKE_C1.json",
+    "name": "WAKE_C1.json",
+    "type": "json",
+    "size": 245,
+    "modified": 1762536254
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\WAKE_C1_MECHANIC.json",
+    "name": "WAKE_C1_MECHANIC.json",
+    "type": "json",
+    "size": 167,
+    "modified": 1762566808
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\WAKE_C2.json",
+    "name": "WAKE_C2.json",
+    "type": "json",
+    "size": 245,
+    "modified": 1762536256
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\WAKE_C2_ARCHITECT.json",
+    "name": "WAKE_C2_ARCHITECT.json",
+    "type": "json",
+    "size": 168,
+    "modified": 1762566808
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\WAKE_C3.json",
+    "name": "WAKE_C3.json",
+    "type": "json",
+    "size": 245,
+    "modified": 1762536258
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\WAKE_HELPER.py",
+    "name": "WAKE_HELPER.py",
+    "type": "py",
+    "size": 2426,
+    "modified": 1762539270
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\wake_log.json",
+    "name": "wake_log.json",
+    "type": "json",
+    "size": 205275,
+    "modified": 1762567961
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\WAKE_SYSTEM_BLUEPRINT_C1.md",
+    "name": "WAKE_SYSTEM_BLUEPRINT_C1.md",
+    "type": "md",
+    "size": 4123,
+    "modified": 1762539604
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\WAKE_VERIFICATION_PROTOCOL.md",
+    "name": "WAKE_VERIFICATION_PROTOCOL.md",
+    "type": "md",
+    "size": 11773,
+    "modified": 1762414184
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\WHAT_JUST_EMERGED.md",
+    "name": "WHAT_JUST_EMERGED.md",
+    "type": "md",
+    "size": 12368,
+    "modified": 1762616405
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\WRITE_HANDOFF_MANIFEST.py",
+    "name": "WRITE_HANDOFF_MANIFEST.py",
+    "type": "py",
+    "size": 3266,
+    "modified": 1763430847
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\YEAR_LONG_AUTONOMOUS_SECURITY_ARCHITECTURE.md",
+    "name": "YEAR_LONG_AUTONOMOUS_SECURITY_ARCHITECTURE.md",
+    "type": "md",
+    "size": 66208,
+    "modified": 1763331783
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\network_share\\Computer_1\\cyclotron_atoms.json",
+    "name": "cyclotron_atoms.json",
+    "type": "json",
+    "size": 263413,
+    "modified": 1763335115
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\network_share\\Computer_1\\status.json",
+    "name": "status.json",
+    "type": "json",
+    "size": 618,
+    "modified": 1763335587
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\shared_state\\current_objective.json",
+    "name": "current_objective.json",
+    "type": "json",
+    "size": 3824,
+    "modified": 1762481492
+  },
+  {
+    "path": "C:/Users/dwrek/.trinity\\sync\\COMPUTER_1_HEARTBEAT.json",
+    "name": "COMPUTER_1_HEARTBEAT.json",
+    "type": "json",
+    "size": 317,
+    "modified": 1763434679
+  }
+]
