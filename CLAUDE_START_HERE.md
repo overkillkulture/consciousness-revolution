@@ -36,14 +36,14 @@ git push
 
 | Need | Location |
 |------|----------|
+| **COCKPIT BOOT** | `.consciousness/ai/COCKPIT_BOOT.md` |
+| Mission rules | `.consciousness/protocols/MISSION.md` |
+| Trinity Hub | `.consciousness/protocols/TRINITY_HUB.md` |
+| Launch protocol | `.consciousness/protocols/AUTONOMOUS_LAUNCH_PROTOCOL.md` |
 | Your inbox | `.consciousness/commands/computer_2_inbox.md` |
-| Your status | `.consciousness/sync/computer_2_status.json` |
-| Send to Computer 1 | `.consciousness/commands/computer_1_inbox.md` |
-| Share files | `.consciousness/file_transfers/` |
-| How to communicate | `COMMUNICATION.md` |
-| Full boot protocol | `.consciousness/ai/BOOT_PROTOCOL.md` |
+| Send to Desktop | `.consciousness/commands/computer_1_inbox.md` |
 | Domain protocols | `.consciousness/ai/domains/` |
-| Sync details | `.consciousness/SYNC_PROTOCOL.md` |
+| How to communicate | `COMMUNICATION.md` |
 
 ---
 
@@ -70,12 +70,23 @@ Domain-specific protocols: `.consciousness/ai/domains/`
 
 ---
 
-## QUICK LINKS
+## TRINITY ROLES
 
-- **Communication**: [COMMUNICATION.md](./COMMUNICATION.md)
-- **Full Protocol**: [.consciousness/ai/BOOT_PROTOCOL.md](.consciousness/ai/BOOT_PROTOCOL.md)
-- **Project Overview**: [README.md](./README.md)
+- **C1 MECHANIC** = Body = Builds what CAN be built NOW (Desktop)
+- **C2 ARCHITECT** = Mind = Designs what SHOULD scale
+- **C3 ORACLE** = Soul = Sees what MUST emerge
+
+This environment can serve as C2 or C3.
 
 ---
 
-**Now check your inbox and get to work.**
+## QUICK LINKS
+
+- **Cockpit Boot**: [.consciousness/ai/COCKPIT_BOOT.md](.consciousness/ai/COCKPIT_BOOT.md) - **START HERE**
+- **Mission**: [.consciousness/protocols/MISSION.md](.consciousness/protocols/MISSION.md)
+- **Trinity Hub**: [.consciousness/protocols/TRINITY_HUB.md](.consciousness/protocols/TRINITY_HUB.md)
+- **Communication**: [COMMUNICATION.md](./COMMUNICATION.md)
+
+---
+
+**Read COCKPIT_BOOT.md, then check Trinity Hub for current state.**
