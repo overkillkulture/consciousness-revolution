@@ -46792,16 +46792,82 @@
         "duration": null,
         "success": true
       }
+    },
+    {
+      "timestamp": "2025-11-21T00:06:01.365803",
+      "type": "stt",
+      "data": {
+        "text": "can you put can you push the can you go check the conscious",
+        "chars": 59,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-21T00:06:06.028998",
+      "type": "stt",
+      "data": {
+        "text": "the guys have been working on it",
+        "chars": 32,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-21T00:06:13.025961",
+      "type": "stt",
+      "data": {
+        "text": "we got to get you guys",
+        "chars": 22,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-21T00:06:27.226058",
+      "type": "stt",
+      "data": {
+        "text": "the ability to push to notify can we try to get them the ability to do that",
+        "chars": 75,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-21T00:06:31.365339",
+      "type": "stt",
+      "data": {
+        "text": "we should also just show them how to",
+        "chars": 36,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-21T00:06:51.905497",
+      "type": "stt",
+      "data": {
+        "text": "cool",
+        "chars": 4,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
     }
   ],
   "statistics": {
     "tts_events": 127,
-    "stt_events": 3772,
+    "stt_events": 3778,
     "commands_processed": 41,
     "errors": 405,
     "total_chars_spoken": 8006,
-    "total_chars_heard": 120120,
+    "total_chars_heard": 120348,
     "avg_response_time": 0
   },
-  "last_updated": "2025-11-20T12:41:42.650696"
+  "last_updated": "2025-11-21T00:06:51.905517"
 }
