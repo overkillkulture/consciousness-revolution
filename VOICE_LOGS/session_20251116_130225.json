@@ -47133,16 +47133,203 @@
         "duration": null,
         "success": true
       }
+    },
+    {
+      "timestamp": "2025-11-21T00:51:06.075889",
+      "type": "stt",
+      "data": {
+        "text": "maybe we can diagnose this computer he's trying to get some",
+        "chars": 59,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-21T00:52:06.985937",
+      "type": "stt",
+      "data": {
+        "text": "yeah i just looked at it i was on the terminal",
+        "chars": 46,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-21T00:52:29.618460",
+      "type": "stt",
+      "data": {
+        "text": "probably going to have to return it",
+        "chars": 35,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-21T00:52:34.254406",
+      "type": "stt",
+      "data": {
+        "text": "3,200 out the door",
+        "chars": 18,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-21T00:52:45.709455",
+      "type": "stt",
+      "data": {
+        "text": "i was kind of interested to see if it would work",
+        "chars": 48,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-21T00:52:51.799251",
+      "type": "stt",
+      "data": {
+        "text": "i think we're learning something",
+        "chars": 32,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-21T00:53:19.865273",
+      "type": "stt",
+      "data": {
+        "text": "hey they have",
+        "chars": 13,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-21T00:53:25.027166",
+      "type": "stt",
+      "data": {
+        "text": "basically processors with fans",
+        "chars": 30,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-21T00:53:31.571684",
+      "type": "stt",
+      "data": {
+        "text": "detached processing",
+        "chars": 19,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-21T00:53:52.873117",
+      "type": "stt",
+      "data": {
+        "text": "yeah did you open up a file",
+        "chars": 27,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-21T00:53:56.534986",
+      "type": "stt",
+      "data": {
+        "text": "do you have the ability to do that",
+        "chars": 34,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-21T00:54:00.135196",
+      "type": "stt",
+      "data": {
+        "text": "do this between everybody",
+        "chars": 25,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-21T00:54:05.939270",
+      "type": "stt",
+      "data": {
+        "text": "wouldn't they have to open up",
+        "chars": 29,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-21T00:54:13.357527",
+      "type": "stt",
+      "data": {
+        "text": "or have do we have one file that shares to every single person",
+        "chars": 62,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-21T00:54:16.734253",
+      "type": "stt",
+      "data": {
+        "text": "each separate computer",
+        "chars": 22,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-21T00:54:36.196837",
+      "type": "stt",
+      "data": {
+        "text": "i don't think i can can i control your screen",
+        "chars": 45,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-21T00:55:00.266271",
+      "type": "stt",
+      "data": {
+        "text": "i'm just going to go switch",
+        "chars": 27,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
     }
   ],
   "statistics": {
     "tts_events": 127,
-    "stt_events": 3803,
+    "stt_events": 3820,
     "commands_processed": 41,
     "errors": 405,
     "total_chars_spoken": 8006,
-    "total_chars_heard": 120941,
+    "total_chars_heard": 121512,
     "avg_response_time": 0
   },
-  "last_updated": "2025-11-21T00:49:23.614324"
+  "last_updated": "2025-11-21T00:55:00.266288"
 }

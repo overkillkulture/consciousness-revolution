@@ -2700,3 +2700,17 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 --- Cycle #190 ---
 [2025-11-21 00:49:56] 🔄 Changes detected!
 [2025-11-21 00:49:56] 📝 Changes detected. Committing...
+[2025-11-21 00:50:15] ❌ Git push failed: To https://github.com/overkillkulture/consciousness-revolution.git
+ ! [rejected]          master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/overkillkulture/consciousness-revolution.git'
+hint: Updates were rejected because a pushed branch tip is behind its remote
+hint: counterpart. If you want to integrate the remote changes, use 'git pull'
+hint: before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+[2025-11-21 00:50:15] ❌ FAILED: Could not commit/push changes
+[2025-11-21 00:50:15] ⏰ Sleeping for 5 minutes...
+[2025-11-21 00:55:15] 
+--- Cycle #191 ---
+[2025-11-21 00:55:15] 🔄 Changes detected!
+[2025-11-21 00:55:15] 📝 Changes detected. Committing...
