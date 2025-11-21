@@ -46858,16 +46858,49 @@
         "duration": null,
         "success": true
       }
+    },
+    {
+      "timestamp": "2025-11-21T00:07:24.623119",
+      "type": "stt",
+      "data": {
+        "text": "i'm going to call you back",
+        "chars": 26,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-21T00:07:29.645645",
+      "type": "stt",
+      "data": {
+        "text": "explore around on the responsibility",
+        "chars": 36,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-21T00:07:55.536144",
+      "type": "stt",
+      "data": {
+        "text": "did you look to see if there's any other upgrades you can do to it",
+        "chars": 66,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
     }
   ],
   "statistics": {
     "tts_events": 127,
-    "stt_events": 3778,
+    "stt_events": 3781,
     "commands_processed": 41,
     "errors": 405,
     "total_chars_spoken": 8006,
-    "total_chars_heard": 120348,
+    "total_chars_heard": 120476,
     "avg_response_time": 0
   },
-  "last_updated": "2025-11-21T00:06:51.905517"
+  "last_updated": "2025-11-21T00:07:55.536161"
 }

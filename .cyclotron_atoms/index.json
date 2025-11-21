@@ -1,9 +1,9 @@
 {
-  "total_atoms": 491,
-  "last_updated": 1763672014,
+  "total_atoms": 493,
+  "last_updated": 1763712585,
   "atoms_by_type": {
     "html": 48,
-    "md": 150,
+    "md": 152,
     "json": 131,
     "py": 104,
     "txt": 50,
@@ -23,6 +23,13 @@
       "type": "md",
       "size": 1110,
       "modified": 1763558022
+    },
+    {
+      "path": "C:/Users/dwrek/100X_DEPLOYMENT\\ARCHITECTURE.md",
+      "name": "ARCHITECTURE.md",
+      "type": "md",
+      "size": 15566,
+      "modified": 1763712463
     },
     {
       "path": "C:/Users/dwrek/100X_DEPLOYMENT\\ARCHITECTURE_MASTER_PLAN.md",
@@ -212,6 +219,13 @@
       "type": "md",
       "size": 1825,
       "modified": 1763526638
+    },
+    {
+      "path": "C:/Users/dwrek/100X_DEPLOYMENT\\README.md",
+      "name": "README.md",
+      "type": "md",
+      "size": 6891,
+      "modified": 1763712463
     },
     {
       "path": "C:/Users/dwrek/100X_DEPLOYMENT\\SEND_BETA_ONBOARDING_EMAIL.py",
@@ -483,15 +497,15 @@
       "path": "C:/Users/dwrek/100X_DEPLOYMENT\\VOICE_LOGS\\session_20251116_130225.json",
       "name": "session_20251116_130225.json",
       "type": "json",
-      "size": 1170268,
-      "modified": 1763671302
+      "size": 1172756,
+      "modified": 1763712475
     },
     {
       "path": "C:/Users/dwrek/100X_DEPLOYMENT\\VOICE_LOGS\\transcript_20251116_130225.txt",
       "name": "transcript_20251116_130225.txt",
       "type": "txt",
-      "size": 105615,
-      "modified": 1763671302
+      "size": 106313,
+      "modified": 1763712475
     },
     {
       "path": "C:/Users/dwrek/100X_DEPLOYMENT\\voice_system_deploy\\app.py",
@@ -561,7 +575,7 @@
       "name": "autonomous_rake_status.json",
       "type": "json",
       "size": 187,
-      "modified": 1763671320
+      "modified": 1763672014
     },
     {
       "path": "C:/Users/dwrek/.consciousness\\AUTO_KNOWLEDGE_FILING_SYSTEM.py",
@@ -659,7 +673,7 @@
       "name": "cyclotron_daemon_status.json",
       "type": "json",
       "size": 321,
-      "modified": 1763671320
+      "modified": 1763672014
     },
     {
       "path": "C:/Users/dwrek/.consciousness\\cyclotron_federation_index.json",
@@ -729,7 +743,7 @@
       "name": "last_auto_save.txt",
       "type": "txt",
       "size": 18,
-      "modified": 1763671375
+      "modified": 1763712398
     },
     {
       "path": "C:/Users/dwrek/.consciousness\\last_boot.json",
@@ -1975,7 +1989,7 @@
       "name": "COORDINATION_STATUS.json",
       "type": "json",
       "size": 225,
-      "modified": 1763671576
+      "modified": 1763712578
     },
     {
       "path": "C:/Users/dwrek/.trinity\\CREATE_3RD_ANTHROPIC_EMAIL.md",
@@ -3242,7 +3256,7 @@
       "name": "trinity_thoughts.json",
       "type": "json",
       "size": 29803,
-      "modified": 1763671580
+      "modified": 1763712547
     },
     {
       "path": "C:/Users/dwrek/.trinity\\TRINITY_VISUAL_DASHBOARD.html",
