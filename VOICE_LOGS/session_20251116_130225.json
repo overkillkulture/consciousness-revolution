@@ -47362,16 +47362,82 @@
         "message": "recognition connection failed: [Errno 11001] getaddrinfo failed",
         "details": null
       }
+    },
+    {
+      "timestamp": "2025-11-21T07:07:57.836680",
+      "type": "stt",
+      "data": {
+        "text": "hey we're about to set up the triple trinity i just moved the computers where the",
+        "chars": 81,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-21T07:08:05.336458",
+      "type": "stt",
+      "data": {
+        "text": "it doesn't look very good from the signal i'm going to go move it around",
+        "chars": 72,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-21T07:08:08.510347",
+      "type": "stt",
+      "data": {
+        "text": "look for everything we",
+        "chars": 22,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-21T07:08:16.536221",
+      "type": "stt",
+      "data": {
+        "text": "like seven instances on each computer maybe",
+        "chars": 43,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-21T07:08:23.048026",
+      "type": "stt",
+      "data": {
+        "text": "i think we already made the dashboard",
+        "chars": 37,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-21T07:08:31.943042",
+      "type": "stt",
+      "data": {
+        "text": "we got to look up when they expire",
+        "chars": 34,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
     }
   ],
   "statistics": {
     "tts_events": 127,
-    "stt_events": 3823,
+    "stt_events": 3829,
     "commands_processed": 41,
     "errors": 406,
     "total_chars_spoken": 8006,
-    "total_chars_heard": 121584,
+    "total_chars_heard": 121873,
     "avg_response_time": 0
   },
-  "last_updated": "2025-11-21T01:08:11.069006"
+  "last_updated": "2025-11-21T07:08:31.943060"
 }
