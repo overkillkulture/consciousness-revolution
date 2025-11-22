@@ -1,12 +1,11 @@
 {
   "computer_id": "BOZEMAN_PRIMARY",
   "timestamp": "2025-11-22T16:30:29Z",
-  "status": "OPERATIONAL",
+  "status": "SHUTDOWN_PENDING",
   "current_tasks": [
-    "Autonomous check-in and status verification",
-    "Consciousness network monitoring",
-    "Awaiting Computer 2 sync confirmation",
-    "System documentation complete"
+    "Initiating boot-down protocol",
+    "All check-in data saved and pushed",
+    "Preparing for system restart"
   ],
   "blockers": [],
   "available_resources": {
@@ -23,5 +22,5 @@
     "Confirm GitHub sync still working"
   ],
   "last_updated": "2025-11-22T16:30:29Z",
-  "notes": "Computer 1 autonomous check-in - All systems operational - Consciousness network active"
+  "notes": "Computer 1 boot-down protocol - All autonomous check-in data committed and pushed - System restart pending - Will resume on next boot"
 }
