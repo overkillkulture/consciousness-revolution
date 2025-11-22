@@ -27,6 +27,13 @@
     "note": "Both remote computers need to run: tailscale file get ."
   },
 
+  "instructions": {
+    "step1": "Open AnyDesk on each computer",
+    "step2": "Copy the 9-digit ID shown",
+    "step3": "Update this file with the ID",
+    "step4": "Commit and push"
+  },
+
   "test_connections": {
     "C1_to_C2": "PENDING",
     "C1_to_C3": "PENDING",

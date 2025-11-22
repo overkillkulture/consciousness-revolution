@@ -27,6 +27,18 @@
       "command": "npx",
       "args": ["-y", "@modelcontextprotocol/server-fetch"],
       "description": "Web content fetching for research"
+    },
+    "trinity": {
+      "command": "node",
+      "args": ["C:/Users/dwrek/Downloads/trinity-mcp-server/build/index.js"],
+      "description": "Native Trinity communication - send messages, update status, coordinate instances",
+      "tools": [
+        "trinity_update_status",
+        "trinity_read_status",
+        "trinity_send_message",
+        "trinity_list_messages",
+        "trinity_read_file"
+      ]
     }
   }
 }
