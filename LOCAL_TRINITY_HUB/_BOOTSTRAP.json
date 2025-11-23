@@ -1,0 +1,35 @@
+{
+  "id": "LOCAL_TRINITY_HUB",
+  "context": "Central coordination hub for this computer. All terminals report here. Consolidates to single output. Same structure on PC1, PC2, PC3.",
+  "work_area": {
+    "scope": "All coordination for DWREKSCPU",
+    "subfolders": ["protocols", "session_state", "terminal_reports", "consolidated", "outbound", "inbound", "capabilities", "archives", "logs", "boot_state", "commands", "api_keys", "emergency"]
+  },
+  "completed": [
+    "Folder structure created (13 folders)",
+    "HUB_REPORT_STANDARD.md",
+    "FRACTAL_STRUCTURE.md",
+    "MORNING_BOOT_LOADER.py",
+    "AUTO_CONSOLIDATE_DAEMON.py",
+    "CAPABILITY_MANIFEST.py"
+  ],
+  "in_progress": {
+    "task": "Cross-computer sync setup",
+    "percent": 25,
+    "notes": "Waiting for C2/C3 to create matching folders"
+  },
+  "blockers": [
+    "C2 needs to create LOCAL_TRINITY_HUB",
+    "C3 needs to create LOCAL_TRINITY_HUB"
+  ],
+  "discoveries": [
+    "Fractal structure - same shape at every zoom level",
+    "Morning boot loader solves amnesia",
+    "Standard report format enables consolidation"
+  ],
+  "next": [
+    "Create _BOOTSTRAP.json for each subfolder",
+    "Configure Syncthing sync targets",
+    "Test cross-computer consolidation"
+  ]
+}
