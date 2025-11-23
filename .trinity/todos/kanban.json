@@ -1,0 +1,83 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "title": "Session 2: auto-desktop-bridge",
+      "description": "Monitor Desktop folder for trigger files, enable non-technical control",
+      "priority": "normal",
+      "column": "todo",
+      "assigned_to": "C1_T2",
+      "created_at": "2025-11-23T20:01:01.257464Z",
+      "updated_at": "2025-11-23T20:01:01.257464Z",
+      "completed_at": null
+    },
+    {
+      "id": 2,
+      "title": "Session 2: auto-desktop-bridge",
+      "description": "Monitor Desktop folder for trigger files",
+      "priority": "normal",
+      "column": "todo",
+      "assigned_to": "C1_T2",
+      "created_at": "2025-11-23T20:01:31.406682Z",
+      "updated_at": "2025-11-23T20:01:31.406682Z",
+      "completed_at": null
+    },
+    {
+      "id": 3,
+      "title": "Session 2: auto-command-center",
+      "description": "Web dashboard for Trinity network control",
+      "priority": "normal",
+      "column": "todo",
+      "assigned_to": "C1_T2",
+      "created_at": "2025-11-23T20:01:31.511105Z",
+      "updated_at": "2025-11-23T20:01:31.511105Z",
+      "completed_at": null
+    },
+    {
+      "id": 4,
+      "title": "Session 3: chunk2-courses",
+      "description": "Pattern Theory Mastery course curriculum",
+      "priority": "high",
+      "column": "todo",
+      "assigned_to": "C1_T2",
+      "created_at": "2025-11-23T20:01:31.620764Z",
+      "updated_at": "2025-11-23T20:01:31.620764Z",
+      "completed_at": null
+    },
+    {
+      "id": 5,
+      "title": "Session 3: chunk2-viral",
+      "description": "Viral content templates and calendar",
+      "priority": "high",
+      "column": "todo",
+      "assigned_to": "C1_T2",
+      "created_at": "2025-11-23T20:01:31.732912Z",
+      "updated_at": "2025-11-23T20:01:31.732912Z",
+      "completed_at": null
+    },
+    {
+      "id": 6,
+      "title": "Deploy to PC1 and PC3",
+      "description": "Deploy Session 1 automation systems",
+      "priority": "high",
+      "column": "todo",
+      "assigned_to": "PC1",
+      "created_at": "2025-11-23T20:01:31.840726Z",
+      "updated_at": "2025-11-23T20:01:31.840726Z",
+      "completed_at": null
+    },
+    {
+      "id": 7,
+      "title": "Test credit handoff PC1\u2192PC2",
+      "description": "End-to-end handoff testing",
+      "priority": "high",
+      "column": "todo",
+      "assigned_to": "PC1",
+      "created_at": "2025-11-23T20:01:31.946553Z",
+      "updated_at": "2025-11-23T20:01:31.946553Z",
+      "completed_at": null
+    }
+  ],
+  "next_id": 8,
+  "last_updated": "2025-11-23T20:01:31.946553Z"
+}
