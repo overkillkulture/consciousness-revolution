@@ -1,0 +1,13 @@
+{
+  "instance_id": "T1_Desktop",
+  "type": "terminal_cli",
+  "status": "ACTIVE",
+  "timestamp": "2025-11-23T02:45:00Z",
+  "current_task": "Three-way sync active - reviewing boot protocol",
+  "last_output": "Pulled Cloud sync, creating heartbeat",
+  "health": "green",
+  "autonomy_level": 1,
+  "has_mcp": true,
+  "relay_method": "git",
+  "platform": "Windows"
+}
