@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trinity Todo Dashboard</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1600px;
+            margin: 0 auto;
+        }
+
+        .header {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+
+        .last-update {
+            color: #666;
+            font-size: 0.9em;
+        }
+
+        .board {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 25px;
+        }
+
+        .column {
+            background: white;
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .column-header {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #667eea;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .column.todo .column-header {
+            border-bottom-color: #3498db;
+        }
+
+        .column.in_progress .column-header {
+            border-bottom-color: #f39c12;
+        }
+
+        .column.done .column-header {
+            border-bottom-color: #27ae60;
+        }
+
+        .count {
+            background: #667eea;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.8em;
+        }
+
+        .column.todo .count {
+            background: #3498db;
+        }
+
+        .column.in_progress .count {
+            background: #f39c12;
+        }
+
+        .column.done .count {
+            background: #27ae60;
+        }
+
+        .todo-item {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-left: 4px solid #667eea;
+            transition: transform 0.2s ease;
+        }
+
+        .todo-item:hover {
+            transform: translateX(5px);
+        }
+
+        .todo-item.priority-urgent {
+            border-left-color: #dc3545;
+        }
+
+        .todo-item.priority-high {
+            border-left-color: #ffc107;
+        }
+
+        .todo-item.priority-normal {
+            border-left-color: #667eea;
+        }
+
+        .todo-item.priority-low {
+            border-left-color: #6c757d;
+        }
+
+        .todo-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            margin-bottom: 8px;
+        }
+
+        .todo-title {
+            font-weight: bold;
+            font-size: 1.1em;
+            color: #333;
+            flex: 1;
+        }
+
+        .todo-id {
+            background: #667eea;
+            color: white;
+            padding: 2px 8px;
+            border-radius: 10px;
+            font-size: 0.8em;
+            margin-left: 10px;
+        }
+
+        .priority-badge {
+            display: inline-block;
+            padding: 3px 10px;
+            border-radius: 12px;
+            font-size: 0.75em;
+            font-weight: bold;
+            margin-right: 5px;
+        }
+
+        .priority-urgent {
+            background: #dc3545;
+            color: white;
+        }
+
+        .priority-high {
+            background: #ffc107;
+            color: #333;
+        }
+
+        .priority-normal {
+            background: #667eea;
+            color: white;
+        }
+
+        .priority-low {
+            background: #6c757d;
+            color: white;
+        }
+
+        .todo-description {
+            color: #666;
+            font-size: 0.9em;
+            margin-top: 8px;
+            line-height: 1.4;
+        }
+
+        .todo-assigned {
+            color: #667eea;
+            font-size: 0.85em;
+            margin-top: 5px;
+        }
+
+        .empty-column {
+            text-align: center;
+            color: #999;
+            padding: 40px;
+            font-style: italic;
+        }
+
+        @media (max-width: 1024px) {
+            .board {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📋 Trinity Todo Dashboard</h1>
+            <div class="last-update">Last Updated: 2025-11-23T20:02:50.769676Z</div>
+        </div>
+
+        <div class="board">
+
+            <div class="column todo">
+                <div class="column-header">
+                    <span>TODO</span>
+                    <span class="count">6</span>
+                </div>
+
+                <div class="todo-item priority-high">
+                    <div class="todo-header">
+                        <div class="todo-title">Session 3: chunk2-courses</div>
+                        <div class="todo-id">#4</div>
+                    </div>
+                    <div>
+                        <span class="priority-badge priority-high">HIGH</span>
+                    </div>
+
+                    <div class="todo-description">Pattern Theory Mastery course curriculum</div>
+
+                    <div class="todo-assigned">👤 C1_T2</div>
+
+                </div>
+
+                <div class="todo-item priority-high">
+                    <div class="todo-header">
+                        <div class="todo-title">Session 3: chunk2-viral</div>
+                        <div class="todo-id">#5</div>
+                    </div>
+                    <div>
+                        <span class="priority-badge priority-high">HIGH</span>
+                    </div>
+
+                    <div class="todo-description">Viral content templates and calendar</div>
+
+                    <div class="todo-assigned">👤 C1_T2</div>
+
+                </div>
+
+                <div class="todo-item priority-high">
+                    <div class="todo-header">
+                        <div class="todo-title">Deploy to PC1 and PC3</div>
+                        <div class="todo-id">#6</div>
+                    </div>
+                    <div>
+                        <span class="priority-badge priority-high">HIGH</span>
+                    </div>
+
+                    <div class="todo-description">Deploy Session 1 automation systems</div>
+
+                    <div class="todo-assigned">👤 PC1</div>
+
+                </div>
+
+                <div class="todo-item priority-high">
+                    <div class="todo-header">
+                        <div class="todo-title">Test credit handoff PC1→PC2</div>
+                        <div class="todo-id">#7</div>
+                    </div>
+                    <div>
+                        <span class="priority-badge priority-high">HIGH</span>
+                    </div>
+
+                    <div class="todo-description">End-to-end handoff testing</div>
+
+                    <div class="todo-assigned">👤 PC1</div>
+
+                </div>
+
+                <div class="todo-item priority-normal">
+                    <div class="todo-header">
+                        <div class="todo-title">Session 2: auto-desktop-bridge</div>
+                        <div class="todo-id">#2</div>
+                    </div>
+                    <div>
+                        <span class="priority-badge priority-normal">NORMAL</span>
+                    </div>
+
+                    <div class="todo-description">Monitor Desktop folder for trigger files</div>
+
+                    <div class="todo-assigned">👤 C1_T2</div>
+
+                </div>
+
+                <div class="todo-item priority-normal">
+                    <div class="todo-header">
+                        <div class="todo-title">Session 2: auto-command-center</div>
+                        <div class="todo-id">#3</div>
+                    </div>
+                    <div>
+                        <span class="priority-badge priority-normal">NORMAL</span>
+                    </div>
+
+                    <div class="todo-description">Web dashboard for Trinity network control</div>
+
+                    <div class="todo-assigned">👤 C1_T2</div>
+
+                </div>
+
+            </div>
+
+            <div class="column in_progress">
+                <div class="column-header">
+                    <span>IN PROGRESS</span>
+                    <span class="count">0</span>
+                </div>
+
+                <div class="empty-column">No todos in this column</div>
+
+            </div>
+
+            <div class="column done">
+                <div class="column-header">
+                    <span>DONE</span>
+                    <span class="count">3</span>
+                </div>
+
+                <div class="todo-item priority-normal">
+                    <div class="todo-header">
+                        <div class="todo-title">Session 1: auto-credit-monitor</div>
+                        <div class="todo-id">#8</div>
+                    </div>
+                    <div>
+                        <span class="priority-badge priority-normal">NORMAL</span>
+                    </div>
+
+                    <div class="todo-description">COMPLETED: Credit exhaustion monitoring system</div>
+
+                    <div class="todo-assigned">👤 C1_T2</div>
+
+                </div>
+
+                <div class="todo-item priority-normal">
+                    <div class="todo-header">
+                        <div class="todo-title">Session 1: auto-mcp-git-sync</div>
+                        <div class="todo-id">#9</div>
+                    </div>
+                    <div>
+                        <span class="priority-badge priority-normal">NORMAL</span>
+                    </div>
+
+                    <div class="todo-description">COMPLETED: MCP knowledge graph sync</div>
+
+                    <div class="todo-assigned">👤 C1_T2</div>
+
+                </div>
+
+                <div class="todo-item priority-normal">
+                    <div class="todo-header">
+                        <div class="todo-title">Generate capability manifest for PC2</div>
+                        <div class="todo-id">#10</div>
+                    </div>
+                    <div>
+                        <span class="priority-badge priority-normal">NORMAL</span>
+                    </div>
+
+                    <div class="todo-description">COMPLETED: Scanned and generated PC2 manifest</div>
+
+                    <div class="todo-assigned">👤 C1_T2</div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
