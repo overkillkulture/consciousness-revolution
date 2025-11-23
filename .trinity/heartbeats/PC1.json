@@ -1,9 +1,9 @@
 {
   "computer_id": "PC1",
   "hostname": "DESKTOP-MSMCFH2",
-  "timestamp": "2025-11-23T16:08:25.280957Z",
+  "timestamp": "2025-11-23T16:09:26.781314Z",
   "status": "online",
   "ip": "192.168.1.104",
   "tasks_pending": 0,
-  "last_git_sync": "2025-11-23T16:08:25.280957Z"
+  "last_git_sync": "2025-11-23T16:09:26.781314Z"
 }
