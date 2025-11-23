@@ -1,0 +1,8 @@
+{
+  "target": "PC3",
+  "command": "START_TRINITY",
+  "task": "Test wake system - claim spawn queue tasks",
+  "triggered_at": "2025-11-23T10:31:46.675276Z",
+  "triggered_by": "phone",
+  "status": "pending"
+}
