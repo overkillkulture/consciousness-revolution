@@ -1,0 +1,35 @@
+{
+  "test": "ANYDESK_ID_EXCHANGE",
+  "date": "2025-11-22",
+  "purpose": "Collect AnyDesk IDs for remote access testing",
+
+  "anydesk_ids": {
+    "C1_MECHANIC": {
+      "id": "CHECK_ANYDESK_WINDOW",
+      "computer": "dwrekscpu (100.70.208.75)",
+      "status": "ANYDESK_OPENED"
+    },
+    "C2_COMMANDER_DESKTOP": {
+      "id": "FILL_IN",
+      "computer": "desktop-msmcfh2 (100.85.71.74)",
+      "status": "AWAITING_ID"
+    },
+    "C3_ORACLE": {
+      "id": "FILL_IN",
+      "computer": "desktop-s72lrro (100.101.209.1)",
+      "status": "AWAITING_ID"
+    }
+  },
+
+  "tailscale_test": {
+    "C1_to_C2": "FAILED - C2 not accepting (needs tailscale file get)",
+    "C1_to_C3": "FAILED - C3 not accepting (needs tailscale file get)",
+    "note": "Both remote computers need to run: tailscale file get ."
+  },
+
+  "test_connections": {
+    "C1_to_C2": "PENDING",
+    "C1_to_C3": "PENDING",
+    "C2_to_C3": "PENDING"
+  }
+}

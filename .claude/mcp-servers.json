@@ -1,0 +1,32 @@
+{
+  "mcpServers": {
+    "git": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-git"],
+      "description": "Real-time git operations for Trinity sync"
+    },
+    "filesystem": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", ".consciousness", ".trinity"],
+      "description": "Direct access to Trinity coordination files"
+    },
+    "memory": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-memory"],
+      "description": "Shared knowledge graph state between instances"
+    },
+    "github": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "<add-your-token>"
+      },
+      "description": "GitHub operations for overkor-tek repos"
+    },
+    "fetch": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-fetch"],
+      "description": "Web content fetching for research"
+    }
+  }
+}
