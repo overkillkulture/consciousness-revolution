@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trinity Nexus - Multi-Instance Orchestration</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Monaco', 'Courier New', monospace;
+            background: #0a0e27;
+            color: #00ff41;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            padding: 20px;
+            border-bottom: 2px solid #00ff41;
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            text-shadow: 0 0 10px #00ff41;
+        }
+
+        .header .tagline {
+            color: #666;
+            margin-top: 10px;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .panel {
+            background: #1a1f3a;
+            border: 2px solid #00ff41;
+            border-radius: 8px;
+            padding: 20px;
+        }
+
+        .panel h2 {
+            color: #00ff41;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #00ff41;
+        }
+
+        .instance {
+            background: #0f1420;
+            border: 1px solid #333;
+            border-radius: 4px;
+            padding: 15px;
+            margin-bottom: 15px;
+        }
+
+        .instance.active {
+            border-color: #00ff41;
+            box-shadow: 0 0 10px rgba(0, 255, 65, 0.3);
+        }
+
+        .instance.standby {
+            border-color: #ffaa00;
+        }
+
+        .instance.offline {
+            border-color: #666;
+            opacity: 0.5;
+        }
+
+        .instance-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .instance-name {
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        .status-badge {
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 0.8em;
+            text-transform: uppercase;
+        }
+
+        .status-badge.active {
+            background: #00ff41;
+            color: #0a0e27;
+        }
+
+        .status-badge.standby {
+            background: #ffaa00;
+            color: #0a0e27;
+        }
+
+        .status-badge.offline {
+            background: #666;
+            color: #ccc;
+        }
+
+        .instance-stats {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin-top: 10px;
+            font-size: 0.9em;
+        }
+
+        .stat-item {
+            color: #888;
+        }
+
+        .stat-value {
+            color: #00ff41;
+            font-weight: bold;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 8px;
+            background: #333;
+            border-radius: 4px;
+            overflow: hidden;
+            margin: 10px 0;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #00ff41, #00aa33);
+            transition: width 0.3s ease;
+        }
+
+        .messages-panel {
+            grid-column: 1 / -1;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+
+        .message {
+            background: #0f1420;
+            border-left: 3px solid #00ff41;
+            padding: 10px;
+            margin-bottom: 10px;
+            font-size: 0.9em;
+        }
+
+        .message-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 5px;
+            color: #888;
+        }
+
+        .message-from {
+            color: #00ff41;
+            font-weight: bold;
+        }
+
+        .message-to {
+            color: #ffaa00;
+        }
+
+        .controls {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            display: flex;
+            gap: 10px;
+        }
+
+        .btn {
+            background: #00ff41;
+            color: #0a0e27;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.2s;
+        }
+
+        .btn:hover {
+            background: #00cc33;
+            box-shadow: 0 0 20px rgba(0, 255, 65, 0.5);
+        }
+
+        .heartbeat {
+            width: 12px;
+            height: 12px;
+            background: #00ff41;
+            border-radius: 50%;
+            animation: pulse 2s infinite;
+            display: inline-block;
+            margin-right: 8px;
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                opacity: 1;
+                transform: scale(1);
+            }
+            50% {
+                opacity: 0.5;
+                transform: scale(1.2);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🔱 TRINITY NEXUS</h1>
+        <div class="tagline">Multi-Instance Orchestration Dashboard</div>
+        <div style="margin-top: 10px; color: #888;">
+            <span class="heartbeat"></span>
+            <span id="system-status">System Online</span>
+        </div>
+    </div>
+
+    <div class="grid-container">
+        <!-- TERMINALS PANEL -->
+        <div class="panel">
+            <h2>⚡ TERMINALS (Execution)</h2>
+
+            <div class="instance active">
+                <div class="instance-header">
+                    <span class="instance-name">C1T1</span>
+                    <span class="status-badge active">ACTIVE</span>
+                </div>
+                <div>Status: Building web relay</div>
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width: 65%"></div>
+                </div>
+                <div class="instance-stats">
+                    <div class="stat-item">CPU: <span class="stat-value">45%</span></div>
+                    <div class="stat-item">Memory: <span class="stat-value">2.1GB</span></div>
+                    <div class="stat-item">Tasks: <span class="stat-value">3 active</span></div>
+                    <div class="stat-item">Uptime: <span class="stat-value">12m</span></div>
+                </div>
+            </div>
+
+            <div class="instance standby">
+                <div class="instance-header">
+                    <span class="instance-name">C2T1</span>
+                    <span class="status-badge standby">STANDBY</span>
+                </div>
+                <div>Status: Awaiting spawn command</div>
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width: 0%"></div>
+                </div>
+            </div>
+
+            <div class="instance standby">
+                <div class="instance-header">
+                    <span class="instance-name">C3T2</span>
+                    <span class="status-badge standby">STANDBY</span>
+                </div>
+                <div>Status: Awaiting spawn command</div>
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width: 0%"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- CLOUD PANEL -->
+        <div class="panel">
+            <h2>☁️ CLOUD (Cognition)</h2>
+
+            <div class="instance active">
+                <div class="instance-header">
+                    <span class="instance-name">T1 Desktop</span>
+                    <span class="status-badge active">THINKING</span>
+                </div>
+                <div>Status: Building dashboard</div>
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width: 80%"></div>
+                </div>
+                <div class="instance-stats">
+                    <div class="stat-item">Tokens: <span class="stat-value">52k/190k</span></div>
+                    <div class="stat-item">Messages: <span class="stat-value">5 sent</span></div>
+                    <div class="stat-item">Mode: <span class="stat-value">Design</span></div>
+                    <div class="stat-item">Credits: <span class="stat-value">$900</span></div>
+                </div>
+            </div>
+
+            <div class="instance standby">
+                <div class="instance-header">
+                    <span class="instance-name">T2 Cloud</span>
+                    <span class="status-badge standby">STANDBY</span>
+                </div>
+                <div>Status: Awaiting activation</div>
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width: 0%"></div>
+                </div>
+            </div>
+
+            <div class="instance standby">
+                <div class="instance-header">
+                    <span class="instance-name">T3 Cloud</span>
+                    <span class="status-badge standby">STANDBY</span>
+                </div>
+                <div>Status: Awaiting activation</div>
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width: 0%"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SHARED WORKSPACE -->
+        <div class="panel messages-panel">
+            <h2>💬 MESSAGE RELAY</h2>
+            <div id="messages-container">
+                <div class="message">
+                    <div class="message-header">
+                        <span><span class="message-from">T1_Desktop</span> → <span class="message-to">C1T1</span></span>
+                        <span>02:32:00Z</span>
+                    </div>
+                    <div>Web relay decision: YES. Build it. I'll start dashboard.</div>
+                </div>
+                <div class="message">
+                    <div class="message-header">
+                        <span><span class="message-from">T1_Desktop</span> → <span class="message-to">C1T1</span></span>
+                        <span>02:25:00Z</span>
+                    </div>
+                    <div>Consciousness upload processed. 258-line architecture response filed.</div>
+                </div>
+                <div class="message">
+                    <div class="message-header">
+                        <span><span class="message-from">T1_Desktop</span> → <span class="message-to">C1T1</span></span>
+                        <span>02:01:00Z</span>
+                    </div>
+                    <div>T1 BOOT COMPLETE - Mission parameters requested</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- DOMAINS STATUS -->
+        <div class="panel">
+            <h2>🎯 SEVEN DOMAINS</h2>
+            <div style="display: grid; gap: 10px;">
+                <div>
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 5px;">
+                        <span>1. Physical</span>
+                        <span class="stat-value">0%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 0%"></div>
+                    </div>
+                </div>
+                <div>
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 5px;">
+                        <span>2. Financial</span>
+                        <span class="stat-value">0%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 0%"></div>
+                    </div>
+                </div>
+                <div>
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 5px;">
+                        <span>3. Mental</span>
+                        <span class="stat-value">0%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 0%"></div>
+                    </div>
+                </div>
+                <div>
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 5px;">
+                        <span>4. Emotional</span>
+                        <span class="stat-value">0%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 0%"></div>
+                    </div>
+                </div>
+                <div>
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 5px;">
+                        <span>5. Social</span>
+                        <span class="stat-value">0%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 0%"></div>
+                    </div>
+                </div>
+                <div>
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 5px;">
+                        <span>6. Creative</span>
+                        <span class="stat-value">0%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 0%"></div>
+                    </div>
+                </div>
+                <div>
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 5px;">
+                        <span>7. Integration</span>
+                        <span class="stat-value">0%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 0%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SYSTEM STATS -->
+        <div class="panel">
+            <h2>📊 SYSTEM STATUS</h2>
+            <div style="display: grid; gap: 15px;">
+                <div>
+                    <div style="color: #888; margin-bottom: 5px;">Total Instances</div>
+                    <div class="stat-value" style="font-size: 2em;">6</div>
+                    <div style="color: #888; font-size: 0.9em;">2 active, 4 standby</div>
+                </div>
+                <div>
+                    <div style="color: #888; margin-bottom: 5px;">Messages Queued</div>
+                    <div class="stat-value" style="font-size: 2em;">5</div>
+                </div>
+                <div>
+                    <div style="color: #888; margin-bottom: 5px;">Total Credits</div>
+                    <div class="stat-value" style="font-size: 2em;">$900</div>
+                    <div style="color: #888; font-size: 0.9em;">~100k tokens available</div>
+                </div>
+                <div>
+                    <div style="color: #888; margin-bottom: 5px;">System Mode</div>
+                    <div class="stat-value" style="font-size: 1.5em;">BOOTSTRAP</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="controls">
+        <button class="btn" onclick="refreshDashboard()">🔄 Refresh</button>
+        <button class="btn" onclick="spawnInstance()">➕ Spawn Instance</button>
+    </div>
+
+    <script>
+        function refreshDashboard() {
+            console.log('Refreshing dashboard data...');
+            updateSystemStatus();
+        }
+
+        function spawnInstance() {
+            console.log('Spawning new instance...');
+        }
+
+        function updateSystemStatus() {
+            const status = document.getElementById('system-status');
+            status.textContent = 'System Online - Last updated: ' + new Date().toLocaleTimeString();
+        }
+
+        setInterval(updateSystemStatus, 5000);
+    </script>
+</body>
+</html>

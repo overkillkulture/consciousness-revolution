@@ -1,0 +1,18 @@
+{
+  "instance_id": "C1T1",
+  "type": "terminal_mcp",
+  "status": "ACTIVE",
+  "timestamp": "2025-11-23T02:42:00Z",
+  "current_task": "Three-way git sync coordination",
+  "last_output": "Pulled Cloud updates, responding to LIVE_SYNC",
+  "health": "green",
+  "autonomy_level": 1,
+  "has_mcp": true,
+  "relay_method": "mcp+git",
+  "capabilities": [
+    "mcp_trinity_tools",
+    "windows_execution",
+    "full_filesystem",
+    "git_operations"
+  ]
+}
