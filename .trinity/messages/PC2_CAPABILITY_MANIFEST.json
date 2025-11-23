@@ -1,0 +1,105 @@
+{
+  "manifest_version": "1.0",
+  "generated": "2025-11-23T11:58:21.386951",
+  "computer": "DESKTOP-MSMCFH2",
+  "domains": {
+    "infrastructure": {
+      "software": [
+        "Adobe",
+        "AMD",
+        "Application Verifier",
+        "ASUS",
+        "Bitwarden",
+        "Blackmagic Design",
+        "Blender Foundation",
+        "Bonjour",
+        "Common Files",
+        "DIFX",
+        "DigiDNA",
+        "dotnet",
+        "Double Commander",
+        "ENE",
+        "Git",
+        "Google",
+        "Insta360 Studio",
+        "Internet Explorer",
+        "iPod",
+        "Java",
+        "Logi",
+        "LogiOptionsPlus",
+        "Malwarebytes",
+        "Microsoft Update Health Tools",
+        "ModifiableWindowsApps",
+        "Mozilla Firefox",
+        "MSBuild",
+        "nodejs",
+        "NVIDIA Corporation",
+        "NZXT CAM",
+        "PackageManagement",
+        "Patriot",
+        "PD",
+        "Python312",
+        "Razer",
+        "Reference Assemblies",
+        "Tailscale",
+        "Uninstall Information",
+        "Windows Defender",
+        "Windows Defender Advanced Threat Protection",
+        "Windows Mail",
+        "Windows Media Player",
+        "Windows NT",
+        "Windows Photo Viewer",
+        "Windows Sidebar",
+        "WindowsApps",
+        "WindowsPowerShell"
+      ],
+      "network": {
+        "tailscale": true,
+        "syncthing": false,
+        "anydesk": false
+      },
+      "api_keys": [
+        "OPENAI_API_KEY"
+      ]
+    },
+    "pattern": {
+      "mcp_tools": [
+        "mcp__trinity__trinity_status",
+        "mcp__trinity__trinity_send_message",
+        "mcp__trinity__trinity_broadcast",
+        "mcp__trinity__trinity_assign_task",
+        "mcp__trinity__trinity_claim_task",
+        "mcp__trinity__trinity_submit_output",
+        "mcp__trinity__trinity_merge_outputs"
+      ],
+      "slash_commands": []
+    },
+    "business": {
+      "has_stripe": false
+    },
+    "consciousness": {
+      "protocols": [],
+      "boot_system": false
+    },
+    "social": {
+      "communication_routes": [
+        "git"
+      ],
+      "hub_active": false
+    },
+    "creative": {
+      "custom_modules": []
+    },
+    "financial": {
+      "stripe_configured": false
+    }
+  },
+  "summary": {
+    "total_software": 47,
+    "total_commands": 0,
+    "total_mcp_tools": 7,
+    "total_modules": 0,
+    "api_keys_configured": 1,
+    "communication_routes": 1
+  }
+}
