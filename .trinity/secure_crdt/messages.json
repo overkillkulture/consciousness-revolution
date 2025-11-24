@@ -1,0 +1,62 @@
+{
+  "T1_Desktop-1763937568161-1e872443db490a06": {
+    "id": "T1_Desktop-1763937568161-1e872443db490a06",
+    "from": "T1_Desktop",
+    "to": "Cloud",
+    "content": {
+      "encrypted": true,
+      "iv": "53a6f6d9977f5e04e66a9a7cccc7fa12",
+      "authTag": "e822e47610e58e1bffa9a7befb5a490e",
+      "data": "729243fc327b9af63399e2f9c69df659e3e5a6c0de39b766a336879b600de013bd911c653e7aad6dd619dd627a557a94b68333abbef901b1ca1205712b47e3a0f8cd84d44485"
+    },
+    "timestamp": 1763937568161,
+    "vectorClock": {
+      "T1_Desktop": 1
+    },
+    "type": "message",
+    "priority": "high",
+    "ttl": 604800000,
+    "signature": "a6362b33e2c2c426120b3787c1e8ec5613160634d8b34d456d8976be8fbabd14",
+    "hash": "14174b9491ec9a2d8eec71523f9033205961df9d3a418371b810c1f67c58538b"
+  },
+  "T1_Desktop-1763937568164-c03da77ef8ca2283": {
+    "id": "T1_Desktop-1763937568164-c03da77ef8ca2283",
+    "from": "T1_Desktop",
+    "to": "ALL",
+    "content": {
+      "encrypted": true,
+      "iv": "e28e2d5d0b731ccf00974880b36d946a",
+      "authTag": "c83a022a3a8d89d9f2b9d2690104038e",
+      "data": "c7e1537ade2545d8ba22fc3d8b92535e17c6ab7870eff6cc0da7c98c37e6c70fcb661f3ec94dfdc44780229f99f1a31c4554d605dbcee64f2b58ce67f7be9128062b82aac3"
+    },
+    "timestamp": 1763937568164,
+    "vectorClock": {
+      "T1_Desktop": 2
+    },
+    "type": "message",
+    "priority": "normal",
+    "ttl": 604800000,
+    "signature": "c92954fcc4b6da1ea2f2dd717e2f8aa6a050b2620c36653a259ac3fac2d63d75",
+    "hash": "0465ac233d85b61448bd7f29b4d6fd2e8f330e03fbf48fcf88dce12a26abfe6f"
+  },
+  "T1_Desktop-1763937568164-04c643c2ecfe454e": {
+    "id": "T1_Desktop-1763937568164-04c643c2ecfe454e",
+    "from": "T1_Desktop",
+    "to": "C1_Mechanic",
+    "content": {
+      "encrypted": true,
+      "iv": "ae45015cf15b105ede1e0b70d62d9fe0",
+      "authTag": "9406ea15ca93ec2354b40ebc22cbb4f7",
+      "data": "e10f03770e71f01032e21b216608e81cd624962d5e3264d790bea64f7b3067e29c95b35cc6a2b919a764d949ed0a36aff68f7a311035d61484009ad86e135586"
+    },
+    "timestamp": 1763937568164,
+    "vectorClock": {
+      "T1_Desktop": 3
+    },
+    "type": "message",
+    "priority": "normal",
+    "ttl": 604800000,
+    "signature": "bc1d95d1ea6316dc8acfbd09048ccdb8af61236b048fdc8a7250e46a18b3dd69",
+    "hash": "ae0f4ce57262051d298e6fbc574e1b4503b57401599d18563cc444d8c8eedb87"
+  }
+}

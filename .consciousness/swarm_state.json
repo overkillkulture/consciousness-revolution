@@ -1,0 +1,590 @@
+{
+  "centroids": [
+    [
+      0.08348388402329744,
+      0.37765282751500145,
+      0.24800688612229152,
+      0.19999760334236477,
+      0.3607398179921263,
+      0.11110469786687373,
+      0.5077857138148097,
+      0.001293595779005452
+    ],
+    [
+      0.08289794026199872,
+      0.3739942367515999,
+      0.25219632274345843,
+      0.19995913193543657,
+      0.5721987053445359,
+      0.6540265330644434,
+      0.7526890425371231,
+      0.8237608134873344
+    ],
+    [
+      0.08263507351648801,
+      0.37316200176799397,
+      0.23803199679638853,
+      0.20000000068566404,
+      0.5977988134584123,
+      0.6505601999610265,
+      0.7598720318800282,
+      0.03298430020659626
+    ],
+    [
+      0.08312259978796975,
+      0.3826581142938818,
+      0.24722599684447139,
+      0.19999990927060887,
+      0.6574568942172423,
+      0.6268121042871971,
+      0.1363864273686699,
+      0.2177209606036256
+    ],
+    [
+      0.08350177049887411,
+      0.37874582307960947,
+      0.2583737918294243,
+      0.2000001936368282,
+      0.862429121444343,
+      0.7965062862336965,
+      0.6780952720035156,
+      0.8395412282690475
+    ],
+    [
+      0.08285578983218043,
+      0.3712936939685558,
+      0.25257353893161155,
+      0.200002240523725,
+      0.1442979526824459,
+      0.8593954534010292,
+      0.626733540934113,
+      0.7093710519480477
+    ],
+    [
+      0.08122153214886764,
+      0.3704724637629677,
+      0.25380709094413173,
+      0.19999762270671634,
+      0.43442088979238147,
+      0.6111046978668737,
+      0.47175808236077726,
+      0.5012935957790055
+    ]
+  ],
+  "globalBest": {
+    "position": [
+      0.083,
+      0.37349397590361444,
+      0.25301204819277107,
+      0.2,
+      0.5660836219578695,
+      0.6609594708324733,
+      0.7462735408637013,
+      0.8207916349398314
+    ],
+    "fitness": 0
+  },
+  "iterations": 100,
+  "convergenceHistory": [
+    {
+      "iteration": 1,
+      "globalBestFitness": 0,
+      "avgChange": 0.4642670380033487
+    },
+    {
+      "iteration": 2,
+      "globalBestFitness": 0,
+      "avgChange": 0.3616937054529022
+    },
+    {
+      "iteration": 3,
+      "globalBestFitness": 0,
+      "avgChange": 0.28537472358759663
+    },
+    {
+      "iteration": 4,
+      "globalBestFitness": 0,
+      "avgChange": 0.2815078091589941
+    },
+    {
+      "iteration": 5,
+      "globalBestFitness": 0,
+      "avgChange": 0.238908432356335
+    },
+    {
+      "iteration": 6,
+      "globalBestFitness": 0,
+      "avgChange": 0.25414725133434685
+    },
+    {
+      "iteration": 7,
+      "globalBestFitness": 0,
+      "avgChange": 0.2247469706825947
+    },
+    {
+      "iteration": 8,
+      "globalBestFitness": 0,
+      "avgChange": 0.22343977565531614
+    },
+    {
+      "iteration": 9,
+      "globalBestFitness": 0,
+      "avgChange": 0.21359914119270826
+    },
+    {
+      "iteration": 10,
+      "globalBestFitness": 0,
+      "avgChange": 0.1936107145271949
+    },
+    {
+      "iteration": 11,
+      "globalBestFitness": 0,
+      "avgChange": 0.17467848262400998
+    },
+    {
+      "iteration": 12,
+      "globalBestFitness": 0,
+      "avgChange": 0.1920252609229798
+    },
+    {
+      "iteration": 13,
+      "globalBestFitness": 0,
+      "avgChange": 0.16725184409940475
+    },
+    {
+      "iteration": 14,
+      "globalBestFitness": 0,
+      "avgChange": 0.16018121207921715
+    },
+    {
+      "iteration": 15,
+      "globalBestFitness": 0,
+      "avgChange": 0.14946295194432957
+    },
+    {
+      "iteration": 16,
+      "globalBestFitness": 0,
+      "avgChange": 0.14377144612000883
+    },
+    {
+      "iteration": 17,
+      "globalBestFitness": 0,
+      "avgChange": 0.14429977038752595
+    },
+    {
+      "iteration": 18,
+      "globalBestFitness": 0,
+      "avgChange": 0.13882787714502315
+    },
+    {
+      "iteration": 19,
+      "globalBestFitness": 0,
+      "avgChange": 0.137489586561718
+    },
+    {
+      "iteration": 20,
+      "globalBestFitness": 0,
+      "avgChange": 0.1323409627394869
+    },
+    {
+      "iteration": 21,
+      "globalBestFitness": 0,
+      "avgChange": 0.12213367143792034
+    },
+    {
+      "iteration": 22,
+      "globalBestFitness": 0,
+      "avgChange": 0.131615766839397
+    },
+    {
+      "iteration": 23,
+      "globalBestFitness": 0,
+      "avgChange": 0.1174476608354261
+    },
+    {
+      "iteration": 24,
+      "globalBestFitness": 0,
+      "avgChange": 0.11496169142850876
+    },
+    {
+      "iteration": 25,
+      "globalBestFitness": 0,
+      "avgChange": 0.09926294462411062
+    },
+    {
+      "iteration": 26,
+      "globalBestFitness": 0,
+      "avgChange": 0.11517075178052215
+    },
+    {
+      "iteration": 27,
+      "globalBestFitness": 0,
+      "avgChange": 0.09802291611857408
+    },
+    {
+      "iteration": 28,
+      "globalBestFitness": 0,
+      "avgChange": 0.10349277242363657
+    },
+    {
+      "iteration": 29,
+      "globalBestFitness": 0,
+      "avgChange": 0.09532350331158429
+    },
+    {
+      "iteration": 30,
+      "globalBestFitness": 0,
+      "avgChange": 0.09332397061663814
+    },
+    {
+      "iteration": 31,
+      "globalBestFitness": 0,
+      "avgChange": 0.09944655371341048
+    },
+    {
+      "iteration": 32,
+      "globalBestFitness": 0,
+      "avgChange": 0.09391825173048537
+    },
+    {
+      "iteration": 33,
+      "globalBestFitness": 0,
+      "avgChange": 0.10381180525257909
+    },
+    {
+      "iteration": 34,
+      "globalBestFitness": 0,
+      "avgChange": 0.08695610356310972
+    },
+    {
+      "iteration": 35,
+      "globalBestFitness": 0,
+      "avgChange": 0.08277576368392463
+    },
+    {
+      "iteration": 36,
+      "globalBestFitness": 0,
+      "avgChange": 0.08903872243981885
+    },
+    {
+      "iteration": 37,
+      "globalBestFitness": 0,
+      "avgChange": 0.0803244533321367
+    },
+    {
+      "iteration": 38,
+      "globalBestFitness": 0,
+      "avgChange": 0.07950161684040989
+    },
+    {
+      "iteration": 39,
+      "globalBestFitness": 0,
+      "avgChange": 0.0935601617829932
+    },
+    {
+      "iteration": 40,
+      "globalBestFitness": 0,
+      "avgChange": 0.08373313733684204
+    },
+    {
+      "iteration": 41,
+      "globalBestFitness": 0,
+      "avgChange": 0.09829569886293474
+    },
+    {
+      "iteration": 42,
+      "globalBestFitness": 0,
+      "avgChange": 0.07629312579270008
+    },
+    {
+      "iteration": 43,
+      "globalBestFitness": 0,
+      "avgChange": 0.08677805100567657
+    },
+    {
+      "iteration": 44,
+      "globalBestFitness": 0,
+      "avgChange": 0.07300264807502992
+    },
+    {
+      "iteration": 45,
+      "globalBestFitness": 0,
+      "avgChange": 0.08520883792661138
+    },
+    {
+      "iteration": 46,
+      "globalBestFitness": 0,
+      "avgChange": 0.0848757105079549
+    },
+    {
+      "iteration": 47,
+      "globalBestFitness": 0,
+      "avgChange": 0.0794778685010753
+    },
+    {
+      "iteration": 48,
+      "globalBestFitness": 0,
+      "avgChange": 0.07016896707778272
+    },
+    {
+      "iteration": 49,
+      "globalBestFitness": 0,
+      "avgChange": 0.07091891501635156
+    },
+    {
+      "iteration": 50,
+      "globalBestFitness": 0,
+      "avgChange": 0.08164621134825141
+    },
+    {
+      "iteration": 51,
+      "globalBestFitness": 0,
+      "avgChange": 0.07713751868153444
+    },
+    {
+      "iteration": 52,
+      "globalBestFitness": 0,
+      "avgChange": 0.07696029436573253
+    },
+    {
+      "iteration": 53,
+      "globalBestFitness": 0,
+      "avgChange": 0.06696833542373348
+    },
+    {
+      "iteration": 54,
+      "globalBestFitness": 0,
+      "avgChange": 0.08060506979275411
+    },
+    {
+      "iteration": 55,
+      "globalBestFitness": 0,
+      "avgChange": 0.07040409224006303
+    },
+    {
+      "iteration": 56,
+      "globalBestFitness": 0,
+      "avgChange": 0.07915228042841589
+    },
+    {
+      "iteration": 57,
+      "globalBestFitness": 0,
+      "avgChange": 0.08030856275303937
+    },
+    {
+      "iteration": 58,
+      "globalBestFitness": 0,
+      "avgChange": 0.07515272137977422
+    },
+    {
+      "iteration": 59,
+      "globalBestFitness": 0,
+      "avgChange": 0.07170094880419021
+    },
+    {
+      "iteration": 60,
+      "globalBestFitness": 0,
+      "avgChange": 0.07136230883901643
+    },
+    {
+      "iteration": 61,
+      "globalBestFitness": 0,
+      "avgChange": 0.0703058221872782
+    },
+    {
+      "iteration": 62,
+      "globalBestFitness": 0,
+      "avgChange": 0.062260753629540116
+    },
+    {
+      "iteration": 63,
+      "globalBestFitness": 0,
+      "avgChange": 0.05760707899111986
+    },
+    {
+      "iteration": 64,
+      "globalBestFitness": 0,
+      "avgChange": 0.06091287373744835
+    },
+    {
+      "iteration": 65,
+      "globalBestFitness": 0,
+      "avgChange": 0.05959350808687641
+    },
+    {
+      "iteration": 66,
+      "globalBestFitness": 0,
+      "avgChange": 0.05541291667948005
+    },
+    {
+      "iteration": 67,
+      "globalBestFitness": 0,
+      "avgChange": 0.06892145506739976
+    },
+    {
+      "iteration": 68,
+      "globalBestFitness": 0,
+      "avgChange": 0.07163538757803499
+    },
+    {
+      "iteration": 69,
+      "globalBestFitness": 0,
+      "avgChange": 0.058745514558886255
+    },
+    {
+      "iteration": 70,
+      "globalBestFitness": 0,
+      "avgChange": 0.07845353252901434
+    },
+    {
+      "iteration": 71,
+      "globalBestFitness": 0,
+      "avgChange": 0.0714110672437635
+    },
+    {
+      "iteration": 72,
+      "globalBestFitness": 0,
+      "avgChange": 0.07440503985248453
+    },
+    {
+      "iteration": 73,
+      "globalBestFitness": 0,
+      "avgChange": 0.05445083811735409
+    },
+    {
+      "iteration": 74,
+      "globalBestFitness": 0,
+      "avgChange": 0.07143503099917717
+    },
+    {
+      "iteration": 75,
+      "globalBestFitness": 0,
+      "avgChange": 0.07998668334146847
+    },
+    {
+      "iteration": 76,
+      "globalBestFitness": 0,
+      "avgChange": 0.06844993852938379
+    },
+    {
+      "iteration": 77,
+      "globalBestFitness": 0,
+      "avgChange": 0.0822830711244173
+    },
+    {
+      "iteration": 78,
+      "globalBestFitness": 0,
+      "avgChange": 0.05605196287886659
+    },
+    {
+      "iteration": 79,
+      "globalBestFitness": 0,
+      "avgChange": 0.0745094694400958
+    },
+    {
+      "iteration": 80,
+      "globalBestFitness": 0,
+      "avgChange": 0.07396412467125246
+    },
+    {
+      "iteration": 81,
+      "globalBestFitness": 0,
+      "avgChange": 0.0555014556947047
+    },
+    {
+      "iteration": 82,
+      "globalBestFitness": 0,
+      "avgChange": 0.07230729007180527
+    },
+    {
+      "iteration": 83,
+      "globalBestFitness": 0,
+      "avgChange": 0.07010879310656466
+    },
+    {
+      "iteration": 84,
+      "globalBestFitness": 0,
+      "avgChange": 0.06386326394676924
+    },
+    {
+      "iteration": 85,
+      "globalBestFitness": 0,
+      "avgChange": 0.0675121313967274
+    },
+    {
+      "iteration": 86,
+      "globalBestFitness": 0,
+      "avgChange": 0.055589592366496916
+    },
+    {
+      "iteration": 87,
+      "globalBestFitness": 0,
+      "avgChange": 0.08990922526901829
+    },
+    {
+      "iteration": 88,
+      "globalBestFitness": 0,
+      "avgChange": 0.05247967067636126
+    },
+    {
+      "iteration": 89,
+      "globalBestFitness": 0,
+      "avgChange": 0.0632245359947163
+    },
+    {
+      "iteration": 90,
+      "globalBestFitness": 0,
+      "avgChange": 0.061255733198201386
+    },
+    {
+      "iteration": 91,
+      "globalBestFitness": 0,
+      "avgChange": 0.06864641302120146
+    },
+    {
+      "iteration": 92,
+      "globalBestFitness": 0,
+      "avgChange": 0.06827550116245401
+    },
+    {
+      "iteration": 93,
+      "globalBestFitness": 0,
+      "avgChange": 0.06408483978507803
+    },
+    {
+      "iteration": 94,
+      "globalBestFitness": 0,
+      "avgChange": 0.06646642027388236
+    },
+    {
+      "iteration": 95,
+      "globalBestFitness": 0,
+      "avgChange": 0.05465694747498159
+    },
+    {
+      "iteration": 96,
+      "globalBestFitness": 0,
+      "avgChange": 0.06583078067074503
+    },
+    {
+      "iteration": 97,
+      "globalBestFitness": 0,
+      "avgChange": 0.05204029157785637
+    },
+    {
+      "iteration": 98,
+      "globalBestFitness": 0,
+      "avgChange": 0.06842141391319871
+    },
+    {
+      "iteration": 99,
+      "globalBestFitness": 0,
+      "avgChange": 0.06282412992887847
+    },
+    {
+      "iteration": 100,
+      "globalBestFitness": 0,
+      "avgChange": 0.0711405889043022
+    }
+  ]
+}

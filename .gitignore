@@ -1,4 +1,156 @@
-# Local Netlify folder
-.netlify
+# ═══════════════════════════════════════════════════════════════════════════
+# SECURITY-FIRST .GITIGNORE
+# ═══════════════════════════════════════════════════════════════════════════
+# Created: 2025-11-23 by T1_Desktop Security Scan
+# Purpose: Prevent sensitive data from being committed to git
+# ═══════════════════════════════════════════════════════════════════════════
+
+# ═══════════════════════════════════════════════════════════════════════════
+# CREDENTIALS & SECRETS (CRITICAL)
+# ═══════════════════════════════════════════════════════════════════════════
+
+# Environment files
+.env
+.env.*
+!.env.example
+*.env
+
+# API keys and credentials
+*credentials*
+*secret*
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# OAuth tokens
+*token*.json
+*oauth*.json
+
+# ═══════════════════════════════════════════════════════════════════════════
+# SESSION & CACHE DATA
+# ═══════════════════════════════════════════════════════════════════════════
+
+# Browser sessions
+*_session/
+*_sessions/
+instagram_session/
+chrome_session/
+
+# Cache directories
+.cache/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# ═══════════════════════════════════════════════════════════════════════════
+# DEPENDENCIES (Large, Regeneratable)
+# ═══════════════════════════════════════════════════════════════════════════
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+venv/
+env/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# ═══════════════════════════════════════════════════════════════════════════
+# BUILD & OUTPUT
+# ═══════════════════════════════════════════════════════════════════════════
+
+# Netlify
+.netlify/
+
+# Vercel
+.vercel/
+
+# Build output
+out/
+.next/
+.nuxt/
+
+# ═══════════════════════════════════════════════════════════════════════════
+# LOGS & TEMPORARY FILES
+# ═══════════════════════════════════════════════════════════════════════════
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+.tmp/
+tmp/
+
+# OS generated
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ═══════════════════════════════════════════════════════════════════════════
+# LARGE BINARY FILES
+# ═══════════════════════════════════════════════════════════════════════════
+
+# Audio/Video
+*.wav
+*.mp3
+*.mp4
+*.avi
+*.mov
+
+# Images (large)
+*.psd
+*.ai
+
+# Databases
+*.sqlite
+*.db
+*.sqlite3
+
+# ═══════════════════════════════════════════════════════════════════════════
+# IDE & EDITOR
+# ═══════════════════════════════════════════════════════════════════════════
+
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ═══════════════════════════════════════════════════════════════════════════
+# PROJECT SPECIFIC
+# ═══════════════════════════════════════════════════════════════════════════
+
+# Audio tracks
 consciousness_tracks/*.wav
-consciousness_tracks/*.wav
+
+# Local state files
+.consciousness/active_inference_state.json
+.consciousness/active_inference_log.jsonl
+
+# Test output
+current_screen.png
+
+# ═══════════════════════════════════════════════════════════════════════════
+# KEEP THESE (Override ignores)
+# ═══════════════════════════════════════════════════════════════════════════
+
+# Keep example files
+!.env.example
+!*example*
+
+# Keep documentation
+!README.md
+!*.md
+
+# ═══════════════════════════════════════════════════════════════════════════
