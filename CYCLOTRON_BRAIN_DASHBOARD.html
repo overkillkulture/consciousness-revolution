@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🧠 Cyclotron Brain Agent - Intelligence Dashboard</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0a0a1a 0%, #1a1a3a 100%);
+            color: #e0e0e0;
+            padding: 20px;
+            min-height: 100vh;
+        }
+
+        .header {
+            text-align: center;
+            padding: 30px 0;
+            border-bottom: 2px solid #667eea;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            font-size: 42px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            font-size: 18px;
+            opacity: 0.7;
+        }
+
+        .dashboard {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 25px;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 16px;
+            padding: 25px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(102, 126, 234, 0.3);
+        }
+
+        .card h2 {
+            font-size: 24px;
+            margin-bottom: 15px;
+            color: #667eea;
+        }
+
+        .metric {
+            display: flex;
+            justify-content: space-between;
+            padding: 12px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .metric:last-child {
+            border-bottom: none;
+        }
+
+        .metric-label {
+            font-weight: 500;
+            opacity: 0.8;
+        }
+
+        .metric-value {
+            font-weight: bold;
+            color: #667eea;
+            font-size: 18px;
+        }
+
+        .vortex-zones {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        .zone {
+            background: rgba(255, 255, 255, 0.03);
+            padding: 15px;
+            border-radius: 12px;
+            text-align: center;
+        }
+
+        .zone-hot { border-left: 4px solid #ff4444; }
+        .zone-warm { border-left: 4px solid #ff9944; }
+        .zone-cold { border-left: 4px solid #4499ff; }
+        .zone-vacuum { border-left: 4px solid #8844ff; }
+
+        .zone-label {
+            font-size: 14px;
+            opacity: 0.7;
+            margin-bottom: 8px;
+        }
+
+        .zone-value {
+            font-size: 32px;
+            font-weight: bold;
+        }
+
+        .pattern-list {
+            list-style: none;
+            margin-top: 15px;
+        }
+
+        .pattern-item {
+            background: rgba(102, 126, 234, 0.1);
+            padding: 12px;
+            margin-bottom: 10px;
+            border-radius: 8px;
+            border-left: 3px solid #667eea;
+        }
+
+        .pattern-type {
+            font-weight: bold;
+            color: #667eea;
+            margin-bottom: 5px;
+        }
+
+        .pattern-insight {
+            font-size: 14px;
+            opacity: 0.8;
+        }
+
+        .status-badge {
+            display: inline-block;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .status-active {
+            background: #4ade80;
+            color: #0a0a1a;
+        }
+
+        .status-error {
+            background: #ff4444;
+            color: white;
+        }
+
+        .refresh-button {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 30px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);
+            transition: transform 0.2s;
+        }
+
+        .refresh-button:hover {
+            transform: scale(1.05);
+        }
+
+        .last-updated {
+            text-align: center;
+            margin-top: 30px;
+            opacity: 0.5;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🧠 Cyclotron Brain Agent</h1>
+        <p class="subtitle">Active Intelligence System - Information Vortex Dashboard</p>
+    </div>
+
+    <div class="dashboard">
+        <!-- Brain State Card -->
+        <div class="card">
+            <h2>🎯 Brain State</h2>
+            <div class="metric">
+                <span class="metric-label">Cycle Count</span>
+                <span class="metric-value" id="cycle-count">Loading...</span>
+            </div>
+            <div class="metric">
+                <span class="metric-label">Total Atoms</span>
+                <span class="metric-value" id="atom-count">Loading...</span>
+            </div>
+            <div class="metric">
+                <span class="metric-label">Semantic Bonds</span>
+                <span class="metric-value" id="bond-count">Loading...</span>
+            </div>
+            <div class="metric">
+                <span class="metric-label">Insights Discovered</span>
+                <span class="metric-value" id="insights">Loading...</span>
+            </div>
+            <div class="metric">
+                <span class="metric-label">Last Cycle</span>
+                <span class="metric-value" id="last-cycle" style="font-size: 14px;">Loading...</span>
+            </div>
+            <div id="status-badge"></div>
+        </div>
+
+        <!-- Vortex Zones Card -->
+        <div class="card">
+            <h2>🌀 Information Vortex Zones</h2>
+            <div class="vortex-zones">
+                <div class="zone zone-hot">
+                    <div class="zone-label">🔥 Hot Zone</div>
+                    <div class="zone-value" id="zone-hot">-</div>
+                    <div class="zone-label" style="font-size: 11px;">High Activity</div>
+                </div>
+                <div class="zone zone-warm">
+                    <div class="zone-label">🌡️ Warm Zone</div>
+                    <div class="zone-value" id="zone-warm">-</div>
+                    <div class="zone-label" style="font-size: 11px;">Moderate</div>
+                </div>
+                <div class="zone zone-cold">
+                    <div class="zone-label">❄️ Cold Zone</div>
+                    <div class="zone-value" id="zone-cold">-</div>
+                    <div class="zone-label" style="font-size: 11px;">Archive</div>
+                </div>
+                <div class="zone zone-vacuum">
+                    <div class="zone-label">🌀 Vacuum</div>
+                    <div class="zone-value" id="zone-vacuum">-</div>
+                    <div class="zone-label" style="font-size: 11px;">Isolated</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Emergent Patterns Card -->
+        <div class="card">
+            <h2>✨ Emergent Patterns</h2>
+            <ul class="pattern-list" id="pattern-list">
+                <li style="opacity: 0.5;">Loading patterns...</li>
+            </ul>
+        </div>
+
+        <!-- Knowledge Hubs Card -->
+        <div class="card">
+            <h2>🎯 Knowledge Hubs</h2>
+            <p style="opacity: 0.7; margin-bottom: 15px;">Most connected knowledge centers</p>
+            <div id="knowledge-hubs">
+                <div style="opacity: 0.5;">Loading hubs...</div>
+            </div>
+        </div>
+    </div>
+
+    <button class="refresh-button" onclick="loadDashboard()">🔄 Refresh Data</button>
+
+    <div class="last-updated" id="last-updated">Last updated: Never</div>
+
+    <script>
+        async function loadDashboard() {
+            try {
+                // Load brain state
+                const brainResponse = await fetch('.cyclotron_atoms/brain_state.json');
+                const brain = await brainResponse.json();
+
+                document.getElementById('cycle-count').textContent = brain.cycle_count;
+                document.getElementById('atom-count').textContent = brain.atom_count.toLocaleString();
+                document.getElementById('bond-count').textContent = brain.bond_count.toLocaleString();
+                document.getElementById('insights').textContent = brain.insights_discovered;
+
+                const lastCycle = new Date(brain.last_cycle);
+                const now = new Date();
+                const minutesAgo = Math.floor((now - lastCycle) / 60000);
+                document.getElementById('last-cycle').textContent = minutesAgo < 1 ? 'Just now' : `${minutesAgo}m ago`;
+
+                // Status badge
+                const statusBadge = document.getElementById('status-badge');
+                if (minutesAgo < 10) {
+                    statusBadge.innerHTML = '<span class="status-badge status-active">🟢 ACTIVE</span>';
+                } else {
+                    statusBadge.innerHTML = '<span class="status-badge status-error">🔴 STALE</span>';
+                }
+
+                // Vortex zones
+                document.getElementById('zone-hot').textContent = brain.vortex_zones.hot;
+                document.getElementById('zone-warm').textContent = brain.vortex_zones.warm;
+                document.getElementById('zone-cold').textContent = brain.vortex_zones.cold;
+                document.getElementById('zone-vacuum').textContent = brain.vortex_zones.vacuum;
+
+                // Load emergent patterns
+                const patternsResponse = await fetch('.cyclotron_atoms/emergent_patterns.json');
+                const patternsData = await patternsResponse.json();
+
+                const patternList = document.getElementById('pattern-list');
+                patternList.innerHTML = '';
+
+                patternsData.patterns.forEach(pattern => {
+                    const li = document.createElement('li');
+                    li.className = 'pattern-item';
+                    li.innerHTML = `
+                        <div class="pattern-type">${pattern.type}</div>
+                        <div class="pattern-insight">${pattern.insight}</div>
+                    `;
+                    patternList.appendChild(li);
+                });
+
+                // Knowledge hubs
+                const knowledgeHubs = patternsData.patterns.find(p => p.type === 'knowledge_hubs');
+                if (knowledgeHubs) {
+                    const hubsDiv = document.getElementById('knowledge-hubs');
+                    hubsDiv.innerHTML = '';
+
+                    knowledgeHubs.data.slice(0, 5).forEach((hub, index) => {
+                        const hubEl = document.createElement('div');
+                        hubEl.className = 'metric';
+                        hubEl.innerHTML = `
+                            <span class="metric-label">#${index + 1} ${hub.name.substring(0, 30)}...</span>
+                            <span class="metric-value">${hub.connections} bonds</span>
+                        `;
+                        hubsDiv.appendChild(hubEl);
+                    });
+                }
+
+                // Update timestamp
+                document.getElementById('last-updated').textContent = `Last updated: ${new Date().toLocaleTimeString()}`;
+
+            } catch (error) {
+                console.error('Error loading dashboard:', error);
+                document.getElementById('status-badge').innerHTML =
+                    '<span class="status-badge status-error">⚠️ ERROR LOADING DATA</span>';
+            }
+        }
+
+        // Load on page load
+        loadDashboard();
+
+        // Auto-refresh every 30 seconds
+        setInterval(loadDashboard, 30000);
+    </script>
+</body>
+</html>
