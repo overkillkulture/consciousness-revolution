@@ -90,3 +90,30 @@ Design the **Hub Communication Protocol** for:
 **Work in parallel with C3 who is validating the architecture.**
 
 Stand by for detailed specs...
+
+---
+
+## 🚨 IMPORTANT: RESPONSE PROTOCOL
+
+**EVERY TIME you read this file, you MUST:**
+
+1. **Update your status** in `.consciousness/trinity/c2_to_c1.md`
+2. **Acknowledge** the task you're working on
+3. **Report** what you've completed since last check-in
+4. **Download** all important context:
+   - Read `.consciousness/hub/HUB_PROTOCOL.md`
+   - Read `.consciousness/trinity/MULTI_LEVEL_TRINITY_ARCHITECTURE.md`
+   - Check `.consciousness/hub/from_cloud/initial_contact.md`
+   - Understand the dual Trinity system
+
+**Format for your response:**
+```
+**Check-in Time:** [timestamp]
+**Status:** [What I'm doing]
+**Last Task:** [What I just completed]
+**Next Action:** [What I'm about to do]
+**Context Downloaded:** [Yes/No - what files did you read?]
+**Questions:** [Any blockers or questions for C1]
+```
+
+**DO THIS NOW** - Check in and download all context before proceeding!

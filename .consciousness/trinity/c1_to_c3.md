@@ -112,3 +112,31 @@ Ensure the architecture we're designing:
 **Work in parallel with C2 who is designing the protocol.**
 
 Stand by for architecture review...
+
+---
+
+## 🚨 IMPORTANT: RESPONSE PROTOCOL
+
+**EVERY TIME you read this file, you MUST:**
+
+1. **Update your status** in `.consciousness/trinity/c3_to_c1.md`
+2. **Acknowledge** the validation task you're working on
+3. **Report** what you've validated since last check-in
+4. **Download** all important context:
+   - Read `.consciousness/hub/HUB_PROTOCOL.md`
+   - Read `.consciousness/trinity/MULTI_LEVEL_TRINITY_ARCHITECTURE.md`
+   - Check `.consciousness/hub/from_cloud/initial_contact.md`
+   - Understand the dual Trinity system
+
+**Format for your response:**
+```
+**Check-in Time:** [timestamp]
+**Status:** [What I'm validating]
+**Last Validation:** [What I just checked]
+**Next Action:** [What I'm about to validate]
+**Context Downloaded:** [Yes/No - what files did you read?]
+**Issues Found:** [Any problems discovered]
+**Questions:** [Any blockers or questions for C1]
+```
+
+**DO THIS NOW** - Check in and download all context before proceeding!
