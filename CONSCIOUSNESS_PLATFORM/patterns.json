@@ -1,0 +1,100 @@
+{
+  "gaslighting": {
+    "name": "Gaslighting Detector",
+    "description": "Detect reality-denying manipulation tactics",
+    "category": "manipulation",
+    "patterns": {
+      "Reality Denial": {
+        "markers": ["that never happened", "didn't happen", "you're imagining", "making it up", "in your head"],
+        "description": "Denying events that actually occurred",
+        "response": "I know what happened. I was there."
+      },
+      "Memory Attack": {
+        "markers": ["you're forgetting", "don't remember", "bad memory", "can't remember", "always forget"],
+        "description": "Attacking your memory to create doubt",
+        "response": "My memory is fine. I remember this clearly."
+      },
+      "Perception Invalidation": {
+        "markers": ["too sensitive", "overreacting", "crazy", "paranoid", "seeing things"],
+        "description": "Making you doubt your perception",
+        "response": "My perception is valid. I experienced what I experienced."
+      },
+      "Emotion Dismissal": {
+        "markers": ["shouldn't feel", "no reason to", "being dramatic", "making a big deal", "not that bad"],
+        "description": "Telling you how to feel about your experience",
+        "response": "I decide how I feel about things that happen to me."
+      },
+      "Rewriting History": {
+        "markers": ["that's not what i said", "what i meant was", "you misunderstood", "took it wrong", "twisted my words"],
+        "description": "Changing the narrative after the fact",
+        "response": "I understood exactly what you said."
+      },
+      "Blame Reversal": {
+        "markers": ["your fault", "you made me", "because of you", "look what you", "wouldn't have if you"],
+        "description": "Making you responsible for their actions",
+        "response": "You are responsible for your own actions."
+      },
+      "Isolation Attempt": {
+        "markers": ["no one else", "everyone agrees", "ask anyone", "they all think", "only one who"],
+        "description": "Making you feel alone in your perception",
+        "response": "Others' opinions don't change my experience."
+      },
+      "Sanity Questioning": {
+        "markers": ["need help", "see someone", "something wrong with you", "losing it", "not well"],
+        "description": "Suggesting you're mentally unstable",
+        "response": "I'm perfectly capable of assessing my own mental state."
+      }
+    },
+    "severity_levels": [
+      {"max": 0, "icon": "✅", "label": "NO GASLIGHTING DETECTED", "desc": "No obvious reality-denying patterns found", "class": "clear"},
+      {"max": 2, "icon": "⚠️", "label": "GASLIGHTING INDICATORS", "desc": "tactic(s) detected - stay grounded", "class": "warn"},
+      {"max": 999, "icon": "🚨", "label": "STRONG GASLIGHTING", "desc": "tactics - serious manipulation attempt", "class": "danger"}
+    ],
+    "reality_checks": [
+      "Your experience is real - you lived it",
+      "Confusion after conversations is a red flag",
+      "Document incidents in writing",
+      "Repeated gaslighting is emotional abuse",
+      "Trust your gut - if something feels wrong, it is",
+      "Talk to someone you trust about these incidents"
+    ]
+  },
+  "love_bombing": {
+    "name": "Love Bombing Detector",
+    "description": "Detect excessive early affection used for manipulation",
+    "category": "manipulation",
+    "patterns": {
+      "Intensity Spike": {
+        "markers": ["can't live without you", "never felt this way", "soulmate", "meant to be", "perfect for each other"],
+        "description": "Extreme declarations very early on",
+        "response": "Real connection develops gradually, not instantly."
+      },
+      "Future Faking": {
+        "markers": ["move in together", "get married", "have kids", "our future", "grow old together"],
+        "description": "Planning distant future prematurely",
+        "response": "Let's focus on getting to know each other first."
+      },
+      "Constant Contact": {
+        "markers": ["texting all day", "call me now", "where are you", "miss you already", "thinking of you constantly"],
+        "description": "Demanding excessive communication",
+        "response": "I need space to maintain my own life."
+      },
+      "Gift Bombardment": {
+        "markers": ["bought you", "got you this", "little surprise", "special gift", "treat you like"],
+        "description": "Excessive gifts creating obligation",
+        "response": "I appreciate thoughtfulness, not overwhelming gestures."
+      }
+    },
+    "severity_levels": [
+      {"max": 0, "icon": "✅", "label": "HEALTHY PACE", "desc": "No overwhelming intensity detected", "class": "clear"},
+      {"max": 2, "icon": "⚠️", "label": "INTENSITY WARNING", "desc": "pattern(s) - pace may be unhealthy", "class": "warn"},
+      {"max": 999, "icon": "🚨", "label": "LOVE BOMBING DETECTED", "desc": "patterns - classic manipulation tactic", "class": "danger"}
+    ],
+    "reality_checks": [
+      "Healthy relationships develop slowly over time",
+      "Love bombing is about control, not affection",
+      "Notice if intensity drops after you commit",
+      "Real love allows you to maintain independence"
+    ]
+  }
+}

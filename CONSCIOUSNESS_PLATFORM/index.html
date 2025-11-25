@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pattern Theory | Unified Consciousness Platform</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #0a0a1a 0%, #1a1a3a 100%);
+            min-height: 100vh;
+            color: #fff;
+        }
+
+        .nav {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 20px;
+            text-align: center;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .nav h1 {
+            font-size: 24px;
+            margin-bottom: 8px;
+        }
+
+        .nav p {
+            opacity: 0.6;
+            font-size: 13px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .detector-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 16px;
+            margin-bottom: 30px;
+        }
+
+        .detector-card {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            padding: 20px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+        }
+
+        .detector-card:hover {
+            background: rgba(255, 255, 255, 0.08);
+            border-color: #667eea;
+            transform: translateY(-2px);
+        }
+
+        .detector-card.active {
+            background: linear-gradient(135deg, rgba(102, 126, 234, 0.2) 0%, rgba(118, 75, 162, 0.2) 100%);
+            border-color: #667eea;
+        }
+
+        .detector-card h3 {
+            font-size: 16px;
+            margin-bottom: 8px;
+        }
+
+        .detector-card p {
+            font-size: 12px;
+            opacity: 0.7;
+        }
+
+        .input-section {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 16px;
+            padding: 24px;
+            margin-bottom: 20px;
+            display: none;
+        }
+
+        .input-section.active {
+            display: block;
+        }
+
+        .text-input {
+            width: 100%;
+            padding: 14px;
+            border: none;
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.1);
+            color: #fff;
+            font-size: 14px;
+            resize: vertical;
+            min-height: 100px;
+            margin-bottom: 16px;
+        }
+
+        .text-input::placeholder { color: rgba(255, 255, 255, 0.3); }
+
+        .detect-btn {
+            width: 100%;
+            padding: 14px;
+            font-size: 14px;
+            font-weight: bold;
+            border: none;
+            border-radius: 8px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+
+        .detect-btn:hover { opacity: 0.9; }
+
+        .results {
+            display: none;
+            animation: fadeIn 0.4s ease;
+        }
+
+        .results.active { display: block; }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .verdict-card {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 16px;
+            padding: 24px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .verdict-icon { font-size: 48px; margin-bottom: 12px; }
+
+        .verdict-label {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+
+        .verdict-label.clear { color: #2ecc71; }
+        .verdict-label.warn { color: #f39c12; }
+        .verdict-label.danger { color: #e74c3c; }
+
+        .verdict-desc {
+            font-size: 13px;
+            opacity: 0.7;
+        }
+
+        .patterns-found {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 16px;
+            padding: 24px;
+            margin-bottom: 20px;
+        }
+
+        .patterns-found h3 {
+            font-size: 14px;
+            margin-bottom: 16px;
+        }
+
+        .pattern-item {
+            background: rgba(231, 76, 60, 0.1);
+            border-left: 3px solid #e74c3c;
+            border-radius: 6px;
+            padding: 12px;
+            margin-bottom: 12px;
+        }
+
+        .pattern-name {
+            font-weight: bold;
+            font-size: 13px;
+            margin-bottom: 4px;
+        }
+
+        .pattern-desc {
+            font-size: 12px;
+            opacity: 0.7;
+            margin-bottom: 8px;
+        }
+
+        .pattern-response {
+            font-size: 12px;
+            font-style: italic;
+            color: #2ecc71;
+        }
+
+        .no-patterns {
+            text-align: center;
+            padding: 20px;
+            font-size: 13px;
+            color: #2ecc71;
+        }
+
+        .reality-checks {
+            background: rgba(102, 126, 234, 0.1);
+            border-radius: 12px;
+            padding: 16px;
+        }
+
+        .reality-checks h4 {
+            font-size: 12px;
+            color: #667eea;
+            margin-bottom: 8px;
+        }
+
+        .reality-item {
+            font-size: 12px;
+            padding: 4px 0;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            padding: 20px;
+            font-size: 11px;
+            opacity: 0.4;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <h1>🧠 Pattern Theory</h1>
+        <p>Unified Consciousness Platform • 31 Detectors in One</p>
+    </div>
+
+    <div class="container">
+        <h2 style="margin-bottom: 16px;">Select a Detector</h2>
+        <div class="detector-grid" id="detectorGrid"></div>
+
+        <div class="input-section" id="inputSection">
+            <h3 style="margin-bottom: 12px;" id="selectedDetectorName">Detector</h3>
+            <textarea
+                id="input"
+                class="text-input"
+                placeholder="Paste text, conversation, email, or message to analyze..."
+            ></textarea>
+            <button class="detect-btn" onclick="detect()">Analyze</button>
+        </div>
+
+        <div class="results" id="results">
+            <div class="verdict-card">
+                <div class="verdict-icon" id="verdictIcon"></div>
+                <div class="verdict-label" id="verdictLabel"></div>
+                <div class="verdict-desc" id="verdictDesc"></div>
+            </div>
+
+            <div class="patterns-found">
+                <h3>Patterns Detected</h3>
+                <div id="patternsList"></div>
+            </div>
+
+            <div class="reality-checks">
+                <h4>Reality Check</h4>
+                <div id="realityList"></div>
+            </div>
+        </div>
+
+        <footer>
+            Consciousness Revolution • Open Source Pattern Detection
+        </footer>
+    </div>
+
+    <script>
+        let patterns = {};
+        let currentDetector = null;
+
+        // Load patterns from JSON
+        async function loadPatterns() {
+            try {
+                const response = await fetch('patterns.json');
+                patterns = await response.json();
+                renderDetectorGrid();
+            } catch (error) {
+                console.error('Failed to load patterns:', error);
+                // Fallback: use embedded patterns
+                patterns = getEmbeddedPatterns();
+                renderDetectorGrid();
+            }
+        }
+
+        function getEmbeddedPatterns() {
+            // Embedded fallback patterns
+            return {
+                gaslighting: {
+                    name: "Gaslighting Detector",
+                    description: "Detect reality-denying manipulation",
+                    category: "manipulation",
+                    patterns: {} // Would include full patterns
+                }
+            };
+        }
+
+        function renderDetectorGrid() {
+            const grid = document.getElementById('detectorGrid');
+            grid.innerHTML = '';
+
+            Object.entries(patterns).forEach(([key, detector]) => {
+                const card = document.createElement('div');
+                card.className = 'detector-card';
+                card.onclick = () => selectDetector(key);
+                card.innerHTML = `
+                    <h3>${detector.name}</h3>
+                    <p>${detector.description}</p>
+                `;
+                grid.appendChild(card);
+            });
+        }
+
+        function selectDetector(key) {
+            currentDetector = key;
+
+            // Update active state
+            document.querySelectorAll('.detector-card').forEach((card, i) => {
+                const keys = Object.keys(patterns);
+                card.classList.toggle('active', keys[i] === key);
+            });
+
+            // Show input section
+            document.getElementById('inputSection').classList.add('active');
+            document.getElementById('selectedDetectorName').textContent = patterns[key].name;
+            document.getElementById('results').classList.remove('active');
+            document.getElementById('input').value = '';
+            document.getElementById('input').focus();
+        }
+
+        function detect() {
+            if (!currentDetector) return;
+
+            const text = document.getElementById('input').value.trim();
+            if (!text) return;
+
+            const detector = patterns[currentDetector];
+            const lower = text.toLowerCase();
+            const found = [];
+
+            // Check all patterns
+            Object.entries(detector.patterns).forEach(([name, data]) => {
+                if (data.markers.some(m => lower.includes(m))) {
+                    found.push({
+                        name,
+                        description: data.description,
+                        response: data.response
+                    });
+                }
+            });
+
+            // Determine severity
+            let severity = detector.severity_levels.find(level =>
+                found.length <= level.max || level.max === 999
+            );
+
+            // Render results
+            document.getElementById('verdictIcon').textContent = severity.icon;
+            const labelEl = document.getElementById('verdictLabel');
+            labelEl.textContent = severity.label;
+            labelEl.className = 'verdict-label ' + severity.class;
+
+            let desc = severity.desc;
+            if (found.length > 0) {
+                desc = `${found.length} ${desc}`;
+            }
+            document.getElementById('verdictDesc').textContent = desc;
+
+            // Render patterns
+            if (found.length > 0) {
+                document.getElementById('patternsList').innerHTML = found.map(p => `
+                    <div class="pattern-item">
+                        <div class="pattern-name">${p.name}</div>
+                        <div class="pattern-desc">${p.description}</div>
+                        <div class="pattern-response">"${p.response}"</div>
+                    </div>
+                `).join('');
+            } else {
+                document.getElementById('patternsList').innerHTML =
+                    '<div class="no-patterns">✓ No patterns detected</div>';
+            }
+
+            // Render reality checks
+            const realityChecks = detector.reality_checks.slice(0, found.length >= 2 ? 6 : 4);
+            document.getElementById('realityList').innerHTML = realityChecks.map(r =>
+                `<div class="reality-item">• ${r}</div>`
+            ).join('');
+
+            document.getElementById('results').classList.add('active');
+            document.getElementById('results').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        // Enter key support
+        document.addEventListener('DOMContentLoaded', () => {
+            loadPatterns();
+
+            document.getElementById('input').addEventListener('keydown', (e) => {
+                if (e.key === 'Enter' && (e.ctrlKey || e.metaKey)) {
+                    detect();
+                }
+            });
+        });
+    </script>
+</body>
+</html>

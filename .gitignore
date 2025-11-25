@@ -45,6 +45,17 @@ __pycache__/
 *.pyo
 .pytest_cache/
 
+# Logs and temporary files
+*.log
+*.png
+*.jpg
+*.jpeg
+current_screen.*
+deploy_output.log
+auto_deploy.log
+crypto_reports_generation.log
+self_healing.log
+
 # ═══════════════════════════════════════════════════════════════════════════
 # DEPENDENCIES (Large, Regeneratable)
 # ═══════════════════════════════════════════════════════════════════════════
