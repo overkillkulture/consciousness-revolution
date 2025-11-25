@@ -1,0 +1,42 @@
+Proprietary License
+
+Copyright (c) 2025 overkor-tek. All Rights Reserved.
+
+This software and associated documentation files (the "Software") are the 
+proprietary property of overkor-tek and its contributors.
+
+TERMS AND CONDITIONS:
+
+1. OWNERSHIP
+   All rights, title, and interest in and to the Software remain with 
+   overkor-tek. This Software is protected by copyright laws and international 
+   treaty provisions.
+
+2. VIEWING PERMISSION
+   Permission is granted to view the source code for reference and learning 
+   purposes only.
+
+3. RESTRICTIONS
+   You may NOT:
+   - Use this Software for commercial or personal projects
+   - Copy, modify, merge, or create derivative works
+   - Distribute, sublicense, or sell copies of the Software
+   - Remove or alter any copyright, trademark, or proprietary notices
+
+4. AUTHORIZED COLLABORATORS
+   Authorized members of the overkor-tek organization may contribute to this 
+   Software under separate collaboration agreements.
+
+5. NO WARRANTY
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+
+6. LIMITATION OF LIABILITY
+   IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+   DAMAGES OR OTHER LIABILITY ARISING FROM THE SOFTWARE.
+
+For licensing inquiries or permission requests, contact overkor-tek.
+
+This license is effective as of the date of first publication and remains in 
+effect until terminated by overkor-tek.
