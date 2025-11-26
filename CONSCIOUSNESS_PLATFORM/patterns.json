@@ -569,5 +569,111 @@
       "Some systems are healthier to leave than to fix",
       "Your worth is not determined by how this group treats you"
     ]
+  },
+  "moving_goalposts": {
+    "name": "Moving Goalposts Detector",
+    "description": "Identify when success criteria keeps changing",
+    "category": "manipulation",
+    "patterns": {
+      "Requirements Changed": {
+        "markers": ["requirements changed", "new requirement", "didn't mention that before", "added condition", "not what we agreed"],
+        "description": "Requirements changed after you met the original ones",
+        "response": "I met the original agreement. That's complete."
+      },
+      "Not Enough Anymore": {
+        "markers": ["not enough", "wasn't enough", "need more", "more than that", "higher standard"],
+        "description": "What was 'enough' before is suddenly not enough",
+        "response": "This was acceptable before - why the change now?"
+      },
+      "Yes But Pattern": {
+        "markers": ["yes but", "that's good but", "however you", "although you", "sure but"],
+        "description": "Always something else needed after accomplishment",
+        "response": "I notice there's always a 'but' - what would actually satisfy you?"
+      },
+      "Moving Target": {
+        "markers": ["actually need", "target is now", "looking for more", "bar has been raised", "expectations have"],
+        "description": "The target keeps getting further away",
+        "response": "The target keeps moving - that's not a fair measure of success"
+      },
+      "Never Quite Right": {
+        "markers": ["not quite", "almost but", "close but", "not exactly", "missing something"],
+        "description": "No matter what you do, it's never quite right",
+        "response": "This pattern of 'almost' suggests the goal isn't achievable"
+      },
+      "Retroactive Changes": {
+        "markers": ["should have known", "obviously meant", "implied that", "clear that", "assumed you understood"],
+        "description": "Expectations were retroactively changed",
+        "response": "That wasn't part of the original agreement"
+      },
+      "Success Redefined": {
+        "markers": ["that's not success", "doesn't count", "not what i meant", "wrong interpretation", "missed the point"],
+        "description": "Success gets redefined right as you achieve it",
+        "response": "You're changing the definition after I met it"
+      }
+    },
+    "severity_levels": [
+      {"max": 20, "icon": "✅", "label": "MINIMAL GOALPOST MOVING", "desc": "Normal expectation adjustments", "class": "low"},
+      {"max": 50, "icon": "⚠️", "label": "MODERATE GOALPOST MOVING", "desc": "Pattern of changing expectations", "class": "medium"},
+      {"max": 100, "icon": "🥅", "label": "SIGNIFICANT GOALPOST MOVING", "desc": "You're being set up to always fail", "class": "high"}
+    ],
+    "reality_checks": [
+      "If the goal keeps moving, you're not meant to reach it",
+      "This is about control, not standards",
+      "You can't win a rigged game",
+      "Your worth isn't defined by their impossible standards"
+    ]
+  },
+  "victim_blaming": {
+    "name": "Victim Blaming Detector",
+    "description": "Identify when responsibility is wrongly shifted",
+    "category": "manipulation",
+    "patterns": {
+      "Why Didn't You": {
+        "markers": ["why didn't you", "you should have", "could have avoided", "if you had just"],
+        "description": "Questioning your actions instead of the wrongdoer's",
+        "response": "The focus should be on their harmful action, not my response"
+      },
+      "Provocation Claim": {
+        "markers": ["made me", "provoked", "pushed me", "what did you expect", "you knew"],
+        "description": "Claiming your behavior caused their harmful action",
+        "response": "Nothing I did justifies that response"
+      },
+      "Hindsight Blame": {
+        "markers": ["you knew better", "should have known", "obviously", "anyone would"],
+        "description": "Using hindsight to create blame",
+        "response": "Hindsight doesn't make me responsible for their choice"
+      },
+      "Responsibility Shift": {
+        "markers": ["your fault", "because of you", "if you hadn't", "you made this happen"],
+        "description": "Directly shifting blame to victim",
+        "response": "Their choice to act that way was THEIR choice"
+      },
+      "Character Attack": {
+        "markers": ["too sensitive", "overreacting", "too trusting", "naive", "stupid"],
+        "description": "Blaming your personality or nature",
+        "response": "My character is not the issue - their behavior is"
+      },
+      "Minimization": {
+        "markers": ["not that bad", "get over it", "move on", "let it go", "making a big deal"],
+        "description": "Dismissing impact to reduce wrongdoer's responsibility",
+        "response": "Minimizing doesn't change what happened"
+      },
+      "Look What You Made Me Do": {
+        "markers": ["look what you", "see what you", "this is what happens", "you brought this"],
+        "description": "Classic abuser language shifting blame",
+        "response": "I did not make you do anything - you chose your behavior"
+      }
+    },
+    "severity_levels": [
+      {"max": 0, "icon": "✅", "label": "UNCLEAR", "desc": "No obvious victim blaming patterns", "class": "clear"},
+      {"max": 2, "icon": "⚠️", "label": "POSSIBLE VICTIM BLAMING", "desc": "Some blame-shifting language present", "class": "possible"},
+      {"max": 999, "icon": "🎯", "label": "VICTIM BLAMING DETECTED", "desc": "Multiple tactics to shift responsibility", "class": "blaming"}
+    ],
+    "reality_checks": [
+      "Harmful behavior is the responsibility of the person who did it",
+      "No one 'makes' someone else hurt them",
+      "You don't have to accept misplaced blame",
+      "Your reaction to harm doesn't cause the harm"
+    ]
   }
 }

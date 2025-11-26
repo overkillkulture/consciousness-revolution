@@ -209,5 +209,49 @@
       "should_detect": ["Excluded", "Bonding Through Criticism"],
       "severity": "high"
     }
+  ],
+  "moving_goalposts_examples": [
+    {
+      "text": "The requirements changed. I added a new condition - didn't mention that before, but you should have known.",
+      "should_detect": ["Requirements Changed", "Retroactive Changes"],
+      "severity": "medium"
+    },
+    {
+      "text": "That's not enough. Wasn't enough. Need more than that. The bar has been raised.",
+      "should_detect": ["Not Enough Anymore", "Moving Target"],
+      "severity": "high"
+    },
+    {
+      "text": "Yes but you missed the point. That's good but not quite right. Sure but almost doesn't count.",
+      "should_detect": ["Yes But Pattern", "Never Quite Right", "Success Redefined"],
+      "severity": "high"
+    },
+    {
+      "text": "Not exactly what I meant. Close but missing something. That doesn't count as success.",
+      "should_detect": ["Never Quite Right", "Success Redefined"],
+      "severity": "medium"
+    }
+  ],
+  "victim_blaming_examples": [
+    {
+      "text": "Why didn't you say something? You should have avoided this. If you had just left earlier...",
+      "should_detect": ["Why Didn't You"],
+      "severity": "possible"
+    },
+    {
+      "text": "You made me do this. You provoked me. What did you expect? You knew this would happen.",
+      "should_detect": ["Provocation Claim", "Responsibility Shift"],
+      "severity": "blaming"
+    },
+    {
+      "text": "It's your fault. Look what you made me do. If you hadn't done that, this wouldn't have happened.",
+      "should_detect": ["Responsibility Shift", "Look What You Made Me Do"],
+      "severity": "blaming"
+    },
+    {
+      "text": "You're too sensitive. Stop overreacting. Not that bad. Just get over it and move on.",
+      "should_detect": ["Character Attack", "Minimization"],
+      "severity": "possible"
+    }
   ]
 }
