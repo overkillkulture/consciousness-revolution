@@ -143,5 +143,71 @@
       "should_detect": ["Jealousy Accusation"],
       "severity": "possible"
     }
+  ],
+  "breadcrumbing_examples": [
+    {
+      "text": "Got a random text at 2am: 'hey what's up'. Haven't heard from them in weeks.",
+      "should_detect": ["Sporadic Contact", "Non-Committal Messages"],
+      "severity": "medium"
+    },
+    {
+      "text": "They liked my Instagram post but cancelled our plans again. Something came up.",
+      "should_detect": ["Social Media Only", "Plan Cancellation"],
+      "severity": "medium"
+    },
+    {
+      "text": "I always text first. They only respond but never reach out. Been a while since they initiated.",
+      "should_detect": ["Always You Initiating", "Reappearance Cycles"],
+      "severity": "high"
+    },
+    {
+      "text": "They keep it light, don't want to talk about anything deep. Just friends, they say.",
+      "should_detect": ["Surface Level Only", "Non-Committal Messages"],
+      "severity": "medium"
+    }
+  ],
+  "intermittent_reinforcement_examples": [
+    {
+      "text": "They're hot and cold - sometimes loving, sometimes distant. Never know which version I'll get.",
+      "should_detect": ["Unpredictable Affection"],
+      "severity": "medium"
+    },
+    {
+      "text": "It's amazing when they're nice, so perfect. But I'm anxious waiting, checking my phone constantly.",
+      "should_detect": ["Intense Highs", "Anxiety Cycles"],
+      "severity": "high"
+    },
+    {
+      "text": "I'm trying to figure out what I did wrong. Analyzing everything, looking for clues.",
+      "should_detect": ["Obsessive Analysis", "Trying Harder"],
+      "severity": "high"
+    },
+    {
+      "text": "It's up and down, a roller coaster. Exhausting. I tried to leave but keep coming back, can't quit.",
+      "should_detect": ["Roller Coaster", "Can't Leave"],
+      "severity": "high"
+    }
+  ],
+  "scapegoating_examples": [
+    {
+      "text": "It's your fault. You're the problem. Wouldn't happen if you weren't here.",
+      "should_detect": ["Blamed for Others"],
+      "severity": "medium"
+    },
+    {
+      "text": "When I do it, everyone gets upset. But they can do the same thing and get a pass, different rules.",
+      "should_detect": ["Double Standards", "Behavior Excused for Others"],
+      "severity": "high"
+    },
+    {
+      "text": "Remember when you messed up? Typical of you. Anyone could have done what you did, not impressed.",
+      "should_detect": ["Mistakes Amplified", "Success Minimized"],
+      "severity": "high"
+    },
+    {
+      "text": "They didn't tell you about the meeting. Forgot to include you. We were all talking about you behind your back.",
+      "should_detect": ["Excluded", "Bonding Through Criticism"],
+      "severity": "high"
+    }
   ]
 }

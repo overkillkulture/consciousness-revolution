@@ -403,5 +403,171 @@
       "Projection is a defense mechanism - they can't face their own behavior",
       "Document incidents - patterns become clear over time"
     ]
+  },
+  "breadcrumbing": {
+    "name": "Breadcrumbing Detector",
+    "description": "Identify minimal effort designed to keep you interested",
+    "category": "manipulation",
+    "patterns": {
+      "Sporadic Contact": {
+        "markers": ["late night", "random text", "haven't heard from", "weeks later", "out of nowhere"],
+        "description": "Contact that's inconsistent and unpredictable",
+        "response": "Consistent interest shows up consistently"
+      },
+      "Non-Committal Messages": {
+        "markers": ["hey", "sup", "thinking of you", "what's up", "just checking"],
+        "description": "Messages that are short and don't advance connection",
+        "response": "Real connection requires real conversation"
+      },
+      "Social Media Only": {
+        "markers": ["liked my", "commented on", "viewed my story", "reacted to", "follows me but"],
+        "description": "Engaging online but not making real plans",
+        "response": "Digital breadcrumbs aren't real connection"
+      },
+      "Plan Cancellation": {
+        "markers": ["can't make it", "something came up", "reschedule", "maybe another time", "too busy"],
+        "description": "Repeatedly cancelling or avoiding concrete plans",
+        "response": "Actions show priority - words are just noise"
+      },
+      "Reappearance Cycles": {
+        "markers": ["haven't talked in", "been a while", "i know it's been", "sorry for disappearing"],
+        "description": "Disappearing then returning when you start moving on",
+        "response": "This is manipulation, not genuine interest"
+      },
+      "Surface Level Only": {
+        "markers": ["keep it light", "don't want to", "not ready for", "too deep", "just friends"],
+        "description": "Avoiding deeper emotional connection",
+        "response": "Someone who wants you will want to know you"
+      },
+      "Always You Initiating": {
+        "markers": ["i always text first", "never reaches out", "only responds", "never initiates", "i'm the one"],
+        "description": "You're always the one making effort",
+        "response": "Stop initiating - see if they make effort"
+      }
+    },
+    "severity_levels": [
+      {"max": 20, "icon": "✅", "label": "MINIMAL BREADCRUMBING", "desc": "Low concern - but keep observing", "class": "low"},
+      {"max": 50, "icon": "⚠️", "label": "MODERATE BREADCRUMBING", "desc": "Pattern emerging - needs addressing", "class": "medium"},
+      {"max": 100, "icon": "🍞", "label": "SIGNIFICANT BREADCRUMBING", "desc": "You're being kept on the hook", "class": "high"}
+    ],
+    "reality_checks": [
+      "If they wanted to, they would",
+      "Inconsistent availability = inconsistent interest",
+      "You deserve consistent effort, not crumbs",
+      "Your peace > their occasional attention"
+    ]
+  },
+  "intermittent_reinforcement": {
+    "name": "Intermittent Reinforcement Detector",
+    "description": "Identify the pattern that creates addiction to relationships",
+    "category": "manipulation",
+    "patterns": {
+      "Unpredictable Affection": {
+        "markers": ["sometimes loving", "hot and cold", "one day nice", "never know which", "mood swings"],
+        "description": "Their affection and attention is unpredictable",
+        "response": "Healthy love is consistent, not a guessing game"
+      },
+      "Intense Highs": {
+        "markers": ["amazing when", "incredible moments", "so perfect when", "best times", "feel so lucky when"],
+        "description": "Good moments feel incredibly intense and valuable",
+        "response": "Intensity without consistency is manipulation"
+      },
+      "Obsessive Analysis": {
+        "markers": ["trying to figure out", "what did i do", "analyzing everything", "looking for clues", "what does it mean"],
+        "description": "You obsessively analyze their behavior for patterns",
+        "response": "You shouldn't have to decode someone who loves you"
+      },
+      "Anxiety Cycles": {
+        "markers": ["anxious waiting", "checking phone", "on edge", "worried they'll", "waiting for"],
+        "description": "You feel anxious between positive interactions",
+        "response": "Love should bring peace, not constant anxiety"
+      },
+      "Can't Leave": {
+        "markers": ["can't walk away", "tried to leave", "keep coming back", "addicted to", "can't quit"],
+        "description": "You can't leave despite the pain",
+        "response": "This is addiction, not love - seek support"
+      },
+      "Trying Harder": {
+        "markers": ["if i just", "maybe if i", "trying to earn", "work harder", "prove myself"],
+        "description": "You keep trying harder hoping to unlock consistent treatment",
+        "response": "You can't earn what should be freely given"
+      },
+      "Roller Coaster": {
+        "markers": ["up and down", "roller coaster", "never stable", "chaos", "exhausting"],
+        "description": "The relationship feels like an emotional roller coaster",
+        "response": "Healthy relationships have stability, not chaos"
+      }
+    },
+    "severity_levels": [
+      {"max": 20, "icon": "✅", "label": "LOW CONCERN", "desc": "Pattern not clearly present", "class": "low"},
+      {"max": 50, "icon": "⚠️", "label": "PATTERN EMERGING", "desc": "Some intermittent reinforcement signs", "class": "medium"},
+      {"max": 100, "icon": "🎰", "label": "INTERMITTENT REINFORCEMENT", "desc": "Strong pattern creating trauma bond", "class": "high"}
+    ],
+    "reality_checks": [
+      "Intensity is not intimacy",
+      "Chaos is not chemistry",
+      "You can't earn consistent love - it's given freely",
+      "This pattern creates trauma bonds, not healthy attachment",
+      "You deserve stable, predictable love"
+    ]
+  },
+  "scapegoating": {
+    "name": "Scapegoating Detector",
+    "description": "Identify when you're being blamed for group problems",
+    "category": "manipulation",
+    "patterns": {
+      "Blamed for Others": {
+        "markers": ["your fault", "because of you", "you caused", "you're the problem", "wouldn't happen if"],
+        "description": "Blamed for problems you didn't cause",
+        "response": "I'm not responsible for everyone else's issues"
+      },
+      "Double Standards": {
+        "markers": ["when i do", "but they can", "different rules", "only i get", "everyone else gets"],
+        "description": "Held to different standards than others",
+        "response": "I notice I'm being held to different standards"
+      },
+      "Success Minimized": {
+        "markers": ["not that big", "anyone could", "got lucky", "doesn't count", "not impressed"],
+        "description": "Your successes are ignored or minimized",
+        "response": "My accomplishments are valid regardless of your response"
+      },
+      "Mistakes Amplified": {
+        "markers": ["remember when you", "you always", "typical of you", "knew you would", "told you so"],
+        "description": "Your mistakes are amplified and remembered",
+        "response": "Everyone makes mistakes - this selective memory is unfair"
+      },
+      "Behavior Excused for Others": {
+        "markers": ["they didn't mean", "it's different when", "you're too sensitive about", "they get a pass", "special treatment"],
+        "description": "Others' bad behavior is excused but yours isn't",
+        "response": "I notice there are different rules for different people"
+      },
+      "Excluded": {
+        "markers": ["didn't tell you", "you weren't invited", "forgot to include", "don't need to know", "keep it from"],
+        "description": "You're excluded from information or opportunities",
+        "response": "This pattern of exclusion is deliberate"
+      },
+      "Negative Intent Assumed": {
+        "markers": ["you did that on purpose", "trying to", "you wanted to", "knew what you were doing", "intentionally"],
+        "description": "Your intentions are assumed to be negative",
+        "response": "You're assigning intent that wasn't there"
+      },
+      "Bonding Through Criticism": {
+        "markers": ["talking about you", "they all think", "everyone agrees", "we were saying", "behind your back"],
+        "description": "Others bond by talking negatively about you",
+        "response": "People who need a common enemy are not healthy"
+      }
+    },
+    "severity_levels": [
+      {"max": 20, "icon": "✅", "label": "LOW SCAPEGOATING", "desc": "Normal disagreements, not systematic targeting", "class": "low"},
+      {"max": 50, "icon": "⚠️", "label": "MODERATE SCAPEGOATING", "desc": "Pattern emerging - document and protect yourself", "class": "medium"},
+      {"max": 100, "icon": "🐐", "label": "SIGNIFICANT SCAPEGOATING", "desc": "You're being used as the designated problem", "class": "high"}
+    ],
+    "reality_checks": [
+      "Scapegoating serves the group, not truth",
+      "You were assigned a role - it's not your identity",
+      "No amount of good behavior will change their perception",
+      "Some systems are healthier to leave than to fix",
+      "Your worth is not determined by how this group treats you"
+    ]
   }
 }
