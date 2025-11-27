@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Pattern Detector - Pattern Theory Applied</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Courier New', monospace;
+            background: linear-gradient(135deg, #0a0e27 0%, #1a1f3a 100%);
+            color: #00ff41;
+            padding: 20px;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            padding: 30px 0;
+            border-bottom: 2px solid #00ff41;
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            text-shadow: 0 0 10px #00ff41;
+            margin-bottom: 10px;
+        }
+
+        .header .subtitle {
+            color: #666;
+            font-size: 1.1em;
+        }
+
+        .header .stats {
+            margin-top: 15px;
+            color: #00ff41;
+            font-size: 0.9em;
+        }
+
+        .input-section {
+            background: rgba(0, 255, 65, 0.05);
+            border: 1px solid #00ff41;
+            border-radius: 8px;
+            padding: 25px;
+            margin-bottom: 30px;
+        }
+
+        .input-section h2 {
+            margin-bottom: 15px;
+            color: #00ff41;
+        }
+
+        textarea {
+            width: 100%;
+            min-height: 120px;
+            background: #0a0e27;
+            color: #00ff41;
+            border: 1px solid #00ff41;
+            border-radius: 4px;
+            padding: 15px;
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+            resize: vertical;
+        }
+
+        textarea:focus {
+            outline: none;
+            box-shadow: 0 0 10px rgba(0, 255, 65, 0.3);
+        }
+
+        .analyze-btn {
+            background: #00ff41;
+            color: #0a0e27;
+            border: none;
+            padding: 12px 30px;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 15px;
+            font-family: 'Courier New', monospace;
+            transition: all 0.3s;
+        }
+
+        .analyze-btn:hover {
+            background: #00cc33;
+            box-shadow: 0 0 15px rgba(0, 255, 65, 0.5);
+        }
+
+        .results {
+            background: rgba(0, 255, 65, 0.05);
+            border: 1px solid #00ff41;
+            border-radius: 8px;
+            padding: 25px;
+            margin-top: 30px;
+            display: none;
+        }
+
+        .results.active {
+            display: block;
+        }
+
+        .score-display {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-bottom: 25px;
+        }
+
+        .score-box {
+            background: #0a0e27;
+            border: 2px solid;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .score-box.manipulation {
+            border-color: #ff4444;
+        }
+
+        .score-box.legitimacy {
+            border-color: #00ff41;
+        }
+
+        .score-box .label {
+            font-size: 0.9em;
+            margin-bottom: 10px;
+            opacity: 0.7;
+        }
+
+        .score-box .value {
+            font-size: 3em;
+            font-weight: bold;
+        }
+
+        .score-box.manipulation .value {
+            color: #ff4444;
+        }
+
+        .score-box.legitimacy .value {
+            color: #00ff41;
+        }
+
+        .pattern-info {
+            background: #0a0e27;
+            border-left: 4px solid #00ff41;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+
+        .pattern-info h3 {
+            margin-bottom: 10px;
+            color: #00ff41;
+        }
+
+        .recommendation {
+            background: #0a0e27;
+            border: 2px solid;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            font-size: 1.1em;
+        }
+
+        .recommendation.avoid {
+            border-color: #ff4444;
+            color: #ff4444;
+        }
+
+        .recommendation.caution {
+            border-color: #ffaa00;
+            color: #ffaa00;
+        }
+
+        .recommendation.sound {
+            border-color: #00ff41;
+            color: #00ff41;
+        }
+
+        .warnings {
+            background: #0a0e27;
+            border-left: 4px solid #ff4444;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+
+        .warnings h3 {
+            color: #ff4444;
+            margin-bottom: 10px;
+        }
+
+        .warnings ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .warnings li {
+            padding: 5px 0;
+            color: #ff8888;
+        }
+
+        .warnings li:before {
+            content: "⚠️  ";
+        }
+
+        .examples {
+            margin-top: 40px;
+            padding-top: 30px;
+            border-top: 1px solid #00ff41;
+        }
+
+        .examples h2 {
+            margin-bottom: 20px;
+            color: #00ff41;
+        }
+
+        .example-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 15px;
+        }
+
+        .example-card {
+            background: rgba(0, 255, 65, 0.05);
+            border: 1px solid #00ff41;
+            border-radius: 4px;
+            padding: 15px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .example-card:hover {
+            background: rgba(0, 255, 65, 0.1);
+            box-shadow: 0 0 10px rgba(0, 255, 65, 0.3);
+        }
+
+        .example-card h3 {
+            font-size: 0.9em;
+            margin-bottom: 10px;
+            color: #00ff41;
+        }
+
+        .example-card p {
+            font-size: 0.85em;
+            color: #888;
+        }
+
+        .confidence {
+            text-align: center;
+            padding: 15px;
+            background: #0a0e27;
+            border-radius: 4px;
+            margin-top: 15px;
+        }
+
+        .confidence .label {
+            font-size: 0.9em;
+            opacity: 0.7;
+            margin-bottom: 5px;
+        }
+
+        .confidence .value {
+            font-size: 1.5em;
+            color: #00ff41;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🔍 CRYPTO PATTERN DETECTOR</h1>
+            <div class="subtitle">Pattern Theory Applied to Cryptocurrency Markets</div>
+            <div class="stats">Built by CP1C2 | Based on 92.2% accurate Pattern Theory Engine | C1 × C2 × C3 = ∞</div>
+        </div>
+
+        <div class="input-section">
+            <h2>Analyze Crypto Communication</h2>
+            <p style="color: #888; margin-bottom: 15px;">Paste any crypto-related text: tweets, announcements, messages, project descriptions...</p>
+            <textarea id="inputText" placeholder="Example: 🚀🌙 This coin is going to 100x! Get in now before it's too late! Trust me bro!"></textarea>
+            <button class="analyze-btn" onclick="analyzeText()">ANALYZE FOR MANIPULATION</button>
+        </div>
+
+        <div class="results" id="results">
+            <h2>Analysis Results</h2>
+
+            <div class="score-display">
+                <div class="score-box manipulation">
+                    <div class="label">MANIPULATION SCORE</div>
+                    <div class="value" id="manipScore">--</div>
+                </div>
+                <div class="score-box legitimacy">
+                    <div class="label">LEGITIMACY SCORE</div>
+                    <div class="value" id="legitScore">--</div>
+                </div>
+            </div>
+
+            <div class="recommendation" id="recommendation">
+                <strong>RECOMMENDATION:</strong> <span id="recText"></span>
+            </div>
+
+            <div class="pattern-info">
+                <h3>Pattern Classification</h3>
+                <div id="patternType">--</div>
+            </div>
+
+            <div class="warnings" id="warningsSection" style="display: none;">
+                <h3>Warning Signals Detected</h3>
+                <ul id="warningsList"></ul>
+            </div>
+
+            <div class="confidence">
+                <div class="label">CONFIDENCE LEVEL</div>
+                <div class="value" id="confidence">--</div>
+            </div>
+        </div>
+
+        <div class="examples">
+            <h2>Example Texts (Click to Test)</h2>
+            <div class="example-grid">
+                <div class="example-card" onclick="loadExample(0)">
+                    <h3>🚨 Obvious Scam</h3>
+                    <p>"🚀🌙 100x guaranteed! Get in NOW! Trust me bro! Last chance!"</p>
+                </div>
+                <div class="example-card" onclick="loadExample(1)">
+                    <h3>✅ Legitimate Project</h3>
+                    <p>"Solid fundamentals. Good tokenomics. Check the whitepaper. DYOR. Not financial advice."</p>
+                </div>
+                <div class="example-card" onclick="loadExample(2)">
+                    <h3>⚠️ Pump & Dump</h3>
+                    <p>"URGENT! Whales loading! This is mooning! Don't miss out! Limited time!"</p>
+                </div>
+                <div class="example-card" onclick="loadExample(3)">
+                    <h3>ℹ️ Normal Marketing</h3>
+                    <p>"Exciting project with strong community. Long-term potential. Do your own research."</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const examples = [
+            "🚀🌙 This coin is going to 100x! Get in now before it's too late! Trust me bro! This is guaranteed!",
+            "Interesting project with solid fundamentals. Whitepaper looks good. Active development team. DYOR as always. Not financial advice.",
+            "URGENT! Whales are loading up! This is your last chance! Don't miss the moon! Get in immediately!",
+            "Exciting new project launching. Strong community support. Long-term hold. Do your own research before investing."
+        ];
+
+        function loadExample(index) {
+            document.getElementById('inputText').value = examples[index];
+            analyzeText();
+        }
+
+        function analyzeText() {
+            const text = document.getElementById('inputText').value;
+            if (!text.trim()) {
+                alert('Please enter some text to analyze');
+                return;
+            }
+
+            // Simulate the Python detector logic
+            const result = simulateDetector(text);
+            displayResults(result);
+        }
+
+        function simulateDetector(text) {
+            const textLower = text.toLowerCase();
+
+            // Manipulation markers
+            const manipMarkers = [
+                'moon', 'mooning', '10x', '100x', '1000x', 'lambo', '🚀', '🌙',
+                'guaranteed', "can't lose", 'sure thing', 'next bitcoin',
+                'last chance', "don't miss", 'fomo', 'limited', 'exclusive',
+                'get in now', "won't last", 'running out', 'hurry',
+                'trust me bro', 'insider info', 'whale alert', 'whales are buying',
+                'urgent', 'right now', 'immediately', 'asap', 'quick',
+                'everyone is buying', 'massive demand', 'going viral'
+            ];
+
+            // Legitimacy markers
+            const legitMarkers = [
+                'data shows', 'chart indicates', 'fundamentals', 'whitepaper',
+                'in my opinion', 'i think', 'could be', 'might', 'possibly',
+                'not financial advice', 'dyor', 'do your research', 'risk',
+                'long-term', 'sustainable', 'development', 'transparent'
+            ];
+
+            // Count markers
+            let manipCount = 0;
+            let legitCount = 0;
+
+            manipMarkers.forEach(marker => {
+                if (textLower.includes(marker)) manipCount++;
+            });
+
+            legitMarkers.forEach(marker => {
+                if (textLower.includes(marker)) legitCount++;
+            });
+
+            // Detect warnings
+            const warnings = [];
+            if (textLower.includes('100x') || textLower.includes('1000x')) {
+                warnings.push('Unrealistic expectations');
+            }
+            if ((textLower.includes('urgent') || textLower.includes('hurry')) &&
+                (textLower.includes('buy') || textLower.includes('get in'))) {
+                warnings.push('Pressure to act immediately');
+            }
+            if (textLower.includes('insider') || textLower.includes('secret')) {
+                warnings.push('Unverifiable information');
+            }
+            if (textLower.includes('guaranteed') || textLower.includes('sure thing')) {
+                warnings.push('Guaranteed profit claims');
+            }
+
+            // Calculate scores
+            const total = manipCount + legitCount;
+            let manipScore = total > 0 ? (manipCount / total) * 100 : 50;
+            let legitScore = total > 0 ? (legitCount / total) * 100 : 50;
+
+            // Add warning penalty
+            const warningPenalty = warnings.length * 15;
+            manipScore = Math.min(100, manipScore + warningPenalty);
+            legitScore = Math.max(0, legitScore - warningPenalty);
+
+            // Normalize
+            const scoreTotal = manipScore + legitScore;
+            if (scoreTotal > 0) {
+                manipScore = (manipScore / scoreTotal) * 100;
+                legitScore = (legitScore / scoreTotal) * 100;
+            }
+
+            // Classify pattern
+            let patternType, recommendation, recClass;
+            if (manipScore > 80) {
+                patternType = 'LIKELY SCAM - High manipulation detected';
+                recommendation = '🚨 AVOID - Do not engage. Likely scam or manipulation.';
+                recClass = 'avoid';
+            } else if (manipScore > 60) {
+                patternType = 'PUMP & DUMP - Classic manipulation';
+                recommendation = '⚠️  EXTREME CAUTION - Classic pump & dump patterns detected.';
+                recClass = 'caution';
+            } else if (manipScore > 40) {
+                patternType = 'FOMO CREATION - Emotional manipulation';
+                recommendation = '⚠️  RESEARCH DEEPLY - FOMO tactics in use. DYOR required.';
+                recClass = 'caution';
+            } else if (warnings.length >= 3) {
+                patternType = 'MULTIPLE RED FLAGS - Proceed with caution';
+                recommendation = '⚠️  VERIFY CLAIMS - Multiple red flags present.';
+                recClass = 'caution';
+            } else if (manipScore > 20) {
+                patternType = 'MILD HYPE - Some marketing language';
+                recommendation = 'ℹ️  NORMAL MARKETING - Typical crypto hype. Still do research.';
+                recClass = 'caution';
+            } else {
+                patternType = 'APPEARS LEGITIMATE - Low manipulation signals';
+                recommendation = '✅ APPEARS SOUND - Low manipulation. Still verify fundamentals.';
+                recClass = 'sound';
+            }
+
+            const confidence = Math.abs(manipScore - legitScore) / 100;
+
+            return {
+                manipulationScore: Math.round(manipScore),
+                legitimacyScore: Math.round(legitScore),
+                patternType,
+                warnings,
+                recommendation,
+                recommendationClass: recClass,
+                confidence: (confidence * 100).toFixed(1)
+            };
+        }
+
+        function displayResults(result) {
+            document.getElementById('manipScore').textContent = result.manipulationScore + '%';
+            document.getElementById('legitScore').textContent = result.legitimacyScore + '%';
+            document.getElementById('patternType').textContent = result.patternType;
+            document.getElementById('recText').textContent = result.recommendation;
+            document.getElementById('confidence').textContent = result.confidence + '%';
+
+            const recElement = document.getElementById('recommendation');
+            recElement.className = 'recommendation ' + result.recommendationClass;
+
+            // Display warnings
+            const warningsSection = document.getElementById('warningsSection');
+            if (result.warnings.length > 0) {
+                const warningsList = document.getElementById('warningsList');
+                warningsList.innerHTML = '';
+                result.warnings.forEach(warning => {
+                    const li = document.createElement('li');
+                    li.textContent = warning;
+                    warningsList.appendChild(li);
+                });
+                warningsSection.style.display = 'block';
+            } else {
+                warningsSection.style.display = 'none';
+            }
+
+            document.getElementById('results').classList.add('active');
+            document.getElementById('results').scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>
