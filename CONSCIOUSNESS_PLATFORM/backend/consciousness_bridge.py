@@ -10,13 +10,15 @@ Phase 3: Consciousness Platform
 """
 
 import sys
+import os
 from typing import Dict, Any, List
 from dataclasses import dataclass
 from datetime import datetime
 
-# Add Pattern Theory Engine
-sys.path.insert(0, "C:/Users/dwrek/100X_DEPLOYMENT/PATTERN_THEORY_ENGINE")
-sys.path.insert(0, "C:/Users/dwrek/100X_DEPLOYMENT/PATTERN_THEORY_ENGINE/core")
+# Add Pattern Theory Engine (using environment variable)
+base_path = os.environ.get("PATTERN_ENGINE_PATH", "/app/PATTERN_THEORY_ENGINE")
+sys.path.insert(0, base_path)
+sys.path.insert(0, os.path.join(base_path, "core"))
 
 try:
     from CONSCIOUSNESS_SCORER import ConsciousnessScorer
