@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seven Domains - Consciousness Revolution</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: Segoe UI, system-ui, sans-serif;
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #0a0a0a 100%);
+            color: #e0e0e0;
+            min-height: 100vh;
+        }
+        .header {
+            text-align: center;
+            padding: 60px 20px 40px;
+            background: linear-gradient(180deg, rgba(139, 92, 246, 0.1) 0%, transparent 100%);
+        }
+        .header h1 {
+            font-size: 3rem;
+            background: linear-gradient(135deg, #8b5cf6, #06b6d4, #10b981);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 15px;
+        }
+        .header p { font-size: 1.2rem; color: #a0a0a0; max-width: 600px; margin: 0 auto; }
+        .domains-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            padding: 40px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        .domain-card {
+            background: rgba(30, 30, 50, 0.8);
+            border-radius: 20px;
+            padding: 30px;
+            border: 1px solid rgba(139, 92, 246, 0.2);
+            transition: all 0.3s ease;
+        }
+        .domain-card:hover {
+            transform: translateY(-5px);
+            border-color: rgba(139, 92, 246, 0.5);
+            box-shadow: 0 20px 40px rgba(139, 92, 246, 0.2);
+        }
+        .domain-icon { font-size: 3rem; margin-bottom: 15px; }
+        .domain-card h2 { font-size: 1.5rem; margin-bottom: 10px; }
+        .domain-card p { color: #a0a0a0; line-height: 1.6; margin-bottom: 15px; }
+        .domain-card ul { list-style: none; padding-left: 0; }
+        .domain-card li { padding: 5px 0; color: #c0c0c0; font-size: 0.9rem; }
+        .domain-card li::before { content: ">"; color: #8b5cf6; margin-right: 8px; }
+        #physical { border-top: 3px solid #ef4444; }
+        #physical .domain-icon, #physical h2 { color: #ef4444; }
+        #financial { border-top: 3px solid #22c55e; }
+        #financial .domain-icon, #financial h2 { color: #22c55e; }
+        #mental { border-top: 3px solid #3b82f6; }
+        #mental .domain-icon, #mental h2 { color: #3b82f6; }
+        #emotional { border-top: 3px solid #ec4899; }
+        #emotional .domain-icon, #emotional h2 { color: #ec4899; }
+        #social { border-top: 3px solid #f59e0b; }
+        #social .domain-icon, #social h2 { color: #f59e0b; }
+        #creative { border-top: 3px solid #8b5cf6; }
+        #creative .domain-icon, #creative h2 { color: #8b5cf6; }
+        #integration { border-top: 3px solid #06b6d4; }
+        #integration .domain-icon, #integration h2 { color: #06b6d4; }
+        .nav-links { text-align: center; padding: 40px 20px; background: rgba(0, 0, 0, 0.3); }
+        .nav-links a {
+            display: inline-block;
+            padding: 12px 30px;
+            margin: 10px;
+            background: linear-gradient(135deg, #8b5cf6, #06b6d4);
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        .nav-links a:hover { transform: scale(1.05); box-shadow: 0 10px 30px rgba(139, 92, 246, 0.4); }
+        .footer { text-align: center; padding: 30px; color: #606060; font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>The Seven Domains</h1>
+        <p>Master all seven domains of existence to achieve true consciousness integration and unlock your full potential.</p>
+    </div>
+    <div class="domains-grid">
+        <div class="domain-card" id="physical">
+            <div class="domain-icon">&#128170;</div>
+            <h2>Physical Domain</h2>
+            <p>Your body is the vessel through which consciousness experiences reality. Optimize it.</p>
+            <ul><li>Movement and Exercise</li><li>Nutrition and Hydration</li><li>Sleep and Recovery</li><li>Energy Management</li></ul>
+        </div>
+        <div class="domain-card" id="financial">
+            <div class="domain-icon">&#128176;</div>
+            <h2>Financial Domain</h2>
+            <p>Resources enable freedom. Build systems that generate abundance without consuming your time.</p>
+            <ul><li>Income Multiplication</li><li>Wealth Building</li><li>Financial Independence</li><li>Passive Income Streams</li></ul>
+        </div>
+        <div class="domain-card" id="mental">
+            <div class="domain-icon">&#129504;</div>
+            <h2>Mental Domain</h2>
+            <p>Your mind is the control center. Train it to process reality with clarity and precision.</p>
+            <ul><li>Pattern Recognition</li><li>Strategic Thinking</li><li>Learning and Growth</li><li>Mental Models</li></ul>
+        </div>
+        <div class="domain-card" id="emotional">
+            <div class="domain-icon">&#10084;&#65039;</div>
+            <h2>Emotional Domain</h2>
+            <p>Emotions are data, not directors. Master them to navigate life with wisdom.</p>
+            <ul><li>Emotional Intelligence</li><li>Stress Management</li><li>Inner Peace</li><li>Resilience Building</li></ul>
+        </div>
+        <div class="domain-card" id="social">
+            <div class="domain-icon">&#128101;</div>
+            <h2>Social Domain</h2>
+            <p>Relationships multiply your capabilities. Build networks that amplify your impact.</p>
+            <ul><li>Deep Connections</li><li>Communication Mastery</li><li>Network Building</li><li>Influence and Leadership</li></ul>
+        </div>
+        <div class="domain-card" id="creative">
+            <div class="domain-icon">&#127912;</div>
+            <h2>Creative Domain</h2>
+            <p>Creation is consciousness expressing itself. Build things that did not exist before.</p>
+            <ul><li>Innovation and Ideation</li><li>Artistic Expression</li><li>Problem Solving</li><li>Building and Making</li></ul>
+        </div>
+        <div class="domain-card" id="integration">
+            <div class="domain-icon">&#9854;</div>
+            <h2>Integration Domain</h2>
+            <p>The whole is greater than the sum. Unite all domains into a coherent operating system.</p>
+            <ul><li>Life Design</li><li>Systems Thinking</li><li>Purpose Alignment</li><li>Consciousness Expansion</li></ul>
+        </div>
+    </div>
+    <div class="nav-links">
+        <a href="index.html">&#127968; Home</a>
+        <a href="araya-chat.html">&#128172; Talk to Araya</a>
+        <a href="turkey-tornado.html">&#127744; Turkey Tornado</a>
+    </div>
+    <div class="footer">
+        <p>Consciousness Revolution 2025 | Seven Domains Framework</p>
+    </div>
+</body>
+</html>
