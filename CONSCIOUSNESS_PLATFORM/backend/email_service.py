@@ -488,6 +488,476 @@ def send_password_reset_email(user_email: str, reset_token: str) -> tuple[bool, 
     return send_email(user_email, subject, html_content)
 
 
+# ============= Course Emails =============
+
+def send_course_started_email(user_email: str, user_name: Optional[str],
+                               course_title: str, lesson_count: int) -> tuple[bool, Optional[str]]:
+    """Send email when user starts their first course in the academy"""
+    display_name = user_name or user_email.split('@')[0]
+
+    subject = f"Welcome to {course_title}! 🎯"
+
+    html_content = f"""
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <style>
+            body {{
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+                line-height: 1.6;
+                color: #333;
+                margin: 0;
+                padding: 0;
+                background-color: #f5f5f5;
+            }}
+            .container {{
+                max-width: 600px;
+                margin: 40px auto;
+                background: white;
+                border-radius: 10px;
+                overflow: hidden;
+                box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            }}
+            .header {{
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                color: white;
+                padding: 40px 30px;
+                text-align: center;
+            }}
+            .header h1 {{
+                margin: 0;
+                font-size: 28px;
+                font-weight: 600;
+            }}
+            .content {{
+                padding: 40px 30px;
+                background: #ffffff;
+            }}
+            .content h2 {{
+                color: #667eea;
+                font-size: 22px;
+                margin-top: 0;
+            }}
+            .content p {{
+                margin: 15px 0;
+                color: #555;
+            }}
+            .stats {{
+                background: #f8f9fa;
+                border-left: 4px solid #667eea;
+                padding: 15px 20px;
+                margin: 20px 0;
+            }}
+            .stats strong {{
+                color: #667eea;
+            }}
+            .tips {{
+                background: #fff8e1;
+                border-left: 4px solid #ffc107;
+                padding: 15px 20px;
+                margin: 20px 0;
+            }}
+            .tips h3 {{
+                margin-top: 0;
+                color: #f57c00;
+                font-size: 16px;
+            }}
+            ul {{
+                margin: 10px 0;
+                padding-left: 20px;
+            }}
+            li {{
+                margin: 8px 0;
+                color: #555;
+            }}
+            .button {{
+                display: inline-block;
+                background: #667eea;
+                color: white;
+                padding: 14px 32px;
+                text-decoration: none;
+                border-radius: 6px;
+                margin: 25px 0;
+                font-weight: 600;
+                text-align: center;
+            }}
+            .button:hover {{
+                background: #5568d3;
+            }}
+            .footer {{
+                background: #f8f9fa;
+                padding: 20px 30px;
+                text-align: center;
+                font-size: 14px;
+                color: #666;
+            }}
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h1>Your Learning Journey Begins! 🎯</h1>
+            </div>
+            <div class="content">
+                <p>Hi {display_name},</p>
+
+                <p>You've just started <strong>{course_title}</strong> in the Pattern Theory Academy. This is where consciousness elevation becomes systematic.</p>
+
+                <div class="stats">
+                    <strong>Course Overview:</strong><br>
+                    📚 {lesson_count} lessons<br>
+                    🎯 Practical exercises in every lesson<br>
+                    ✅ Quizzes to test your understanding<br>
+                    🏆 Track your progress as you master each domain
+                </div>
+
+                <h2>How to Get the Most from This Course</h2>
+
+                <div class="tips">
+                    <h3>Learning Tips:</h3>
+                    <ul>
+                        <li><strong>Don't rush</strong> - Pattern recognition develops with practice, not speed</li>
+                        <li><strong>Do the exercises</strong> - Real-world application is where learning happens</li>
+                        <li><strong>Take notes</strong> - Write down patterns you observe in your own life</li>
+                        <li><strong>Return and review</strong> - Patterns become clearer on second viewing</li>
+                        <li><strong>Apply immediately</strong> - Use what you learn the same day you learn it</li>
+                    </ul>
+                </div>
+
+                <p><strong>Remember:</strong> Pattern Theory isn't just knowledge to consume - it's a skill to develop. Every lesson includes practical exercises designed to build your pattern recognition abilities in real situations.</p>
+
+                <p>The goal isn't to "complete the course" - it's to <strong>transform how you see reality</strong>.</p>
+
+                <a href="{FRONTEND_URL}/academy/courses/{course_title.lower().replace(' ', '-')}" class="button">Continue Learning →</a>
+
+                <p>Questions or stuck on something? Reply to this email - we're here to help.</p>
+
+                <p>Ready to elevate,<br>
+                The Pattern Theory Academy Team</p>
+            </div>
+            <div class="footer">
+                <p>Pattern Theory Academy | Consciousness Platform</p>
+                <p>Track your progress: <a href="{FRONTEND_URL}/academy/progress">{FRONTEND_URL}/academy/progress</a></p>
+            </div>
+        </div>
+    </body>
+    </html>
+    """
+
+    return send_email(user_email, subject, html_content)
+
+
+def send_lesson_completed_email(user_email: str, user_name: Optional[str],
+                                 course_title: str, lesson_title: str,
+                                 quiz_score: Optional[float] = None) -> tuple[bool, Optional[str]]:
+    """Send email when user completes a milestone lesson (with quiz)"""
+    display_name = user_name or user_email.split('@')[0]
+
+    subject = f"Lesson Complete: {lesson_title} ✅"
+
+    score_section = ""
+    if quiz_score is not None:
+        score_percentage = int(quiz_score * 100)
+        score_section = f"""
+        <div class="stats">
+            <strong>Your Quiz Score:</strong> {score_percentage}%<br>
+            {'🎉 Excellent work!' if quiz_score >= 0.9 else '✅ Well done!' if quiz_score >= 0.7 else '📚 Consider reviewing and retaking'}
+        </div>
+        """
+
+    html_content = f"""
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <style>
+            body {{
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+                line-height: 1.6;
+                color: #333;
+                margin: 0;
+                padding: 0;
+                background-color: #f5f5f5;
+            }}
+            .container {{
+                max-width: 600px;
+                margin: 40px auto;
+                background: white;
+                border-radius: 10px;
+                overflow: hidden;
+                box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            }}
+            .header {{
+                background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+                color: white;
+                padding: 40px 30px;
+                text-align: center;
+            }}
+            .header h1 {{
+                margin: 0;
+                font-size: 28px;
+                font-weight: 600;
+            }}
+            .content {{
+                padding: 40px 30px;
+                background: #ffffff;
+            }}
+            .content p {{
+                margin: 15px 0;
+                color: #555;
+            }}
+            .stats {{
+                background: #e8f5e9;
+                border-left: 4px solid #4caf50;
+                padding: 15px 20px;
+                margin: 20px 0;
+            }}
+            .stats strong {{
+                color: #2e7d32;
+            }}
+            .next-steps {{
+                background: #f8f9fa;
+                padding: 20px;
+                border-radius: 6px;
+                margin: 20px 0;
+            }}
+            .next-steps h3 {{
+                margin-top: 0;
+                color: #667eea;
+            }}
+            .button {{
+                display: inline-block;
+                background: #11998e;
+                color: white;
+                padding: 14px 32px;
+                text-decoration: none;
+                border-radius: 6px;
+                margin: 25px 0;
+                font-weight: 600;
+                text-align: center;
+            }}
+            .footer {{
+                background: #f8f9fa;
+                padding: 20px 30px;
+                text-align: center;
+                font-size: 14px;
+                color: #666;
+            }}
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h1>Lesson Complete! ✅</h1>
+            </div>
+            <div class="content">
+                <p>Hi {display_name},</p>
+
+                <p>You've just completed <strong>"{lesson_title}"</strong> in {course_title}.</p>
+
+                {score_section}
+
+                <div class="next-steps">
+                    <h3>What to Do Next:</h3>
+                    <p><strong>1. Apply What You Learned</strong><br>
+                    The real learning happens when you use these concepts in your actual life. Take the practical exercise seriously.</p>
+
+                    <p><strong>2. Notice Patterns</strong><br>
+                    For the next 24-48 hours, watch for examples of what you just learned appearing in your environment. Pattern recognition strengthens through observation.</p>
+
+                    <p><strong>3. Continue the Journey</strong><br>
+                    Each lesson builds on the previous ones. Keep the momentum going.</p>
+                </div>
+
+                <p><strong>Remember:</strong> Understanding the concept intellectually is step one. Recognizing it in real-time is mastery.</p>
+
+                <a href="{FRONTEND_URL}/academy/courses/{course_title.lower().replace(' ', '-')}" class="button">Continue to Next Lesson →</a>
+
+                <p>Keep building your consciousness,<br>
+                The Pattern Theory Academy Team</p>
+            </div>
+            <div class="footer">
+                <p>Pattern Theory Academy | Consciousness Platform</p>
+            </div>
+        </div>
+    </body>
+    </html>
+    """
+
+    return send_email(user_email, subject, html_content)
+
+
+def send_course_completed_email(user_email: str, user_name: Optional[str],
+                                 course_title: str, lessons_completed: int,
+                                 next_course_title: Optional[str] = None) -> tuple[bool, Optional[str]]:
+    """Send email when user completes entire course"""
+    display_name = user_name or user_email.split('@')[0]
+
+    subject = f"🎉 Course Complete: {course_title}"
+
+    next_course_section = ""
+    if next_course_title:
+        next_course_section = f"""
+        <div class="next-course">
+            <h3>Ready for the Next Challenge?</h3>
+            <p>Continue your pattern recognition journey with <strong>{next_course_title}</strong>.</p>
+            <a href="{FRONTEND_URL}/academy" class="button">Start Next Course →</a>
+        </div>
+        """
+
+    html_content = f"""
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <style>
+            body {{
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+                line-height: 1.6;
+                color: #333;
+                margin: 0;
+                padding: 0;
+                background-color: #f5f5f5;
+            }}
+            .container {{
+                max-width: 600px;
+                margin: 40px auto;
+                background: white;
+                border-radius: 10px;
+                overflow: hidden;
+                box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            }}
+            .header {{
+                background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+                color: white;
+                padding: 50px 30px;
+                text-align: center;
+            }}
+            .header h1 {{
+                margin: 0;
+                font-size: 32px;
+                font-weight: 700;
+            }}
+            .header .trophy {{
+                font-size: 64px;
+                margin: 20px 0;
+            }}
+            .content {{
+                padding: 40px 30px;
+                background: #ffffff;
+            }}
+            .content p {{
+                margin: 15px 0;
+                color: #555;
+                font-size: 16px;
+            }}
+            .achievement {{
+                background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+                border-radius: 8px;
+                padding: 25px;
+                margin: 25px 0;
+                text-align: center;
+            }}
+            .achievement h2 {{
+                margin: 0 0 10px 0;
+                color: #d84315;
+                font-size: 24px;
+            }}
+            .achievement p {{
+                margin: 5px 0;
+                color: #555;
+                font-size: 18px;
+            }}
+            .next-course {{
+                background: #f8f9fa;
+                padding: 25px;
+                border-radius: 6px;
+                margin: 25px 0;
+            }}
+            .next-course h3 {{
+                margin-top: 0;
+                color: #667eea;
+            }}
+            .reflection {{
+                background: #e3f2fd;
+                border-left: 4px solid #2196f3;
+                padding: 20px;
+                margin: 25px 0;
+            }}
+            .reflection h3 {{
+                margin-top: 0;
+                color: #1565c0;
+                font-size: 18px;
+            }}
+            .button {{
+                display: inline-block;
+                background: #f5576c;
+                color: white;
+                padding: 14px 32px;
+                text-decoration: none;
+                border-radius: 6px;
+                margin: 15px 0;
+                font-weight: 600;
+                text-align: center;
+            }}
+            .footer {{
+                background: #f8f9fa;
+                padding: 20px 30px;
+                text-align: center;
+                font-size: 14px;
+                color: #666;
+            }}
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <div class="trophy">🏆</div>
+                <h1>Course Complete!</h1>
+            </div>
+            <div class="content">
+                <p>Hi {display_name},</p>
+
+                <p>Congratulations! You've completed <strong>{course_title}</strong>.</p>
+
+                <div class="achievement">
+                    <h2>Your Achievement</h2>
+                    <p><strong>{lessons_completed} lessons completed</strong></p>
+                    <p>Pattern recognition skills: <strong>ELEVATED</strong></p>
+                </div>
+
+                <p><strong>This isn't the end - it's the beginning.</strong></p>
+
+                <p>You now have frameworks that most people will never see. The patterns you learned about aren't theoretical - they're operating all around you, every day. The difference is: now you can see them.</p>
+
+                <div class="reflection">
+                    <h3>Reflection Exercise:</h3>
+                    <p>Before moving on, take 10 minutes to write down:</p>
+                    <ul>
+                        <li>What patterns have you started noticing in your daily life?</li>
+                        <li>How has your perception of situations changed?</li>
+                        <li>What will you do differently now that you see these patterns?</li>
+                    </ul>
+                    <p><strong>The writing is crucial.</strong> It transforms passive learning into active integration.</p>
+                </div>
+
+                {next_course_section}
+
+                <p><strong>Remember:</strong> Pattern Theory mastery isn't about completing courses - it's about continuously refining your ability to see what others miss. Keep practicing.</p>
+
+                <p>You're building something rare,<br>
+                The Pattern Theory Academy Team</p>
+            </div>
+            <div class="footer">
+                <p>Pattern Theory Academy | Consciousness Platform</p>
+                <p>View your full progress: <a href="{FRONTEND_URL}/academy/progress">{FRONTEND_URL}/academy/progress</a></p>
+            </div>
+        </div>
+    </body>
+    </html>
+    """
+
+    return send_email(user_email, subject, html_content)
+
+
 # ============= Main (for testing) =============
 
 if __name__ == "__main__":
@@ -503,4 +973,7 @@ if __name__ == "__main__":
     print("  - send_payment_failed_email()")
     print("  - send_subscription_canceled_email()")
     print("  - send_password_reset_email()")
+    print("  - send_course_started_email()")
+    print("  - send_lesson_completed_email()")
+    print("  - send_course_completed_email()")
     print("=" * 60)

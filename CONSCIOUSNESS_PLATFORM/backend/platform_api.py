@@ -47,6 +47,9 @@ from auth_routes import auth_bp, init_oauth
 # Import payment routes
 from stripe_payments import payments_bp
 
+# Import academy routes
+from academy import academy_bp
+
 app = Flask(__name__)
 app.config['SECRET_KEY'] = os.environ.get('JWT_SECRET_KEY', 'change-this-secret-key-in-production')
 CORS(app)
@@ -54,6 +57,7 @@ CORS(app)
 # Register blueprints
 app.register_blueprint(auth_bp)
 app.register_blueprint(payments_bp)
+app.register_blueprint(academy_bp)
 
 # Initialize OAuth
 init_oauth(app)
@@ -330,6 +334,14 @@ if __name__ == "__main__":
     print("  POST /api/payment/webhook - Stripe webhook handler")
     print("  POST /api/payment/create-portal-session - Customer portal (requires token)")
     print("  GET  /api/payment/subscription - Get subscription status (requires token)")
+    print("\nPattern Theory Academy (requires Pro subscription):")
+    print("  GET  /api/academy/courses - List all courses with progress")
+    print("  GET  /api/academy/courses/<id> - Get course details")
+    print("  GET  /api/academy/courses/<cid>/lessons/<lid> - Get lesson content")
+    print("  POST /api/academy/courses/<cid>/lessons/<lid>/quiz - Submit quiz answers")
+    print("  POST /api/academy/courses/<cid>/lessons/<lid>/complete - Mark lesson complete")
+    print("  GET  /api/academy/progress - Get overall academy progress")
+    print("  GET  /api/academy/progress/<id> - Get course-specific progress")
     print("\nConsciousness Tools:")
     print("  GET  /api/bridge/questions - Get assessment questions")
     print("  POST /api/bridge/assess - Run consciousness assessment")

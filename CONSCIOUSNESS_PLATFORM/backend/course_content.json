@@ -1,0 +1,455 @@
+{
+  "courses": {
+    "pattern-theory-foundations": {
+      "id": "pattern-theory-foundations",
+      "title": "Pattern Theory Foundations",
+      "description": "Master the fundamental concepts of pattern recognition and consciousness elevation",
+      "difficulty": "beginner",
+      "duration_hours": 8,
+      "tier_required": "pro",
+      "order": 1,
+      "lessons": [
+        {
+          "id": "intro-to-patterns",
+          "title": "Introduction to Pattern Theory",
+          "order": 1,
+          "duration_minutes": 30,
+          "content": {
+            "overview": "Pattern Theory is the systematic study of recurring structures in human behavior, thought, and social systems. Understanding these patterns enables conscious navigation of reality and elevation of awareness.",
+            "key_concepts": [
+              "Patterns are repeating structures that can be identified and analyzed",
+              "Recognition precedes transcendence - you must see a pattern to escape it",
+              "Consciousness operates through pattern recognition and disruption",
+              "The Seven Domains framework provides comprehensive pattern analysis"
+            ],
+            "sections": [
+              {
+                "title": "What Are Patterns?",
+                "content": "Patterns are predictable sequences of events, thoughts, or behaviors that repeat across time and contexts. They exist at every scale - from individual habits to societal structures to universal laws. Your ability to recognize patterns determines your level of consciousness."
+              },
+              {
+                "title": "Why Pattern Recognition Matters",
+                "content": "Most people are unconscious prisoners of patterns they cannot see. By developing pattern recognition skills, you gain the ability to:\n\n• Predict outcomes before they occur\n• Identify manipulation attempts in real-time\n• Break free from limiting behavioral loops\n• Design intentional futures instead of repeating the past\n• Elevate consciousness through deliberate pattern disruption"
+              },
+              {
+                "title": "The Pattern Theory Framework",
+                "content": "This academy teaches a comprehensive framework for pattern analysis across Seven Domains:\n\n1. **Individual** - Personal habits, beliefs, emotional patterns\n2. **Relational** - Interpersonal dynamics, communication patterns\n3. **Organizational** - Group behavior, power structures\n4. **Societal** - Cultural norms, collective beliefs\n5. **Technological** - Tool adoption, digital behavior patterns\n6. **Environmental** - Physical space influence, resource patterns\n7. **Temporal** - Time-based cycles, historical repetition\n\nMastering all seven domains enables complete consciousness elevation."
+              }
+            ],
+            "practical_exercise": "For the next 24 hours, notice one repeating pattern in your daily life. It could be a thought you have repeatedly, an action you take automatically, or a situation that keeps occurring. Write it down. Recognition is the first step."
+          },
+          "quiz": {
+            "passing_score": 0.7,
+            "questions": [
+              {
+                "id": "q1",
+                "question": "What is the primary benefit of pattern recognition?",
+                "options": [
+                  "It makes you smarter than others",
+                  "It enables conscious navigation and prediction of outcomes",
+                  "It helps you win arguments",
+                  "It makes life easier"
+                ],
+                "correct": 1,
+                "explanation": "Pattern recognition enables conscious navigation because you can see structures before they fully manifest, allowing intentional response instead of automatic reaction."
+              },
+              {
+                "id": "q2",
+                "question": "According to Pattern Theory, what must happen before transcendence?",
+                "options": [
+                  "Meditation",
+                  "Recognition",
+                  "Enlightenment",
+                  "Practice"
+                ],
+                "correct": 1,
+                "explanation": "Recognition precedes transcendence. You cannot escape or transform a pattern you cannot see."
+              },
+              {
+                "id": "q3",
+                "question": "How many domains are in the Pattern Theory framework?",
+                "options": [
+                  "Five",
+                  "Six",
+                  "Seven",
+                  "Eight"
+                ],
+                "correct": 2,
+                "explanation": "The framework analyzes patterns across Seven Domains: Individual, Relational, Organizational, Societal, Technological, Environmental, and Temporal."
+              }
+            ]
+          }
+        },
+        {
+          "id": "seven-domains-overview",
+          "title": "The Seven Domains Framework",
+          "order": 2,
+          "duration_minutes": 45,
+          "content": {
+            "overview": "The Seven Domains provide a comprehensive map for analyzing patterns across all scales of human experience. Each domain operates with distinct rules, yet all domains interconnect.",
+            "key_concepts": [
+              "Each domain has unique pattern structures and rules",
+              "Domains influence each other in predictable ways",
+              "Mastery requires understanding domain interactions",
+              "Consciousness elevation happens through cross-domain pattern recognition"
+            ],
+            "sections": [
+              {
+                "title": "Domain 1: Individual",
+                "content": "**Scope**: Personal thoughts, emotions, habits, beliefs, identity\n\n**Core Patterns**:\n• Cognitive loops (repeating thought patterns)\n• Emotional cycles (predictable feeling sequences)\n• Behavioral habits (automatic actions)\n• Belief systems (filters for reality perception)\n• Identity narratives (stories about who you are)\n\n**Mastery Skill**: Self-observation without judgment. The ability to witness your own patterns as if observing someone else.\n\n**Example Pattern**: The 'impostor syndrome' loop - achievement → doubt → overwork → achievement → doubt. Recognition allows intervention."
+              },
+              {
+                "title": "Domain 2: Relational",
+                "content": "**Scope**: One-to-one interactions, communication dynamics, relationships\n\n**Core Patterns**:\n• Communication styles (direct/indirect, assertive/passive)\n• Conflict patterns (escalation sequences)\n• Attachment dynamics (anxious/avoidant behaviors)\n• Power exchanges (dominant/submissive flows)\n• Boundary systems (where 'self' ends and 'other' begins)\n\n**Mastery Skill**: Pattern recognition in real-time during conversation. Seeing dynamics as they unfold.\n\n**Example Pattern**: The 'pursuer-distancer' dynamic - one person seeks connection, triggering the other to withdraw, which triggers more pursuit. Recognizing this allows conscious interruption."
+              },
+              {
+                "title": "Domain 3: Organizational",
+                "content": "**Scope**: Group behavior, team dynamics, organizational structures\n\n**Core Patterns**:\n• Hierarchy patterns (power distribution)\n• Communication flows (who talks to whom)\n• Decision-making structures (how choices get made)\n• Cultural norms (unwritten rules)\n• Innovation/resistance cycles\n\n**Mastery Skill**: Seeing invisible structures that shape group behavior.\n\n**Example Pattern**: The 'meeting theater' pattern - decisions already made offline, meetings serve social validation rather than actual decision-making."
+              },
+              {
+                "title": "Domain 4: Societal",
+                "content": "**Scope**: Cultural norms, collective beliefs, social movements, mass behavior\n\n**Core Patterns**:\n• Narrative structures (dominant stories societies tell)\n• Value hierarchies (what gets prioritized)\n• Taboo systems (what cannot be discussed)\n• Trend cycles (fashion, ideas, movements)\n• Generational patterns (recurring themes across age cohorts)\n\n**Mastery Skill**: Distinguishing between universal truths and cultural conditioning.\n\n**Example Pattern**: The 'moral panic' cycle - new technology/behavior → fear amplification → regulation → normalization → new technology emerges."
+              },
+              {
+                "title": "Domain 5: Technological",
+                "content": "**Scope**: Tool adoption, platform dynamics, digital behavior patterns\n\n**Core Patterns**:\n• Adoption curves (how technologies spread)\n• Attention capture systems (engagement loops)\n• Platform lock-in patterns\n• Information filtering (algorithmic reality shaping)\n• Digital identity patterns\n\n**Mastery Skill**: Seeing the technology's design intent and behavioral conditioning effects.\n\n**Example Pattern**: The 'infinite scroll' pattern - engineered to bypass natural stopping cues, creating compulsive engagement."
+              },
+              {
+                "title": "Domain 6: Environmental",
+                "content": "**Scope**: Physical space design, resource patterns, environmental influence\n\n**Core Patterns**:\n• Space design impacts (how architecture shapes behavior)\n• Resource flow systems (energy, materials, waste)\n• Territorial patterns (ownership, boundaries, access)\n• Sensory environment effects (light, sound, temperature)\n• Proximity patterns (who/what is near influences what happens)\n\n**Mastery Skill**: Recognizing how physical environment programs behavior automatically.\n\n**Example Pattern**: Open office layouts reduce deep work while increasing superficial interaction - the environment enforces a behavioral pattern."
+              },
+              {
+                "title": "Domain 7: Temporal",
+                "content": "**Scope**: Time-based cycles, historical patterns, timeline structures\n\n**Core Patterns**:\n• Cyclical recurrence (seasons, economic cycles)\n• Historical rhyming (similar events across time)\n• Momentum patterns (acceleration/deceleration)\n• Critical timing (when things happen matters)\n• Generational cycles (predictable ~20-year patterns)\n\n**Mastery Skill**: Seeing where you are in various cycles to predict what comes next.\n\n**Example Pattern**: The 'Fourth Turning' generational cycle - Crisis → High → Awakening → Unraveling → Crisis, approximately every 80 years."
+              }
+            ],
+            "practical_exercise": "Choose one domain you want to understand better. For the next week, specifically watch for patterns in that domain. Document at least 3 patterns you observe."
+          },
+          "quiz": {
+            "passing_score": 0.7,
+            "questions": [
+              {
+                "id": "q1",
+                "question": "Which domain deals with one-to-one interaction dynamics?",
+                "options": [
+                  "Individual",
+                  "Relational",
+                  "Organizational",
+                  "Societal"
+                ],
+                "correct": 1,
+                "explanation": "The Relational domain focuses on patterns in one-to-one interactions and communication dynamics."
+              },
+              {
+                "id": "q2",
+                "question": "What is the mastery skill for the Technological domain?",
+                "options": [
+                  "Using technology efficiently",
+                  "Seeing the technology's design intent and conditioning effects",
+                  "Building better apps",
+                  "Avoiding technology"
+                ],
+                "correct": 1,
+                "explanation": "Technological domain mastery means seeing the intentional design patterns that shape user behavior, like infinite scroll or engagement loops."
+              },
+              {
+                "id": "q3",
+                "question": "Which domain focuses on historical cycles and timing?",
+                "options": [
+                  "Environmental",
+                  "Societal",
+                  "Temporal",
+                  "Organizational"
+                ],
+                "correct": 2,
+                "explanation": "The Temporal domain analyzes time-based cycles, historical patterns, and critical timing."
+              },
+              {
+                "id": "q4",
+                "question": "The 'pursuer-distancer' dynamic is an example of which domain?",
+                "options": [
+                  "Individual",
+                  "Relational",
+                  "Organizational",
+                  "Temporal"
+                ],
+                "correct": 1,
+                "explanation": "This is a classic Relational domain pattern where one person's behavior triggers predictable responses in another."
+              }
+            ]
+          }
+        },
+        {
+          "id": "consciousness-levels",
+          "title": "Consciousness Levels and Pattern Recognition",
+          "order": 3,
+          "duration_minutes": 40,
+          "content": {
+            "overview": "Your consciousness level is directly determined by how many pattern layers you can perceive simultaneously. This lesson maps the correlation between pattern recognition ability and consciousness elevation.",
+            "key_concepts": [
+              "Consciousness = number of simultaneous pattern layers you can track",
+              "Most people operate at 1-2 pattern layers (reactive consciousness)",
+              "Advanced practitioners track 5-7 layers (strategic consciousness)",
+              "Masters perceive 10+ layers simultaneously (meta-consciousness)"
+            ],
+            "sections": [
+              {
+                "title": "The Pattern Layer Model",
+                "content": "**Layer 0: Unconscious** - No pattern recognition. Pure reaction to stimuli. Living on autopilot.\n\n**Layer 1: Aware** - Can see immediate patterns in own behavior. 'I always do this.' Basic self-awareness.\n\n**Layer 2: Reflective** - Can see patterns in relationships and interactions. Understanding cause-effect in social dynamics.\n\n**Layer 3: Systemic** - Can see organizational and group patterns. Understanding how systems shape behavior.\n\n**Layer 4: Cultural** - Can see societal narratives and cultural conditioning. Distinguishing programming from truth.\n\n**Layer 5: Temporal** - Can see historical cycles and predict based on pattern recurrence across time.\n\n**Layer 6: Meta-Pattern** - Can see patterns OF patterns. Understanding universal structures.\n\n**Layer 7+: Transcendent** - Can simultaneously hold multiple contradictory pattern interpretations and choose which to activate."
+              },
+              {
+                "title": "Practical Example: A Job Offer",
+                "content": "Here's how different consciousness levels perceive the same event:\n\n**Layer 0**: 'They offered me a job!' (no pattern recognition)\n\n**Layer 1**: 'This is similar to my last job offer' (personal pattern)\n\n**Layer 2**: 'The hiring manager's communication style matches my last toxic boss' (relational pattern)\n\n**Layer 3**: 'This company has high turnover in this role - the organizational structure creates burnout' (organizational pattern)\n\n**Layer 4**: 'This industry currently has a narrative that overwork = success, which drives exploitation' (societal pattern)\n\n**Layer 5**: 'We're in the late stage of an economic cycle - layoffs are likely in 12-18 months' (temporal pattern)\n\n**Layer 6**: 'Job offers during uncertain times follow a predictable pattern of false security → dependency → exploitation' (meta-pattern)\n\n**Layer 7**: 'I can see all these patterns AND choose to take the job anyway because I'm consciously using it as a learning experience' (transcendent)\n\nNotice: Higher layers don't negate lower layers. They add context."
+              },
+              {
+                "title": "Developing Multi-Layer Perception",
+                "content": "You cannot skip layers. Development is sequential:\n\n**Step 1**: Master current layer completely\n**Step 2**: Practice at current layer until recognition becomes automatic\n**Step 3**: Begin noticing the next layer while maintaining current layer awareness\n**Step 4**: Integrate new layer until it becomes effortless\n**Step 5**: Repeat\n\n**Time Investment**: Typically 3-6 months of deliberate practice to stabilize each new layer.\n\n**Warning**: Seeing more patterns can initially increase anxiety. You become aware of problems you couldn't see before. This is temporary. As mastery develops, pattern recognition becomes empowering rather than overwhelming."
+              }
+            ],
+            "practical_exercise": "Take a current decision you're facing. Write out the pattern analysis from as many layers as you can access. Start with Layer 1 (your personal patterns with this type of decision) and work upward. See how many layers you can articulate."
+          },
+          "quiz": {
+            "passing_score": 0.75,
+            "questions": [
+              {
+                "id": "q1",
+                "question": "What determines your consciousness level?",
+                "options": [
+                  "How smart you are",
+                  "How many pattern layers you can perceive simultaneously",
+                  "How much you meditate",
+                  "Your education level"
+                ],
+                "correct": 1,
+                "explanation": "Consciousness level is directly correlated with the number of pattern layers you can track at once."
+              },
+              {
+                "id": "q2",
+                "question": "Can you skip pattern layers in development?",
+                "options": [
+                  "Yes, with intensive training",
+                  "Yes, if you're naturally talented",
+                  "No, development is sequential",
+                  "Sometimes, depending on background"
+                ],
+                "correct": 2,
+                "explanation": "Pattern layer development is sequential. You must master each layer before effectively adding the next."
+              },
+              {
+                "id": "q3",
+                "question": "What happens when you first start seeing more pattern layers?",
+                "options": [
+                  "Immediate enlightenment",
+                  "Nothing changes",
+                  "Increased anxiety (temporarily)",
+                  "Automatic happiness"
+                ],
+                "correct": 2,
+                "explanation": "Initially, seeing more patterns can increase anxiety as you become aware of problems you couldn't see before. This is temporary and transforms into empowerment with mastery."
+              },
+              {
+                "id": "q4",
+                "question": "At Layer 7 (Transcendent), what unique ability emerges?",
+                "options": [
+                  "Predicting the future perfectly",
+                  "Reading minds",
+                  "Holding contradictory pattern interpretations and choosing which to activate",
+                  "Eliminating all problems"
+                ],
+                "correct": 2,
+                "explanation": "Transcendent consciousness can simultaneously hold multiple contradictory pattern interpretations and consciously choose which frame to operate from."
+              }
+            ]
+          }
+        },
+        {
+          "id": "manipulation-detection-basics",
+          "title": "Introduction to Manipulation Detection",
+          "order": 4,
+          "duration_minutes": 50,
+          "content": {
+            "overview": "Manipulation is the intentional deployment of patterns to produce predictable responses in others. Learning to detect manipulation in real-time is essential for maintaining conscious agency.",
+            "key_concepts": [
+              "All manipulation relies on pattern exploitation",
+              "Manipulation works by triggering automatic responses",
+              "Detection requires pattern interruption",
+              "The gap between stimulus and response is where freedom lives"
+            ],
+            "sections": [
+              {
+                "title": "What Is Manipulation?",
+                "content": "**Definition**: The intentional deployment of psychological, social, or environmental patterns to produce predictable behavior in others without their conscious consent.\n\n**Key Components**:\n1. **Intentionality** - The manipulator knows what they're doing\n2. **Pattern Exploitation** - Uses your existing patterns against you\n3. **Automatic Response** - Bypasses conscious decision-making\n4. **Hidden Intent** - True goal is concealed\n\n**Not Manipulation**: Persuasion where intent is transparent, influence where the person maintains agency, or natural social dynamics where no one is deliberately engineering outcomes.\n\n**The Core Mechanism**: Manipulation works by triggering pattern A (which you recognize and accept) to produce outcome B (which you wouldn't consciously choose if you saw it directly)."
+              },
+              {
+                "title": "Common Manipulation Patterns",
+                "content": "**1. Reciprocity Exploitation**\n• Pattern: Humans feel obligated to return favors\n• Manipulation: Unrequested 'gifts' that create false obligation\n• Example: Free samples followed by high-pressure sales\n• Defense: Consciously decline obligation from unrequested gifts\n\n**2. Scarcity Manufacturing**\n• Pattern: Humans value things that appear rare\n• Manipulation: Artificial scarcity to create urgency\n• Example: 'Only 3 left!' when there are hundreds in the warehouse\n• Defense: Investigate actual scarcity vs. claimed scarcity\n\n**3. Social Proof Fabrication**\n• Pattern: Humans copy what others do\n• Manipulation: Fake testimonials, paid reviews, manufactured consensus\n• Example: '10,000 people already bought this!'\n• Defense: Seek independent verification of social proof claims\n\n**4. Authority Mimicry**\n• Pattern: Humans defer to perceived authority\n• Manipulation: Symbols of authority without actual expertise\n• Example: Doctors in lab coats selling products they know nothing about\n• Defense: Verify actual credentials and relevant expertise\n\n**5. Consistency Traps**\n• Pattern: Humans want to appear consistent\n• Manipulation: Small commitments that lead to large unwanted commitments\n• Example: 'You said you care about X, so you must do Y'\n• Defense: Right to change your mind based on new information\n\n**6. Liking Exploitation**\n• Pattern: Humans say yes to people they like\n• Manipulation: Manufactured rapport to gain compliance\n• Example: Sales training that teaches mirroring to create false connection\n• Defense: Separate liking someone from evaluating their proposal"
+              },
+              {
+                "title": "Real-Time Detection Protocol",
+                "content": "**Step 1: Recognize the Sensation**\nManipulation often feels like:\n• Pressure to decide quickly\n• Confusion about what's happening\n• Guilt for not complying\n• Feeling smaller or less powerful\n• Your gut saying 'something's wrong' even when logic says it's fine\n\n**Step 2: Create Space**\nWhen you detect these sensations:\n• Physically step back or create distance\n• Say 'I need time to think about this'\n• Break the interaction momentum\n• Do NOT make decisions in the moment\n\n**Step 3: Pattern Analysis**\nAsk yourself:\n• What pattern is being triggered in me?\n• What is the stated intent vs. likely actual intent?\n• What automatic response is this designed to produce?\n• If I saw this pattern clearly, would I consciously choose this response?\n\n**Step 4: Conscious Response**\nChoose your response deliberately:\n• Break the expected pattern\n• State your boundary clearly\n• Do not justify or over-explain\n• Be willing to be 'rude' (social pressure is often part of the manipulation)\n\n**Practice Phrase**: 'I don't make decisions under pressure. I'll get back to you.'"
+              },
+              {
+                "title": "Advanced: Manipulation in Systems",
+                "content": "Individual manipulation is obvious once you see it. System-level manipulation is harder to detect because:\n\n**1. No Single Manipulator**: The system's structure produces manipulation without anyone intending it\n\n**2. Normalized Patterns**: 'This is just how things work'\n\n**3. Distributed Pressure**: Manipulation comes from multiple sources simultaneously\n\n**Examples**:\n• School systems that teach compliance more than thinking\n• Work cultures that equate hours present with value produced\n• Social media designed to maximize engagement regardless of well-being\n• Political systems that manufacture binary choices\n\n**Detection**: Look for situations where you regularly feel disempowered, where questioning the system is taboo, or where the stated purpose differs dramatically from actual effects.\n\n**Response**: System-level manipulation requires collective pattern recognition and coordinated pattern disruption. Individual resistance is possible but limited."
+              }
+            ],
+            "practical_exercise": "For the next 3 days, notice every time you feel pressured to make a decision quickly. Use the phrase 'I don't make decisions under pressure' at least once. Document what happens when you interrupt the expected compliance pattern."
+          },
+          "quiz": {
+            "passing_score": 0.75,
+            "questions": [
+              {
+                "id": "q1",
+                "question": "What is the core mechanism of manipulation?",
+                "options": [
+                  "Force and threats",
+                  "Triggering pattern A to produce outcome B without conscious consent",
+                  "Lying directly",
+                  "Being mean"
+                ],
+                "correct": 1,
+                "explanation": "Manipulation works by triggering an accepted pattern (A) to produce an outcome (B) you wouldn't consciously choose if you saw the connection directly."
+              },
+              {
+                "id": "q2",
+                "question": "What's the first step in real-time manipulation detection?",
+                "options": [
+                  "Confront the manipulator",
+                  "Recognize the sensation (pressure, confusion, guilt)",
+                  "Analyze the pattern intellectually",
+                  "Comply and think about it later"
+                ],
+                "correct": 1,
+                "explanation": "Detection begins with recognizing the felt sensation of manipulation - pressure, confusion, guilt, or your gut saying 'something's wrong.'"
+              },
+              {
+                "id": "q3",
+                "question": "What should you do when you detect manipulation?",
+                "options": [
+                  "Make a decision immediately to get it over with",
+                  "Create space and refuse to decide under pressure",
+                  "Argue with the manipulator",
+                  "Pretend you don't notice"
+                ],
+                "correct": 1,
+                "explanation": "When you detect manipulation, create space by saying 'I need time to think about this' and refuse to make decisions under pressure."
+              },
+              {
+                "id": "q4",
+                "question": "What makes system-level manipulation harder to detect than individual manipulation?",
+                "options": [
+                  "It's more complex intellectually",
+                  "No single manipulator and patterns are normalized as 'just how things work'",
+                  "It doesn't really exist",
+                  "You need special training"
+                ],
+                "correct": 1,
+                "explanation": "System-level manipulation is harder to detect because there's no single manipulator and the patterns have been normalized as 'just how things work.'"
+              },
+              {
+                "id": "q5",
+                "question": "Which is NOT a common manipulation pattern?",
+                "options": [
+                  "Reciprocity exploitation",
+                  "Scarcity manufacturing",
+                  "Transparent persuasion",
+                  "Authority mimicry"
+                ],
+                "correct": 2,
+                "explanation": "Transparent persuasion where intent is clear and agency is maintained is NOT manipulation. The others are common manipulation patterns."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "seven-domains-mastery": {
+      "id": "seven-domains-mastery",
+      "title": "Seven Domains Mastery",
+      "description": "Deep dive into each domain with advanced pattern recognition techniques and practical applications",
+      "difficulty": "intermediate",
+      "duration_hours": 15,
+      "tier_required": "pro",
+      "order": 2,
+      "lessons": [
+        {
+          "id": "individual-domain-deep-dive",
+          "title": "Individual Domain: Mastering Self-Patterns",
+          "order": 1,
+          "duration_minutes": 60,
+          "content": {
+            "overview": "The Individual domain is where all pattern work begins. You cannot effectively recognize patterns in external systems until you can see your own patterns clearly.",
+            "key_concepts": [
+              "Self-observation is the foundation skill",
+              "Cognitive loops create reality tunnels",
+              "Emotional patterns are information, not truth",
+              "Identity is a pattern, not a fixed thing"
+            ],
+            "sections": [
+              {
+                "title": "The Observer State",
+                "content": "**Core Skill**: Developing the ability to watch your own mind without being captured by its contents.\n\n**The Challenge**: The part of you trying to observe IS the mind you're trying to observe. This creates a paradox that most people never resolve.\n\n**The Solution**: Practice meta-awareness - the awareness of being aware.\n\n**Technique - The 3-Second Gap**:\n1. Notice when you have a thought\n2. Before responding to the thought, pause for 3 seconds\n3. In that gap, recognize: 'I am aware of this thought'\n4. Choose your response to the thought consciously\n\nExample:\n• Thought appears: 'I'm not good enough'\n• Old pattern: Immediate emotional reaction, belief cascade\n• New pattern: 3-second gap → 'I'm aware of the thought \"I'm not good enough\"' → 'This is a familiar pattern. What triggered it? Do I choose to engage with this thought?'\n\n**Practice**: Set a timer to beep randomly 10 times today. Each time it beeps, notice what you were just thinking. This trains the observer."
+              },
+              {
+                "title": "Mapping Your Cognitive Loops",
+                "content": "**What Are Cognitive Loops?**\nRepetitive thought sequences that run automatically. Like: worry → plan → worry plan was insufficient → more detailed plan → worry about edge cases → etc.\n\n**Your Top 5 Loops**:\nMost people have 5-7 primary cognitive loops that consume 80% of their mental cycles. Identifying yours is liberation.\n\n**Identification Exercise**:\nFor one week, every evening, write down:\n• What did I think about most today?\n• What thought kept recurring?\n• What mental narrative ran in the background?\n\nAfter 7 days, you'll see clear patterns.\n\n**Common Cognitive Loops**:\n1. **The Worry Loop**: Problem → catastrophic projection → anxiety → mental rehearsal of disaster\n2. **The Replay Loop**: Past event → analysis of what you should have said/done → regret → replay\n3. **The Comparison Loop**: See someone's success → compare to your situation → feel inadequate → justify why you can't do that\n4. **The Planning Loop**: Identify goal → make plan → find flaws in plan → make better plan → repeat indefinitely, never start\n5. **The Validation Loop**: Take action → need external confirmation → check for feedback → anxiety if no feedback → check again\n\n**Breaking Loops**:\nOnce identified, you can interrupt:\n• Notice loop starting\n• Label it: 'This is the worry loop'\n• Choose different response: 'I've thought this 1000 times. What if I used this mental energy for X instead?'"
+              }
+            ],
+            "practical_exercise": "Choose one cognitive loop you want to interrupt. For the next 7 days, use the labeling technique every time you notice it starting. Count how many times you successfully interrupt vs. how many times it runs automatically. Track progress."
+          },
+          "quiz": {
+            "passing_score": 0.75,
+            "questions": [
+              {
+                "id": "q1",
+                "question": "What is the foundation skill for Individual Domain mastery?",
+                "options": [
+                  "Positive thinking",
+                  "Self-observation without being captured by mind's contents",
+                  "Meditation",
+                  "Journaling"
+                ],
+                "correct": 1,
+                "explanation": "Self-observation - the ability to watch your mind without being captured by its contents - is the foundation skill."
+              },
+              {
+                "id": "q2",
+                "question": "What is the purpose of the '3-Second Gap' technique?",
+                "options": [
+                  "To think faster",
+                  "To create space between thought and response for conscious choice",
+                  "To meditate",
+                  "To suppress negative thoughts"
+                ],
+                "correct": 1,
+                "explanation": "The 3-second gap creates space between stimulus (thought) and response, allowing conscious choice instead of automatic reaction."
+              },
+              {
+                "id": "q3",
+                "question": "How many primary cognitive loops do most people have?",
+                "options": [
+                  "1-2",
+                  "5-7",
+                  "15-20",
+                  "Hundreds"
+                ],
+                "correct": 1,
+                "explanation": "Most people have 5-7 primary cognitive loops that consume 80% of their mental cycles."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "manipulation-detection-advanced": {
+      "id": "manipulation-detection-advanced",
+      "title": "Advanced Manipulation Detection",
+      "description": "Professional-level skills for detecting and neutralizing sophisticated manipulation techniques",
+      "difficulty": "advanced",
+      "duration_hours": 12,
+      "tier_required": "pro",
+      "order": 3,
+      "lessons": []
+    }
+  }
+}
