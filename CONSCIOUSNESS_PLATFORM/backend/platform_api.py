@@ -53,6 +53,9 @@ from academy import academy_bp
 # Import community routes
 from community import community_bp
 
+# Import admin routes
+from admin import admin_bp
+
 app = Flask(__name__)
 app.config['SECRET_KEY'] = os.environ.get('JWT_SECRET_KEY', 'change-this-secret-key-in-production')
 CORS(app)
@@ -62,6 +65,7 @@ app.register_blueprint(auth_bp)
 app.register_blueprint(payments_bp)
 app.register_blueprint(academy_bp)
 app.register_blueprint(community_bp)
+app.register_blueprint(admin_bp)
 
 # Initialize OAuth
 init_oauth(app)
@@ -357,6 +361,18 @@ if __name__ == "__main__":
     print("  POST /api/community/posts/<id>/lock - Lock/unlock post (admin only)")
     print("  DEL  /api/community/posts/<id> - Delete post (author or admin)")
     print("  GET  /api/community/users/<id>/posts - Get user's posts")
+    print("\nAdmin Dashboard (admin only):")
+    print("  GET  /api/admin/users - List all users (filterable, paginated)")
+    print("  GET  /api/admin/users/<id> - Get user details with statistics")
+    print("  PUT  /api/admin/users/<id>/role - Update user role (promote/demote)")
+    print("  PUT  /api/admin/users/<id>/ban - Ban/unban user")
+    print("  DEL  /api/admin/users/<id> - Permanently delete user")
+    print("  GET  /api/admin/forum/posts - Get all forum posts (including deleted)")
+    print("  POST /api/admin/forum/posts/<id>/restore - Restore deleted post")
+    print("  GET  /api/admin/analytics/overview - Platform analytics")
+    print("  GET  /api/admin/analytics/growth - User growth analytics")
+    print("  GET  /api/admin/analytics/courses - Course enrollment/completion stats")
+    print("  GET  /api/admin/system/health - System health check")
     print("\nConsciousness Tools:")
     print("  GET  /api/bridge/questions - Get assessment questions")
     print("  POST /api/bridge/assess - Run consciousness assessment")
