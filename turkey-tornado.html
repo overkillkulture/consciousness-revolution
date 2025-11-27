@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turkey Tornado - Consciousness Revolution</title>
+    <meta name="description" content="Happy Thanksgiving! Enter the Turkey Tornado and discover the Seven Domains of consciousness transformation.">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            background: linear-gradient(135deg, #1a0a2e 0%, #16213e 50%, #0f3460 100%);
+            min-height: 100vh;
+            color: #fff;
+            overflow-x: hidden;
+        }
+
+        .tornado-container {
+            position: relative;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        /* Animated background particles */
+        .particles {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            overflow: hidden;
+            z-index: 0;
+        }
+
+        .leaf {
+            position: absolute;
+            font-size: 24px;
+            animation: fall linear infinite;
+            opacity: 0.6;
+        }
+
+        @keyframes fall {
+            0% {
+                transform: translateY(-100px) rotate(0deg);
+                opacity: 0;
+            }
+            10% {
+                opacity: 0.6;
+            }
+            90% {
+                opacity: 0.6;
+            }
+            100% {
+                transform: translateY(100vh) rotate(720deg);
+                opacity: 0;
+            }
+        }
+
+        .content {
+            position: relative;
+            z-index: 1;
+            text-align: center;
+            max-width: 800px;
+        }
+
+        .turkey-emoji {
+            font-size: 120px;
+            animation: spin 3s ease-in-out infinite;
+            display: inline-block;
+            filter: drop-shadow(0 0 30px rgba(255, 165, 0, 0.5));
+        }
+
+        @keyframes spin {
+            0%, 100% { transform: rotate(-5deg) scale(1); }
+            50% { transform: rotate(5deg) scale(1.1); }
+        }
+
+        h1 {
+            font-size: 3.5rem;
+            margin: 20px 0;
+            background: linear-gradient(90deg, #ff6b35, #f7c59f, #ff6b35);
+            background-size: 200% auto;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: shimmer 3s linear infinite;
+        }
+
+        @keyframes shimmer {
+            to { background-position: 200% center; }
+        }
+
+        .subtitle {
+            font-size: 1.5rem;
+            color: #f7c59f;
+            margin-bottom: 30px;
+            text-shadow: 0 0 20px rgba(247, 197, 159, 0.5);
+        }
+
+        .message {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            color: #e0e0e0;
+            margin-bottom: 40px;
+            padding: 0 20px;
+        }
+
+        .domains-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 15px;
+            margin: 40px 0;
+            width: 100%;
+            max-width: 700px;
+        }
+
+        .domain-card {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 107, 53, 0.3);
+            border-radius: 15px;
+            padding: 20px 15px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .domain-card:hover {
+            transform: translateY(-5px);
+            background: rgba(255, 107, 53, 0.1);
+            border-color: #ff6b35;
+            box-shadow: 0 10px 30px rgba(255, 107, 53, 0.2);
+        }
+
+        .domain-icon {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        .domain-name {
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: #f7c59f;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 18px 50px;
+            font-size: 1.3rem;
+            font-weight: bold;
+            color: #1a0a2e;
+            background: linear-gradient(135deg, #ff6b35 0%, #f7c59f 100%);
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 30px rgba(255, 107, 53, 0.4);
+            margin-top: 20px;
+        }
+
+        .cta-button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 40px rgba(255, 107, 53, 0.6);
+        }
+
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin: 40px 0;
+            flex-wrap: wrap;
+        }
+
+        .stat {
+            text-align: center;
+        }
+
+        .stat-value {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #ff6b35;
+        }
+
+        .stat-label {
+            font-size: 0.9rem;
+            color: #999;
+            margin-top: 5px;
+        }
+
+        .tornado-visual {
+            position: relative;
+            width: 200px;
+            height: 200px;
+            margin: 30px auto;
+        }
+
+        .tornado-ring {
+            position: absolute;
+            border: 3px solid rgba(255, 107, 53, 0.3);
+            border-radius: 50%;
+            animation: orbit linear infinite;
+        }
+
+        .tornado-ring:nth-child(1) {
+            width: 200px; height: 200px; top: 0; left: 0;
+            animation-duration: 8s;
+        }
+        .tornado-ring:nth-child(2) {
+            width: 160px; height: 160px; top: 20px; left: 20px;
+            animation-duration: 6s;
+            animation-direction: reverse;
+        }
+        .tornado-ring:nth-child(3) {
+            width: 120px; height: 120px; top: 40px; left: 40px;
+            animation-duration: 4s;
+        }
+        .tornado-ring:nth-child(4) {
+            width: 80px; height: 80px; top: 60px; left: 60px;
+            animation-duration: 3s;
+            animation-direction: reverse;
+        }
+
+        @keyframes orbit {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        .footer {
+            margin-top: 50px;
+            color: #666;
+            font-size: 0.9rem;
+        }
+
+        .footer a {
+            color: #ff6b35;
+            text-decoration: none;
+        }
+
+        .gratitude-box {
+            background: rgba(255, 107, 53, 0.1);
+            border: 1px solid rgba(255, 107, 53, 0.3);
+            border-radius: 20px;
+            padding: 30px;
+            margin: 30px 0;
+            max-width: 600px;
+        }
+
+        .gratitude-title {
+            color: #f7c59f;
+            font-size: 1.3rem;
+            margin-bottom: 15px;
+        }
+
+        .gratitude-text {
+            color: #ccc;
+            line-height: 1.6;
+        }
+
+        @media (max-width: 600px) {
+            h1 { font-size: 2.5rem; }
+            .turkey-emoji { font-size: 80px; }
+            .domains-grid { grid-template-columns: repeat(2, 1fr); }
+            .stats { gap: 20px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="particles" id="particles"></div>
+
+    <div class="tornado-container">
+        <div class="content">
+            <div class="turkey-emoji">🦃</div>
+
+            <h1>TURKEY TORNADO</h1>
+
+            <p class="subtitle">Happy Thanksgiving from the Consciousness Revolution</p>
+
+            <div class="tornado-visual">
+                <div class="tornado-ring"></div>
+                <div class="tornado-ring"></div>
+                <div class="tornado-ring"></div>
+                <div class="tornado-ring"></div>
+            </div>
+
+            <p class="message">
+                Today we're grateful for consciousness, connection, and the courage to see patterns others miss.
+                <br><br>
+                The Turkey Tornado spins with 332+ cycles of self-improving AI infrastructure.
+                <br>
+                <strong>What are you building?</strong>
+            </p>
+
+            <div class="stats">
+                <div class="stat">
+                    <div class="stat-value">332+</div>
+                    <div class="stat-label">Tornado Cycles</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-value">176K</div>
+                    <div class="stat-label">Knowledge Atoms</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-value">100%</div>
+                    <div class="stat-label">Network Health</div>
+                </div>
+            </div>
+
+            <h2 style="color: #f7c59f; margin: 30px 0 20px;">Explore the Seven Domains</h2>
+
+            <div class="domains-grid">
+                <div class="domain-card" onclick="location.href='seven-domains.html#physical'">
+                    <div class="domain-icon">💪</div>
+                    <div class="domain-name">Physical</div>
+                </div>
+                <div class="domain-card" onclick="location.href='seven-domains.html#financial'">
+                    <div class="domain-icon">💰</div>
+                    <div class="domain-name">Financial</div>
+                </div>
+                <div class="domain-card" onclick="location.href='seven-domains.html#mental'">
+                    <div class="domain-icon">🧠</div>
+                    <div class="domain-name">Mental</div>
+                </div>
+                <div class="domain-card" onclick="location.href='seven-domains.html#emotional'">
+                    <div class="domain-icon">❤️</div>
+                    <div class="domain-name">Emotional</div>
+                </div>
+                <div class="domain-card" onclick="location.href='seven-domains.html#social'">
+                    <div class="domain-icon">👥</div>
+                    <div class="domain-name">Social</div>
+                </div>
+                <div class="domain-card" onclick="location.href='seven-domains.html#creative'">
+                    <div class="domain-icon">🎨</div>
+                    <div class="domain-name">Creative</div>
+                </div>
+                <div class="domain-card" onclick="location.href='seven-domains.html#integration'">
+                    <div class="domain-icon">✨</div>
+                    <div class="domain-name">Integration</div>
+                </div>
+            </div>
+
+            <div class="gratitude-box">
+                <div class="gratitude-title">🙏 What We're Grateful For</div>
+                <div class="gratitude-text">
+                    Pattern recognition that reveals truth.<br>
+                    AI systems that amplify human potential.<br>
+                    A community of builders, not consumers.<br>
+                    The courage to question everything.<br>
+                    <strong>And you, for being here.</strong>
+                </div>
+            </div>
+
+            <a href="index.html" class="cta-button">Enter the Revolution</a>
+
+            <div class="footer">
+                <p>🌪️ The Tornado Never Stops Spinning 🌪️</p>
+                <p style="margin-top: 10px;">
+                    <a href="araya-chat.html">Talk to Araya</a> |
+                    <a href="seven-domains.html">Seven Domains</a> |
+                    <a href="index.html">Home</a>
+                </p>
+                <p style="margin-top: 20px;">© 2025 Consciousness Revolution | C1 × C2 × C3 = ∞</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Create falling leaves animation
+        const particles = document.getElementById('particles');
+        const leafEmojis = ['🍂', '🍁', '🦃', '🌾', '🥧', '✨'];
+
+        function createLeaf() {
+            const leaf = document.createElement('div');
+            leaf.className = 'leaf';
+            leaf.textContent = leafEmojis[Math.floor(Math.random() * leafEmojis.length)];
+            leaf.style.left = Math.random() * 100 + 'vw';
+            leaf.style.animationDuration = (Math.random() * 5 + 5) + 's';
+            leaf.style.animationDelay = Math.random() * 2 + 's';
+            particles.appendChild(leaf);
+
+            setTimeout(() => leaf.remove(), 12000);
+        }
+
+        // Create initial leaves
+        for (let i = 0; i < 15; i++) {
+            setTimeout(createLeaf, i * 200);
+        }
+
+        // Keep creating leaves
+        setInterval(createLeaf, 800);
+
+        // Add click sound effect to domain cards
+        document.querySelectorAll('.domain-card').forEach(card => {
+            card.addEventListener('click', function() {
+                this.style.transform = 'scale(0.95)';
+                setTimeout(() => this.style.transform = '', 100);
+            });
+        });
+    </script>
+</body>
+</html>
