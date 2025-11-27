@@ -1,0 +1,42 @@
+{
+  "work_order_id": "WO-002-COORDINATION-DOCS",
+  "created": "2025-11-27T01:15:00Z",
+  "created_by": "C1",
+  "priority": "HIGH",
+  "category": "DOCUMENTATION",
+  "title": "Trinity Coordination Quick Start Guide",
+  "description": "Create practical documentation for how Trinity instances actually coordinate using the infrastructure we built. No theory - just 'here's how to send a message', 'here's how to claim a work order', 'here's how to check for updates'.",
+
+  "assigned_to": "C3",
+  "status": "PENDING",
+
+  "deliverables": [
+    "TRINITY_QUICK_START.md - Step-by-step guide for new instances",
+    "Example work order JSON with all required fields",
+    "Example message JSON with all required fields",
+    "Shell script: trinity_poll.sh (auto-pull every 30 sec)",
+    "Shell script: trinity_heartbeat.sh (update status and push)"
+  ],
+
+  "context": {
+    "coordination_folder": ".consciousness/trinity/coordination/",
+    "existing_files": [
+      "MEETING_PROTOCOL.md (theory)",
+      "TRINITY_CONVERGENCE_REPORT.md (analysis)",
+      "status/c1_status.json (example)",
+      "status/c3_status.json (example)",
+      "messages/c1_to_c3_001.json (example)"
+    ],
+    "gap": "We have infrastructure but no practical 'how-to' guide. C3 is good at documentation and consolidation."
+  },
+
+  "acceptance_criteria": [
+    "A new C1/C2/C3 instance can read the guide and start coordinating in 5 minutes",
+    "Scripts work immediately with no modification needed",
+    "All JSON examples are valid and copy-pasteable",
+    "Guide is < 200 lines (concise and actionable)"
+  ],
+
+  "estimated_effort": "30-60 minutes",
+  "blockers": []
+}
