@@ -1,12 +1,12 @@
 {
   "indexer": "GRABOVOI_CYCLOTRON_INDEXER",
-  "timestamp": "2025-11-25T04:07:27.629939",
+  "timestamp": "2025-11-27T14:30:06.268783",
   "total_atoms": 30,
   "atoms": [
     {
       "id": "7b32649c8ea8249b",
       "type": "grabovoi_code",
-      "timestamp": "2025-11-25T04:07:27.622626",
+      "timestamp": "2025-11-27T14:30:06.261705",
       "data": {
         "code": "520 741 8",
         "category": "Financial",
@@ -27,7 +27,7 @@
     {
       "id": "efbf9f1017e15055",
       "type": "grabovoi_code",
-      "timestamp": "2025-11-25T04:07:27.623105",
+      "timestamp": "2025-11-27T14:30:06.262124",
       "data": {
         "code": "9213140",
         "category": "Financial",
@@ -48,7 +48,7 @@
     {
       "id": "2e937330c2f45194",
       "type": "grabovoi_code",
-      "timestamp": "2025-11-25T04:07:27.623378",
+      "timestamp": "2025-11-27T14:30:06.262360",
       "data": {
         "code": "318 612 518 714",
         "category": "Financial",
@@ -69,7 +69,7 @@
     {
       "id": "8688d07ab178adf7",
       "type": "grabovoi_code",
-      "timestamp": "2025-11-25T04:07:27.623616",
+      "timestamp": "2025-11-27T14:30:06.262577",
       "data": {
         "code": "218 494517601",
         "category": "Financial",
@@ -90,7 +90,7 @@
     {
       "id": "7a7eb44b44477a9b",
       "type": "grabovoi_code",
-      "timestamp": "2025-11-25T04:07:27.623822",
+      "timestamp": "2025-11-27T14:30:06.262785",
       "data": {
         "code": "71974131981",
         "category": "Financial",
@@ -111,7 +111,7 @@
     {
       "id": "cc6dcd12b056d21b",
       "type": "grabovoi_code",
-      "timestamp": "2025-11-25T04:07:27.624112",
+      "timestamp": "2025-11-27T14:30:06.262963",
       "data": {
         "code": "318 798",
         "category": "Financial",
@@ -132,7 +132,7 @@
     {
       "id": "39a8ddc74a9b1190",
       "type": "grabovoi_code",
-      "timestamp": "2025-11-25T04:07:27.624357",
+      "timestamp": "2025-11-27T14:30:06.263154",
       "data": {
         "code": "520 741 8",
         "category": "Financial",
@@ -153,7 +153,7 @@
     {
       "id": "0c065058339d136a",
       "type": "grabovoi_code",
-      "timestamp": "2025-11-25T04:07:27.624604",
+      "timestamp": "2025-11-27T14:30:06.263350",
       "data": {
         "code": "71427321893",
         "category": "Financial",
@@ -174,7 +174,7 @@
     {
       "id": "03b3ca0dc2ed3221",
       "type": "grabovoi_code",
-      "timestamp": "2025-11-25T04:07:27.624846",
+      "timestamp": "2025-11-27T14:30:06.263538",
       "data": {
         "code": "888 412 1289018",
         "category": "Relationships",
@@ -195,7 +195,7 @@
     {
       "id": "bd31080dbd69375c",
       "type": "grabovoi_code",
-      "timestamp": "2025-11-25T04:07:27.625103",
+      "timestamp": "2025-11-27T14:30:06.263698",
       "data": {
         "code": "197 023",
         "category": "Relationships",
@@ -216,7 +216,7 @@
     {
       "id": "58f06615154f2bbe",
       "type": "grabovoi_code",
-      "timestamp": "2025-11-25T04:07:27.625308",
+      "timestamp": "2025-11-27T14:30:06.263856",
       "data": {
         "code": "396815",
         "category": "Relationships",
@@ -237,7 +237,7 @@
     {
       "id": "f59c1171b8d07303",
       "type": "grabovoi_code",
-      "timestamp": "2025-11-25T04:07:27.625490",
+      "timestamp": "2025-11-27T14:30:06.264016",
       "data": {
         "code": "888 912 818848",
         "category": "Relationships",
@@ -258,7 +258,7 @@
     {
       "id": "e7e1050ddc851a7b",
       "type": "grabovoi_code",
-      "timestamp": "2025-11-25T04:07:27.625714",
+      "timestamp": "2025-11-27T14:30:06.264230",
       "data": {
         "code": "80845700",
         "category": "Health",
@@ -279,7 +279,7 @@
     {
       "id": "466cf7acbdfa5500",
       "type": "grabovoi_code",
-      "timestamp": "2025-11-25T04:07:27.625919",
+      "timestamp": "2025-11-27T14:30:06.264449",
       "data": {
         "code": "1814321",
         "category": "Health",
@@ -300,7 +300,7 @@
     {
       "id": "cd2e8353975b279a",
       "type": "grabovoi_code",
-      "timestamp": "2025-11-25T04:07:27.626165",
+      "timestamp": "2025-11-27T14:30:06.264708",
       "data": {
         "code": "918714",
         "category": "Health",
@@ -321,7 +321,7 @@
     {
       "id": "d658c6d980a2e6ce",
       "type": "grabovoi_code",
-      "timestamp": "2025-11-25T04:07:27.626335",
+      "timestamp": "2025-11-27T14:30:06.264944",
       "data": {
         "code": "5343168",
         "category": "Health",
@@ -342,7 +342,7 @@
     {
       "id": "1412e84d4b28cb0c",
       "type": "grabovoi_code",
-      "timestamp": "2025-11-25T04:07:27.626493",
+      "timestamp": "2025-11-27T14:30:06.265186",
       "data": {
         "code": "31 22 778",
         "category": "Health",
@@ -363,7 +363,7 @@
     {
       "id": "097f3283c1597a3e",
       "type": "grabovoi_code",
-      "timestamp": "2025-11-25T04:07:27.627048",
+      "timestamp": "2025-11-27T14:30:06.265646",
       "data": {
         "code": "29 37 853",
         "category": "Health",
@@ -384,7 +384,7 @@
     {
       "id": "fca5364445713e7a",
       "type": "grabovoi_code",
-      "timestamp": "2025-11-25T04:07:27.627292",
+      "timestamp": "2025-11-27T14:30:06.265818",
       "data": {
         "code": "86 86 694",
         "category": "Health",
@@ -405,7 +405,7 @@
     {
       "id": "c40466697369d264",
       "type": "grabovoi_code",
-      "timestamp": "2025-11-25T04:07:27.627469",
+      "timestamp": "2025-11-27T14:30:06.266091",
       "data": {
         "code": "33 48 452",
         "category": "Health",
@@ -426,7 +426,7 @@
     {
       "id": "c2b3d398df403f3b",
       "type": "grabovoi_code",
-      "timestamp": "2025-11-25T04:07:27.627757",
+      "timestamp": "2025-11-27T14:30:06.266432",
       "data": {
         "code": "29 63 586",
         "category": "Mental",
@@ -447,7 +447,7 @@
     {
       "id": "8b2b48651359353f",
       "type": "grabovoi_code",
-      "timestamp": "2025-11-25T04:07:27.628020",
+      "timestamp": "2025-11-27T14:30:06.266690",
       "data": {
         "code": "25 36 933",
         "category": "Mental",
@@ -468,7 +468,7 @@
     {
       "id": "2509b108aee94263",
       "type": "grabovoi_code",
-      "timestamp": "2025-11-25T04:07:27.628280",
+      "timestamp": "2025-11-27T14:30:06.266996",
       "data": {
         "code": "11 21 495",
         "category": "Mental",
@@ -489,7 +489,7 @@
     {
       "id": "0a3c536ee4125431",
       "type": "grabovoi_code",
-      "timestamp": "2025-11-25T04:07:27.628542",
+      "timestamp": "2025-11-27T14:30:06.267236",
       "data": {
         "code": "45 88 623",
         "category": "Mental",
@@ -510,7 +510,7 @@
     {
       "id": "1cdd208e07b4ebb4",
       "type": "grabovoi_code",
-      "timestamp": "2025-11-25T04:07:27.628780",
+      "timestamp": "2025-11-27T14:30:06.267529",
       "data": {
         "code": "72 84 555",
         "category": "Mental",
@@ -531,7 +531,7 @@
     {
       "id": "3ab56bb1de5f3384",
       "type": "grabovoi_code",
-      "timestamp": "2025-11-25T04:07:27.628972",
+      "timestamp": "2025-11-27T14:30:06.267759",
       "data": {
         "code": "9148919",
         "category": "Protection",
@@ -552,7 +552,7 @@
     {
       "id": "ae93ad0d52a4e3dc",
       "type": "grabovoi_code",
-      "timestamp": "2025-11-25T04:07:27.629161",
+      "timestamp": "2025-11-27T14:30:06.267990",
       "data": {
         "code": "817219738",
         "category": "Protection",
@@ -573,7 +573,7 @@
     {
       "id": "f2354e4d54cb67f7",
       "type": "grabovoi_code",
-      "timestamp": "2025-11-25T04:07:27.629324",
+      "timestamp": "2025-11-27T14:30:06.268216",
       "data": {
         "code": "1001105010",
         "category": "Spiritual",
@@ -594,7 +594,7 @@
     {
       "id": "ae234f6d07aa1378",
       "type": "grabovoi_code",
-      "timestamp": "2025-11-25T04:07:27.629501",
+      "timestamp": "2025-11-27T14:30:06.268396",
       "data": {
         "code": "213233530",
         "category": "Business",
@@ -615,7 +615,7 @@
     {
       "id": "4bc15b2b2ef34eab",
       "type": "grabovoi_code",
-      "timestamp": "2025-11-25T04:07:27.629720",
+      "timestamp": "2025-11-27T14:30:06.268565",
       "data": {
         "code": "11112",
         "category": "Beauty",
