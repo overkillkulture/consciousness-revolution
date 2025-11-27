@@ -958,6 +958,325 @@ def send_course_completed_email(user_email: str, user_name: Optional[str],
     return send_email(user_email, subject, html_content)
 
 
+# ============= Community Forum Emails =============
+
+def send_new_post_notification(user_email: str, user_name: Optional[str],
+                                post_title: str, post_author: str,
+                                category: str, post_id: int) -> tuple[bool, Optional[str]]:
+    """Send email when new post is created in a category"""
+    display_name = user_name or user_email.split('@')[0]
+
+    subject = f"New post in {category}: {post_title}"
+
+    html_content = f"""
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <style>
+            body {{
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+                line-height: 1.6;
+                color: #333;
+            }}
+            .container {{
+                max-width: 600px;
+                margin: 0 auto;
+                padding: 20px;
+            }}
+            .header {{
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                color: white;
+                padding: 30px;
+                text-align: center;
+                border-radius: 10px 10px 0 0;
+            }}
+            .content {{
+                background: #f9f9f9;
+                padding: 30px;
+            }}
+            .post-preview {{
+                background: white;
+                border-left: 4px solid #667eea;
+                padding: 20px;
+                margin: 20px 0;
+                border-radius: 4px;
+            }}
+            .category-badge {{
+                background: #667eea;
+                color: white;
+                padding: 4px 12px;
+                border-radius: 12px;
+                font-size: 12px;
+                font-weight: 600;
+                display: inline-block;
+            }}
+            .button {{
+                display: inline-block;
+                background: #667eea;
+                color: white;
+                padding: 12px 30px;
+                text-decoration: none;
+                border-radius: 5px;
+                margin: 20px 0;
+                font-weight: 600;
+            }}
+            .footer {{
+                text-align: center;
+                padding: 20px;
+                color: #666;
+                font-size: 12px;
+            }}
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h1>💬 New Community Post</h1>
+            </div>
+            <div class="content">
+                <p>Hi {display_name},</p>
+
+                <p>A new post was just added to the community:</p>
+
+                <div class="post-preview">
+                    <span class="category-badge">{category}</span>
+                    <h2 style="margin: 15px 0 10px 0; color: #333;">{post_title}</h2>
+                    <p style="color: #666; margin: 0;">Posted by <strong>{post_author}</strong></p>
+                </div>
+
+                <p>Join the conversation and share your perspective!</p>
+
+                <a href="{FRONTEND_URL}/community/posts/{post_id}" class="button">View Post & Reply</a>
+
+                <p style="color: #666; font-size: 14px; margin-top: 30px;">
+                    You're receiving this because you're following the {category} category.
+                    <a href="{FRONTEND_URL}/settings/notifications">Manage notification preferences</a>
+                </p>
+
+                <p>Best regards,<br>
+                The Consciousness Platform Community Team</p>
+            </div>
+            <div class="footer">
+                <p>Consciousness Platform Community</p>
+            </div>
+        </div>
+    </body>
+    </html>
+    """
+
+    return send_email(user_email, subject, html_content)
+
+
+def send_reply_notification(user_email: str, user_name: Optional[str],
+                             post_title: str, reply_author: str,
+                             reply_preview: str, post_id: int) -> tuple[bool, Optional[str]]:
+    """Send email when someone replies to your post"""
+    display_name = user_name or user_email.split('@')[0]
+
+    # Truncate reply preview to 150 characters
+    if len(reply_preview) > 150:
+        reply_preview = reply_preview[:147] + "..."
+
+    subject = f"{reply_author} replied to your post: {post_title}"
+
+    html_content = f"""
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <style>
+            body {{
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+                line-height: 1.6;
+                color: #333;
+            }}
+            .container {{
+                max-width: 600px;
+                margin: 0 auto;
+                padding: 20px;
+            }}
+            .header {{
+                background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+                color: white;
+                padding: 30px;
+                text-align: center;
+                border-radius: 10px 10px 0 0;
+            }}
+            .content {{
+                background: #f9f9f9;
+                padding: 30px;
+            }}
+            .post-info {{
+                background: #e8f5e9;
+                border-left: 4px solid #4caf50;
+                padding: 15px 20px;
+                margin: 20px 0;
+                border-radius: 4px;
+            }}
+            .reply-preview {{
+                background: white;
+                border: 1px solid #ddd;
+                padding: 20px;
+                margin: 20px 0;
+                border-radius: 8px;
+                font-style: italic;
+                color: #555;
+            }}
+            .button {{
+                display: inline-block;
+                background: #11998e;
+                color: white;
+                padding: 12px 30px;
+                text-decoration: none;
+                border-radius: 5px;
+                margin: 20px 0;
+                font-weight: 600;
+            }}
+            .footer {{
+                text-align: center;
+                padding: 20px;
+                color: #666;
+                font-size: 12px;
+            }}
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h1>💬 New Reply to Your Post</h1>
+            </div>
+            <div class="content">
+                <p>Hi {display_name},</p>
+
+                <p><strong>{reply_author}</strong> just replied to your post!</p>
+
+                <div class="post-info">
+                    <strong>Your Post:</strong> {post_title}
+                </div>
+
+                <div class="reply-preview">
+                    "{reply_preview}"
+                </div>
+
+                <p>Click below to read the full reply and continue the conversation:</p>
+
+                <a href="{FRONTEND_URL}/community/posts/{post_id}" class="button">View Reply & Respond</a>
+
+                <p style="color: #666; font-size: 14px; margin-top: 30px;">
+                    You're receiving this because this is your post.
+                    <a href="{FRONTEND_URL}/settings/notifications">Manage notification preferences</a>
+                </p>
+
+                <p>Best regards,<br>
+                The Consciousness Platform Community Team</p>
+            </div>
+            <div class="footer">
+                <p>Consciousness Platform Community</p>
+            </div>
+        </div>
+    </body>
+    </html>
+    """
+
+    return send_email(user_email, subject, html_content)
+
+
+def send_thread_update_notification(user_email: str, user_name: Optional[str],
+                                     post_title: str, reply_author: str,
+                                     post_id: int) -> tuple[bool, Optional[str]]:
+    """Send email when thread you participated in gets new reply"""
+    display_name = user_name or user_email.split('@')[0]
+
+    subject = f"New activity in: {post_title}"
+
+    html_content = f"""
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <style>
+            body {{
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+                line-height: 1.6;
+                color: #333;
+            }}
+            .container {{
+                max-width: 600px;
+                margin: 0 auto;
+                padding: 20px;
+            }}
+            .header {{
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                color: white;
+                padding: 30px;
+                text-align: center;
+                border-radius: 10px 10px 0 0;
+            }}
+            .content {{
+                background: #f9f9f9;
+                padding: 30px;
+            }}
+            .thread-info {{
+                background: #e3f2fd;
+                border-left: 4px solid #2196f3;
+                padding: 15px 20px;
+                margin: 20px 0;
+                border-radius: 4px;
+            }}
+            .button {{
+                display: inline-block;
+                background: #667eea;
+                color: white;
+                padding: 12px 30px;
+                text-decoration: none;
+                border-radius: 5px;
+                margin: 20px 0;
+                font-weight: 600;
+            }}
+            .footer {{
+                text-align: center;
+                padding: 20px;
+                color: #666;
+                font-size: 12px;
+            }}
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h1>🔔 Thread Update</h1>
+            </div>
+            <div class="content">
+                <p>Hi {display_name},</p>
+
+                <p>There's new activity in a discussion you participated in!</p>
+
+                <div class="thread-info">
+                    <strong>Thread:</strong> {post_title}<br>
+                    <strong>New reply from:</strong> {reply_author}
+                </div>
+
+                <p>The conversation is continuing. Jump back in and share your thoughts!</p>
+
+                <a href="{FRONTEND_URL}/community/posts/{post_id}" class="button">View Thread</a>
+
+                <p style="color: #666; font-size: 14px; margin-top: 30px;">
+                    You're receiving this because you participated in this thread.
+                    <a href="{FRONTEND_URL}/settings/notifications">Manage notification preferences</a>
+                </p>
+
+                <p>Best regards,<br>
+                The Consciousness Platform Community Team</p>
+            </div>
+            <div class="footer">
+                <p>Consciousness Platform Community</p>
+            </div>
+        </div>
+    </body>
+    </html>
+    """
+
+    return send_email(user_email, subject, html_content)
+
+
 # ============= Main (for testing) =============
 
 if __name__ == "__main__":
@@ -976,4 +1295,7 @@ if __name__ == "__main__":
     print("  - send_course_started_email()")
     print("  - send_lesson_completed_email()")
     print("  - send_course_completed_email()")
+    print("  - send_new_post_notification()")
+    print("  - send_reply_notification()")
+    print("  - send_thread_update_notification()")
     print("=" * 60)

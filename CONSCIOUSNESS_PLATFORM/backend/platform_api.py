@@ -50,6 +50,9 @@ from stripe_payments import payments_bp
 # Import academy routes
 from academy import academy_bp
 
+# Import community routes
+from community import community_bp
+
 app = Flask(__name__)
 app.config['SECRET_KEY'] = os.environ.get('JWT_SECRET_KEY', 'change-this-secret-key-in-production')
 CORS(app)
@@ -58,6 +61,7 @@ CORS(app)
 app.register_blueprint(auth_bp)
 app.register_blueprint(payments_bp)
 app.register_blueprint(academy_bp)
+app.register_blueprint(community_bp)
 
 # Initialize OAuth
 init_oauth(app)
@@ -342,6 +346,17 @@ if __name__ == "__main__":
     print("  POST /api/academy/courses/<cid>/lessons/<lid>/complete - Mark lesson complete")
     print("  GET  /api/academy/progress - Get overall academy progress")
     print("  GET  /api/academy/progress/<id> - Get course-specific progress")
+    print("\nCommunity Forum (Pro required to post/reply):")
+    print("  GET  /api/community/categories - List forum categories")
+    print("  GET  /api/community/posts - List posts (filter by category, sort, paginate)")
+    print("  GET  /api/community/posts/<id> - Get post with replies")
+    print("  POST /api/community/posts - Create new post (requires Pro)")
+    print("  POST /api/community/posts/<id>/reply - Reply to post (requires Pro)")
+    print("  POST /api/community/posts/<id>/vote - Vote on post (upvote/downvote)")
+    print("  POST /api/community/posts/<id>/pin - Pin/unpin post (admin only)")
+    print("  POST /api/community/posts/<id>/lock - Lock/unlock post (admin only)")
+    print("  DEL  /api/community/posts/<id> - Delete post (author or admin)")
+    print("  GET  /api/community/users/<id>/posts - Get user's posts")
     print("\nConsciousness Tools:")
     print("  GET  /api/bridge/questions - Get assessment questions")
     print("  POST /api/bridge/assess - Run consciousness assessment")
