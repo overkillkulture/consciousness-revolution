@@ -13,6 +13,10 @@ import sys
 from flask import Flask, jsonify, request
 from flask_cors import CORS
 from datetime import datetime
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv()
 
 # Add paths (Railway-compatible)
 import os
@@ -37,8 +41,18 @@ except ImportError as e:
 # Import platform features
 from consciousness_bridge import ConsciousnessBridge
 
+# Import auth routes
+from auth_routes import auth_bp, init_oauth
+
 app = Flask(__name__)
+app.config['SECRET_KEY'] = os.environ.get('JWT_SECRET_KEY', 'change-this-secret-key-in-production')
 CORS(app)
+
+# Register auth blueprint
+app.register_blueprint(auth_bp)
+
+# Initialize OAuth
+init_oauth(app)
 
 # Initialize engines
 if ENGINES_AVAILABLE:
@@ -294,9 +308,19 @@ if __name__ == "__main__":
     print("=" * 60)
     print(f"Pattern Theory Engine: {'Available' if ENGINES_AVAILABLE else 'Not Available'}")
     print(f"Starting on port {port}")
-    print("\nEndpoints:")
+    print("\nCore Endpoints:")
     print("  GET  /health - Health check")
     print("  GET  /stats - Platform statistics")
+    print("\nAuthentication:")
+    print("  POST /api/auth/signup - Register new user")
+    print("  POST /api/auth/login - Login with email/password")
+    print("  POST /api/auth/refresh - Refresh access token")
+    print("  GET  /api/auth/me - Get current user (requires token)")
+    print("  GET  /api/auth/oauth/google - Google OAuth")
+    print("  GET  /api/auth/oauth/github - GitHub OAuth")
+    print("  POST /api/auth/change-password - Change password")
+    print("  DEL  /api/auth/delete-account - Delete account")
+    print("\nConsciousness Tools:")
     print("  GET  /api/bridge/questions - Get assessment questions")
     print("  POST /api/bridge/assess - Run consciousness assessment")
     print("  POST /api/analyze - Pattern Theory analysis")
