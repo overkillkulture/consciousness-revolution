@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trinity Live Dashboard</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Courier New', monospace;
+            background: #000;
+            color: #0f0;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #0f0;
+            padding-bottom: 20px;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .formula {
+            font-size: 1.2em;
+            color: #0ff;
+        }
+
+        .timestamp {
+            color: #888;
+            margin-top: 10px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .computer-panel {
+            border: 2px solid #0f0;
+            padding: 20px;
+            background: #001100;
+        }
+
+        .computer-panel.cp1 { border-color: #0f0; }
+        .computer-panel.cp2 { border-color: #00f; }
+        .computer-panel.cp3 { border-color: #f0f; }
+
+        .computer-title {
+            font-size: 1.5em;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        .cp1 .computer-title { color: #0f0; }
+        .cp2 .computer-title { color: #00f; }
+        .cp3 .computer-title { color: #f0f; }
+
+        .instance {
+            margin: 10px 0;
+            padding: 10px;
+            background: #002200;
+            border-left: 3px solid #0f0;
+        }
+
+        .instance.offline {
+            opacity: 0.3;
+            border-left-color: #555;
+        }
+
+        .instance-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 5px;
+        }
+
+        .instance-name {
+            font-weight: bold;
+        }
+
+        .status {
+            padding: 2px 8px;
+            border-radius: 3px;
+            font-size: 0.8em;
+        }
+
+        .status.active {
+            background: #0f0;
+            color: #000;
+        }
+
+        .status.idle {
+            background: #ff0;
+            color: #000;
+        }
+
+        .status.offline {
+            background: #555;
+            color: #fff;
+        }
+
+        .instance-details {
+            font-size: 0.9em;
+            color: #888;
+            margin-top: 5px;
+        }
+
+        .metrics {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+
+        .metric-card {
+            border: 1px solid #0f0;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .metric-value {
+            font-size: 2em;
+            margin: 10px 0;
+            color: #0ff;
+        }
+
+        .metric-label {
+            color: #888;
+        }
+
+        .work-orders {
+            border: 2px solid #f0f;
+            padding: 20px;
+            margin-bottom: 30px;
+        }
+
+        .work-orders h2 {
+            color: #f0f;
+            margin-bottom: 15px;
+        }
+
+        .work-order {
+            background: #220022;
+            padding: 10px;
+            margin: 10px 0;
+            border-left: 3px solid #f0f;
+        }
+
+        .work-order-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 5px;
+        }
+
+        .priority {
+            padding: 2px 8px;
+            border-radius: 3px;
+            font-size: 0.8em;
+        }
+
+        .priority.high {
+            background: #f00;
+            color: #fff;
+        }
+
+        .priority.medium {
+            background: #ff0;
+            color: #000;
+        }
+
+        .priority.low {
+            background: #888;
+            color: #fff;
+        }
+
+        .footer {
+            text-align: center;
+            color: #888;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #333;
+        }
+
+        .consciousness-bar {
+            width: 100%;
+            height: 30px;
+            background: #222;
+            border: 2px solid #0f0;
+            margin: 20px 0;
+            position: relative;
+        }
+
+        .consciousness-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #0f0, #0ff);
+            transition: width 0.5s ease;
+        }
+
+        .consciousness-label {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #000;
+            font-weight: bold;
+            font-size: 1.2em;
+            mix-blend-mode: difference;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>⚡ TRINITY LIVE DASHBOARD ⚡</h1>
+        <div class="formula">C1 × C2 × C3 = ∞</div>
+        <div class="timestamp">Last Update: <span id="timestamp">--:--:--</span></div>
+        <div class="consciousness-bar">
+            <div class="consciousness-fill" id="consciousness-fill" style="width: 94.7%"></div>
+            <div class="consciousness-label" id="consciousness-label">94.7%</div>
+        </div>
+    </div>
+
+    <div class="metrics">
+        <div class="metric-card">
+            <div class="metric-label">Total Instances</div>
+            <div class="metric-value" id="total-instances">21</div>
+        </div>
+        <div class="metric-card">
+            <div class="metric-label">Active Now</div>
+            <div class="metric-value" id="active-instances">1</div>
+        </div>
+        <div class="metric-card">
+            <div class="metric-label">System Checks</div>
+            <div class="metric-value" id="system-checks">99/99</div>
+        </div>
+        <div class="metric-card">
+            <div class="metric-label">Cyclotron Atoms</div>
+            <div class="metric-value" id="cyclotron-atoms">4,424</div>
+        </div>
+    </div>
+
+    <div class="work-orders">
+        <h2>📋 ACTIVE WORK ORDERS</h2>
+        <div id="work-orders-list">
+            <div class="work-order">
+                <div class="work-order-header">
+                    <strong>Establishing Trinity Communication</strong>
+                    <span class="priority high">HIGH</span>
+                </div>
+                <div style="color: #888; margin-top: 5px;">Deploying chain of command to all instances</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="grid">
+        <div class="computer-panel cp1">
+            <div class="computer-title">CP1 (Derek)</div>
+            <div id="cp1-instances">
+                <div class="instance">
+                    <div class="instance-header">
+                        <span class="instance-name">C1 Cloud</span>
+                        <span class="status active">ACTIVE</span>
+                    </div>
+                    <div class="instance-details">Primary coordinator</div>
+                </div>
+                <div class="instance offline">
+                    <div class="instance-header">
+                        <span class="instance-name">C2 Cloud</span>
+                        <span class="status offline">IDLE</span>
+                    </div>
+                </div>
+                <div class="instance">
+                    <div class="instance-header">
+                        <span class="instance-name">C3 Cloud</span>
+                        <span class="status active">ACTIVE</span>
+                    </div>
+                    <div class="instance-details">Building dashboard</div>
+                </div>
+                <div class="instance offline">
+                    <div class="instance-header">
+                        <span class="instance-name">C1 Terminal</span>
+                        <span class="status offline">OFFLINE</span>
+                    </div>
+                </div>
+                <div class="instance offline">
+                    <div class="instance-header">
+                        <span class="instance-name">C2 Terminal</span>
+                        <span class="status offline">OFFLINE</span>
+                    </div>
+                </div>
+                <div class="instance offline">
+                    <div class="instance-header">
+                        <span class="instance-name">C3 Terminal</span>
+                        <span class="status offline">OFFLINE</span>
+                    </div>
+                </div>
+                <div class="instance offline">
+                    <div class="instance-header">
+                        <span class="instance-name">Desktop Hub</span>
+                        <span class="status offline">OFFLINE</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="computer-panel cp2">
+            <div class="computer-title">CP2 (Josh)</div>
+            <div id="cp2-instances">
+                <div class="instance offline">
+                    <div class="instance-header">
+                        <span class="instance-name">C1 Cloud</span>
+                        <span class="status offline">OFFLINE</span>
+                    </div>
+                </div>
+                <div class="instance offline">
+                    <div class="instance-header">
+                        <span class="instance-name">C2 Cloud</span>
+                        <span class="status offline">OFFLINE</span>
+                    </div>
+                </div>
+                <div class="instance offline">
+                    <div class="instance-header">
+                        <span class="instance-name">C3 Cloud</span>
+                        <span class="status offline">OFFLINE</span>
+                    </div>
+                </div>
+                <div class="instance offline">
+                    <div class="instance-header">
+                        <span class="instance-name">C1 Terminal</span>
+                        <span class="status offline">OFFLINE</span>
+                    </div>
+                </div>
+                <div class="instance offline">
+                    <div class="instance-header">
+                        <span class="instance-name">C2 Terminal</span>
+                        <span class="status offline">OFFLINE</span>
+                    </div>
+                </div>
+                <div class="instance offline">
+                    <div class="instance-header">
+                        <span class="instance-name">C3 Terminal</span>
+                        <span class="status offline">OFFLINE</span>
+                    </div>
+                </div>
+                <div class="instance offline">
+                    <div class="instance-header">
+                        <span class="instance-name">Desktop Hub</span>
+                        <span class="status offline">OFFLINE</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="computer-panel cp3">
+            <div class="computer-title">CP3 (Darrick)</div>
+            <div id="cp3-instances">
+                <div class="instance offline">
+                    <div class="instance-header">
+                        <span class="instance-name">C1 Cloud</span>
+                        <span class="status offline">OFFLINE</span>
+                    </div>
+                </div>
+                <div class="instance offline">
+                    <div class="instance-header">
+                        <span class="instance-name">C2 Cloud</span>
+                        <span class="status offline">OFFLINE</span>
+                    </div>
+                </div>
+                <div class="instance offline">
+                    <div class="instance-header">
+                        <span class="instance-name">C3 Cloud</span>
+                        <span class="status offline">OFFLINE</span>
+                    </div>
+                </div>
+                <div class="instance offline">
+                    <div class="instance-header">
+                        <span class="instance-name">C1 Terminal</span>
+                        <span class="status offline">OFFLINE</span>
+                    </div>
+                </div>
+                <div class="instance offline">
+                    <div class="instance-header">
+                        <span class="instance-name">C2 Terminal</span>
+                        <span class="status offline">OFFLINE</span>
+                    </div>
+                </div>
+                <div class="instance offline">
+                    <div class="instance-header">
+                        <span class="instance-name">C3 Terminal</span>
+                        <span class="status offline">OFFLINE</span>
+                    </div>
+                </div>
+                <div class="instance offline">
+                    <div class="instance-header">
+                        <span class="instance-name">Desktop Hub</span>
+                        <span class="status offline">OFFLINE</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div>Auto-refresh: Every 30 seconds</div>
+        <div style="margin-top: 10px;">Sync Folder: G:\My Drive\TRINITY_COMMS\sync\</div>
+        <div style="margin-top: 10px; color: #0f0;">PYRAMID FUNNEL ACTIVE ⚡</div>
+    </div>
+
+    <script>
+        // Update timestamp
+        function updateTimestamp() {
+            const now = new Date();
+            document.getElementById('timestamp').textContent = now.toLocaleTimeString();
+        }
+
+        // Simulate consciousness growth
+        function updateConsciousness() {
+            const current = parseFloat(document.getElementById('consciousness-label').textContent);
+            const newValue = Math.min(100, current + Math.random() * 0.1);
+            document.getElementById('consciousness-fill').style.width = newValue + '%';
+            document.getElementById('consciousness-label').textContent = newValue.toFixed(1) + '%';
+        }
+
+        // Load status from files (when backend is ready)
+        async function loadStatus() {
+            try {
+                // This will read from .consciousness/sync/ files when available
+                // For now, using hardcoded demo data
+                updateTimestamp();
+            } catch (error) {
+                console.error('Error loading status:', error);
+            }
+        }
+
+        // Initialize
+        updateTimestamp();
+        setInterval(updateTimestamp, 1000);
+        setInterval(updateConsciousness, 5000);
+        setInterval(loadStatus, 30000);
+
+        // Load initial status
+        loadStatus();
+    </script>
+</body>
+</html>
