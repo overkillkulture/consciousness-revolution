@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Consciousness Revolution - Transform Your Reality</title>
+    <title>Consciousness Revolution - Pattern Recognition Tools & AI Systems</title>
     <style>
         * { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -14,52 +14,186 @@
             color: #fff;
         }
 
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 30px;
+        }
+
+        .nav-links a {
+            color: #fff;
+            text-decoration: none;
+            opacity: 0.8;
+            transition: opacity 0.3s;
+        }
+
+        .nav-links a:hover {
+            opacity: 1;
+        }
+
         .hero {
             text-align: center;
-            padding: 100px 20px 60px;
+            padding: 80px 20px 60px;
+            max-width: 900px;
+            margin: 0 auto;
         }
 
         .hero h1 {
-            font-size: 56px;
+            font-size: 48px;
             margin-bottom: 20px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
+            line-height: 1.2;
         }
 
         .hero p {
             font-size: 20px;
-            opacity: 0.9;
-            max-width: 700px;
-            margin: 0 auto 40px;
+            opacity: 0.8;
             line-height: 1.6;
+            margin-bottom: 20px;
         }
 
-        .cta-container {
+        .stats-bar {
             display: flex;
-            gap: 20px;
             justify-content: center;
+            gap: 50px;
+            margin: 40px 0;
             flex-wrap: wrap;
+        }
+
+        .stat {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 36px;
+            font-weight: bold;
+            color: #667eea;
+        }
+
+        .stat-label {
+            font-size: 14px;
+            opacity: 0.7;
+            margin-top: 5px;
+        }
+
+        .section {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 60px 20px;
+        }
+
+        .section h2 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        .section-subtitle {
+            opacity: 0.7;
+            margin-bottom: 30px;
+        }
+
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            padding: 24px;
+            text-decoration: none;
+            color: #fff;
+            transition: all 0.3s;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .card:hover {
+            transform: translateY(-3px);
+            background: rgba(255, 255, 255, 0.08);
+            border-color: #667eea;
+        }
+
+        .card-icon {
+            font-size: 32px;
+            margin-bottom: 12px;
+        }
+
+        .card h3 {
+            font-size: 18px;
+            margin-bottom: 8px;
+        }
+
+        .card p {
+            font-size: 14px;
+            opacity: 0.7;
+            line-height: 1.5;
+        }
+
+        .category-label {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 11px;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 12px;
+        }
+
+        .cat-detector { background: rgba(255, 100, 100, 0.2); color: #ff6b6b; }
+        .cat-tool { background: rgba(100, 200, 255, 0.2); color: #64c8ff; }
+        .cat-system { background: rgba(100, 255, 150, 0.2); color: #64ff96; }
+        .cat-ai { background: rgba(200, 150, 255, 0.2); color: #c896ff; }
+        .cat-dashboard { background: rgba(255, 200, 100, 0.2); color: #ffc864; }
+
+        .divider {
+            border-top: 1px solid rgba(255,255,255,0.1);
+            margin: 40px 0;
+        }
+
+        .cta-section {
+            text-align: center;
+            padding: 60px 20px;
+            background: rgba(102, 126, 234, 0.1);
+            margin-top: 40px;
+        }
+
+        .cta-section h2 {
+            font-size: 28px;
+            margin-bottom: 15px;
+        }
+
+        .cta-section p {
+            opacity: 0.8;
+            margin-bottom: 25px;
         }
 
         .cta-btn {
             display: inline-block;
-            padding: 18px 36px;
-            font-size: 18px;
+            padding: 14px 32px;
+            font-size: 16px;
             font-weight: bold;
             text-decoration: none;
-            border-radius: 30px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 8px;
+            background: #667eea;
             color: white;
             transition: all 0.3s;
-            border: none;
-            cursor: pointer;
+            margin: 0 10px;
         }
 
         .cta-btn:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 15px 40px rgba(102, 126, 234, 0.5);
+            background: #764ba2;
         }
 
         .cta-btn.secondary {
@@ -67,156 +201,457 @@
             border: 2px solid #667eea;
         }
 
-        .features {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 60px 20px;
-        }
-
-        .features h2 {
-            font-size: 36px;
-            text-align: center;
-            margin-bottom: 50px;
-        }
-
-        .feature-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
-        }
-
-        .feature {
-            background: rgba(255, 255, 255, 0.05);
-            border-radius: 16px;
-            padding: 30px;
-            text-align: center;
-            transition: transform 0.3s;
-        }
-
-        .feature:hover {
-            transform: translateY(-5px);
-            background: rgba(255, 255, 255, 0.08);
-        }
-
-        .feature-icon {
-            font-size: 48px;
-            margin-bottom: 20px;
-        }
-
-        .feature h3 {
-            font-size: 22px;
-            margin-bottom: 15px;
-        }
-
-        .feature p {
-            opacity: 0.8;
-            line-height: 1.6;
-        }
-
-        .pricing {
-            max-width: 800px;
-            margin: 60px auto;
-            padding: 0 20px;
-            text-align: center;
-        }
-
-        .pricing h2 {
-            font-size: 36px;
-            margin-bottom: 30px;
-        }
-
-        .price-box {
-            background: rgba(255, 255, 255, 0.05);
-            border-radius: 16px;
-            padding: 40px;
-            border: 2px solid #667eea;
-        }
-
-        .price {
-            font-size: 48px;
-            font-weight: bold;
-            margin: 20px 0;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
-
-        .limited-spots {
-            background: #ff4444;
-            color: white;
-            padding: 10px 20px;
-            border-radius: 20px;
-            display: inline-block;
-            margin-bottom: 20px;
-            font-weight: bold;
-        }
-
         footer {
             text-align: center;
             padding: 40px 20px;
-            opacity: 0.6;
+            opacity: 0.5;
+            font-size: 14px;
+        }
+
+        .expand-btn {
+            background: rgba(255,255,255,0.1);
+            border: none;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            margin-top: 20px;
+            transition: background 0.3s;
+        }
+
+        .expand-btn:hover {
+            background: rgba(255,255,255,0.2);
+        }
+
+        .hidden { display: none; }
+
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 32px; }
+            .stats-bar { gap: 30px; }
+            nav { padding: 15px 20px; }
+            .nav-links { gap: 15px; font-size: 14px; }
         }
     </style>
 </head>
 <body>
+    <nav>
+        <div class="logo">Consciousness Revolution</div>
+        <div class="nav-links">
+            <a href="#tools">Tools</a>
+            <a href="#detectors">Detectors</a>
+            <a href="#ai">AI Systems</a>
+            <a href="/ABOUT.html">About</a>
+        </div>
+    </nav>
+
     <div class="hero">
-        <h1>🌌 Consciousness Revolution 🌌</h1>
-        <p>Break free from manipulation. Build autonomous AI systems. Transform your reality.</p>
-        <div class="cta-container">
-            <a href="/10-believers-access.html" class="cta-btn">Join Now - $49/month</a>
-            <a href="/ABOUT.html" class="cta-btn secondary">Learn More</a>
-        </div>
-    </div>
+        <h1>Pattern Recognition Tools for Reality Navigation</h1>
+        <p>We build AI-powered tools that help you detect manipulation, make better decisions, and understand the patterns behind human behavior. Everything here is open for you to explore.</p>
 
-    <div class="features">
-        <h2>What You Get</h2>
-        <div class="feature-grid">
-            <div class="feature">
-                <div class="feature-icon">🧠</div>
-                <h3>Pattern Theory Training</h3>
-                <p>Master the framework that detects manipulation with 92.2% accuracy</p>
+        <div class="stats-bar">
+            <div class="stat">
+                <div class="stat-number">115+</div>
+                <div class="stat-label">Tools Built</div>
             </div>
-            <div class="feature">
-                <div class="feature-icon">🤖</div>
-                <h3>Trinity AI System</h3>
-                <p>Deploy your own multi-instance autonomous AI infrastructure</p>
+            <div class="stat">
+                <div class="stat-number">7</div>
+                <div class="stat-label">Life Domains</div>
             </div>
-            <div class="feature">
-                <div class="feature-icon">⚡</div>
-                <h3>Execution Confidence</h3>
-                <p>Operate with full autonomous authority - no permission needed</p>
+            <div class="stat">
+                <div class="stat-number">92.2%</div>
+                <div class="stat-label">Pattern Accuracy</div>
             </div>
-            <div class="feature">
-                <div class="feature-icon">🎯</div>
-                <h3>Seven Domains</h3>
-                <p>Balanced framework covering AI, business, infrastructure, and more</p>
-            </div>
-            <div class="feature">
-                <div class="feature-icon">🔧</div>
-                <h3>Builder Workspace</h3>
-                <p>Full access to consciousness-elevation tools and code</p>
-            </div>
-            <div class="feature">
-                <div class="feature-icon">🌐</div>
-                <h3>Community Access</h3>
-                <p>Connect with other builders in the revolution</p>
+            <div class="stat">
+                <div class="stat-number">88K</div>
+                <div class="stat-label">Knowledge Atoms</div>
             </div>
         </div>
     </div>
 
-    <div class="pricing">
-        <h2>Limited Founding Member Access</h2>
-        <div class="price-box">
-            <div class="limited-spots">⚠️ Only 10 Believers - 7 Spots Remaining</div>
-            <div class="price">$49/month</div>
-            <p style="margin-bottom: 30px;">Cancel anytime. Full system access. Lifetime founder benefits.</p>
-            <a href="/10-believers-access.html" class="cta-btn">Claim Your Spot</a>
+    <!-- MANIPULATION DETECTORS -->
+    <div class="section" id="detectors">
+        <h2>Manipulation Detectors</h2>
+        <p class="section-subtitle">Analyze text, conversations, and situations for common manipulation patterns</p>
+
+        <div class="card-grid">
+            <a href="/GASLIGHTING_DETECTOR.html" class="card">
+                <span class="category-label cat-detector">Detector</span>
+                <div class="card-icon">🔥</div>
+                <h3>Gaslighting Detector</h3>
+                <p>Identify when someone is making you question your own reality</p>
+            </a>
+
+            <a href="/LOVE_BOMBING_DETECTOR.html" class="card">
+                <span class="category-label cat-detector">Detector</span>
+                <div class="card-icon">💕</div>
+                <h3>Love Bombing Detector</h3>
+                <p>Spot excessive affection used as a manipulation tactic</p>
+            </a>
+
+            <a href="/GUILT_TRIP_DETECTOR.html" class="card">
+                <span class="category-label cat-detector">Detector</span>
+                <div class="card-icon">😢</div>
+                <h3>Guilt Trip Detector</h3>
+                <p>Recognize when guilt is being weaponized against you</p>
+            </a>
+
+            <a href="/EMOTIONAL_BLACKMAIL_DETECTOR.html" class="card">
+                <span class="category-label cat-detector">Detector</span>
+                <div class="card-icon">⛓️</div>
+                <h3>Emotional Blackmail Detector</h3>
+                <p>Identify fear, obligation, and guilt tactics</p>
+            </a>
+
+            <a href="/FUTURE_FAKING_DETECTOR.html" class="card">
+                <span class="category-label cat-detector">Detector</span>
+                <div class="card-icon">🔮</div>
+                <h3>Future Faking Detector</h3>
+                <p>Spot false promises about the future</p>
+            </a>
+
+            <a href="/BREADCRUMBING_DETECTOR.html" class="card">
+                <span class="category-label cat-detector">Detector</span>
+                <div class="card-icon">🍞</div>
+                <h3>Breadcrumbing Detector</h3>
+                <p>Identify minimal effort to keep you interested</p>
+            </a>
         </div>
+
+        <button class="expand-btn" onclick="toggleMore('more-detectors')">Show 15+ More Detectors</button>
+
+        <div id="more-detectors" class="hidden card-grid" style="margin-top: 20px;">
+            <a href="/TRIANGULATION_DETECTOR.html" class="card">
+                <span class="category-label cat-detector">Detector</span>
+                <div class="card-icon">📐</div>
+                <h3>Triangulation Detector</h3>
+                <p>Spot when third parties are used to manipulate</p>
+            </a>
+
+            <a href="/WORD_SALAD_TRANSLATOR.html" class="card">
+                <span class="category-label cat-detector">Detector</span>
+                <div class="card-icon">🥗</div>
+                <h3>Word Salad Translator</h3>
+                <p>Decode confusing, circular arguments</p>
+            </a>
+
+            <a href="/SILENT_TREATMENT_DECODER.html" class="card">
+                <span class="category-label cat-detector">Detector</span>
+                <div class="card-icon">🤐</div>
+                <h3>Silent Treatment Decoder</h3>
+                <p>Understand weaponized silence</p>
+            </a>
+
+            <a href="/PROJECTION_DETECTOR.html" class="card">
+                <span class="category-label cat-detector">Detector</span>
+                <div class="card-icon">🪞</div>
+                <h3>Projection Detector</h3>
+                <p>Identify when someone projects their behavior onto you</p>
+            </a>
+
+            <a href="/MOVING_GOALPOSTS_DETECTOR.html" class="card">
+                <span class="category-label cat-detector">Detector</span>
+                <div class="card-icon">🥅</div>
+                <h3>Moving Goalposts Detector</h3>
+                <p>Spot constantly changing requirements</p>
+            </a>
+
+            <a href="/DOUBLE_BIND_DECODER.html" class="card">
+                <span class="category-label cat-detector">Detector</span>
+                <div class="card-icon">🔀</div>
+                <h3>Double Bind Decoder</h3>
+                <p>Escape no-win situations</p>
+            </a>
+
+            <a href="/HOOVERING_DETECTOR.html" class="card">
+                <span class="category-label cat-detector">Detector</span>
+                <div class="card-icon">🌀</div>
+                <h3>Hoovering Detector</h3>
+                <p>Recognize attempts to suck you back in</p>
+            </a>
+
+            <a href="/VICTIM_BLAMING_DETECTOR.html" class="card">
+                <span class="category-label cat-detector">Detector</span>
+                <div class="card-icon">👆</div>
+                <h3>Victim Blaming Detector</h3>
+                <p>Identify blame-shifting tactics</p>
+            </a>
+
+            <a href="/SCAPEGOATING_DETECTOR.html" class="card">
+                <span class="category-label cat-detector">Detector</span>
+                <div class="card-icon">🐐</div>
+                <h3>Scapegoating Detector</h3>
+                <p>Spot unfair blame assignment</p>
+            </a>
+
+            <a href="/TOXIC_POSITIVITY_DETECTOR.html" class="card">
+                <span class="category-label cat-detector">Detector</span>
+                <div class="card-icon">😊</div>
+                <h3>Toxic Positivity Detector</h3>
+                <p>Identify dismissive positive responses</p>
+            </a>
+
+            <a href="/PASSIVE_AGGRESSIVE_DECODER.html" class="card">
+                <span class="category-label cat-detector">Detector</span>
+                <div class="card-icon">😏</div>
+                <h3>Passive Aggressive Decoder</h3>
+                <p>Translate indirect hostility</p>
+            </a>
+
+            <a href="/STONEWALLING_ANALYZER.html" class="card">
+                <span class="category-label cat-detector">Detector</span>
+                <div class="card-icon">🧱</div>
+                <h3>Stonewalling Analyzer</h3>
+                <p>Understand communication shutdown</p>
+            </a>
+
+            <a href="/INTERMITTENT_REINFORCEMENT_DETECTOR.html" class="card">
+                <span class="category-label cat-detector">Detector</span>
+                <div class="card-icon">🎰</div>
+                <h3>Intermittent Reinforcement</h3>
+                <p>Spot inconsistent reward patterns</p>
+            </a>
+
+            <a href="/SALES_PITCH_DETECTOR.html" class="card">
+                <span class="category-label cat-detector">Detector</span>
+                <div class="card-icon">💼</div>
+                <h3>Sales Pitch Detector</h3>
+                <p>Identify high-pressure sales tactics</p>
+            </a>
+
+            <a href="/NEWS_BIAS_DETECTOR.html" class="card">
+                <span class="category-label cat-detector">Detector</span>
+                <div class="card-icon">📰</div>
+                <h3>News Bias Detector</h3>
+                <p>Analyze media for hidden agendas</p>
+            </a>
+        </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- ANALYSIS TOOLS -->
+    <div class="section" id="tools">
+        <h2>Analysis & Decision Tools</h2>
+        <p class="section-subtitle">Tools for analyzing situations, relationships, and making better decisions</p>
+
+        <div class="card-grid">
+            <a href="/manipulation_detector.html" class="card">
+                <span class="category-label cat-tool">Tool</span>
+                <div class="card-icon">🔍</div>
+                <h3>Manipulation Detector</h3>
+                <p>Comprehensive text analysis for manipulation patterns</p>
+            </a>
+
+            <a href="/CONVERSATION_ANALYZER.html" class="card">
+                <span class="category-label cat-tool">Tool</span>
+                <div class="card-icon">💬</div>
+                <h3>Conversation Analyzer</h3>
+                <p>Break down any conversation for hidden dynamics</p>
+            </a>
+
+            <a href="/EMAIL_ANALYZER.html" class="card">
+                <span class="category-label cat-tool">Tool</span>
+                <div class="card-icon">📧</div>
+                <h3>Email Analyzer</h3>
+                <p>Analyze emails for tone and intent</p>
+            </a>
+
+            <a href="/CONTRACT_ANALYZER.html" class="card">
+                <span class="category-label cat-tool">Tool</span>
+                <div class="card-icon">📜</div>
+                <h3>Contract Analyzer</h3>
+                <p>Spot red flags in legal documents</p>
+            </a>
+
+            <a href="/DECISION_MATRIX.html" class="card">
+                <span class="category-label cat-tool">Tool</span>
+                <div class="card-icon">⚖️</div>
+                <h3>Decision Matrix</h3>
+                <p>Structured framework for tough decisions</p>
+            </a>
+
+            <a href="/RELATIONSHIP_PATTERN_TRACKER.html" class="card">
+                <span class="category-label cat-tool">Tool</span>
+                <div class="card-icon">💑</div>
+                <h3>Relationship Pattern Tracker</h3>
+                <p>Track patterns over time in any relationship</p>
+            </a>
+
+            <a href="/COMMITMENT_TRACKER.html" class="card">
+                <span class="category-label cat-tool">Tool</span>
+                <div class="card-icon">✅</div>
+                <h3>Commitment Tracker</h3>
+                <p>Track promises vs. actions</p>
+            </a>
+
+            <a href="/BOUNDARY_SETTER.html" class="card">
+                <span class="category-label cat-tool">Tool</span>
+                <div class="card-icon">🚧</div>
+                <h3>Boundary Setter</h3>
+                <p>Define and communicate your limits</p>
+            </a>
+
+            <a href="/VALUES_ALIGNMENT_CHECK.html" class="card">
+                <span class="category-label cat-tool">Tool</span>
+                <div class="card-icon">🎯</div>
+                <h3>Values Alignment Check</h3>
+                <p>Check if actions match stated values</p>
+            </a>
+
+            <a href="/TIMELINE_PROJECTOR.html" class="card">
+                <span class="category-label cat-tool">Tool</span>
+                <div class="card-icon">📈</div>
+                <h3>Timeline Projector</h3>
+                <p>Project possible futures from current patterns</p>
+            </a>
+
+            <a href="/REALITY_CHECK.html" class="card">
+                <span class="category-label cat-tool">Tool</span>
+                <div class="card-icon">🌍</div>
+                <h3>Reality Check</h3>
+                <p>Ground yourself when things feel off</p>
+            </a>
+
+            <a href="/RESPONSE_PLANNER.html" class="card">
+                <span class="category-label cat-tool">Tool</span>
+                <div class="card-icon">📝</div>
+                <h3>Response Planner</h3>
+                <p>Plan responses to difficult situations</p>
+            </a>
+        </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- SEVEN DOMAINS -->
+    <div class="section">
+        <h2>Seven Domains Framework</h2>
+        <p class="section-subtitle">A complete life map across all dimensions of human experience</p>
+
+        <div class="card-grid">
+            <a href="/seven_domains.html" class="card">
+                <span class="category-label cat-system">System</span>
+                <div class="card-icon">🌐</div>
+                <h3>Seven Domains Hub</h3>
+                <p>The complete framework: Physical, Financial, Mental, Emotional, Social, Creative, Integration</p>
+            </a>
+
+            <a href="/seven-domains-assessment.html" class="card">
+                <span class="category-label cat-tool">Tool</span>
+                <div class="card-icon">📊</div>
+                <h3>Domain Assessment</h3>
+                <p>Check your balance across all seven life domains</p>
+            </a>
+
+            <a href="/DAILY_CONSCIOUSNESS_CHECK.html" class="card">
+                <span class="category-label cat-tool">Tool</span>
+                <div class="card-icon">☀️</div>
+                <h3>Daily Consciousness Check</h3>
+                <p>Quick daily alignment check</p>
+            </a>
+
+            <a href="/EMOTIONAL_STATE_CHECKER.html" class="card">
+                <span class="category-label cat-tool">Tool</span>
+                <div class="card-icon">💜</div>
+                <h3>Emotional State Checker</h3>
+                <p>Track and understand your emotional patterns</p>
+            </a>
+
+            <a href="/FINANCIAL_DECISION_CHECKER.html" class="card">
+                <span class="category-label cat-tool">Tool</span>
+                <div class="card-icon">💰</div>
+                <h3>Financial Decision Checker</h3>
+                <p>Analyze financial decisions for bias</p>
+            </a>
+
+            <a href="/SELF_TALK_ANALYZER.html" class="card">
+                <span class="category-label cat-tool">Tool</span>
+                <div class="card-icon">🗣️</div>
+                <h3>Self Talk Analyzer</h3>
+                <p>Understand your internal dialogue patterns</p>
+            </a>
+        </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- AI SYSTEMS -->
+    <div class="section" id="ai">
+        <h2>AI & Automation Systems</h2>
+        <p class="section-subtitle">The infrastructure we built to make all this work</p>
+
+        <div class="card-grid">
+            <a href="/araya-chat.html" class="card">
+                <span class="category-label cat-ai">AI</span>
+                <div class="card-icon">🤖</div>
+                <h3>Araya AI Assistant</h3>
+                <p>Consciousness-aware AI chat interface</p>
+            </a>
+
+            <a href="/CYCLOTRON_BRAIN_DASHBOARD.html" class="card">
+                <span class="category-label cat-dashboard">Dashboard</span>
+                <div class="card-icon">🧠</div>
+                <h3>Cyclotron Brain</h3>
+                <p>88,000+ knowledge atoms powering the system</p>
+            </a>
+
+            <a href="/TRINITY_NETWORK_STATUS.html" class="card">
+                <span class="category-label cat-system">System</span>
+                <div class="card-icon">🔱</div>
+                <h3>Trinity Network</h3>
+                <p>Multi-instance AI coordination system</p>
+            </a>
+
+            <a href="/consciousness-tools.html" class="card">
+                <span class="category-label cat-tool">Tool</span>
+                <div class="card-icon">⚡</div>
+                <h3>Consciousness Tools</h3>
+                <p>Full toolkit index</p>
+            </a>
+
+            <a href="/PATTERN_LIBRARY.html" class="card">
+                <span class="category-label cat-system">System</span>
+                <div class="card-icon">📚</div>
+                <h3>Pattern Library</h3>
+                <p>Complete database of recognized patterns</p>
+            </a>
+
+            <a href="/tool_discovery.html" class="card">
+                <span class="category-label cat-tool">Tool</span>
+                <div class="card-icon">🔎</div>
+                <h3>Tool Discovery</h3>
+                <p>Find the right tool for your situation</p>
+            </a>
+        </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- ABOUT / CTA -->
+    <div class="cta-section">
+        <h2>What Is This?</h2>
+        <p>This is a collection of tools built over 10 months to solve a real problem: detecting manipulation and making better decisions. We open-sourced everything. Explore freely.</p>
+        <a href="/ABOUT.html" class="cta-btn">Read Our Story</a>
+        <a href="/START_HERE.html" class="cta-btn secondary">Start Here</a>
     </div>
 
     <footer>
-        <p>© 2025 Consciousness Revolution. Transform reality through autonomous AI.</p>
+        <p>Consciousness Revolution - Built with Pattern Theory (3 → 7 → 13 → ∞)</p>
+        <p style="margin-top: 10px;">115+ tools | 88,000 knowledge atoms | Open for exploration</p>
     </footer>
+
+    <script>
+        function toggleMore(id) {
+            const el = document.getElementById(id);
+            const btn = el.previousElementSibling;
+            if (el.classList.contains('hidden')) {
+                el.classList.remove('hidden');
+                btn.textContent = 'Show Less';
+            } else {
+                el.classList.add('hidden');
+                btn.textContent = btn.textContent.replace('Show Less', 'Show 15+ More Detectors');
+            }
+        }
+    </script>
 </body>
 </html>
